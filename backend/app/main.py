@@ -1,3 +1,4 @@
+import os
 from fastapi import FastAPI
 from fastapi.middleware.cors import CORSMiddleware
 
@@ -8,11 +9,17 @@ from app.routers import auth, cases, chat, fir, search, dashboard, complaints, c
 from app.models import *  # noqa: F403, F401
 
 
+# Load dynamic origins from environment variables for production deployments
+allowed_origins = ["http://localhost:5173", "http://localhost:3000"]
+env_origins = os.getenv("ALLOWED_ORIGINS")
+if env_origins:
+    allowed_origins.extend([o.strip() for o in env_origins.split(",")])
+
 app = FastAPI(title="AI Police Assistant API", version="1.0.0")
 
 app.add_middleware(
     CORSMiddleware,
-    allow_origins=["http://localhost:5173", "http://localhost:3000"],
+    allow_origins=allowed_origins,
     allow_credentials=True,
     allow_methods=["*"],
     allow_headers=["*"],
