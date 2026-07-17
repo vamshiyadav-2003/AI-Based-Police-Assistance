@@ -23,9 +23,11 @@ class GroqEmbeddingFunction(EmbeddingFunction):
         return embeddings
 
 
-_client = chromadb.PersistentClient(path="./chroma_store")
+# Use EphemeralClient (in-memory) for cloud/Render deployment compatibility.
+# PersistentClient requires a writable disk which is not available on free-tier hosts.
+_client = chromadb.EphemeralClient()
 _api_key = settings.GROQ_API_KEY_TRACING or settings.GROQ_API_KEY
-_groq_embedding_function = GroqEmbeddingFunction(api_key=_api_key)
+_groq_embedding_function = GroqEmbeddingFunction(api_key=_api_key) if _api_key else None
 _collection = _client.get_or_create_collection(
     name="cases",
     embedding_function=_groq_embedding_function
