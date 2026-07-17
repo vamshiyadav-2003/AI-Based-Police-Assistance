@@ -1,0 +1,11 @@
+crime_id,crime_type,law_section,priority,department
+CC001,Theft,BNS 303,Medium,Local Police
+CC002,Cyber Crime,IT Act,High,Cyber Cell
+CC003,Murder,BNS 103,Critical,Crime Branch
+CC004,Fraud,BNS 318,High,Economic Offences
+CC005,Missing Person,BNS,High,Local Police
+CC006,Vehicle Theft,BNS 303,Medium,Traffic
+CC007,Assault,BNS 115,High,Local Police
+CC008,Drug Case,NDPS,High,Narcotics
+CC009,Kidnapping,BNS,Critical,Crime Branch
+CC010,Domestic Violence,DV Act,High,Women Cell

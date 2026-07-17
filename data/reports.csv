@@ -1,0 +1,201 @@
+report_id,report_type,generated_by,report_date,cases_covered,summary
+R0001,Daily,Officer91,2026-04-12,48,Daily report summary 1
+R0002,Case Summary,Officer71,2026-07-01,47,Case Summary report summary 2
+R0003,Case Summary,Officer89,2026-05-02,29,Case Summary report summary 3
+R0004,Case Summary,Officer41,2026-03-02,19,Case Summary report summary 4
+R0005,Case Summary,Officer5,2026-05-26,14,Case Summary report summary 5
+R0006,Daily,Officer64,2026-05-07,5,Daily report summary 6
+R0007,Monthly,Officer86,2026-06-21,35,Monthly report summary 7
+R0008,Weekly,Officer49,2026-03-17,31,Weekly report summary 8
+R0009,Case Summary,Officer12,2026-05-13,8,Case Summary report summary 9
+R0010,Daily,Officer85,2026-02-05,49,Daily report summary 10
+R0011,Monthly,Officer25,2026-04-27,31,Monthly report summary 11
+R0012,Case Summary,Officer11,2026-02-21,44,Case Summary report summary 12
+R0013,Case Summary,Officer77,2026-06-06,45,Case Summary report summary 13
+R0014,Weekly,Officer10,2026-03-24,34,Weekly report summary 14
+R0015,Daily,Officer81,2026-01-15,20,Daily report summary 15
+R0016,Weekly,Officer88,2026-02-24,25,Weekly report summary 16
+R0017,Daily,Officer23,2026-01-08,42,Daily report summary 17
+R0018,Weekly,Officer22,2026-05-23,13,Weekly report summary 18
+R0019,Daily,Officer14,2026-01-04,41,Daily report summary 19
+R0020,Weekly,Officer98,2026-06-07,39,Weekly report summary 20
+R0021,Daily,Officer94,2026-03-06,37,Daily report summary 21
+R0022,Monthly,Officer25,2026-03-25,20,Monthly report summary 22
+R0023,Case Summary,Officer13,2026-07-08,37,Case Summary report summary 23
+R0024,Case Summary,Officer66,2026-03-01,30,Case Summary report summary 24
+R0025,Case Summary,Officer54,2026-02-08,8,Case Summary report summary 25
+R0026,Monthly,Officer15,2026-07-13,8,Monthly report summary 26
+R0027,Case Summary,Officer82,2026-03-16,47,Case Summary report summary 27
+R0028,Case Summary,Officer59,2026-04-20,22,Case Summary report summary 28
+R0029,Weekly,Officer27,2026-07-18,36,Weekly report summary 29
+R0030,Monthly,Officer7,2026-05-08,30,Monthly report summary 30
+R0031,Daily,Officer45,2026-01-21,45,Daily report summary 31
+R0032,Weekly,Officer77,2026-05-04,5,Weekly report summary 32
+R0033,Monthly,Officer60,2026-04-18,41,Monthly report summary 33
+R0034,Weekly,Officer100,2026-06-06,35,Weekly report summary 34
+R0035,Weekly,Officer34,2026-01-09,8,Weekly report summary 35
+R0036,Case Summary,Officer70,2026-07-26,41,Case Summary report summary 36
+R0037,Case Summary,Officer56,2026-04-25,9,Case Summary report summary 37
+R0038,Monthly,Officer91,2026-02-12,22,Monthly report summary 38
+R0039,Weekly,Officer64,2026-03-02,27,Weekly report summary 39
+R0040,Weekly,Officer69,2026-05-16,32,Weekly report summary 40
+R0041,Weekly,Officer11,2026-04-03,19,Weekly report summary 41
+R0042,Weekly,Officer16,2026-07-02,42,Weekly report summary 42
+R0043,Daily,Officer57,2026-03-14,39,Daily report summary 43
+R0044,Weekly,Officer19,2026-04-07,19,Weekly report summary 44
+R0045,Daily,Officer81,2026-06-24,27,Daily report summary 45
+R0046,Monthly,Officer83,2026-06-24,25,Monthly report summary 46
+R0047,Daily,Officer21,2026-05-24,30,Daily report summary 47
+R0048,Case Summary,Officer24,2026-07-17,27,Case Summary report summary 48
+R0049,Case Summary,Officer54,2026-07-07,36,Case Summary report summary 49
+R0050,Monthly,Officer3,2026-06-07,25,Monthly report summary 50
+R0051,Case Summary,Officer61,2026-03-09,47,Case Summary report summary 51
+R0052,Weekly,Officer47,2026-04-08,39,Weekly report summary 52
+R0053,Weekly,Officer39,2026-01-10,38,Weekly report summary 53
+R0054,Daily,Officer28,2026-05-13,37,Daily report summary 54
+R0055,Case Summary,Officer44,2026-07-13,25,Case Summary report summary 55
+R0056,Monthly,Officer24,2026-05-12,24,Monthly report summary 56
+R0057,Weekly,Officer69,2026-01-23,34,Weekly report summary 57
+R0058,Weekly,Officer32,2026-06-08,48,Weekly report summary 58
+R0059,Case Summary,Officer83,2026-05-14,38,Case Summary report summary 59
+R0060,Case Summary,Officer70,2026-07-11,12,Case Summary report summary 60
+R0061,Monthly,Officer41,2026-07-28,16,Monthly report summary 61
+R0062,Monthly,Officer3,2026-01-11,22,Monthly report summary 62
+R0063,Weekly,Officer93,2026-03-18,39,Weekly report summary 63
+R0064,Case Summary,Officer83,2026-05-10,8,Case Summary report summary 64
+R0065,Monthly,Officer20,2026-02-15,37,Monthly report summary 65
+R0066,Case Summary,Officer23,2026-03-24,25,Case Summary report summary 66
+R0067,Monthly,Officer8,2026-07-03,30,Monthly report summary 67
+R0068,Daily,Officer22,2026-05-17,17,Daily report summary 68
+R0069,Monthly,Officer2,2026-05-27,25,Monthly report summary 69
+R0070,Case Summary,Officer67,2026-07-07,5,Case Summary report summary 70
+R0071,Case Summary,Officer73,2026-02-05,35,Case Summary report summary 71
+R0072,Case Summary,Officer85,2026-06-06,15,Case Summary report summary 72
+R0073,Weekly,Officer93,2026-04-12,17,Weekly report summary 73
+R0074,Case Summary,Officer12,2026-05-01,27,Case Summary report summary 74
+R0075,Monthly,Officer82,2026-03-09,12,Monthly report summary 75
+R0076,Daily,Officer44,2026-04-20,35,Daily report summary 76
+R0077,Weekly,Officer89,2026-07-15,48,Weekly report summary 77
+R0078,Monthly,Officer96,2026-07-26,36,Monthly report summary 78
+R0079,Case Summary,Officer88,2026-03-21,43,Case Summary report summary 79
+R0080,Case Summary,Officer53,2026-05-07,14,Case Summary report summary 80
+R0081,Monthly,Officer39,2026-04-23,47,Monthly report summary 81
+R0082,Monthly,Officer29,2026-06-23,30,Monthly report summary 82
+R0083,Monthly,Officer66,2026-04-05,13,Monthly report summary 83
+R0084,Monthly,Officer67,2026-01-20,19,Monthly report summary 84
+R0085,Daily,Officer9,2026-05-27,6,Daily report summary 85
+R0086,Monthly,Officer62,2026-02-04,12,Monthly report summary 86
+R0087,Weekly,Officer3,2026-04-03,17,Weekly report summary 87
+R0088,Monthly,Officer72,2026-02-20,11,Monthly report summary 88
+R0089,Case Summary,Officer14,2026-06-07,13,Case Summary report summary 89
+R0090,Daily,Officer20,2026-06-23,15,Daily report summary 90
+R0091,Monthly,Officer65,2026-02-06,16,Monthly report summary 91
+R0092,Case Summary,Officer88,2026-04-10,18,Case Summary report summary 92
+R0093,Weekly,Officer80,2026-01-09,31,Weekly report summary 93
+R0094,Daily,Officer35,2026-01-02,7,Daily report summary 94
+R0095,Daily,Officer79,2026-06-24,16,Daily report summary 95
+R0096,Weekly,Officer64,2026-02-14,49,Weekly report summary 96
+R0097,Case Summary,Officer16,2026-02-08,42,Case Summary report summary 97
+R0098,Daily,Officer57,2026-06-12,20,Daily report summary 98
+R0099,Daily,Officer99,2026-06-03,29,Daily report summary 99
+R0100,Daily,Officer45,2026-02-26,43,Daily report summary 100
+R0101,Case Summary,Officer23,2026-06-17,23,Case Summary report summary 101
+R0102,Case Summary,Officer61,2026-02-18,32,Case Summary report summary 102
+R0103,Daily,Officer24,2026-07-23,40,Daily report summary 103
+R0104,Monthly,Officer54,2026-03-15,8,Monthly report summary 104
+R0105,Weekly,Officer43,2026-06-12,21,Weekly report summary 105
+R0106,Daily,Officer8,2026-06-16,26,Daily report summary 106
+R0107,Weekly,Officer43,2026-06-08,27,Weekly report summary 107
+R0108,Daily,Officer88,2026-01-01,44,Daily report summary 108
+R0109,Monthly,Officer29,2026-01-07,32,Monthly report summary 109
+R0110,Daily,Officer46,2026-07-25,7,Daily report summary 110
+R0111,Weekly,Officer77,2026-07-05,19,Weekly report summary 111
+R0112,Weekly,Officer18,2026-07-16,19,Weekly report summary 112
+R0113,Weekly,Officer99,2026-03-20,14,Weekly report summary 113
+R0114,Monthly,Officer20,2026-04-19,8,Monthly report summary 114
+R0115,Daily,Officer90,2026-05-04,17,Daily report summary 115
+R0116,Case Summary,Officer9,2026-01-02,46,Case Summary report summary 116
+R0117,Monthly,Officer41,2026-07-23,25,Monthly report summary 117
+R0118,Monthly,Officer20,2026-01-05,9,Monthly report summary 118
+R0119,Case Summary,Officer40,2026-05-04,40,Case Summary report summary 119
+R0120,Monthly,Officer95,2026-07-04,47,Monthly report summary 120
+R0121,Case Summary,Officer13,2026-07-06,34,Case Summary report summary 121
+R0122,Daily,Officer48,2026-07-03,46,Daily report summary 122
+R0123,Weekly,Officer95,2026-02-01,22,Weekly report summary 123
+R0124,Case Summary,Officer3,2026-03-07,44,Case Summary report summary 124
+R0125,Weekly,Officer44,2026-02-15,49,Weekly report summary 125
+R0126,Daily,Officer48,2026-05-20,42,Daily report summary 126
+R0127,Daily,Officer99,2026-01-28,50,Daily report summary 127
+R0128,Daily,Officer8,2026-05-20,29,Daily report summary 128
+R0129,Daily,Officer6,2026-02-05,36,Daily report summary 129
+R0130,Weekly,Officer92,2026-06-17,36,Weekly report summary 130
+R0131,Monthly,Officer96,2026-02-27,6,Monthly report summary 131
+R0132,Weekly,Officer87,2026-05-25,45,Weekly report summary 132
+R0133,Monthly,Officer45,2026-07-09,37,Monthly report summary 133
+R0134,Monthly,Officer49,2026-06-15,46,Monthly report summary 134
+R0135,Daily,Officer87,2026-03-08,50,Daily report summary 135
+R0136,Monthly,Officer54,2026-01-15,29,Monthly report summary 136
+R0137,Monthly,Officer47,2026-04-20,33,Monthly report summary 137
+R0138,Case Summary,Officer18,2026-04-14,27,Case Summary report summary 138
+R0139,Daily,Officer75,2026-04-12,50,Daily report summary 139
+R0140,Monthly,Officer18,2026-04-19,38,Monthly report summary 140
+R0141,Weekly,Officer70,2026-04-08,30,Weekly report summary 141
+R0142,Case Summary,Officer100,2026-01-27,32,Case Summary report summary 142
+R0143,Monthly,Officer58,2026-05-01,38,Monthly report summary 143
+R0144,Monthly,Officer20,2026-07-13,20,Monthly report summary 144
+R0145,Weekly,Officer92,2026-07-03,29,Weekly report summary 145
+R0146,Daily,Officer20,2026-03-09,28,Daily report summary 146
+R0147,Daily,Officer22,2026-04-12,11,Daily report summary 147
+R0148,Monthly,Officer98,2026-07-23,45,Monthly report summary 148
+R0149,Case Summary,Officer72,2026-02-23,14,Case Summary report summary 149
+R0150,Weekly,Officer2,2026-06-16,50,Weekly report summary 150
+R0151,Monthly,Officer27,2026-02-12,16,Monthly report summary 151
+R0152,Monthly,Officer1,2026-01-09,12,Monthly report summary 152
+R0153,Weekly,Officer21,2026-02-02,44,Weekly report summary 153
+R0154,Daily,Officer89,2026-03-24,10,Daily report summary 154
+R0155,Case Summary,Officer77,2026-03-08,20,Case Summary report summary 155
+R0156,Weekly,Officer56,2026-02-12,46,Weekly report summary 156
+R0157,Daily,Officer56,2026-07-21,27,Daily report summary 157
+R0158,Weekly,Officer80,2026-02-12,33,Weekly report summary 158
+R0159,Daily,Officer11,2026-02-08,47,Daily report summary 159
+R0160,Monthly,Officer12,2026-04-06,5,Monthly report summary 160
+R0161,Daily,Officer67,2026-04-01,11,Daily report summary 161
+R0162,Monthly,Officer82,2026-06-20,33,Monthly report summary 162
+R0163,Case Summary,Officer76,2026-06-25,26,Case Summary report summary 163
+R0164,Monthly,Officer82,2026-04-15,49,Monthly report summary 164
+R0165,Case Summary,Officer2,2026-01-16,18,Case Summary report summary 165
+R0166,Daily,Officer63,2026-07-05,44,Daily report summary 166
+R0167,Daily,Officer61,2026-05-26,17,Daily report summary 167
+R0168,Monthly,Officer5,2026-05-25,26,Monthly report summary 168
+R0169,Case Summary,Officer56,2026-02-16,39,Case Summary report summary 169
+R0170,Monthly,Officer95,2026-07-12,19,Monthly report summary 170
+R0171,Weekly,Officer20,2026-06-13,5,Weekly report summary 171
+R0172,Monthly,Officer91,2026-03-25,15,Monthly report summary 172
+R0173,Case Summary,Officer65,2026-06-13,35,Case Summary report summary 173
+R0174,Daily,Officer63,2026-02-07,47,Daily report summary 174
+R0175,Monthly,Officer99,2026-07-22,12,Monthly report summary 175
+R0176,Weekly,Officer25,2026-04-01,41,Weekly report summary 176
+R0177,Weekly,Officer28,2026-02-20,12,Weekly report summary 177
+R0178,Case Summary,Officer66,2026-01-15,19,Case Summary report summary 178
+R0179,Weekly,Officer42,2026-06-18,41,Weekly report summary 179
+R0180,Case Summary,Officer82,2026-04-23,16,Case Summary report summary 180
+R0181,Case Summary,Officer81,2026-05-06,39,Case Summary report summary 181
+R0182,Case Summary,Officer87,2026-01-11,46,Case Summary report summary 182
+R0183,Monthly,Officer38,2026-01-14,36,Monthly report summary 183
+R0184,Case Summary,Officer1,2026-02-13,21,Case Summary report summary 184
+R0185,Case Summary,Officer97,2026-03-05,48,Case Summary report summary 185
+R0186,Case Summary,Officer97,2026-01-09,21,Case Summary report summary 186
+R0187,Case Summary,Officer54,2026-04-03,37,Case Summary report summary 187
+R0188,Case Summary,Officer88,2026-07-08,11,Case Summary report summary 188
+R0189,Case Summary,Officer39,2026-06-28,48,Case Summary report summary 189
+R0190,Daily,Officer72,2026-02-18,9,Daily report summary 190
+R0191,Daily,Officer17,2026-01-03,31,Daily report summary 191
+R0192,Daily,Officer4,2026-05-10,7,Daily report summary 192
+R0193,Monthly,Officer13,2026-03-12,31,Monthly report summary 193
+R0194,Weekly,Officer93,2026-04-20,17,Weekly report summary 194
+R0195,Daily,Officer6,2026-07-22,16,Daily report summary 195
+R0196,Case Summary,Officer47,2026-05-01,30,Case Summary report summary 196
+R0197,Weekly,Officer45,2026-04-25,48,Weekly report summary 197
+R0198,Monthly,Officer87,2026-01-08,11,Monthly report summary 198
+R0199,Case Summary,Officer64,2026-06-06,11,Case Summary report summary 199
+R0200,Weekly,Officer70,2026-06-09,10,Weekly report summary 200

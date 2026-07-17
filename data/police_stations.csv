@@ -1,0 +1,251 @@
+station_id,police_station,district,zone,phone
+PS001,Madhapur PS,Rangareddy,Zone-2,040200001
+PS002,Gachibowli PS,Medchal-Malkajgiri,Zone-3,040200002
+PS003,Kukatpally PS,Warangal,Zone-1,040200003
+PS004,Begumpet PS,Karimnagar,Zone-2,040200004
+PS005,Banjara Hills PS,Hyderabad,Zone-3,040200005
+PS006,Madhapur PS,Rangareddy,Zone-1,040200006
+PS007,Gachibowli PS,Medchal-Malkajgiri,Zone-2,040200007
+PS008,Kukatpally PS,Warangal,Zone-3,040200008
+PS009,Begumpet PS,Karimnagar,Zone-1,040200009
+PS010,Banjara Hills PS,Hyderabad,Zone-2,040200010
+PS011,Madhapur PS,Rangareddy,Zone-3,040200011
+PS012,Gachibowli PS,Medchal-Malkajgiri,Zone-1,040200012
+PS013,Kukatpally PS,Warangal,Zone-2,040200013
+PS014,Begumpet PS,Karimnagar,Zone-3,040200014
+PS015,Banjara Hills PS,Hyderabad,Zone-1,040200015
+PS016,Madhapur PS,Rangareddy,Zone-2,040200016
+PS017,Gachibowli PS,Medchal-Malkajgiri,Zone-3,040200017
+PS018,Kukatpally PS,Warangal,Zone-1,040200018
+PS019,Begumpet PS,Karimnagar,Zone-2,040200019
+PS020,Banjara Hills PS,Hyderabad,Zone-3,040200020
+PS021,Madhapur PS,Rangareddy,Zone-1,040200021
+PS022,Gachibowli PS,Medchal-Malkajgiri,Zone-2,040200022
+PS023,Kukatpally PS,Warangal,Zone-3,040200023
+PS024,Begumpet PS,Karimnagar,Zone-1,040200024
+PS025,Banjara Hills PS,Hyderabad,Zone-2,040200025
+PS026,Madhapur PS,Rangareddy,Zone-3,040200026
+PS027,Gachibowli PS,Medchal-Malkajgiri,Zone-1,040200027
+PS028,Kukatpally PS,Warangal,Zone-2,040200028
+PS029,Begumpet PS,Karimnagar,Zone-3,040200029
+PS030,Banjara Hills PS,Hyderabad,Zone-1,040200030
+PS031,Madhapur PS,Rangareddy,Zone-2,040200031
+PS032,Gachibowli PS,Medchal-Malkajgiri,Zone-3,040200032
+PS033,Kukatpally PS,Warangal,Zone-1,040200033
+PS034,Begumpet PS,Karimnagar,Zone-2,040200034
+PS035,Banjara Hills PS,Hyderabad,Zone-3,040200035
+PS036,Madhapur PS,Rangareddy,Zone-1,040200036
+PS037,Gachibowli PS,Medchal-Malkajgiri,Zone-2,040200037
+PS038,Kukatpally PS,Warangal,Zone-3,040200038
+PS039,Begumpet PS,Karimnagar,Zone-1,040200039
+PS040,Banjara Hills PS,Hyderabad,Zone-2,040200040
+PS041,Madhapur PS,Rangareddy,Zone-3,040200041
+PS042,Gachibowli PS,Medchal-Malkajgiri,Zone-1,040200042
+PS043,Kukatpally PS,Warangal,Zone-2,040200043
+PS044,Begumpet PS,Karimnagar,Zone-3,040200044
+PS045,Banjara Hills PS,Hyderabad,Zone-1,040200045
+PS046,Madhapur PS,Rangareddy,Zone-2,040200046
+PS047,Gachibowli PS,Medchal-Malkajgiri,Zone-3,040200047
+PS048,Kukatpally PS,Warangal,Zone-1,040200048
+PS049,Begumpet PS,Karimnagar,Zone-2,040200049
+PS050,Banjara Hills PS,Hyderabad,Zone-3,040200050
+PS051,Madhapur PS,Rangareddy,Zone-1,040200051
+PS052,Gachibowli PS,Medchal-Malkajgiri,Zone-2,040200052
+PS053,Kukatpally PS,Warangal,Zone-3,040200053
+PS054,Begumpet PS,Karimnagar,Zone-1,040200054
+PS055,Banjara Hills PS,Hyderabad,Zone-2,040200055
+PS056,Madhapur PS,Rangareddy,Zone-3,040200056
+PS057,Gachibowli PS,Medchal-Malkajgiri,Zone-1,040200057
+PS058,Kukatpally PS,Warangal,Zone-2,040200058
+PS059,Begumpet PS,Karimnagar,Zone-3,040200059
+PS060,Banjara Hills PS,Hyderabad,Zone-1,040200060
+PS061,Madhapur PS,Rangareddy,Zone-2,040200061
+PS062,Gachibowli PS,Medchal-Malkajgiri,Zone-3,040200062
+PS063,Kukatpally PS,Warangal,Zone-1,040200063
+PS064,Begumpet PS,Karimnagar,Zone-2,040200064
+PS065,Banjara Hills PS,Hyderabad,Zone-3,040200065
+PS066,Madhapur PS,Rangareddy,Zone-1,040200066
+PS067,Gachibowli PS,Medchal-Malkajgiri,Zone-2,040200067
+PS068,Kukatpally PS,Warangal,Zone-3,040200068
+PS069,Begumpet PS,Karimnagar,Zone-1,040200069
+PS070,Banjara Hills PS,Hyderabad,Zone-2,040200070
+PS071,Madhapur PS,Rangareddy,Zone-3,040200071
+PS072,Gachibowli PS,Medchal-Malkajgiri,Zone-1,040200072
+PS073,Kukatpally PS,Warangal,Zone-2,040200073
+PS074,Begumpet PS,Karimnagar,Zone-3,040200074
+PS075,Banjara Hills PS,Hyderabad,Zone-1,040200075
+PS076,Madhapur PS,Rangareddy,Zone-2,040200076
+PS077,Gachibowli PS,Medchal-Malkajgiri,Zone-3,040200077
+PS078,Kukatpally PS,Warangal,Zone-1,040200078
+PS079,Begumpet PS,Karimnagar,Zone-2,040200079
+PS080,Banjara Hills PS,Hyderabad,Zone-3,040200080
+PS081,Madhapur PS,Rangareddy,Zone-1,040200081
+PS082,Gachibowli PS,Medchal-Malkajgiri,Zone-2,040200082
+PS083,Kukatpally PS,Warangal,Zone-3,040200083
+PS084,Begumpet PS,Karimnagar,Zone-1,040200084
+PS085,Banjara Hills PS,Hyderabad,Zone-2,040200085
+PS086,Madhapur PS,Rangareddy,Zone-3,040200086
+PS087,Gachibowli PS,Medchal-Malkajgiri,Zone-1,040200087
+PS088,Kukatpally PS,Warangal,Zone-2,040200088
+PS089,Begumpet PS,Karimnagar,Zone-3,040200089
+PS090,Banjara Hills PS,Hyderabad,Zone-1,040200090
+PS091,Madhapur PS,Rangareddy,Zone-2,040200091
+PS092,Gachibowli PS,Medchal-Malkajgiri,Zone-3,040200092
+PS093,Kukatpally PS,Warangal,Zone-1,040200093
+PS094,Begumpet PS,Karimnagar,Zone-2,040200094
+PS095,Banjara Hills PS,Hyderabad,Zone-3,040200095
+PS096,Madhapur PS,Rangareddy,Zone-1,040200096
+PS097,Gachibowli PS,Medchal-Malkajgiri,Zone-2,040200097
+PS098,Kukatpally PS,Warangal,Zone-3,040200098
+PS099,Begumpet PS,Karimnagar,Zone-1,040200099
+PS100,Banjara Hills PS,Hyderabad,Zone-2,040200100
+PS101,Madhapur PS,Rangareddy,Zone-3,040200101
+PS102,Gachibowli PS,Medchal-Malkajgiri,Zone-1,040200102
+PS103,Kukatpally PS,Warangal,Zone-2,040200103
+PS104,Begumpet PS,Karimnagar,Zone-3,040200104
+PS105,Banjara Hills PS,Hyderabad,Zone-1,040200105
+PS106,Madhapur PS,Rangareddy,Zone-2,040200106
+PS107,Gachibowli PS,Medchal-Malkajgiri,Zone-3,040200107
+PS108,Kukatpally PS,Warangal,Zone-1,040200108
+PS109,Begumpet PS,Karimnagar,Zone-2,040200109
+PS110,Banjara Hills PS,Hyderabad,Zone-3,040200110
+PS111,Madhapur PS,Rangareddy,Zone-1,040200111
+PS112,Gachibowli PS,Medchal-Malkajgiri,Zone-2,040200112
+PS113,Kukatpally PS,Warangal,Zone-3,040200113
+PS114,Begumpet PS,Karimnagar,Zone-1,040200114
+PS115,Banjara Hills PS,Hyderabad,Zone-2,040200115
+PS116,Madhapur PS,Rangareddy,Zone-3,040200116
+PS117,Gachibowli PS,Medchal-Malkajgiri,Zone-1,040200117
+PS118,Kukatpally PS,Warangal,Zone-2,040200118
+PS119,Begumpet PS,Karimnagar,Zone-3,040200119
+PS120,Banjara Hills PS,Hyderabad,Zone-1,040200120
+PS121,Madhapur PS,Rangareddy,Zone-2,040200121
+PS122,Gachibowli PS,Medchal-Malkajgiri,Zone-3,040200122
+PS123,Kukatpally PS,Warangal,Zone-1,040200123
+PS124,Begumpet PS,Karimnagar,Zone-2,040200124
+PS125,Banjara Hills PS,Hyderabad,Zone-3,040200125
+PS126,Madhapur PS,Rangareddy,Zone-1,040200126
+PS127,Gachibowli PS,Medchal-Malkajgiri,Zone-2,040200127
+PS128,Kukatpally PS,Warangal,Zone-3,040200128
+PS129,Begumpet PS,Karimnagar,Zone-1,040200129
+PS130,Banjara Hills PS,Hyderabad,Zone-2,040200130
+PS131,Madhapur PS,Rangareddy,Zone-3,040200131
+PS132,Gachibowli PS,Medchal-Malkajgiri,Zone-1,040200132
+PS133,Kukatpally PS,Warangal,Zone-2,040200133
+PS134,Begumpet PS,Karimnagar,Zone-3,040200134
+PS135,Banjara Hills PS,Hyderabad,Zone-1,040200135
+PS136,Madhapur PS,Rangareddy,Zone-2,040200136
+PS137,Gachibowli PS,Medchal-Malkajgiri,Zone-3,040200137
+PS138,Kukatpally PS,Warangal,Zone-1,040200138
+PS139,Begumpet PS,Karimnagar,Zone-2,040200139
+PS140,Banjara Hills PS,Hyderabad,Zone-3,040200140
+PS141,Madhapur PS,Rangareddy,Zone-1,040200141
+PS142,Gachibowli PS,Medchal-Malkajgiri,Zone-2,040200142
+PS143,Kukatpally PS,Warangal,Zone-3,040200143
+PS144,Begumpet PS,Karimnagar,Zone-1,040200144
+PS145,Banjara Hills PS,Hyderabad,Zone-2,040200145
+PS146,Madhapur PS,Rangareddy,Zone-3,040200146
+PS147,Gachibowli PS,Medchal-Malkajgiri,Zone-1,040200147
+PS148,Kukatpally PS,Warangal,Zone-2,040200148
+PS149,Begumpet PS,Karimnagar,Zone-3,040200149
+PS150,Banjara Hills PS,Hyderabad,Zone-1,040200150
+PS151,Madhapur PS,Rangareddy,Zone-2,040200151
+PS152,Gachibowli PS,Medchal-Malkajgiri,Zone-3,040200152
+PS153,Kukatpally PS,Warangal,Zone-1,040200153
+PS154,Begumpet PS,Karimnagar,Zone-2,040200154
+PS155,Banjara Hills PS,Hyderabad,Zone-3,040200155
+PS156,Madhapur PS,Rangareddy,Zone-1,040200156
+PS157,Gachibowli PS,Medchal-Malkajgiri,Zone-2,040200157
+PS158,Kukatpally PS,Warangal,Zone-3,040200158
+PS159,Begumpet PS,Karimnagar,Zone-1,040200159
+PS160,Banjara Hills PS,Hyderabad,Zone-2,040200160
+PS161,Madhapur PS,Rangareddy,Zone-3,040200161
+PS162,Gachibowli PS,Medchal-Malkajgiri,Zone-1,040200162
+PS163,Kukatpally PS,Warangal,Zone-2,040200163
+PS164,Begumpet PS,Karimnagar,Zone-3,040200164
+PS165,Banjara Hills PS,Hyderabad,Zone-1,040200165
+PS166,Madhapur PS,Rangareddy,Zone-2,040200166
+PS167,Gachibowli PS,Medchal-Malkajgiri,Zone-3,040200167
+PS168,Kukatpally PS,Warangal,Zone-1,040200168
+PS169,Begumpet PS,Karimnagar,Zone-2,040200169
+PS170,Banjara Hills PS,Hyderabad,Zone-3,040200170
+PS171,Madhapur PS,Rangareddy,Zone-1,040200171
+PS172,Gachibowli PS,Medchal-Malkajgiri,Zone-2,040200172
+PS173,Kukatpally PS,Warangal,Zone-3,040200173
+PS174,Begumpet PS,Karimnagar,Zone-1,040200174
+PS175,Banjara Hills PS,Hyderabad,Zone-2,040200175
+PS176,Madhapur PS,Rangareddy,Zone-3,040200176
+PS177,Gachibowli PS,Medchal-Malkajgiri,Zone-1,040200177
+PS178,Kukatpally PS,Warangal,Zone-2,040200178
+PS179,Begumpet PS,Karimnagar,Zone-3,040200179
+PS180,Banjara Hills PS,Hyderabad,Zone-1,040200180
+PS181,Madhapur PS,Rangareddy,Zone-2,040200181
+PS182,Gachibowli PS,Medchal-Malkajgiri,Zone-3,040200182
+PS183,Kukatpally PS,Warangal,Zone-1,040200183
+PS184,Begumpet PS,Karimnagar,Zone-2,040200184
+PS185,Banjara Hills PS,Hyderabad,Zone-3,040200185
+PS186,Madhapur PS,Rangareddy,Zone-1,040200186
+PS187,Gachibowli PS,Medchal-Malkajgiri,Zone-2,040200187
+PS188,Kukatpally PS,Warangal,Zone-3,040200188
+PS189,Begumpet PS,Karimnagar,Zone-1,040200189
+PS190,Banjara Hills PS,Hyderabad,Zone-2,040200190
+PS191,Madhapur PS,Rangareddy,Zone-3,040200191
+PS192,Gachibowli PS,Medchal-Malkajgiri,Zone-1,040200192
+PS193,Kukatpally PS,Warangal,Zone-2,040200193
+PS194,Begumpet PS,Karimnagar,Zone-3,040200194
+PS195,Banjara Hills PS,Hyderabad,Zone-1,040200195
+PS196,Madhapur PS,Rangareddy,Zone-2,040200196
+PS197,Gachibowli PS,Medchal-Malkajgiri,Zone-3,040200197
+PS198,Kukatpally PS,Warangal,Zone-1,040200198
+PS199,Begumpet PS,Karimnagar,Zone-2,040200199
+PS200,Banjara Hills PS,Hyderabad,Zone-3,040200200
+PS201,Madhapur PS,Rangareddy,Zone-1,040200201
+PS202,Gachibowli PS,Medchal-Malkajgiri,Zone-2,040200202
+PS203,Kukatpally PS,Warangal,Zone-3,040200203
+PS204,Begumpet PS,Karimnagar,Zone-1,040200204
+PS205,Banjara Hills PS,Hyderabad,Zone-2,040200205
+PS206,Madhapur PS,Rangareddy,Zone-3,040200206
+PS207,Gachibowli PS,Medchal-Malkajgiri,Zone-1,040200207
+PS208,Kukatpally PS,Warangal,Zone-2,040200208
+PS209,Begumpet PS,Karimnagar,Zone-3,040200209
+PS210,Banjara Hills PS,Hyderabad,Zone-1,040200210
+PS211,Madhapur PS,Rangareddy,Zone-2,040200211
+PS212,Gachibowli PS,Medchal-Malkajgiri,Zone-3,040200212
+PS213,Kukatpally PS,Warangal,Zone-1,040200213
+PS214,Begumpet PS,Karimnagar,Zone-2,040200214
+PS215,Banjara Hills PS,Hyderabad,Zone-3,040200215
+PS216,Madhapur PS,Rangareddy,Zone-1,040200216
+PS217,Gachibowli PS,Medchal-Malkajgiri,Zone-2,040200217
+PS218,Kukatpally PS,Warangal,Zone-3,040200218
+PS219,Begumpet PS,Karimnagar,Zone-1,040200219
+PS220,Banjara Hills PS,Hyderabad,Zone-2,040200220
+PS221,Madhapur PS,Rangareddy,Zone-3,040200221
+PS222,Gachibowli PS,Medchal-Malkajgiri,Zone-1,040200222
+PS223,Kukatpally PS,Warangal,Zone-2,040200223
+PS224,Begumpet PS,Karimnagar,Zone-3,040200224
+PS225,Banjara Hills PS,Hyderabad,Zone-1,040200225
+PS226,Madhapur PS,Rangareddy,Zone-2,040200226
+PS227,Gachibowli PS,Medchal-Malkajgiri,Zone-3,040200227
+PS228,Kukatpally PS,Warangal,Zone-1,040200228
+PS229,Begumpet PS,Karimnagar,Zone-2,040200229
+PS230,Banjara Hills PS,Hyderabad,Zone-3,040200230
+PS231,Madhapur PS,Rangareddy,Zone-1,040200231
+PS232,Gachibowli PS,Medchal-Malkajgiri,Zone-2,040200232
+PS233,Kukatpally PS,Warangal,Zone-3,040200233
+PS234,Begumpet PS,Karimnagar,Zone-1,040200234
+PS235,Banjara Hills PS,Hyderabad,Zone-2,040200235
+PS236,Madhapur PS,Rangareddy,Zone-3,040200236
+PS237,Gachibowli PS,Medchal-Malkajgiri,Zone-1,040200237
+PS238,Kukatpally PS,Warangal,Zone-2,040200238
+PS239,Begumpet PS,Karimnagar,Zone-3,040200239
+PS240,Banjara Hills PS,Hyderabad,Zone-1,040200240
+PS241,Madhapur PS,Rangareddy,Zone-2,040200241
+PS242,Gachibowli PS,Medchal-Malkajgiri,Zone-3,040200242
+PS243,Kukatpally PS,Warangal,Zone-1,040200243
+PS244,Begumpet PS,Karimnagar,Zone-2,040200244
+PS245,Banjara Hills PS,Hyderabad,Zone-3,040200245
+PS246,Madhapur PS,Rangareddy,Zone-1,040200246
+PS247,Gachibowli PS,Medchal-Malkajgiri,Zone-2,040200247
+PS248,Kukatpally PS,Warangal,Zone-3,040200248
+PS249,Begumpet PS,Karimnagar,Zone-1,040200249
+PS250,Banjara Hills PS,Hyderabad,Zone-2,040200250

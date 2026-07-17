@@ -1,0 +1,7 @@
+<?xml version='1.0' encoding='utf-8'?>
+<resources>
+    <string name="app_name">Police AI Assistant</string>
+    <string name="title_activity_main">Police AI Assistant</string>
+    <string name="package_name">com.policeai.assistant</string>
+    <string name="custom_url_scheme">com.policeai.assistant</string>
+</resources>

@@ -1,0 +1,1001 @@
+Complaint ID,Citizen Name,Phone,Aadhaar,Complaint,AI Classification,Priority,Department,Date,Status
+C0001,Citizen1,9929782378,XXXX XXXX 4715,My car was stolen,Vehicle Theft,Medium,Local Police,2026-03-04,Open
+C0002,Citizen2,9503773242,XXXX XXXX 4081,My car was stolen,Vehicle Theft,Medium,Local Police,2026-04-23,Open
+C0003,Citizen3,9338022976,XXXX XXXX 4735,Bank account hacked,Cyber Crime,High,Local Police,2026-04-17,Open
+C0004,Citizen4,9063718646,XXXX XXXX 4607,My car was stolen,Vehicle Theft,Medium,Local Police,2026-04-05,Open
+C0005,Citizen5,9954983944,XXXX XXXX 9624,Neighbor attacked me,Assault,Medium,Local Police,2026-02-23,Open
+C0006,Citizen6,9112424905,XXXX XXXX 7968,Someone stole my bike,Theft,Medium,Local Police,2026-01-18,Open
+C0007,Citizen7,9889206011,XXXX XXXX 2711,Someone stole my bike,Theft,Medium,Local Police,2026-04-16,Open
+C0008,Citizen8,9547735400,XXXX XXXX 8557,Neighbor attacked me,Assault,Medium,Local Police,2026-01-19,Open
+C0009,Citizen9,9421014131,XXXX XXXX 7000,Neighbor attacked me,Assault,Medium,Local Police,2026-04-07,Open
+C0010,Citizen10,9269587995,XXXX XXXX 6751,Neighbor attacked me,Assault,Medium,Local Police,2026-07-05,Open
+C0011,Citizen11,9235850994,XXXX XXXX 2529,Online scam,Fraud,High,Local Police,2026-03-03,Open
+C0012,Citizen12,9153015181,XXXX XXXX 8006,Neighbor attacked me,Assault,Medium,Local Police,2026-01-21,Open
+C0013,Citizen13,9027146356,XXXX XXXX 2011,Someone stole my bike,Theft,Medium,Local Police,2026-06-15,Open
+C0014,Citizen14,9618234693,XXXX XXXX 6488,My car was stolen,Vehicle Theft,Medium,Local Police,2026-06-07,Open
+C0015,Citizen15,9407364856,XXXX XXXX 5708,My car was stolen,Vehicle Theft,Medium,Local Police,2026-05-24,Open
+C0016,Citizen16,9576909816,XXXX XXXX 1970,Bank account hacked,Cyber Crime,High,Local Police,2026-07-08,Open
+C0017,Citizen17,9718372604,XXXX XXXX 6573,Online scam,Fraud,High,Local Police,2026-03-08,Open
+C0018,Citizen18,9473401807,XXXX XXXX 6364,My car was stolen,Vehicle Theft,Medium,Local Police,2026-07-04,Open
+C0019,Citizen19,9769711342,XXXX XXXX 4499,My car was stolen,Vehicle Theft,Medium,Local Police,2026-04-24,Open
+C0020,Citizen20,9332848973,XXXX XXXX 1038,Someone stole my bike,Theft,Medium,Local Police,2026-05-25,Open
+C0021,Citizen21,9017420582,XXXX XXXX 6301,Online scam,Fraud,High,Local Police,2026-04-03,Open
+C0022,Citizen22,9024317191,XXXX XXXX 8076,My car was stolen,Vehicle Theft,Medium,Local Police,2026-02-10,Open
+C0023,Citizen23,9751455835,XXXX XXXX 5025,Online scam,Fraud,High,Local Police,2026-06-22,Open
+C0024,Citizen24,9689439470,XXXX XXXX 9885,Neighbor attacked me,Assault,Medium,Local Police,2026-03-15,Open
+C0025,Citizen25,9468034775,XXXX XXXX 2843,Neighbor attacked me,Assault,Medium,Local Police,2026-04-21,Open
+C0026,Citizen26,9310067799,XXXX XXXX 6351,Online scam,Fraud,High,Local Police,2026-04-21,Open
+C0027,Citizen27,9557409633,XXXX XXXX 3234,Neighbor attacked me,Assault,Medium,Local Police,2026-07-02,Open
+C0028,Citizen28,9726183630,XXXX XXXX 7834,Online scam,Fraud,High,Local Police,2026-04-14,Open
+C0029,Citizen29,9476189923,XXXX XXXX 3550,My car was stolen,Vehicle Theft,Medium,Local Police,2026-03-20,Open
+C0030,Citizen30,9909836237,XXXX XXXX 9349,Neighbor attacked me,Assault,Medium,Local Police,2026-05-02,Open
+C0031,Citizen31,9414213295,XXXX XXXX 8157,My car was stolen,Vehicle Theft,Medium,Local Police,2026-05-27,Open
+C0032,Citizen32,9475494531,XXXX XXXX 1327,Neighbor attacked me,Assault,Medium,Local Police,2026-03-16,Open
+C0033,Citizen33,9662091900,XXXX XXXX 5727,Online scam,Fraud,High,Local Police,2026-05-21,Open
+C0034,Citizen34,9252160522,XXXX XXXX 8317,My car was stolen,Vehicle Theft,Medium,Local Police,2026-05-07,Open
+C0035,Citizen35,9240440782,XXXX XXXX 5897,My car was stolen,Vehicle Theft,Medium,Local Police,2026-06-15,Open
+C0036,Citizen36,9289493035,XXXX XXXX 1965,Bank account hacked,Cyber Crime,High,Local Police,2026-03-22,Open
+C0037,Citizen37,9433521517,XXXX XXXX 9357,My car was stolen,Vehicle Theft,Medium,Local Police,2026-03-25,Open
+C0038,Citizen38,9492426154,XXXX XXXX 7092,Neighbor attacked me,Assault,Medium,Local Police,2026-06-19,Open
+C0039,Citizen39,9782991271,XXXX XXXX 7200,Neighbor attacked me,Assault,Medium,Local Police,2026-06-18,Open
+C0040,Citizen40,9840281629,XXXX XXXX 4673,Someone stole my bike,Theft,Medium,Local Police,2026-03-07,Open
+C0041,Citizen41,9492475090,XXXX XXXX 7962,Online scam,Fraud,High,Local Police,2026-01-21,Open
+C0042,Citizen42,9905865255,XXXX XXXX 3720,My car was stolen,Vehicle Theft,Medium,Local Police,2026-01-02,Open
+C0043,Citizen43,9292318386,XXXX XXXX 9605,Someone stole my bike,Theft,Medium,Local Police,2026-06-23,Open
+C0044,Citizen44,9184104810,XXXX XXXX 4191,Bank account hacked,Cyber Crime,High,Local Police,2026-05-01,Open
+C0045,Citizen45,9783053594,XXXX XXXX 7990,Neighbor attacked me,Assault,Medium,Local Police,2026-02-12,Open
+C0046,Citizen46,9016301699,XXXX XXXX 5971,Someone stole my bike,Theft,Medium,Local Police,2026-03-07,Open
+C0047,Citizen47,9186972249,XXXX XXXX 8198,Bank account hacked,Cyber Crime,High,Local Police,2026-04-17,Open
+C0048,Citizen48,9117856501,XXXX XXXX 2739,Someone stole my bike,Theft,Medium,Local Police,2026-02-23,Open
+C0049,Citizen49,9499918590,XXXX XXXX 9647,My car was stolen,Vehicle Theft,Medium,Local Police,2026-05-01,Open
+C0050,Citizen50,9732127179,XXXX XXXX 3296,Neighbor attacked me,Assault,Medium,Local Police,2026-06-09,Open
+C0051,Citizen51,9772306660,XXXX XXXX 5588,Neighbor attacked me,Assault,Medium,Local Police,2026-06-02,Open
+C0052,Citizen52,9889467578,XXXX XXXX 8244,Someone stole my bike,Theft,Medium,Local Police,2026-04-15,Open
+C0053,Citizen53,9062024558,XXXX XXXX 9269,My car was stolen,Vehicle Theft,Medium,Local Police,2026-05-18,Open
+C0054,Citizen54,9449691727,XXXX XXXX 7492,Online scam,Fraud,High,Local Police,2026-07-01,Open
+C0055,Citizen55,9361091685,XXXX XXXX 5366,My car was stolen,Vehicle Theft,Medium,Local Police,2026-05-06,Open
+C0056,Citizen56,9948732941,XXXX XXXX 3212,Bank account hacked,Cyber Crime,High,Local Police,2026-01-20,Open
+C0057,Citizen57,9617328922,XXXX XXXX 9622,Bank account hacked,Cyber Crime,High,Local Police,2026-01-01,Open
+C0058,Citizen58,9547136263,XXXX XXXX 7630,Online scam,Fraud,High,Local Police,2026-04-12,Open
+C0059,Citizen59,9135705198,XXXX XXXX 5658,Someone stole my bike,Theft,Medium,Local Police,2026-04-13,Open
+C0060,Citizen60,9748973838,XXXX XXXX 6216,Online scam,Fraud,High,Local Police,2026-07-11,Open
+C0061,Citizen61,9844154359,XXXX XXXX 5472,Bank account hacked,Cyber Crime,High,Local Police,2026-04-21,Open
+C0062,Citizen62,9623039910,XXXX XXXX 9455,Bank account hacked,Cyber Crime,High,Local Police,2026-01-22,Open
+C0063,Citizen63,9863723575,XXXX XXXX 5072,My car was stolen,Vehicle Theft,Medium,Local Police,2026-05-20,Open
+C0064,Citizen64,9250999445,XXXX XXXX 9121,Bank account hacked,Cyber Crime,High,Local Police,2026-03-19,Open
+C0065,Citizen65,9910535550,XXXX XXXX 5233,My car was stolen,Vehicle Theft,Medium,Local Police,2026-05-15,Open
+C0066,Citizen66,9798321477,XXXX XXXX 6202,My car was stolen,Vehicle Theft,Medium,Local Police,2026-01-23,Open
+C0067,Citizen67,9623576032,XXXX XXXX 6013,Someone stole my bike,Theft,Medium,Local Police,2026-04-26,Open
+C0068,Citizen68,9173692726,XXXX XXXX 7048,Someone stole my bike,Theft,Medium,Local Police,2026-07-03,Open
+C0069,Citizen69,9926550470,XXXX XXXX 1889,My car was stolen,Vehicle Theft,Medium,Local Police,2026-04-14,Open
+C0070,Citizen70,9548890267,XXXX XXXX 4420,Bank account hacked,Cyber Crime,High,Local Police,2026-06-18,Open
+C0071,Citizen71,9574821494,XXXX XXXX 8102,Neighbor attacked me,Assault,Medium,Local Police,2026-03-10,Open
+C0072,Citizen72,9986857000,XXXX XXXX 7163,Someone stole my bike,Theft,Medium,Local Police,2026-02-03,Open
+C0073,Citizen73,9948584037,XXXX XXXX 8374,Online scam,Fraud,High,Local Police,2026-03-05,Open
+C0074,Citizen74,9369813725,XXXX XXXX 9235,Neighbor attacked me,Assault,Medium,Local Police,2026-03-05,Open
+C0075,Citizen75,9587402851,XXXX XXXX 2738,Online scam,Fraud,High,Local Police,2026-01-09,Open
+C0076,Citizen76,9506006209,XXXX XXXX 3770,My car was stolen,Vehicle Theft,Medium,Local Police,2026-06-03,Open
+C0077,Citizen77,9185548019,XXXX XXXX 6783,Neighbor attacked me,Assault,Medium,Local Police,2026-06-21,Open
+C0078,Citizen78,9832650770,XXXX XXXX 9078,My car was stolen,Vehicle Theft,Medium,Local Police,2026-03-18,Open
+C0079,Citizen79,9468840661,XXXX XXXX 1031,Neighbor attacked me,Assault,Medium,Local Police,2026-06-19,Open
+C0080,Citizen80,9904750720,XXXX XXXX 7929,My car was stolen,Vehicle Theft,Medium,Local Police,2026-03-02,Open
+C0081,Citizen81,9727716727,XXXX XXXX 3131,Neighbor attacked me,Assault,Medium,Local Police,2026-03-01,Open
+C0082,Citizen82,9442055666,XXXX XXXX 4200,Bank account hacked,Cyber Crime,High,Local Police,2026-07-01,Open
+C0083,Citizen83,9709677166,XXXX XXXX 5346,Someone stole my bike,Theft,Medium,Local Police,2026-01-15,Open
+C0084,Citizen84,9520599593,XXXX XXXX 1213,Someone stole my bike,Theft,Medium,Local Police,2026-06-25,Open
+C0085,Citizen85,9103477459,XXXX XXXX 9329,Neighbor attacked me,Assault,Medium,Local Police,2026-01-23,Open
+C0086,Citizen86,9691708210,XXXX XXXX 1028,Online scam,Fraud,High,Local Police,2026-04-10,Open
+C0087,Citizen87,9017230760,XXXX XXXX 5733,Bank account hacked,Cyber Crime,High,Local Police,2026-06-23,Open
+C0088,Citizen88,9280349106,XXXX XXXX 4448,Bank account hacked,Cyber Crime,High,Local Police,2026-04-03,Open
+C0089,Citizen89,9367045085,XXXX XXXX 9757,Someone stole my bike,Theft,Medium,Local Police,2026-03-10,Open
+C0090,Citizen90,9522559984,XXXX XXXX 9124,Neighbor attacked me,Assault,Medium,Local Police,2026-05-16,Open
+C0091,Citizen91,9151448862,XXXX XXXX 6441,Someone stole my bike,Theft,Medium,Local Police,2026-01-05,Open
+C0092,Citizen92,9757268798,XXXX XXXX 3817,Someone stole my bike,Theft,Medium,Local Police,2026-03-07,Open
+C0093,Citizen93,9332119320,XXXX XXXX 3455,Bank account hacked,Cyber Crime,High,Local Police,2026-04-18,Open
+C0094,Citizen94,9235678343,XXXX XXXX 1082,Bank account hacked,Cyber Crime,High,Local Police,2026-05-09,Open
+C0095,Citizen95,9818103238,XXXX XXXX 3324,My car was stolen,Vehicle Theft,Medium,Local Police,2026-06-21,Open
+C0096,Citizen96,9021083347,XXXX XXXX 4828,Someone stole my bike,Theft,Medium,Local Police,2026-03-25,Open
+C0097,Citizen97,9937269075,XXXX XXXX 2143,Online scam,Fraud,High,Local Police,2026-05-23,Open
+C0098,Citizen98,9475904712,XXXX XXXX 6015,Online scam,Fraud,High,Local Police,2026-06-16,Open
+C0099,Citizen99,9623660630,XXXX XXXX 4791,Neighbor attacked me,Assault,Medium,Local Police,2026-06-26,Open
+C0100,Citizen100,9904144813,XXXX XXXX 1030,Bank account hacked,Cyber Crime,High,Local Police,2026-04-08,Open
+C0101,Citizen101,9568509562,XXXX XXXX 9564,Someone stole my bike,Theft,Medium,Local Police,2026-03-21,Open
+C0102,Citizen102,9377600748,XXXX XXXX 8443,My car was stolen,Vehicle Theft,Medium,Local Police,2026-03-25,Open
+C0103,Citizen103,9989501238,XXXX XXXX 7369,Someone stole my bike,Theft,Medium,Local Police,2026-01-23,Open
+C0104,Citizen104,9139225273,XXXX XXXX 5488,My car was stolen,Vehicle Theft,Medium,Local Police,2026-04-14,Open
+C0105,Citizen105,9365779066,XXXX XXXX 5147,Someone stole my bike,Theft,Medium,Local Police,2026-02-06,Open
+C0106,Citizen106,9103408918,XXXX XXXX 1998,Neighbor attacked me,Assault,Medium,Local Police,2026-05-01,Open
+C0107,Citizen107,9236558478,XXXX XXXX 9583,Neighbor attacked me,Assault,Medium,Local Police,2026-02-06,Open
+C0108,Citizen108,9314275027,XXXX XXXX 7828,Bank account hacked,Cyber Crime,High,Local Police,2026-03-13,Open
+C0109,Citizen109,9932759293,XXXX XXXX 1496,My car was stolen,Vehicle Theft,Medium,Local Police,2026-01-01,Open
+C0110,Citizen110,9369192304,XXXX XXXX 9266,Someone stole my bike,Theft,Medium,Local Police,2026-02-24,Open
+C0111,Citizen111,9785025291,XXXX XXXX 9635,Someone stole my bike,Theft,Medium,Local Police,2026-01-12,Open
+C0112,Citizen112,9236451995,XXXX XXXX 8162,Someone stole my bike,Theft,Medium,Local Police,2026-03-13,Open
+C0113,Citizen113,9017112920,XXXX XXXX 6954,Bank account hacked,Cyber Crime,High,Local Police,2026-05-17,Open
+C0114,Citizen114,9643774067,XXXX XXXX 9810,Bank account hacked,Cyber Crime,High,Local Police,2026-07-07,Open
+C0115,Citizen115,9716953868,XXXX XXXX 7987,Someone stole my bike,Theft,Medium,Local Police,2026-05-14,Open
+C0116,Citizen116,9513270849,XXXX XXXX 2483,Online scam,Fraud,High,Local Police,2026-05-05,Open
+C0117,Citizen117,9275069966,XXXX XXXX 6245,Someone stole my bike,Theft,Medium,Local Police,2026-07-07,Open
+C0118,Citizen118,9236222149,XXXX XXXX 2715,My car was stolen,Vehicle Theft,Medium,Local Police,2026-01-23,Open
+C0119,Citizen119,9371847467,XXXX XXXX 6594,Bank account hacked,Cyber Crime,High,Local Police,2026-03-20,Open
+C0120,Citizen120,9766468178,XXXX XXXX 1636,Online scam,Fraud,High,Local Police,2026-02-21,Open
+C0121,Citizen121,9264902803,XXXX XXXX 3657,Neighbor attacked me,Assault,Medium,Local Police,2026-06-26,Open
+C0122,Citizen122,9735396857,XXXX XXXX 7960,My car was stolen,Vehicle Theft,Medium,Local Police,2026-01-14,Open
+C0123,Citizen123,9993277067,XXXX XXXX 9918,Bank account hacked,Cyber Crime,High,Local Police,2026-01-06,Open
+C0124,Citizen124,9342600277,XXXX XXXX 2560,My car was stolen,Vehicle Theft,Medium,Local Police,2026-05-28,Open
+C0125,Citizen125,9706507504,XXXX XXXX 2407,Someone stole my bike,Theft,Medium,Local Police,2026-07-27,Open
+C0126,Citizen126,9143030523,XXXX XXXX 8095,Online scam,Fraud,High,Local Police,2026-06-12,Open
+C0127,Citizen127,9062223649,XXXX XXXX 5224,Bank account hacked,Cyber Crime,High,Local Police,2026-02-17,Open
+C0128,Citizen128,9905505023,XXXX XXXX 9076,Bank account hacked,Cyber Crime,High,Local Police,2026-07-12,Open
+C0129,Citizen129,9258796151,XXXX XXXX 9277,Neighbor attacked me,Assault,Medium,Local Police,2026-02-26,Open
+C0130,Citizen130,9671106877,XXXX XXXX 8617,Bank account hacked,Cyber Crime,High,Local Police,2026-03-22,Open
+C0131,Citizen131,9492553231,XXXX XXXX 1073,Someone stole my bike,Theft,Medium,Local Police,2026-07-26,Open
+C0132,Citizen132,9621654866,XXXX XXXX 2378,Bank account hacked,Cyber Crime,High,Local Police,2026-01-24,Open
+C0133,Citizen133,9876539805,XXXX XXXX 6692,Online scam,Fraud,High,Local Police,2026-02-05,Open
+C0134,Citizen134,9664952582,XXXX XXXX 6927,Online scam,Fraud,High,Local Police,2026-03-26,Open
+C0135,Citizen135,9742308722,XXXX XXXX 6841,My car was stolen,Vehicle Theft,Medium,Local Police,2026-05-07,Open
+C0136,Citizen136,9792038048,XXXX XXXX 9851,My car was stolen,Vehicle Theft,Medium,Local Police,2026-04-25,Open
+C0137,Citizen137,9102140431,XXXX XXXX 3200,Someone stole my bike,Theft,Medium,Local Police,2026-01-23,Open
+C0138,Citizen138,9122336713,XXXX XXXX 7721,Online scam,Fraud,High,Local Police,2026-06-09,Open
+C0139,Citizen139,9152366266,XXXX XXXX 2759,My car was stolen,Vehicle Theft,Medium,Local Police,2026-05-06,Open
+C0140,Citizen140,9842607945,XXXX XXXX 7826,My car was stolen,Vehicle Theft,Medium,Local Police,2026-04-02,Open
+C0141,Citizen141,9488831115,XXXX XXXX 4058,Online scam,Fraud,High,Local Police,2026-07-21,Open
+C0142,Citizen142,9399376919,XXXX XXXX 4262,Neighbor attacked me,Assault,Medium,Local Police,2026-04-26,Open
+C0143,Citizen143,9893005869,XXXX XXXX 8625,Online scam,Fraud,High,Local Police,2026-02-18,Open
+C0144,Citizen144,9548681524,XXXX XXXX 5548,Neighbor attacked me,Assault,Medium,Local Police,2026-01-09,Open
+C0145,Citizen145,9724921207,XXXX XXXX 2906,Online scam,Fraud,High,Local Police,2026-07-20,Open
+C0146,Citizen146,9596670191,XXXX XXXX 9775,Someone stole my bike,Theft,Medium,Local Police,2026-05-16,Open
+C0147,Citizen147,9068325048,XXXX XXXX 5175,Bank account hacked,Cyber Crime,High,Local Police,2026-05-12,Open
+C0148,Citizen148,9913665202,XXXX XXXX 7282,Online scam,Fraud,High,Local Police,2026-03-15,Open
+C0149,Citizen149,9689052125,XXXX XXXX 7645,My car was stolen,Vehicle Theft,Medium,Local Police,2026-06-21,Open
+C0150,Citizen150,9580907970,XXXX XXXX 8497,Someone stole my bike,Theft,Medium,Local Police,2026-06-15,Open
+C0151,Citizen151,9965049633,XXXX XXXX 5178,Bank account hacked,Cyber Crime,High,Local Police,2026-05-01,Open
+C0152,Citizen152,9691053684,XXXX XXXX 6672,Bank account hacked,Cyber Crime,High,Local Police,2026-07-26,Open
+C0153,Citizen153,9700352779,XXXX XXXX 3163,Bank account hacked,Cyber Crime,High,Local Police,2026-06-05,Open
+C0154,Citizen154,9813350066,XXXX XXXX 4309,Neighbor attacked me,Assault,Medium,Local Police,2026-01-26,Open
+C0155,Citizen155,9140711064,XXXX XXXX 6707,Neighbor attacked me,Assault,Medium,Local Police,2026-06-24,Open
+C0156,Citizen156,9158082604,XXXX XXXX 4643,My car was stolen,Vehicle Theft,Medium,Local Police,2026-03-15,Open
+C0157,Citizen157,9397230416,XXXX XXXX 3777,Neighbor attacked me,Assault,Medium,Local Police,2026-02-08,Open
+C0158,Citizen158,9476766954,XXXX XXXX 9317,My car was stolen,Vehicle Theft,Medium,Local Police,2026-06-06,Open
+C0159,Citizen159,9785639408,XXXX XXXX 5654,Someone stole my bike,Theft,Medium,Local Police,2026-05-24,Open
+C0160,Citizen160,9177214890,XXXX XXXX 4680,Bank account hacked,Cyber Crime,High,Local Police,2026-06-23,Open
+C0161,Citizen161,9890582415,XXXX XXXX 7146,Online scam,Fraud,High,Local Police,2026-01-27,Open
+C0162,Citizen162,9263819206,XXXX XXXX 3422,My car was stolen,Vehicle Theft,Medium,Local Police,2026-03-18,Open
+C0163,Citizen163,9852839532,XXXX XXXX 2892,Neighbor attacked me,Assault,Medium,Local Police,2026-04-01,Open
+C0164,Citizen164,9867384297,XXXX XXXX 6793,Bank account hacked,Cyber Crime,High,Local Police,2026-02-25,Open
+C0165,Citizen165,9712877005,XXXX XXXX 9858,Online scam,Fraud,High,Local Police,2026-01-12,Open
+C0166,Citizen166,9266336007,XXXX XXXX 2301,My car was stolen,Vehicle Theft,Medium,Local Police,2026-05-20,Open
+C0167,Citizen167,9148109023,XXXX XXXX 5579,Someone stole my bike,Theft,Medium,Local Police,2026-01-11,Open
+C0168,Citizen168,9457887597,XXXX XXXX 1333,Someone stole my bike,Theft,Medium,Local Police,2026-02-18,Open
+C0169,Citizen169,9845303865,XXXX XXXX 1764,Neighbor attacked me,Assault,Medium,Local Police,2026-06-18,Open
+C0170,Citizen170,9764023626,XXXX XXXX 8492,Someone stole my bike,Theft,Medium,Local Police,2026-06-02,Open
+C0171,Citizen171,9452407498,XXXX XXXX 9716,My car was stolen,Vehicle Theft,Medium,Local Police,2026-04-14,Open
+C0172,Citizen172,9535807538,XXXX XXXX 3176,Someone stole my bike,Theft,Medium,Local Police,2026-02-24,Open
+C0173,Citizen173,9195641587,XXXX XXXX 3525,Online scam,Fraud,High,Local Police,2026-02-09,Open
+C0174,Citizen174,9584682851,XXXX XXXX 3634,Online scam,Fraud,High,Local Police,2026-02-15,Open
+C0175,Citizen175,9759564658,XXXX XXXX 3468,My car was stolen,Vehicle Theft,Medium,Local Police,2026-05-17,Open
+C0176,Citizen176,9619819264,XXXX XXXX 7426,My car was stolen,Vehicle Theft,Medium,Local Police,2026-01-08,Open
+C0177,Citizen177,9895866605,XXXX XXXX 5896,Someone stole my bike,Theft,Medium,Local Police,2026-05-17,Open
+C0178,Citizen178,9146028369,XXXX XXXX 4018,My car was stolen,Vehicle Theft,Medium,Local Police,2026-04-14,Open
+C0179,Citizen179,9934660383,XXXX XXXX 4621,Online scam,Fraud,High,Local Police,2026-05-02,Open
+C0180,Citizen180,9600516781,XXXX XXXX 8463,My car was stolen,Vehicle Theft,Medium,Local Police,2026-04-18,Open
+C0181,Citizen181,9449610660,XXXX XXXX 5472,Neighbor attacked me,Assault,Medium,Local Police,2026-02-17,Open
+C0182,Citizen182,9926156430,XXXX XXXX 6988,Online scam,Fraud,High,Local Police,2026-07-21,Open
+C0183,Citizen183,9753536175,XXXX XXXX 8811,Someone stole my bike,Theft,Medium,Local Police,2026-01-27,Open
+C0184,Citizen184,9118968695,XXXX XXXX 2598,Bank account hacked,Cyber Crime,High,Local Police,2026-02-14,Open
+C0185,Citizen185,9235551351,XXXX XXXX 8542,Online scam,Fraud,High,Local Police,2026-01-05,Open
+C0186,Citizen186,9991683719,XXXX XXXX 7961,Neighbor attacked me,Assault,Medium,Local Police,2026-06-05,Open
+C0187,Citizen187,9677751085,XXXX XXXX 9676,My car was stolen,Vehicle Theft,Medium,Local Police,2026-01-18,Open
+C0188,Citizen188,9408488866,XXXX XXXX 9126,Neighbor attacked me,Assault,Medium,Local Police,2026-01-12,Open
+C0189,Citizen189,9148074712,XXXX XXXX 9949,Bank account hacked,Cyber Crime,High,Local Police,2026-05-21,Open
+C0190,Citizen190,9749526268,XXXX XXXX 1499,Someone stole my bike,Theft,Medium,Local Police,2026-03-01,Open
+C0191,Citizen191,9165586327,XXXX XXXX 3179,My car was stolen,Vehicle Theft,Medium,Local Police,2026-07-07,Open
+C0192,Citizen192,9829625937,XXXX XXXX 2662,Bank account hacked,Cyber Crime,High,Local Police,2026-01-04,Open
+C0193,Citizen193,9474346653,XXXX XXXX 9453,Bank account hacked,Cyber Crime,High,Local Police,2026-02-05,Open
+C0194,Citizen194,9819310390,XXXX XXXX 9253,Someone stole my bike,Theft,Medium,Local Police,2026-07-02,Open
+C0195,Citizen195,9608106239,XXXX XXXX 6901,Someone stole my bike,Theft,Medium,Local Police,2026-01-09,Open
+C0196,Citizen196,9866095886,XXXX XXXX 2237,Someone stole my bike,Theft,Medium,Local Police,2026-07-12,Open
+C0197,Citizen197,9927587218,XXXX XXXX 1516,My car was stolen,Vehicle Theft,Medium,Local Police,2026-02-10,Open
+C0198,Citizen198,9159644199,XXXX XXXX 5754,Online scam,Fraud,High,Local Police,2026-03-25,Open
+C0199,Citizen199,9776559171,XXXX XXXX 2159,My car was stolen,Vehicle Theft,Medium,Local Police,2026-03-05,Open
+C0200,Citizen200,9238070209,XXXX XXXX 5856,Neighbor attacked me,Assault,Medium,Local Police,2026-02-19,Open
+C0201,Citizen201,9451649468,XXXX XXXX 2042,Neighbor attacked me,Assault,Medium,Local Police,2026-04-14,Open
+C0202,Citizen202,9573508324,XXXX XXXX 9103,Neighbor attacked me,Assault,Medium,Local Police,2026-04-15,Open
+C0203,Citizen203,9554446415,XXXX XXXX 6341,Neighbor attacked me,Assault,Medium,Local Police,2026-07-16,Open
+C0204,Citizen204,9995811025,XXXX XXXX 8670,Someone stole my bike,Theft,Medium,Local Police,2026-03-14,Open
+C0205,Citizen205,9448079984,XXXX XXXX 9904,Online scam,Fraud,High,Local Police,2026-01-19,Open
+C0206,Citizen206,9969942691,XXXX XXXX 2154,Online scam,Fraud,High,Local Police,2026-06-04,Open
+C0207,Citizen207,9387222544,XXXX XXXX 2950,Bank account hacked,Cyber Crime,High,Local Police,2026-05-28,Open
+C0208,Citizen208,9947649138,XXXX XXXX 5284,Neighbor attacked me,Assault,Medium,Local Police,2026-04-27,Open
+C0209,Citizen209,9289956948,XXXX XXXX 7268,Online scam,Fraud,High,Local Police,2026-04-07,Open
+C0210,Citizen210,9053967247,XXXX XXXX 9326,Someone stole my bike,Theft,Medium,Local Police,2026-03-08,Open
+C0211,Citizen211,9218623561,XXXX XXXX 8995,Online scam,Fraud,High,Local Police,2026-07-15,Open
+C0212,Citizen212,9054808753,XXXX XXXX 8927,Online scam,Fraud,High,Local Police,2026-07-13,Open
+C0213,Citizen213,9881435989,XXXX XXXX 7483,Someone stole my bike,Theft,Medium,Local Police,2026-02-14,Open
+C0214,Citizen214,9530031714,XXXX XXXX 7379,Online scam,Fraud,High,Local Police,2026-01-21,Open
+C0215,Citizen215,9943973575,XXXX XXXX 3396,Bank account hacked,Cyber Crime,High,Local Police,2026-01-16,Open
+C0216,Citizen216,9686718160,XXXX XXXX 2477,Bank account hacked,Cyber Crime,High,Local Police,2026-06-27,Open
+C0217,Citizen217,9656696959,XXXX XXXX 3222,Someone stole my bike,Theft,Medium,Local Police,2026-02-27,Open
+C0218,Citizen218,9468039023,XXXX XXXX 4799,Someone stole my bike,Theft,Medium,Local Police,2026-06-25,Open
+C0219,Citizen219,9743467494,XXXX XXXX 4255,Someone stole my bike,Theft,Medium,Local Police,2026-07-16,Open
+C0220,Citizen220,9409810854,XXXX XXXX 4695,Online scam,Fraud,High,Local Police,2026-05-05,Open
+C0221,Citizen221,9698041442,XXXX XXXX 1346,Neighbor attacked me,Assault,Medium,Local Police,2026-01-07,Open
+C0222,Citizen222,9253406286,XXXX XXXX 3152,My car was stolen,Vehicle Theft,Medium,Local Police,2026-02-03,Open
+C0223,Citizen223,9342850342,XXXX XXXX 7750,Someone stole my bike,Theft,Medium,Local Police,2026-02-27,Open
+C0224,Citizen224,9905467196,XXXX XXXX 5416,Someone stole my bike,Theft,Medium,Local Police,2026-06-28,Open
+C0225,Citizen225,9860852787,XXXX XXXX 3388,My car was stolen,Vehicle Theft,Medium,Local Police,2026-03-07,Open
+C0226,Citizen226,9937029728,XXXX XXXX 4521,Neighbor attacked me,Assault,Medium,Local Police,2026-02-01,Open
+C0227,Citizen227,9216650417,XXXX XXXX 6594,Online scam,Fraud,High,Local Police,2026-02-11,Open
+C0228,Citizen228,9231562808,XXXX XXXX 8593,Online scam,Fraud,High,Local Police,2026-01-18,Open
+C0229,Citizen229,9605713803,XXXX XXXX 2210,My car was stolen,Vehicle Theft,Medium,Local Police,2026-05-14,Open
+C0230,Citizen230,9025229751,XXXX XXXX 5070,My car was stolen,Vehicle Theft,Medium,Local Police,2026-02-09,Open
+C0231,Citizen231,9663873543,XXXX XXXX 4960,Online scam,Fraud,High,Local Police,2026-01-26,Open
+C0232,Citizen232,9074561118,XXXX XXXX 5487,My car was stolen,Vehicle Theft,Medium,Local Police,2026-01-07,Open
+C0233,Citizen233,9295793734,XXXX XXXX 1109,Someone stole my bike,Theft,Medium,Local Police,2026-06-19,Open
+C0234,Citizen234,9108623036,XXXX XXXX 3166,Neighbor attacked me,Assault,Medium,Local Police,2026-07-04,Open
+C0235,Citizen235,9658891592,XXXX XXXX 1468,Online scam,Fraud,High,Local Police,2026-05-06,Open
+C0236,Citizen236,9174213778,XXXX XXXX 5731,Neighbor attacked me,Assault,Medium,Local Police,2026-06-26,Open
+C0237,Citizen237,9256492410,XXXX XXXX 2862,Neighbor attacked me,Assault,Medium,Local Police,2026-02-19,Open
+C0238,Citizen238,9866384664,XXXX XXXX 9743,My car was stolen,Vehicle Theft,Medium,Local Police,2026-01-23,Open
+C0239,Citizen239,9285528166,XXXX XXXX 7535,Bank account hacked,Cyber Crime,High,Local Police,2026-04-10,Open
+C0240,Citizen240,9474677324,XXXX XXXX 8989,Neighbor attacked me,Assault,Medium,Local Police,2026-07-13,Open
+C0241,Citizen241,9973536475,XXXX XXXX 1631,Bank account hacked,Cyber Crime,High,Local Police,2026-07-20,Open
+C0242,Citizen242,9699961397,XXXX XXXX 3168,Neighbor attacked me,Assault,Medium,Local Police,2026-07-11,Open
+C0243,Citizen243,9382648715,XXXX XXXX 5351,Neighbor attacked me,Assault,Medium,Local Police,2026-05-22,Open
+C0244,Citizen244,9601183100,XXXX XXXX 5108,Neighbor attacked me,Assault,Medium,Local Police,2026-07-04,Open
+C0245,Citizen245,9238800909,XXXX XXXX 8065,Bank account hacked,Cyber Crime,High,Local Police,2026-07-04,Open
+C0246,Citizen246,9261471336,XXXX XXXX 7109,Bank account hacked,Cyber Crime,High,Local Police,2026-03-21,Open
+C0247,Citizen247,9700959993,XXXX XXXX 9583,Bank account hacked,Cyber Crime,High,Local Police,2026-06-28,Open
+C0248,Citizen248,9560882812,XXXX XXXX 9134,My car was stolen,Vehicle Theft,Medium,Local Police,2026-01-11,Open
+C0249,Citizen249,9511597500,XXXX XXXX 8529,Neighbor attacked me,Assault,Medium,Local Police,2026-07-12,Open
+C0250,Citizen250,9938553951,XXXX XXXX 2486,Bank account hacked,Cyber Crime,High,Local Police,2026-05-09,Open
+C0251,Citizen251,9261915273,XXXX XXXX 8237,My car was stolen,Vehicle Theft,Medium,Local Police,2026-04-23,Open
+C0252,Citizen252,9471978372,XXXX XXXX 3933,Online scam,Fraud,High,Local Police,2026-04-15,Open
+C0253,Citizen253,9520776619,XXXX XXXX 1722,My car was stolen,Vehicle Theft,Medium,Local Police,2026-01-28,Open
+C0254,Citizen254,9260705288,XXXX XXXX 3124,Online scam,Fraud,High,Local Police,2026-07-28,Open
+C0255,Citizen255,9945203604,XXXX XXXX 4886,My car was stolen,Vehicle Theft,Medium,Local Police,2026-02-07,Open
+C0256,Citizen256,9330552984,XXXX XXXX 8462,Bank account hacked,Cyber Crime,High,Local Police,2026-07-12,Open
+C0257,Citizen257,9544826245,XXXX XXXX 3615,Someone stole my bike,Theft,Medium,Local Police,2026-05-19,Open
+C0258,Citizen258,9978336559,XXXX XXXX 7703,My car was stolen,Vehicle Theft,Medium,Local Police,2026-04-09,Open
+C0259,Citizen259,9093197625,XXXX XXXX 6582,Bank account hacked,Cyber Crime,High,Local Police,2026-01-12,Open
+C0260,Citizen260,9678056806,XXXX XXXX 4122,Online scam,Fraud,High,Local Police,2026-03-23,Open
+C0261,Citizen261,9956347955,XXXX XXXX 1710,My car was stolen,Vehicle Theft,Medium,Local Police,2026-07-18,Open
+C0262,Citizen262,9853889863,XXXX XXXX 9765,Bank account hacked,Cyber Crime,High,Local Police,2026-03-24,Open
+C0263,Citizen263,9924633571,XXXX XXXX 4712,Bank account hacked,Cyber Crime,High,Local Police,2026-03-17,Open
+C0264,Citizen264,9313298183,XXXX XXXX 2443,My car was stolen,Vehicle Theft,Medium,Local Police,2026-07-07,Open
+C0265,Citizen265,9539508348,XXXX XXXX 4869,Bank account hacked,Cyber Crime,High,Local Police,2026-05-07,Open
+C0266,Citizen266,9717336670,XXXX XXXX 4683,Someone stole my bike,Theft,Medium,Local Police,2026-03-22,Open
+C0267,Citizen267,9939190470,XXXX XXXX 7382,My car was stolen,Vehicle Theft,Medium,Local Police,2026-02-02,Open
+C0268,Citizen268,9669747518,XXXX XXXX 3697,Neighbor attacked me,Assault,Medium,Local Police,2026-07-15,Open
+C0269,Citizen269,9812068347,XXXX XXXX 3662,Neighbor attacked me,Assault,Medium,Local Police,2026-06-06,Open
+C0270,Citizen270,9023015355,XXXX XXXX 3473,My car was stolen,Vehicle Theft,Medium,Local Police,2026-04-18,Open
+C0271,Citizen271,9403373440,XXXX XXXX 3058,Someone stole my bike,Theft,Medium,Local Police,2026-02-17,Open
+C0272,Citizen272,9104171159,XXXX XXXX 8440,Someone stole my bike,Theft,Medium,Local Police,2026-04-13,Open
+C0273,Citizen273,9062971038,XXXX XXXX 8354,Neighbor attacked me,Assault,Medium,Local Police,2026-07-18,Open
+C0274,Citizen274,9494722683,XXXX XXXX 6192,Bank account hacked,Cyber Crime,High,Local Police,2026-06-13,Open
+C0275,Citizen275,9121447596,XXXX XXXX 7826,Someone stole my bike,Theft,Medium,Local Police,2026-03-20,Open
+C0276,Citizen276,9706388247,XXXX XXXX 6166,Neighbor attacked me,Assault,Medium,Local Police,2026-03-04,Open
+C0277,Citizen277,9918042170,XXXX XXXX 7561,My car was stolen,Vehicle Theft,Medium,Local Police,2026-01-22,Open
+C0278,Citizen278,9500477281,XXXX XXXX 8202,Neighbor attacked me,Assault,Medium,Local Police,2026-07-10,Open
+C0279,Citizen279,9625869158,XXXX XXXX 6791,My car was stolen,Vehicle Theft,Medium,Local Police,2026-06-25,Open
+C0280,Citizen280,9130290250,XXXX XXXX 4411,Online scam,Fraud,High,Local Police,2026-05-13,Open
+C0281,Citizen281,9011837279,XXXX XXXX 2852,Someone stole my bike,Theft,Medium,Local Police,2026-07-28,Open
+C0282,Citizen282,9005841381,XXXX XXXX 4134,Bank account hacked,Cyber Crime,High,Local Police,2026-03-28,Open
+C0283,Citizen283,9916956970,XXXX XXXX 8762,Someone stole my bike,Theft,Medium,Local Police,2026-03-24,Open
+C0284,Citizen284,9415820028,XXXX XXXX 3628,Online scam,Fraud,High,Local Police,2026-05-09,Open
+C0285,Citizen285,9054908517,XXXX XXXX 8947,Someone stole my bike,Theft,Medium,Local Police,2026-04-04,Open
+C0286,Citizen286,9979889287,XXXX XXXX 4241,Someone stole my bike,Theft,Medium,Local Police,2026-03-16,Open
+C0287,Citizen287,9694315353,XXXX XXXX 4366,Bank account hacked,Cyber Crime,High,Local Police,2026-05-16,Open
+C0288,Citizen288,9809241975,XXXX XXXX 3665,Online scam,Fraud,High,Local Police,2026-03-02,Open
+C0289,Citizen289,9438851602,XXXX XXXX 4117,Someone stole my bike,Theft,Medium,Local Police,2026-07-28,Open
+C0290,Citizen290,9246375407,XXXX XXXX 9002,Neighbor attacked me,Assault,Medium,Local Police,2026-03-10,Open
+C0291,Citizen291,9476399928,XXXX XXXX 8424,Neighbor attacked me,Assault,Medium,Local Police,2026-06-04,Open
+C0292,Citizen292,9617240239,XXXX XXXX 9868,Neighbor attacked me,Assault,Medium,Local Police,2026-05-17,Open
+C0293,Citizen293,9421699557,XXXX XXXX 2531,Someone stole my bike,Theft,Medium,Local Police,2026-06-27,Open
+C0294,Citizen294,9753086788,XXXX XXXX 3524,Someone stole my bike,Theft,Medium,Local Police,2026-07-05,Open
+C0295,Citizen295,9245746506,XXXX XXXX 9499,Someone stole my bike,Theft,Medium,Local Police,2026-07-10,Open
+C0296,Citizen296,9598768509,XXXX XXXX 6284,Online scam,Fraud,High,Local Police,2026-03-24,Open
+C0297,Citizen297,9372850836,XXXX XXXX 8853,Someone stole my bike,Theft,Medium,Local Police,2026-07-27,Open
+C0298,Citizen298,9531508407,XXXX XXXX 4469,My car was stolen,Vehicle Theft,Medium,Local Police,2026-06-10,Open
+C0299,Citizen299,9948802329,XXXX XXXX 7965,Someone stole my bike,Theft,Medium,Local Police,2026-03-14,Open
+C0300,Citizen300,9142744410,XXXX XXXX 1679,Bank account hacked,Cyber Crime,High,Local Police,2026-06-08,Open
+C0301,Citizen301,9780786331,XXXX XXXX 4804,Someone stole my bike,Theft,Medium,Local Police,2026-05-11,Open
+C0302,Citizen302,9776576987,XXXX XXXX 8089,Neighbor attacked me,Assault,Medium,Local Police,2026-07-02,Open
+C0303,Citizen303,9980567588,XXXX XXXX 5903,Someone stole my bike,Theft,Medium,Local Police,2026-06-18,Open
+C0304,Citizen304,9708549119,XXXX XXXX 9813,Online scam,Fraud,High,Local Police,2026-07-25,Open
+C0305,Citizen305,9212899127,XXXX XXXX 5175,Bank account hacked,Cyber Crime,High,Local Police,2026-07-05,Open
+C0306,Citizen306,9871601166,XXXX XXXX 7971,Neighbor attacked me,Assault,Medium,Local Police,2026-01-03,Open
+C0307,Citizen307,9798398513,XXXX XXXX 6753,Bank account hacked,Cyber Crime,High,Local Police,2026-01-18,Open
+C0308,Citizen308,9567918468,XXXX XXXX 5706,Someone stole my bike,Theft,Medium,Local Police,2026-07-10,Open
+C0309,Citizen309,9984968641,XXXX XXXX 9980,Online scam,Fraud,High,Local Police,2026-02-11,Open
+C0310,Citizen310,9500749225,XXXX XXXX 7251,My car was stolen,Vehicle Theft,Medium,Local Police,2026-03-25,Open
+C0311,Citizen311,9247817955,XXXX XXXX 9744,Online scam,Fraud,High,Local Police,2026-06-22,Open
+C0312,Citizen312,9534991977,XXXX XXXX 6691,My car was stolen,Vehicle Theft,Medium,Local Police,2026-07-09,Open
+C0313,Citizen313,9415086005,XXXX XXXX 7223,Neighbor attacked me,Assault,Medium,Local Police,2026-03-13,Open
+C0314,Citizen314,9455600281,XXXX XXXX 1360,My car was stolen,Vehicle Theft,Medium,Local Police,2026-07-16,Open
+C0315,Citizen315,9645924722,XXXX XXXX 8712,Bank account hacked,Cyber Crime,High,Local Police,2026-06-08,Open
+C0316,Citizen316,9415825665,XXXX XXXX 8536,My car was stolen,Vehicle Theft,Medium,Local Police,2026-06-23,Open
+C0317,Citizen317,9576925225,XXXX XXXX 5687,Someone stole my bike,Theft,Medium,Local Police,2026-04-13,Open
+C0318,Citizen318,9092820025,XXXX XXXX 9600,Bank account hacked,Cyber Crime,High,Local Police,2026-01-04,Open
+C0319,Citizen319,9366269354,XXXX XXXX 1041,Online scam,Fraud,High,Local Police,2026-02-26,Open
+C0320,Citizen320,9131997281,XXXX XXXX 6001,Someone stole my bike,Theft,Medium,Local Police,2026-03-12,Open
+C0321,Citizen321,9867371137,XXXX XXXX 7925,Online scam,Fraud,High,Local Police,2026-04-13,Open
+C0322,Citizen322,9604746914,XXXX XXXX 7213,Bank account hacked,Cyber Crime,High,Local Police,2026-03-26,Open
+C0323,Citizen323,9868371710,XXXX XXXX 9816,Online scam,Fraud,High,Local Police,2026-06-14,Open
+C0324,Citizen324,9830768141,XXXX XXXX 7861,Neighbor attacked me,Assault,Medium,Local Police,2026-02-12,Open
+C0325,Citizen325,9008240564,XXXX XXXX 1619,Bank account hacked,Cyber Crime,High,Local Police,2026-07-15,Open
+C0326,Citizen326,9087581561,XXXX XXXX 1996,Bank account hacked,Cyber Crime,High,Local Police,2026-06-08,Open
+C0327,Citizen327,9758873786,XXXX XXXX 6795,My car was stolen,Vehicle Theft,Medium,Local Police,2026-07-22,Open
+C0328,Citizen328,9906889942,XXXX XXXX 1065,Bank account hacked,Cyber Crime,High,Local Police,2026-07-10,Open
+C0329,Citizen329,9453434235,XXXX XXXX 1152,Online scam,Fraud,High,Local Police,2026-02-13,Open
+C0330,Citizen330,9978896927,XXXX XXXX 2035,Online scam,Fraud,High,Local Police,2026-03-03,Open
+C0331,Citizen331,9272925699,XXXX XXXX 9250,Neighbor attacked me,Assault,Medium,Local Police,2026-01-09,Open
+C0332,Citizen332,9694959260,XXXX XXXX 7675,Neighbor attacked me,Assault,Medium,Local Police,2026-07-05,Open
+C0333,Citizen333,9075512916,XXXX XXXX 5375,Someone stole my bike,Theft,Medium,Local Police,2026-05-03,Open
+C0334,Citizen334,9408385124,XXXX XXXX 2740,Neighbor attacked me,Assault,Medium,Local Police,2026-07-28,Open
+C0335,Citizen335,9802302409,XXXX XXXX 2139,Bank account hacked,Cyber Crime,High,Local Police,2026-07-15,Open
+C0336,Citizen336,9006116133,XXXX XXXX 7570,My car was stolen,Vehicle Theft,Medium,Local Police,2026-05-26,Open
+C0337,Citizen337,9754265430,XXXX XXXX 7511,Neighbor attacked me,Assault,Medium,Local Police,2026-05-06,Open
+C0338,Citizen338,9217686524,XXXX XXXX 1713,Online scam,Fraud,High,Local Police,2026-04-05,Open
+C0339,Citizen339,9015856115,XXXX XXXX 3352,Bank account hacked,Cyber Crime,High,Local Police,2026-04-10,Open
+C0340,Citizen340,9934625830,XXXX XXXX 9052,Neighbor attacked me,Assault,Medium,Local Police,2026-02-02,Open
+C0341,Citizen341,9577097519,XXXX XXXX 8608,Someone stole my bike,Theft,Medium,Local Police,2026-03-05,Open
+C0342,Citizen342,9403795226,XXXX XXXX 9817,My car was stolen,Vehicle Theft,Medium,Local Police,2026-06-13,Open
+C0343,Citizen343,9194821375,XXXX XXXX 6364,Neighbor attacked me,Assault,Medium,Local Police,2026-03-02,Open
+C0344,Citizen344,9866339320,XXXX XXXX 4263,Online scam,Fraud,High,Local Police,2026-01-11,Open
+C0345,Citizen345,9000554640,XXXX XXXX 6185,Bank account hacked,Cyber Crime,High,Local Police,2026-06-09,Open
+C0346,Citizen346,9881023185,XXXX XXXX 5391,Someone stole my bike,Theft,Medium,Local Police,2026-04-22,Open
+C0347,Citizen347,9714746012,XXXX XXXX 6979,Online scam,Fraud,High,Local Police,2026-06-28,Open
+C0348,Citizen348,9184648562,XXXX XXXX 7934,Someone stole my bike,Theft,Medium,Local Police,2026-07-21,Open
+C0349,Citizen349,9483046338,XXXX XXXX 6435,Neighbor attacked me,Assault,Medium,Local Police,2026-02-24,Open
+C0350,Citizen350,9743101570,XXXX XXXX 8576,Online scam,Fraud,High,Local Police,2026-05-02,Open
+C0351,Citizen351,9997857738,XXXX XXXX 8961,Someone stole my bike,Theft,Medium,Local Police,2026-04-23,Open
+C0352,Citizen352,9461389167,XXXX XXXX 7728,Bank account hacked,Cyber Crime,High,Local Police,2026-04-12,Open
+C0353,Citizen353,9824798488,XXXX XXXX 2602,My car was stolen,Vehicle Theft,Medium,Local Police,2026-05-12,Open
+C0354,Citizen354,9372601333,XXXX XXXX 4438,Bank account hacked,Cyber Crime,High,Local Police,2026-03-22,Open
+C0355,Citizen355,9862304001,XXXX XXXX 5116,Someone stole my bike,Theft,Medium,Local Police,2026-07-15,Open
+C0356,Citizen356,9449497410,XXXX XXXX 5021,My car was stolen,Vehicle Theft,Medium,Local Police,2026-01-07,Open
+C0357,Citizen357,9594174571,XXXX XXXX 9258,Neighbor attacked me,Assault,Medium,Local Police,2026-02-12,Open
+C0358,Citizen358,9838053747,XXXX XXXX 8543,My car was stolen,Vehicle Theft,Medium,Local Police,2026-04-25,Open
+C0359,Citizen359,9399972190,XXXX XXXX 2552,Someone stole my bike,Theft,Medium,Local Police,2026-01-06,Open
+C0360,Citizen360,9999967742,XXXX XXXX 9515,My car was stolen,Vehicle Theft,Medium,Local Police,2026-03-08,Open
+C0361,Citizen361,9401349311,XXXX XXXX 9770,Someone stole my bike,Theft,Medium,Local Police,2026-03-26,Open
+C0362,Citizen362,9359430677,XXXX XXXX 9899,Online scam,Fraud,High,Local Police,2026-06-27,Open
+C0363,Citizen363,9796639962,XXXX XXXX 8688,Neighbor attacked me,Assault,Medium,Local Police,2026-04-26,Open
+C0364,Citizen364,9477248126,XXXX XXXX 3445,Someone stole my bike,Theft,Medium,Local Police,2026-04-24,Open
+C0365,Citizen365,9647049890,XXXX XXXX 8954,Someone stole my bike,Theft,Medium,Local Police,2026-07-21,Open
+C0366,Citizen366,9226241842,XXXX XXXX 9374,My car was stolen,Vehicle Theft,Medium,Local Police,2026-03-16,Open
+C0367,Citizen367,9169623106,XXXX XXXX 4447,Bank account hacked,Cyber Crime,High,Local Police,2026-06-02,Open
+C0368,Citizen368,9977518470,XXXX XXXX 3058,Bank account hacked,Cyber Crime,High,Local Police,2026-01-20,Open
+C0369,Citizen369,9031662274,XXXX XXXX 6660,Someone stole my bike,Theft,Medium,Local Police,2026-04-13,Open
+C0370,Citizen370,9714444305,XXXX XXXX 5882,Bank account hacked,Cyber Crime,High,Local Police,2026-02-06,Open
+C0371,Citizen371,9624914396,XXXX XXXX 5288,Someone stole my bike,Theft,Medium,Local Police,2026-02-27,Open
+C0372,Citizen372,9854284724,XXXX XXXX 4904,Someone stole my bike,Theft,Medium,Local Police,2026-02-23,Open
+C0373,Citizen373,9815391284,XXXX XXXX 9510,My car was stolen,Vehicle Theft,Medium,Local Police,2026-01-28,Open
+C0374,Citizen374,9345649343,XXXX XXXX 2256,My car was stolen,Vehicle Theft,Medium,Local Police,2026-04-21,Open
+C0375,Citizen375,9554171272,XXXX XXXX 4928,Online scam,Fraud,High,Local Police,2026-03-18,Open
+C0376,Citizen376,9917172778,XXXX XXXX 3505,Neighbor attacked me,Assault,Medium,Local Police,2026-06-11,Open
+C0377,Citizen377,9667866471,XXXX XXXX 7242,Bank account hacked,Cyber Crime,High,Local Police,2026-04-24,Open
+C0378,Citizen378,9941378029,XXXX XXXX 6577,My car was stolen,Vehicle Theft,Medium,Local Police,2026-03-07,Open
+C0379,Citizen379,9212116312,XXXX XXXX 6059,Bank account hacked,Cyber Crime,High,Local Police,2026-03-20,Open
+C0380,Citizen380,9231310654,XXXX XXXX 5812,Someone stole my bike,Theft,Medium,Local Police,2026-06-14,Open
+C0381,Citizen381,9671322147,XXXX XXXX 1826,Online scam,Fraud,High,Local Police,2026-02-10,Open
+C0382,Citizen382,9372557062,XXXX XXXX 8130,My car was stolen,Vehicle Theft,Medium,Local Police,2026-04-18,Open
+C0383,Citizen383,9502023363,XXXX XXXX 7950,Neighbor attacked me,Assault,Medium,Local Police,2026-03-10,Open
+C0384,Citizen384,9922947175,XXXX XXXX 9853,Bank account hacked,Cyber Crime,High,Local Police,2026-01-06,Open
+C0385,Citizen385,9917883140,XXXX XXXX 3214,Bank account hacked,Cyber Crime,High,Local Police,2026-05-17,Open
+C0386,Citizen386,9270851036,XXXX XXXX 9363,Online scam,Fraud,High,Local Police,2026-07-11,Open
+C0387,Citizen387,9773713396,XXXX XXXX 7330,Bank account hacked,Cyber Crime,High,Local Police,2026-01-01,Open
+C0388,Citizen388,9298682281,XXXX XXXX 7928,Neighbor attacked me,Assault,Medium,Local Police,2026-03-07,Open
+C0389,Citizen389,9670819358,XXXX XXXX 4189,Someone stole my bike,Theft,Medium,Local Police,2026-04-05,Open
+C0390,Citizen390,9484195019,XXXX XXXX 7878,Online scam,Fraud,High,Local Police,2026-06-15,Open
+C0391,Citizen391,9699174414,XXXX XXXX 2001,Bank account hacked,Cyber Crime,High,Local Police,2026-01-02,Open
+C0392,Citizen392,9952141633,XXXX XXXX 8117,Neighbor attacked me,Assault,Medium,Local Police,2026-06-22,Open
+C0393,Citizen393,9954704079,XXXX XXXX 9911,Online scam,Fraud,High,Local Police,2026-06-28,Open
+C0394,Citizen394,9698773821,XXXX XXXX 9547,My car was stolen,Vehicle Theft,Medium,Local Police,2026-07-05,Open
+C0395,Citizen395,9847062346,XXXX XXXX 7652,Online scam,Fraud,High,Local Police,2026-07-13,Open
+C0396,Citizen396,9771159869,XXXX XXXX 4991,Online scam,Fraud,High,Local Police,2026-01-17,Open
+C0397,Citizen397,9826980701,XXXX XXXX 7108,Bank account hacked,Cyber Crime,High,Local Police,2026-06-05,Open
+C0398,Citizen398,9776699653,XXXX XXXX 3218,My car was stolen,Vehicle Theft,Medium,Local Police,2026-06-03,Open
+C0399,Citizen399,9202665121,XXXX XXXX 4457,Neighbor attacked me,Assault,Medium,Local Police,2026-04-21,Open
+C0400,Citizen400,9754484605,XXXX XXXX 2536,Someone stole my bike,Theft,Medium,Local Police,2026-04-16,Open
+C0401,Citizen401,9783131619,XXXX XXXX 2325,Someone stole my bike,Theft,Medium,Local Police,2026-06-04,Open
+C0402,Citizen402,9118434730,XXXX XXXX 2272,Neighbor attacked me,Assault,Medium,Local Police,2026-02-09,Open
+C0403,Citizen403,9030975376,XXXX XXXX 7066,Neighbor attacked me,Assault,Medium,Local Police,2026-07-11,Open
+C0404,Citizen404,9469079565,XXXX XXXX 5262,Bank account hacked,Cyber Crime,High,Local Police,2026-02-13,Open
+C0405,Citizen405,9815871366,XXXX XXXX 1347,Online scam,Fraud,High,Local Police,2026-01-06,Open
+C0406,Citizen406,9633991565,XXXX XXXX 1207,My car was stolen,Vehicle Theft,Medium,Local Police,2026-05-05,Open
+C0407,Citizen407,9464723895,XXXX XXXX 5003,Online scam,Fraud,High,Local Police,2026-06-19,Open
+C0408,Citizen408,9562531448,XXXX XXXX 8571,Neighbor attacked me,Assault,Medium,Local Police,2026-05-08,Open
+C0409,Citizen409,9890103774,XXXX XXXX 8344,My car was stolen,Vehicle Theft,Medium,Local Police,2026-02-20,Open
+C0410,Citizen410,9016739253,XXXX XXXX 2867,Online scam,Fraud,High,Local Police,2026-04-17,Open
+C0411,Citizen411,9207996043,XXXX XXXX 8502,My car was stolen,Vehicle Theft,Medium,Local Police,2026-04-27,Open
+C0412,Citizen412,9705339002,XXXX XXXX 6163,Online scam,Fraud,High,Local Police,2026-03-28,Open
+C0413,Citizen413,9392122999,XXXX XXXX 4776,Online scam,Fraud,High,Local Police,2026-07-01,Open
+C0414,Citizen414,9772559378,XXXX XXXX 8332,Bank account hacked,Cyber Crime,High,Local Police,2026-02-01,Open
+C0415,Citizen415,9464486587,XXXX XXXX 8546,Bank account hacked,Cyber Crime,High,Local Police,2026-06-21,Open
+C0416,Citizen416,9965838228,XXXX XXXX 5943,My car was stolen,Vehicle Theft,Medium,Local Police,2026-03-22,Open
+C0417,Citizen417,9178128008,XXXX XXXX 5459,Bank account hacked,Cyber Crime,High,Local Police,2026-06-22,Open
+C0418,Citizen418,9866124741,XXXX XXXX 5547,Bank account hacked,Cyber Crime,High,Local Police,2026-01-17,Open
+C0419,Citizen419,9838042178,XXXX XXXX 5057,Bank account hacked,Cyber Crime,High,Local Police,2026-03-17,Open
+C0420,Citizen420,9031493889,XXXX XXXX 2786,Someone stole my bike,Theft,Medium,Local Police,2026-03-25,Open
+C0421,Citizen421,9930759878,XXXX XXXX 1009,Someone stole my bike,Theft,Medium,Local Police,2026-05-10,Open
+C0422,Citizen422,9493139783,XXXX XXXX 7883,My car was stolen,Vehicle Theft,Medium,Local Police,2026-06-11,Open
+C0423,Citizen423,9884450563,XXXX XXXX 1904,Online scam,Fraud,High,Local Police,2026-07-08,Open
+C0424,Citizen424,9068518842,XXXX XXXX 8467,Online scam,Fraud,High,Local Police,2026-07-25,Open
+C0425,Citizen425,9279518051,XXXX XXXX 2544,My car was stolen,Vehicle Theft,Medium,Local Police,2026-01-05,Open
+C0426,Citizen426,9316215821,XXXX XXXX 1327,Bank account hacked,Cyber Crime,High,Local Police,2026-02-25,Open
+C0427,Citizen427,9853827171,XXXX XXXX 7407,Bank account hacked,Cyber Crime,High,Local Police,2026-02-19,Open
+C0428,Citizen428,9929203386,XXXX XXXX 9321,Online scam,Fraud,High,Local Police,2026-03-07,Open
+C0429,Citizen429,9749151133,XXXX XXXX 7153,My car was stolen,Vehicle Theft,Medium,Local Police,2026-05-05,Open
+C0430,Citizen430,9191235615,XXXX XXXX 2543,Online scam,Fraud,High,Local Police,2026-05-25,Open
+C0431,Citizen431,9761223094,XXXX XXXX 9070,Someone stole my bike,Theft,Medium,Local Police,2026-06-13,Open
+C0432,Citizen432,9011399978,XXXX XXXX 4845,Neighbor attacked me,Assault,Medium,Local Police,2026-06-10,Open
+C0433,Citizen433,9937814317,XXXX XXXX 4439,Bank account hacked,Cyber Crime,High,Local Police,2026-01-24,Open
+C0434,Citizen434,9715463981,XXXX XXXX 6101,Online scam,Fraud,High,Local Police,2026-07-04,Open
+C0435,Citizen435,9538562453,XXXX XXXX 9335,Online scam,Fraud,High,Local Police,2026-01-25,Open
+C0436,Citizen436,9403784619,XXXX XXXX 6777,My car was stolen,Vehicle Theft,Medium,Local Police,2026-02-08,Open
+C0437,Citizen437,9720933490,XXXX XXXX 3757,Bank account hacked,Cyber Crime,High,Local Police,2026-05-09,Open
+C0438,Citizen438,9400722823,XXXX XXXX 8311,Bank account hacked,Cyber Crime,High,Local Police,2026-03-03,Open
+C0439,Citizen439,9557365065,XXXX XXXX 3906,Bank account hacked,Cyber Crime,High,Local Police,2026-02-24,Open
+C0440,Citizen440,9789990996,XXXX XXXX 8254,Online scam,Fraud,High,Local Police,2026-02-19,Open
+C0441,Citizen441,9762785830,XXXX XXXX 1700,Online scam,Fraud,High,Local Police,2026-07-19,Open
+C0442,Citizen442,9477567354,XXXX XXXX 4370,My car was stolen,Vehicle Theft,Medium,Local Police,2026-04-25,Open
+C0443,Citizen443,9885116565,XXXX XXXX 6813,My car was stolen,Vehicle Theft,Medium,Local Police,2026-03-27,Open
+C0444,Citizen444,9382917437,XXXX XXXX 9684,Bank account hacked,Cyber Crime,High,Local Police,2026-03-21,Open
+C0445,Citizen445,9523872798,XXXX XXXX 9760,Someone stole my bike,Theft,Medium,Local Police,2026-01-17,Open
+C0446,Citizen446,9489525643,XXXX XXXX 2166,Neighbor attacked me,Assault,Medium,Local Police,2026-02-19,Open
+C0447,Citizen447,9510566580,XXXX XXXX 7388,Bank account hacked,Cyber Crime,High,Local Police,2026-04-06,Open
+C0448,Citizen448,9661820285,XXXX XXXX 7163,Neighbor attacked me,Assault,Medium,Local Police,2026-03-12,Open
+C0449,Citizen449,9558058411,XXXX XXXX 5828,My car was stolen,Vehicle Theft,Medium,Local Police,2026-04-28,Open
+C0450,Citizen450,9647546068,XXXX XXXX 4889,Bank account hacked,Cyber Crime,High,Local Police,2026-05-17,Open
+C0451,Citizen451,9882048983,XXXX XXXX 5448,Bank account hacked,Cyber Crime,High,Local Police,2026-02-24,Open
+C0452,Citizen452,9831259634,XXXX XXXX 7650,Neighbor attacked me,Assault,Medium,Local Police,2026-07-18,Open
+C0453,Citizen453,9540916305,XXXX XXXX 1461,Neighbor attacked me,Assault,Medium,Local Police,2026-07-24,Open
+C0454,Citizen454,9030081828,XXXX XXXX 7801,Online scam,Fraud,High,Local Police,2026-03-07,Open
+C0455,Citizen455,9061063688,XXXX XXXX 2628,Online scam,Fraud,High,Local Police,2026-06-23,Open
+C0456,Citizen456,9515738936,XXXX XXXX 8541,Online scam,Fraud,High,Local Police,2026-04-03,Open
+C0457,Citizen457,9845380645,XXXX XXXX 3176,Someone stole my bike,Theft,Medium,Local Police,2026-04-18,Open
+C0458,Citizen458,9581588335,XXXX XXXX 2369,Neighbor attacked me,Assault,Medium,Local Police,2026-05-09,Open
+C0459,Citizen459,9232125859,XXXX XXXX 3427,Someone stole my bike,Theft,Medium,Local Police,2026-06-12,Open
+C0460,Citizen460,9645995963,XXXX XXXX 8022,Online scam,Fraud,High,Local Police,2026-03-05,Open
+C0461,Citizen461,9852708450,XXXX XXXX 7191,My car was stolen,Vehicle Theft,Medium,Local Police,2026-07-28,Open
+C0462,Citizen462,9166029529,XXXX XXXX 3654,Online scam,Fraud,High,Local Police,2026-06-04,Open
+C0463,Citizen463,9997087485,XXXX XXXX 3006,Neighbor attacked me,Assault,Medium,Local Police,2026-05-08,Open
+C0464,Citizen464,9846194547,XXXX XXXX 6388,Someone stole my bike,Theft,Medium,Local Police,2026-05-27,Open
+C0465,Citizen465,9589778650,XXXX XXXX 4143,Bank account hacked,Cyber Crime,High,Local Police,2026-04-08,Open
+C0466,Citizen466,9589266496,XXXX XXXX 1223,Online scam,Fraud,High,Local Police,2026-06-20,Open
+C0467,Citizen467,9020806829,XXXX XXXX 6535,Someone stole my bike,Theft,Medium,Local Police,2026-02-12,Open
+C0468,Citizen468,9256239911,XXXX XXXX 1023,Neighbor attacked me,Assault,Medium,Local Police,2026-05-20,Open
+C0469,Citizen469,9105800505,XXXX XXXX 4454,Online scam,Fraud,High,Local Police,2026-04-06,Open
+C0470,Citizen470,9077880579,XXXX XXXX 8453,Someone stole my bike,Theft,Medium,Local Police,2026-05-12,Open
+C0471,Citizen471,9806957531,XXXX XXXX 7546,Bank account hacked,Cyber Crime,High,Local Police,2026-04-08,Open
+C0472,Citizen472,9602877556,XXXX XXXX 3011,Neighbor attacked me,Assault,Medium,Local Police,2026-06-15,Open
+C0473,Citizen473,9830289844,XXXX XXXX 3989,Bank account hacked,Cyber Crime,High,Local Police,2026-04-20,Open
+C0474,Citizen474,9065582606,XXXX XXXX 4914,Online scam,Fraud,High,Local Police,2026-05-14,Open
+C0475,Citizen475,9705358095,XXXX XXXX 7096,Neighbor attacked me,Assault,Medium,Local Police,2026-02-21,Open
+C0476,Citizen476,9097112808,XXXX XXXX 8577,Someone stole my bike,Theft,Medium,Local Police,2026-07-28,Open
+C0477,Citizen477,9658311792,XXXX XXXX 9069,My car was stolen,Vehicle Theft,Medium,Local Police,2026-03-01,Open
+C0478,Citizen478,9144423636,XXXX XXXX 3666,Online scam,Fraud,High,Local Police,2026-03-09,Open
+C0479,Citizen479,9750632448,XXXX XXXX 3748,Online scam,Fraud,High,Local Police,2026-04-13,Open
+C0480,Citizen480,9207323664,XXXX XXXX 9762,Someone stole my bike,Theft,Medium,Local Police,2026-04-17,Open
+C0481,Citizen481,9220783977,XXXX XXXX 3628,Online scam,Fraud,High,Local Police,2026-07-27,Open
+C0482,Citizen482,9022386699,XXXX XXXX 2992,Bank account hacked,Cyber Crime,High,Local Police,2026-01-06,Open
+C0483,Citizen483,9101089530,XXXX XXXX 8157,Online scam,Fraud,High,Local Police,2026-02-24,Open
+C0484,Citizen484,9191585677,XXXX XXXX 3304,Neighbor attacked me,Assault,Medium,Local Police,2026-04-04,Open
+C0485,Citizen485,9792017242,XXXX XXXX 4004,Neighbor attacked me,Assault,Medium,Local Police,2026-07-02,Open
+C0486,Citizen486,9901813015,XXXX XXXX 8540,My car was stolen,Vehicle Theft,Medium,Local Police,2026-06-17,Open
+C0487,Citizen487,9146258724,XXXX XXXX 3136,Neighbor attacked me,Assault,Medium,Local Police,2026-05-09,Open
+C0488,Citizen488,9339291484,XXXX XXXX 8320,My car was stolen,Vehicle Theft,Medium,Local Police,2026-06-17,Open
+C0489,Citizen489,9313429726,XXXX XXXX 9408,Online scam,Fraud,High,Local Police,2026-05-20,Open
+C0490,Citizen490,9678439393,XXXX XXXX 6417,Bank account hacked,Cyber Crime,High,Local Police,2026-05-05,Open
+C0491,Citizen491,9763400776,XXXX XXXX 9178,Online scam,Fraud,High,Local Police,2026-02-26,Open
+C0492,Citizen492,9313541344,XXXX XXXX 8820,Bank account hacked,Cyber Crime,High,Local Police,2026-07-27,Open
+C0493,Citizen493,9650108689,XXXX XXXX 6224,Bank account hacked,Cyber Crime,High,Local Police,2026-01-25,Open
+C0494,Citizen494,9280404540,XXXX XXXX 8153,Bank account hacked,Cyber Crime,High,Local Police,2026-05-17,Open
+C0495,Citizen495,9116527124,XXXX XXXX 7469,Someone stole my bike,Theft,Medium,Local Police,2026-04-23,Open
+C0496,Citizen496,9976646215,XXXX XXXX 2307,Neighbor attacked me,Assault,Medium,Local Police,2026-03-15,Open
+C0497,Citizen497,9675551219,XXXX XXXX 6990,My car was stolen,Vehicle Theft,Medium,Local Police,2026-06-23,Open
+C0498,Citizen498,9359996184,XXXX XXXX 2391,My car was stolen,Vehicle Theft,Medium,Local Police,2026-07-04,Open
+C0499,Citizen499,9076531633,XXXX XXXX 1367,My car was stolen,Vehicle Theft,Medium,Local Police,2026-06-08,Open
+C0500,Citizen500,9246112761,XXXX XXXX 5459,Online scam,Fraud,High,Local Police,2026-04-12,Open
+C0501,Citizen501,9398190015,XXXX XXXX 3887,My car was stolen,Vehicle Theft,Medium,Local Police,2026-04-25,Open
+C0502,Citizen502,9990322471,XXXX XXXX 2916,Online scam,Fraud,High,Local Police,2026-07-03,Open
+C0503,Citizen503,9288092116,XXXX XXXX 4226,Bank account hacked,Cyber Crime,High,Local Police,2026-05-20,Open
+C0504,Citizen504,9647626791,XXXX XXXX 8723,My car was stolen,Vehicle Theft,Medium,Local Police,2026-07-16,Open
+C0505,Citizen505,9066148921,XXXX XXXX 9501,Neighbor attacked me,Assault,Medium,Local Police,2026-05-28,Open
+C0506,Citizen506,9969572830,XXXX XXXX 3382,Neighbor attacked me,Assault,Medium,Local Police,2026-05-22,Open
+C0507,Citizen507,9504142499,XXXX XXXX 3934,Online scam,Fraud,High,Local Police,2026-02-11,Open
+C0508,Citizen508,9662668416,XXXX XXXX 2880,My car was stolen,Vehicle Theft,Medium,Local Police,2026-07-26,Open
+C0509,Citizen509,9061769732,XXXX XXXX 3692,Neighbor attacked me,Assault,Medium,Local Police,2026-01-24,Open
+C0510,Citizen510,9187032387,XXXX XXXX 4544,My car was stolen,Vehicle Theft,Medium,Local Police,2026-05-21,Open
+C0511,Citizen511,9782886131,XXXX XXXX 7131,Bank account hacked,Cyber Crime,High,Local Police,2026-03-04,Open
+C0512,Citizen512,9979241087,XXXX XXXX 7012,Neighbor attacked me,Assault,Medium,Local Police,2026-06-14,Open
+C0513,Citizen513,9170609716,XXXX XXXX 2764,My car was stolen,Vehicle Theft,Medium,Local Police,2026-03-19,Open
+C0514,Citizen514,9995980020,XXXX XXXX 8464,Neighbor attacked me,Assault,Medium,Local Police,2026-04-19,Open
+C0515,Citizen515,9194216826,XXXX XXXX 1493,My car was stolen,Vehicle Theft,Medium,Local Police,2026-05-21,Open
+C0516,Citizen516,9147025099,XXXX XXXX 8128,My car was stolen,Vehicle Theft,Medium,Local Police,2026-04-08,Open
+C0517,Citizen517,9182288760,XXXX XXXX 5840,Neighbor attacked me,Assault,Medium,Local Police,2026-07-21,Open
+C0518,Citizen518,9328967429,XXXX XXXX 9867,My car was stolen,Vehicle Theft,Medium,Local Police,2026-04-18,Open
+C0519,Citizen519,9703221950,XXXX XXXX 4514,Online scam,Fraud,High,Local Police,2026-06-01,Open
+C0520,Citizen520,9417239999,XXXX XXXX 3254,Someone stole my bike,Theft,Medium,Local Police,2026-02-08,Open
+C0521,Citizen521,9083944932,XXXX XXXX 6713,Someone stole my bike,Theft,Medium,Local Police,2026-03-23,Open
+C0522,Citizen522,9518303117,XXXX XXXX 4904,Online scam,Fraud,High,Local Police,2026-02-12,Open
+C0523,Citizen523,9056014888,XXXX XXXX 8428,Neighbor attacked me,Assault,Medium,Local Police,2026-03-16,Open
+C0524,Citizen524,9024639498,XXXX XXXX 7964,Someone stole my bike,Theft,Medium,Local Police,2026-01-15,Open
+C0525,Citizen525,9033935642,XXXX XXXX 5029,Bank account hacked,Cyber Crime,High,Local Police,2026-07-14,Open
+C0526,Citizen526,9578035215,XXXX XXXX 6768,Someone stole my bike,Theft,Medium,Local Police,2026-01-21,Open
+C0527,Citizen527,9730901480,XXXX XXXX 7377,Online scam,Fraud,High,Local Police,2026-07-15,Open
+C0528,Citizen528,9269695755,XXXX XXXX 3429,Online scam,Fraud,High,Local Police,2026-03-27,Open
+C0529,Citizen529,9324504667,XXXX XXXX 2428,Bank account hacked,Cyber Crime,High,Local Police,2026-05-26,Open
+C0530,Citizen530,9277364649,XXXX XXXX 4532,Someone stole my bike,Theft,Medium,Local Police,2026-04-26,Open
+C0531,Citizen531,9849330895,XXXX XXXX 3342,My car was stolen,Vehicle Theft,Medium,Local Police,2026-02-18,Open
+C0532,Citizen532,9518247819,XXXX XXXX 1664,Bank account hacked,Cyber Crime,High,Local Police,2026-05-20,Open
+C0533,Citizen533,9451977397,XXXX XXXX 2140,Online scam,Fraud,High,Local Police,2026-04-02,Open
+C0534,Citizen534,9462316964,XXXX XXXX 8780,Online scam,Fraud,High,Local Police,2026-02-13,Open
+C0535,Citizen535,9763649515,XXXX XXXX 9975,Online scam,Fraud,High,Local Police,2026-01-17,Open
+C0536,Citizen536,9314913576,XXXX XXXX 1774,Neighbor attacked me,Assault,Medium,Local Police,2026-04-17,Open
+C0537,Citizen537,9100878347,XXXX XXXX 4561,Online scam,Fraud,High,Local Police,2026-05-23,Open
+C0538,Citizen538,9112515300,XXXX XXXX 6225,Bank account hacked,Cyber Crime,High,Local Police,2026-01-06,Open
+C0539,Citizen539,9217191290,XXXX XXXX 1717,Online scam,Fraud,High,Local Police,2026-01-26,Open
+C0540,Citizen540,9225323616,XXXX XXXX 2138,My car was stolen,Vehicle Theft,Medium,Local Police,2026-07-01,Open
+C0541,Citizen541,9013857525,XXXX XXXX 1300,Neighbor attacked me,Assault,Medium,Local Police,2026-06-14,Open
+C0542,Citizen542,9856911948,XXXX XXXX 8342,My car was stolen,Vehicle Theft,Medium,Local Police,2026-05-13,Open
+C0543,Citizen543,9901355423,XXXX XXXX 1524,Neighbor attacked me,Assault,Medium,Local Police,2026-03-19,Open
+C0544,Citizen544,9547417791,XXXX XXXX 4670,Online scam,Fraud,High,Local Police,2026-05-04,Open
+C0545,Citizen545,9090079879,XXXX XXXX 7335,Someone stole my bike,Theft,Medium,Local Police,2026-04-24,Open
+C0546,Citizen546,9664792882,XXXX XXXX 5766,My car was stolen,Vehicle Theft,Medium,Local Police,2026-01-25,Open
+C0547,Citizen547,9037640855,XXXX XXXX 6913,Someone stole my bike,Theft,Medium,Local Police,2026-05-19,Open
+C0548,Citizen548,9253014929,XXXX XXXX 3780,Bank account hacked,Cyber Crime,High,Local Police,2026-05-16,Open
+C0549,Citizen549,9994888606,XXXX XXXX 5225,Neighbor attacked me,Assault,Medium,Local Police,2026-03-25,Open
+C0550,Citizen550,9833757663,XXXX XXXX 9607,My car was stolen,Vehicle Theft,Medium,Local Police,2026-07-14,Open
+C0551,Citizen551,9369368351,XXXX XXXX 8874,Neighbor attacked me,Assault,Medium,Local Police,2026-06-21,Open
+C0552,Citizen552,9735047504,XXXX XXXX 4598,Neighbor attacked me,Assault,Medium,Local Police,2026-01-20,Open
+C0553,Citizen553,9077201642,XXXX XXXX 3420,Neighbor attacked me,Assault,Medium,Local Police,2026-06-27,Open
+C0554,Citizen554,9201828582,XXXX XXXX 3166,Someone stole my bike,Theft,Medium,Local Police,2026-02-11,Open
+C0555,Citizen555,9081682005,XXXX XXXX 2839,Bank account hacked,Cyber Crime,High,Local Police,2026-01-27,Open
+C0556,Citizen556,9745039607,XXXX XXXX 6886,Online scam,Fraud,High,Local Police,2026-04-10,Open
+C0557,Citizen557,9598049709,XXXX XXXX 7448,My car was stolen,Vehicle Theft,Medium,Local Police,2026-07-04,Open
+C0558,Citizen558,9479526317,XXXX XXXX 3282,Bank account hacked,Cyber Crime,High,Local Police,2026-02-01,Open
+C0559,Citizen559,9180378540,XXXX XXXX 1693,Someone stole my bike,Theft,Medium,Local Police,2026-04-07,Open
+C0560,Citizen560,9820365387,XXXX XXXX 2354,Neighbor attacked me,Assault,Medium,Local Police,2026-07-14,Open
+C0561,Citizen561,9802284687,XXXX XXXX 3891,Bank account hacked,Cyber Crime,High,Local Police,2026-01-16,Open
+C0562,Citizen562,9181873886,XXXX XXXX 4121,Online scam,Fraud,High,Local Police,2026-01-06,Open
+C0563,Citizen563,9783156486,XXXX XXXX 6932,Neighbor attacked me,Assault,Medium,Local Police,2026-07-12,Open
+C0564,Citizen564,9071098639,XXXX XXXX 4028,Online scam,Fraud,High,Local Police,2026-06-20,Open
+C0565,Citizen565,9137760178,XXXX XXXX 3816,Neighbor attacked me,Assault,Medium,Local Police,2026-01-15,Open
+C0566,Citizen566,9974491407,XXXX XXXX 6464,My car was stolen,Vehicle Theft,Medium,Local Police,2026-06-22,Open
+C0567,Citizen567,9164299195,XXXX XXXX 3649,Online scam,Fraud,High,Local Police,2026-05-28,Open
+C0568,Citizen568,9334159923,XXXX XXXX 6185,Someone stole my bike,Theft,Medium,Local Police,2026-03-03,Open
+C0569,Citizen569,9349285229,XXXX XXXX 5363,Neighbor attacked me,Assault,Medium,Local Police,2026-01-21,Open
+C0570,Citizen570,9699463463,XXXX XXXX 5621,Neighbor attacked me,Assault,Medium,Local Police,2026-02-05,Open
+C0571,Citizen571,9936186877,XXXX XXXX 6572,My car was stolen,Vehicle Theft,Medium,Local Police,2026-03-16,Open
+C0572,Citizen572,9366540841,XXXX XXXX 5216,Online scam,Fraud,High,Local Police,2026-01-01,Open
+C0573,Citizen573,9230575414,XXXX XXXX 6149,Someone stole my bike,Theft,Medium,Local Police,2026-07-27,Open
+C0574,Citizen574,9197087758,XXXX XXXX 3364,Neighbor attacked me,Assault,Medium,Local Police,2026-07-09,Open
+C0575,Citizen575,9723653800,XXXX XXXX 4868,Someone stole my bike,Theft,Medium,Local Police,2026-02-04,Open
+C0576,Citizen576,9821138438,XXXX XXXX 9056,Someone stole my bike,Theft,Medium,Local Police,2026-07-09,Open
+C0577,Citizen577,9909570473,XXXX XXXX 3064,Bank account hacked,Cyber Crime,High,Local Police,2026-06-01,Open
+C0578,Citizen578,9879870554,XXXX XXXX 8986,Online scam,Fraud,High,Local Police,2026-03-27,Open
+C0579,Citizen579,9662165332,XXXX XXXX 6166,My car was stolen,Vehicle Theft,Medium,Local Police,2026-05-08,Open
+C0580,Citizen580,9906676575,XXXX XXXX 6346,Bank account hacked,Cyber Crime,High,Local Police,2026-02-02,Open
+C0581,Citizen581,9182686797,XXXX XXXX 9704,Online scam,Fraud,High,Local Police,2026-02-14,Open
+C0582,Citizen582,9266244998,XXXX XXXX 8104,Someone stole my bike,Theft,Medium,Local Police,2026-07-20,Open
+C0583,Citizen583,9479584560,XXXX XXXX 3713,Someone stole my bike,Theft,Medium,Local Police,2026-06-13,Open
+C0584,Citizen584,9998027685,XXXX XXXX 3895,Someone stole my bike,Theft,Medium,Local Police,2026-03-01,Open
+C0585,Citizen585,9939015475,XXXX XXXX 4540,Someone stole my bike,Theft,Medium,Local Police,2026-01-04,Open
+C0586,Citizen586,9839650624,XXXX XXXX 4341,Neighbor attacked me,Assault,Medium,Local Police,2026-02-09,Open
+C0587,Citizen587,9767789704,XXXX XXXX 5933,Online scam,Fraud,High,Local Police,2026-01-28,Open
+C0588,Citizen588,9735070106,XXXX XXXX 3228,My car was stolen,Vehicle Theft,Medium,Local Police,2026-05-13,Open
+C0589,Citizen589,9867697834,XXXX XXXX 2956,My car was stolen,Vehicle Theft,Medium,Local Police,2026-07-21,Open
+C0590,Citizen590,9965348628,XXXX XXXX 8409,My car was stolen,Vehicle Theft,Medium,Local Police,2026-06-04,Open
+C0591,Citizen591,9218637700,XXXX XXXX 7782,Bank account hacked,Cyber Crime,High,Local Police,2026-02-25,Open
+C0592,Citizen592,9338919401,XXXX XXXX 2741,Online scam,Fraud,High,Local Police,2026-05-12,Open
+C0593,Citizen593,9957757451,XXXX XXXX 3054,My car was stolen,Vehicle Theft,Medium,Local Police,2026-05-15,Open
+C0594,Citizen594,9460441384,XXXX XXXX 4538,Neighbor attacked me,Assault,Medium,Local Police,2026-01-16,Open
+C0595,Citizen595,9367843848,XXXX XXXX 4658,Bank account hacked,Cyber Crime,High,Local Police,2026-07-04,Open
+C0596,Citizen596,9911810135,XXXX XXXX 7056,Online scam,Fraud,High,Local Police,2026-05-11,Open
+C0597,Citizen597,9124292262,XXXX XXXX 8637,Someone stole my bike,Theft,Medium,Local Police,2026-05-15,Open
+C0598,Citizen598,9519128722,XXXX XXXX 4444,Online scam,Fraud,High,Local Police,2026-04-27,Open
+C0599,Citizen599,9699550504,XXXX XXXX 1484,My car was stolen,Vehicle Theft,Medium,Local Police,2026-04-26,Open
+C0600,Citizen600,9820884154,XXXX XXXX 9239,My car was stolen,Vehicle Theft,Medium,Local Police,2026-07-28,Open
+C0601,Citizen601,9644445260,XXXX XXXX 7161,Someone stole my bike,Theft,Medium,Local Police,2026-05-28,Open
+C0602,Citizen602,9255079065,XXXX XXXX 8101,Bank account hacked,Cyber Crime,High,Local Police,2026-07-18,Open
+C0603,Citizen603,9314285845,XXXX XXXX 6088,Neighbor attacked me,Assault,Medium,Local Police,2026-07-20,Open
+C0604,Citizen604,9668729080,XXXX XXXX 2947,Online scam,Fraud,High,Local Police,2026-07-01,Open
+C0605,Citizen605,9186500788,XXXX XXXX 7600,Someone stole my bike,Theft,Medium,Local Police,2026-01-18,Open
+C0606,Citizen606,9891190144,XXXX XXXX 4903,Bank account hacked,Cyber Crime,High,Local Police,2026-02-19,Open
+C0607,Citizen607,9705388917,XXXX XXXX 9154,Bank account hacked,Cyber Crime,High,Local Police,2026-05-11,Open
+C0608,Citizen608,9274953179,XXXX XXXX 9239,My car was stolen,Vehicle Theft,Medium,Local Police,2026-01-15,Open
+C0609,Citizen609,9689817298,XXXX XXXX 7422,My car was stolen,Vehicle Theft,Medium,Local Police,2026-01-18,Open
+C0610,Citizen610,9434138653,XXXX XXXX 7988,My car was stolen,Vehicle Theft,Medium,Local Police,2026-04-06,Open
+C0611,Citizen611,9422364761,XXXX XXXX 1318,My car was stolen,Vehicle Theft,Medium,Local Police,2026-07-05,Open
+C0612,Citizen612,9653783040,XXXX XXXX 7404,Online scam,Fraud,High,Local Police,2026-07-14,Open
+C0613,Citizen613,9515233808,XXXX XXXX 6784,My car was stolen,Vehicle Theft,Medium,Local Police,2026-06-18,Open
+C0614,Citizen614,9884661757,XXXX XXXX 4541,Someone stole my bike,Theft,Medium,Local Police,2026-07-15,Open
+C0615,Citizen615,9620280244,XXXX XXXX 8689,Someone stole my bike,Theft,Medium,Local Police,2026-06-09,Open
+C0616,Citizen616,9250115607,XXXX XXXX 7425,Online scam,Fraud,High,Local Police,2026-04-02,Open
+C0617,Citizen617,9369644389,XXXX XXXX 8210,Someone stole my bike,Theft,Medium,Local Police,2026-05-22,Open
+C0618,Citizen618,9794967812,XXXX XXXX 5240,My car was stolen,Vehicle Theft,Medium,Local Police,2026-04-13,Open
+C0619,Citizen619,9885160699,XXXX XXXX 9551,Bank account hacked,Cyber Crime,High,Local Police,2026-02-27,Open
+C0620,Citizen620,9764087464,XXXX XXXX 1868,Bank account hacked,Cyber Crime,High,Local Police,2026-01-26,Open
+C0621,Citizen621,9036014792,XXXX XXXX 1666,Bank account hacked,Cyber Crime,High,Local Police,2026-05-07,Open
+C0622,Citizen622,9459713699,XXXX XXXX 4161,Online scam,Fraud,High,Local Police,2026-04-14,Open
+C0623,Citizen623,9613793829,XXXX XXXX 3919,Bank account hacked,Cyber Crime,High,Local Police,2026-04-26,Open
+C0624,Citizen624,9070336459,XXXX XXXX 5024,Bank account hacked,Cyber Crime,High,Local Police,2026-02-16,Open
+C0625,Citizen625,9595089013,XXXX XXXX 2059,Neighbor attacked me,Assault,Medium,Local Police,2026-04-21,Open
+C0626,Citizen626,9726420193,XXXX XXXX 5919,Bank account hacked,Cyber Crime,High,Local Police,2026-06-02,Open
+C0627,Citizen627,9949134374,XXXX XXXX 1657,Neighbor attacked me,Assault,Medium,Local Police,2026-02-28,Open
+C0628,Citizen628,9133657878,XXXX XXXX 4179,Online scam,Fraud,High,Local Police,2026-07-16,Open
+C0629,Citizen629,9427260235,XXXX XXXX 8280,Bank account hacked,Cyber Crime,High,Local Police,2026-01-25,Open
+C0630,Citizen630,9088918942,XXXX XXXX 4636,My car was stolen,Vehicle Theft,Medium,Local Police,2026-07-28,Open
+C0631,Citizen631,9547445020,XXXX XXXX 3047,Neighbor attacked me,Assault,Medium,Local Police,2026-02-11,Open
+C0632,Citizen632,9735123030,XXXX XXXX 1003,My car was stolen,Vehicle Theft,Medium,Local Police,2026-06-20,Open
+C0633,Citizen633,9951984464,XXXX XXXX 9204,My car was stolen,Vehicle Theft,Medium,Local Police,2026-04-18,Open
+C0634,Citizen634,9712375156,XXXX XXXX 8340,Bank account hacked,Cyber Crime,High,Local Police,2026-04-24,Open
+C0635,Citizen635,9615262178,XXXX XXXX 5405,Neighbor attacked me,Assault,Medium,Local Police,2026-06-13,Open
+C0636,Citizen636,9384574042,XXXX XXXX 1034,Neighbor attacked me,Assault,Medium,Local Police,2026-04-23,Open
+C0637,Citizen637,9331822864,XXXX XXXX 7168,My car was stolen,Vehicle Theft,Medium,Local Police,2026-02-07,Open
+C0638,Citizen638,9190904024,XXXX XXXX 6858,Bank account hacked,Cyber Crime,High,Local Police,2026-05-25,Open
+C0639,Citizen639,9233120791,XXXX XXXX 4072,Someone stole my bike,Theft,Medium,Local Police,2026-01-19,Open
+C0640,Citizen640,9969324544,XXXX XXXX 3903,Someone stole my bike,Theft,Medium,Local Police,2026-04-09,Open
+C0641,Citizen641,9475781007,XXXX XXXX 5246,Online scam,Fraud,High,Local Police,2026-03-08,Open
+C0642,Citizen642,9799973010,XXXX XXXX 8747,Neighbor attacked me,Assault,Medium,Local Police,2026-05-10,Open
+C0643,Citizen643,9130142905,XXXX XXXX 3198,Someone stole my bike,Theft,Medium,Local Police,2026-05-28,Open
+C0644,Citizen644,9831408372,XXXX XXXX 9536,Neighbor attacked me,Assault,Medium,Local Police,2026-06-25,Open
+C0645,Citizen645,9154259443,XXXX XXXX 4284,My car was stolen,Vehicle Theft,Medium,Local Police,2026-07-22,Open
+C0646,Citizen646,9608874001,XXXX XXXX 3737,Someone stole my bike,Theft,Medium,Local Police,2026-02-20,Open
+C0647,Citizen647,9805646524,XXXX XXXX 9981,My car was stolen,Vehicle Theft,Medium,Local Police,2026-05-12,Open
+C0648,Citizen648,9184658494,XXXX XXXX 7694,Online scam,Fraud,High,Local Police,2026-02-09,Open
+C0649,Citizen649,9682054716,XXXX XXXX 3148,My car was stolen,Vehicle Theft,Medium,Local Police,2026-07-13,Open
+C0650,Citizen650,9262660540,XXXX XXXX 2055,Bank account hacked,Cyber Crime,High,Local Police,2026-05-15,Open
+C0651,Citizen651,9307728645,XXXX XXXX 9275,Neighbor attacked me,Assault,Medium,Local Police,2026-04-20,Open
+C0652,Citizen652,9311916676,XXXX XXXX 1951,Online scam,Fraud,High,Local Police,2026-07-26,Open
+C0653,Citizen653,9956607617,XXXX XXXX 1571,Online scam,Fraud,High,Local Police,2026-04-28,Open
+C0654,Citizen654,9874153375,XXXX XXXX 6560,Someone stole my bike,Theft,Medium,Local Police,2026-03-12,Open
+C0655,Citizen655,9443559441,XXXX XXXX 4499,Neighbor attacked me,Assault,Medium,Local Police,2026-05-22,Open
+C0656,Citizen656,9273866151,XXXX XXXX 8143,Bank account hacked,Cyber Crime,High,Local Police,2026-07-12,Open
+C0657,Citizen657,9060319665,XXXX XXXX 1210,Someone stole my bike,Theft,Medium,Local Police,2026-04-25,Open
+C0658,Citizen658,9644407336,XXXX XXXX 6473,Someone stole my bike,Theft,Medium,Local Police,2026-01-01,Open
+C0659,Citizen659,9906727758,XXXX XXXX 9437,Someone stole my bike,Theft,Medium,Local Police,2026-02-16,Open
+C0660,Citizen660,9935105983,XXXX XXXX 1326,Neighbor attacked me,Assault,Medium,Local Police,2026-03-24,Open
+C0661,Citizen661,9202477049,XXXX XXXX 9262,Someone stole my bike,Theft,Medium,Local Police,2026-07-11,Open
+C0662,Citizen662,9854062512,XXXX XXXX 8394,Someone stole my bike,Theft,Medium,Local Police,2026-02-07,Open
+C0663,Citizen663,9066203668,XXXX XXXX 3605,Online scam,Fraud,High,Local Police,2026-03-28,Open
+C0664,Citizen664,9266170639,XXXX XXXX 4144,My car was stolen,Vehicle Theft,Medium,Local Police,2026-02-24,Open
+C0665,Citizen665,9811301687,XXXX XXXX 2256,My car was stolen,Vehicle Theft,Medium,Local Police,2026-05-26,Open
+C0666,Citizen666,9493311300,XXXX XXXX 4162,Someone stole my bike,Theft,Medium,Local Police,2026-04-28,Open
+C0667,Citizen667,9204666874,XXXX XXXX 8545,Bank account hacked,Cyber Crime,High,Local Police,2026-01-14,Open
+C0668,Citizen668,9189556763,XXXX XXXX 1020,Bank account hacked,Cyber Crime,High,Local Police,2026-04-01,Open
+C0669,Citizen669,9721760951,XXXX XXXX 6286,My car was stolen,Vehicle Theft,Medium,Local Police,2026-05-18,Open
+C0670,Citizen670,9724980829,XXXX XXXX 2254,Online scam,Fraud,High,Local Police,2026-07-16,Open
+C0671,Citizen671,9015378693,XXXX XXXX 4725,Bank account hacked,Cyber Crime,High,Local Police,2026-06-22,Open
+C0672,Citizen672,9386640797,XXXX XXXX 3683,Someone stole my bike,Theft,Medium,Local Police,2026-02-27,Open
+C0673,Citizen673,9819922774,XXXX XXXX 5219,Someone stole my bike,Theft,Medium,Local Police,2026-05-05,Open
+C0674,Citizen674,9709421098,XXXX XXXX 9599,Neighbor attacked me,Assault,Medium,Local Police,2026-06-10,Open
+C0675,Citizen675,9831236533,XXXX XXXX 9165,My car was stolen,Vehicle Theft,Medium,Local Police,2026-01-04,Open
+C0676,Citizen676,9482003038,XXXX XXXX 1600,Bank account hacked,Cyber Crime,High,Local Police,2026-01-21,Open
+C0677,Citizen677,9970502755,XXXX XXXX 7897,Online scam,Fraud,High,Local Police,2026-07-16,Open
+C0678,Citizen678,9596799151,XXXX XXXX 3276,Neighbor attacked me,Assault,Medium,Local Police,2026-03-12,Open
+C0679,Citizen679,9267423006,XXXX XXXX 3421,Online scam,Fraud,High,Local Police,2026-05-21,Open
+C0680,Citizen680,9420129238,XXXX XXXX 5080,Someone stole my bike,Theft,Medium,Local Police,2026-02-11,Open
+C0681,Citizen681,9659011743,XXXX XXXX 9947,Bank account hacked,Cyber Crime,High,Local Police,2026-04-24,Open
+C0682,Citizen682,9128172101,XXXX XXXX 2479,Neighbor attacked me,Assault,Medium,Local Police,2026-05-25,Open
+C0683,Citizen683,9277485933,XXXX XXXX 1625,Neighbor attacked me,Assault,Medium,Local Police,2026-06-14,Open
+C0684,Citizen684,9349826640,XXXX XXXX 3001,Online scam,Fraud,High,Local Police,2026-01-24,Open
+C0685,Citizen685,9341037819,XXXX XXXX 1814,Someone stole my bike,Theft,Medium,Local Police,2026-05-28,Open
+C0686,Citizen686,9435659900,XXXX XXXX 8082,Neighbor attacked me,Assault,Medium,Local Police,2026-03-01,Open
+C0687,Citizen687,9633960512,XXXX XXXX 6031,Neighbor attacked me,Assault,Medium,Local Police,2026-04-08,Open
+C0688,Citizen688,9566412011,XXXX XXXX 9323,Someone stole my bike,Theft,Medium,Local Police,2026-03-19,Open
+C0689,Citizen689,9331449078,XXXX XXXX 9765,Neighbor attacked me,Assault,Medium,Local Police,2026-07-20,Open
+C0690,Citizen690,9613045362,XXXX XXXX 4166,Neighbor attacked me,Assault,Medium,Local Police,2026-01-07,Open
+C0691,Citizen691,9612017475,XXXX XXXX 4413,Someone stole my bike,Theft,Medium,Local Police,2026-03-03,Open
+C0692,Citizen692,9877158984,XXXX XXXX 4773,Someone stole my bike,Theft,Medium,Local Police,2026-05-05,Open
+C0693,Citizen693,9526308912,XXXX XXXX 5647,Online scam,Fraud,High,Local Police,2026-07-18,Open
+C0694,Citizen694,9858762834,XXXX XXXX 4529,Someone stole my bike,Theft,Medium,Local Police,2026-02-06,Open
+C0695,Citizen695,9672169143,XXXX XXXX 3656,Online scam,Fraud,High,Local Police,2026-03-16,Open
+C0696,Citizen696,9063504079,XXXX XXXX 4345,Online scam,Fraud,High,Local Police,2026-04-16,Open
+C0697,Citizen697,9093783803,XXXX XXXX 5364,Someone stole my bike,Theft,Medium,Local Police,2026-03-16,Open
+C0698,Citizen698,9670846671,XXXX XXXX 1233,Someone stole my bike,Theft,Medium,Local Police,2026-02-26,Open
+C0699,Citizen699,9548611052,XXXX XXXX 7639,Online scam,Fraud,High,Local Police,2026-06-24,Open
+C0700,Citizen700,9759618295,XXXX XXXX 9758,My car was stolen,Vehicle Theft,Medium,Local Police,2026-03-08,Open
+C0701,Citizen701,9127317917,XXXX XXXX 5518,Neighbor attacked me,Assault,Medium,Local Police,2026-06-12,Open
+C0702,Citizen702,9882378481,XXXX XXXX 7113,Online scam,Fraud,High,Local Police,2026-07-02,Open
+C0703,Citizen703,9286752014,XXXX XXXX 8763,Bank account hacked,Cyber Crime,High,Local Police,2026-06-02,Open
+C0704,Citizen704,9998266234,XXXX XXXX 2554,My car was stolen,Vehicle Theft,Medium,Local Police,2026-07-25,Open
+C0705,Citizen705,9525851561,XXXX XXXX 2134,Online scam,Fraud,High,Local Police,2026-01-03,Open
+C0706,Citizen706,9109902387,XXXX XXXX 8527,Bank account hacked,Cyber Crime,High,Local Police,2026-02-27,Open
+C0707,Citizen707,9126692988,XXXX XXXX 2902,Neighbor attacked me,Assault,Medium,Local Police,2026-06-09,Open
+C0708,Citizen708,9836262844,XXXX XXXX 9788,Online scam,Fraud,High,Local Police,2026-01-25,Open
+C0709,Citizen709,9759711628,XXXX XXXX 2200,My car was stolen,Vehicle Theft,Medium,Local Police,2026-02-19,Open
+C0710,Citizen710,9160110736,XXXX XXXX 3197,Online scam,Fraud,High,Local Police,2026-01-26,Open
+C0711,Citizen711,9831544154,XXXX XXXX 7113,Online scam,Fraud,High,Local Police,2026-07-01,Open
+C0712,Citizen712,9601535131,XXXX XXXX 5570,Someone stole my bike,Theft,Medium,Local Police,2026-04-02,Open
+C0713,Citizen713,9618183152,XXXX XXXX 3389,Neighbor attacked me,Assault,Medium,Local Police,2026-07-18,Open
+C0714,Citizen714,9445715975,XXXX XXXX 7390,Bank account hacked,Cyber Crime,High,Local Police,2026-05-19,Open
+C0715,Citizen715,9523006093,XXXX XXXX 5054,Online scam,Fraud,High,Local Police,2026-01-09,Open
+C0716,Citizen716,9335586225,XXXX XXXX 1633,Bank account hacked,Cyber Crime,High,Local Police,2026-03-08,Open
+C0717,Citizen717,9178264671,XXXX XXXX 5430,Online scam,Fraud,High,Local Police,2026-06-01,Open
+C0718,Citizen718,9405036006,XXXX XXXX 4137,Neighbor attacked me,Assault,Medium,Local Police,2026-03-04,Open
+C0719,Citizen719,9917730053,XXXX XXXX 6046,Bank account hacked,Cyber Crime,High,Local Police,2026-01-28,Open
+C0720,Citizen720,9087086193,XXXX XXXX 8453,Online scam,Fraud,High,Local Police,2026-05-09,Open
+C0721,Citizen721,9324693607,XXXX XXXX 8172,Bank account hacked,Cyber Crime,High,Local Police,2026-04-22,Open
+C0722,Citizen722,9022130996,XXXX XXXX 6213,Neighbor attacked me,Assault,Medium,Local Police,2026-06-26,Open
+C0723,Citizen723,9974190326,XXXX XXXX 8931,Someone stole my bike,Theft,Medium,Local Police,2026-05-24,Open
+C0724,Citizen724,9485709302,XXXX XXXX 2635,Neighbor attacked me,Assault,Medium,Local Police,2026-06-09,Open
+C0725,Citizen725,9205868074,XXXX XXXX 3025,Someone stole my bike,Theft,Medium,Local Police,2026-03-02,Open
+C0726,Citizen726,9004769298,XXXX XXXX 5903,Bank account hacked,Cyber Crime,High,Local Police,2026-03-28,Open
+C0727,Citizen727,9728854377,XXXX XXXX 3200,Online scam,Fraud,High,Local Police,2026-05-09,Open
+C0728,Citizen728,9673992971,XXXX XXXX 9679,Bank account hacked,Cyber Crime,High,Local Police,2026-03-24,Open
+C0729,Citizen729,9228523903,XXXX XXXX 5558,Neighbor attacked me,Assault,Medium,Local Police,2026-04-08,Open
+C0730,Citizen730,9408822477,XXXX XXXX 2346,My car was stolen,Vehicle Theft,Medium,Local Police,2026-06-08,Open
+C0731,Citizen731,9382624183,XXXX XXXX 9194,Online scam,Fraud,High,Local Police,2026-04-05,Open
+C0732,Citizen732,9358720791,XXXX XXXX 4378,Bank account hacked,Cyber Crime,High,Local Police,2026-04-16,Open
+C0733,Citizen733,9355737210,XXXX XXXX 4692,My car was stolen,Vehicle Theft,Medium,Local Police,2026-07-26,Open
+C0734,Citizen734,9364943366,XXXX XXXX 9209,Someone stole my bike,Theft,Medium,Local Police,2026-02-10,Open
+C0735,Citizen735,9050753424,XXXX XXXX 2458,Online scam,Fraud,High,Local Police,2026-04-28,Open
+C0736,Citizen736,9701762289,XXXX XXXX 5864,Bank account hacked,Cyber Crime,High,Local Police,2026-05-28,Open
+C0737,Citizen737,9468729428,XXXX XXXX 8752,Bank account hacked,Cyber Crime,High,Local Police,2026-05-07,Open
+C0738,Citizen738,9354568548,XXXX XXXX 3827,Someone stole my bike,Theft,Medium,Local Police,2026-04-03,Open
+C0739,Citizen739,9215562717,XXXX XXXX 9818,My car was stolen,Vehicle Theft,Medium,Local Police,2026-07-01,Open
+C0740,Citizen740,9536993633,XXXX XXXX 5915,Neighbor attacked me,Assault,Medium,Local Police,2026-06-14,Open
+C0741,Citizen741,9979057544,XXXX XXXX 1797,Neighbor attacked me,Assault,Medium,Local Police,2026-07-16,Open
+C0742,Citizen742,9272125181,XXXX XXXX 3840,My car was stolen,Vehicle Theft,Medium,Local Police,2026-02-13,Open
+C0743,Citizen743,9293419312,XXXX XXXX 8658,Online scam,Fraud,High,Local Police,2026-01-03,Open
+C0744,Citizen744,9036472695,XXXX XXXX 2093,Bank account hacked,Cyber Crime,High,Local Police,2026-03-24,Open
+C0745,Citizen745,9431740062,XXXX XXXX 6652,Neighbor attacked me,Assault,Medium,Local Police,2026-01-02,Open
+C0746,Citizen746,9468583853,XXXX XXXX 2540,Online scam,Fraud,High,Local Police,2026-05-08,Open
+C0747,Citizen747,9754377147,XXXX XXXX 1760,Someone stole my bike,Theft,Medium,Local Police,2026-04-08,Open
+C0748,Citizen748,9460737806,XXXX XXXX 5001,Bank account hacked,Cyber Crime,High,Local Police,2026-06-06,Open
+C0749,Citizen749,9654295111,XXXX XXXX 2686,My car was stolen,Vehicle Theft,Medium,Local Police,2026-05-16,Open
+C0750,Citizen750,9612854657,XXXX XXXX 6153,Bank account hacked,Cyber Crime,High,Local Police,2026-01-18,Open
+C0751,Citizen751,9016968182,XXXX XXXX 2537,Bank account hacked,Cyber Crime,High,Local Police,2026-01-16,Open
+C0752,Citizen752,9591203165,XXXX XXXX 7703,Bank account hacked,Cyber Crime,High,Local Police,2026-07-17,Open
+C0753,Citizen753,9564926542,XXXX XXXX 7603,Bank account hacked,Cyber Crime,High,Local Police,2026-03-08,Open
+C0754,Citizen754,9394025383,XXXX XXXX 4006,Bank account hacked,Cyber Crime,High,Local Police,2026-06-16,Open
+C0755,Citizen755,9791880559,XXXX XXXX 6387,Neighbor attacked me,Assault,Medium,Local Police,2026-02-07,Open
+C0756,Citizen756,9549050520,XXXX XXXX 9507,Someone stole my bike,Theft,Medium,Local Police,2026-02-09,Open
+C0757,Citizen757,9721944392,XXXX XXXX 8414,Bank account hacked,Cyber Crime,High,Local Police,2026-04-20,Open
+C0758,Citizen758,9485249209,XXXX XXXX 4074,Someone stole my bike,Theft,Medium,Local Police,2026-05-15,Open
+C0759,Citizen759,9954212615,XXXX XXXX 5408,Online scam,Fraud,High,Local Police,2026-04-14,Open
+C0760,Citizen760,9419631802,XXXX XXXX 9816,Neighbor attacked me,Assault,Medium,Local Police,2026-06-05,Open
+C0761,Citizen761,9676696733,XXXX XXXX 5009,Neighbor attacked me,Assault,Medium,Local Police,2026-04-04,Open
+C0762,Citizen762,9118123035,XXXX XXXX 2525,Someone stole my bike,Theft,Medium,Local Police,2026-01-05,Open
+C0763,Citizen763,9891265272,XXXX XXXX 1742,Someone stole my bike,Theft,Medium,Local Police,2026-07-15,Open
+C0764,Citizen764,9510539811,XXXX XXXX 7617,Someone stole my bike,Theft,Medium,Local Police,2026-05-16,Open
+C0765,Citizen765,9118456058,XXXX XXXX 4044,Bank account hacked,Cyber Crime,High,Local Police,2026-02-26,Open
+C0766,Citizen766,9047662706,XXXX XXXX 8883,My car was stolen,Vehicle Theft,Medium,Local Police,2026-05-28,Open
+C0767,Citizen767,9605587401,XXXX XXXX 3014,Online scam,Fraud,High,Local Police,2026-04-01,Open
+C0768,Citizen768,9312196075,XXXX XXXX 3308,Someone stole my bike,Theft,Medium,Local Police,2026-07-11,Open
+C0769,Citizen769,9188216707,XXXX XXXX 7545,My car was stolen,Vehicle Theft,Medium,Local Police,2026-04-13,Open
+C0770,Citizen770,9554576444,XXXX XXXX 6253,Neighbor attacked me,Assault,Medium,Local Police,2026-05-25,Open
+C0771,Citizen771,9321963322,XXXX XXXX 6135,My car was stolen,Vehicle Theft,Medium,Local Police,2026-03-25,Open
+C0772,Citizen772,9209528854,XXXX XXXX 5866,Bank account hacked,Cyber Crime,High,Local Police,2026-05-16,Open
+C0773,Citizen773,9198160454,XXXX XXXX 7846,My car was stolen,Vehicle Theft,Medium,Local Police,2026-05-14,Open
+C0774,Citizen774,9476286660,XXXX XXXX 6609,Bank account hacked,Cyber Crime,High,Local Police,2026-02-04,Open
+C0775,Citizen775,9879059970,XXXX XXXX 5693,Bank account hacked,Cyber Crime,High,Local Police,2026-05-22,Open
+C0776,Citizen776,9173042486,XXXX XXXX 9447,Someone stole my bike,Theft,Medium,Local Police,2026-01-03,Open
+C0777,Citizen777,9316852926,XXXX XXXX 3680,My car was stolen,Vehicle Theft,Medium,Local Police,2026-04-01,Open
+C0778,Citizen778,9187442519,XXXX XXXX 4387,Someone stole my bike,Theft,Medium,Local Police,2026-06-12,Open
+C0779,Citizen779,9330370209,XXXX XXXX 6105,My car was stolen,Vehicle Theft,Medium,Local Police,2026-04-12,Open
+C0780,Citizen780,9601358502,XXXX XXXX 8579,Bank account hacked,Cyber Crime,High,Local Police,2026-01-27,Open
+C0781,Citizen781,9462340951,XXXX XXXX 4855,My car was stolen,Vehicle Theft,Medium,Local Police,2026-06-01,Open
+C0782,Citizen782,9721956596,XXXX XXXX 1800,Bank account hacked,Cyber Crime,High,Local Police,2026-04-10,Open
+C0783,Citizen783,9916484018,XXXX XXXX 3945,Online scam,Fraud,High,Local Police,2026-06-04,Open
+C0784,Citizen784,9039980445,XXXX XXXX 1020,Someone stole my bike,Theft,Medium,Local Police,2026-06-17,Open
+C0785,Citizen785,9365536200,XXXX XXXX 6144,My car was stolen,Vehicle Theft,Medium,Local Police,2026-07-15,Open
+C0786,Citizen786,9311436893,XXXX XXXX 6681,Online scam,Fraud,High,Local Police,2026-06-08,Open
+C0787,Citizen787,9776738951,XXXX XXXX 2893,Neighbor attacked me,Assault,Medium,Local Police,2026-06-15,Open
+C0788,Citizen788,9247507348,XXXX XXXX 7347,Online scam,Fraud,High,Local Police,2026-04-13,Open
+C0789,Citizen789,9216019139,XXXX XXXX 9129,Bank account hacked,Cyber Crime,High,Local Police,2026-01-04,Open
+C0790,Citizen790,9331139452,XXXX XXXX 3312,Someone stole my bike,Theft,Medium,Local Police,2026-06-17,Open
+C0791,Citizen791,9594828721,XXXX XXXX 8439,My car was stolen,Vehicle Theft,Medium,Local Police,2026-02-07,Open
+C0792,Citizen792,9851134519,XXXX XXXX 6807,Neighbor attacked me,Assault,Medium,Local Police,2026-05-02,Open
+C0793,Citizen793,9711020779,XXXX XXXX 4653,Online scam,Fraud,High,Local Police,2026-06-06,Open
+C0794,Citizen794,9193567925,XXXX XXXX 5771,Online scam,Fraud,High,Local Police,2026-07-07,Open
+C0795,Citizen795,9560613110,XXXX XXXX 1298,My car was stolen,Vehicle Theft,Medium,Local Police,2026-01-27,Open
+C0796,Citizen796,9788647963,XXXX XXXX 1585,Online scam,Fraud,High,Local Police,2026-07-12,Open
+C0797,Citizen797,9734057365,XXXX XXXX 4290,Neighbor attacked me,Assault,Medium,Local Police,2026-05-24,Open
+C0798,Citizen798,9092765503,XXXX XXXX 2318,Bank account hacked,Cyber Crime,High,Local Police,2026-07-21,Open
+C0799,Citizen799,9383925631,XXXX XXXX 9302,Online scam,Fraud,High,Local Police,2026-06-18,Open
+C0800,Citizen800,9041004750,XXXX XXXX 9642,My car was stolen,Vehicle Theft,Medium,Local Police,2026-07-11,Open
+C0801,Citizen801,9620461033,XXXX XXXX 1204,Someone stole my bike,Theft,Medium,Local Police,2026-05-11,Open
+C0802,Citizen802,9663503787,XXXX XXXX 4404,My car was stolen,Vehicle Theft,Medium,Local Police,2026-05-05,Open
+C0803,Citizen803,9765324039,XXXX XXXX 9040,Neighbor attacked me,Assault,Medium,Local Police,2026-02-14,Open
+C0804,Citizen804,9324963404,XXXX XXXX 8987,My car was stolen,Vehicle Theft,Medium,Local Police,2026-06-21,Open
+C0805,Citizen805,9274167023,XXXX XXXX 6218,Online scam,Fraud,High,Local Police,2026-04-28,Open
+C0806,Citizen806,9696717630,XXXX XXXX 1238,Online scam,Fraud,High,Local Police,2026-01-24,Open
+C0807,Citizen807,9335612228,XXXX XXXX 5895,Bank account hacked,Cyber Crime,High,Local Police,2026-07-06,Open
+C0808,Citizen808,9955767024,XXXX XXXX 3430,Someone stole my bike,Theft,Medium,Local Police,2026-07-11,Open
+C0809,Citizen809,9011470358,XXXX XXXX 9306,Bank account hacked,Cyber Crime,High,Local Police,2026-03-25,Open
+C0810,Citizen810,9432822747,XXXX XXXX 1285,Someone stole my bike,Theft,Medium,Local Police,2026-04-27,Open
+C0811,Citizen811,9894360912,XXXX XXXX 3471,Bank account hacked,Cyber Crime,High,Local Police,2026-01-17,Open
+C0812,Citizen812,9178715221,XXXX XXXX 6586,My car was stolen,Vehicle Theft,Medium,Local Police,2026-06-06,Open
+C0813,Citizen813,9410618775,XXXX XXXX 6128,Bank account hacked,Cyber Crime,High,Local Police,2026-01-26,Open
+C0814,Citizen814,9057788014,XXXX XXXX 5455,Someone stole my bike,Theft,Medium,Local Police,2026-06-24,Open
+C0815,Citizen815,9058656256,XXXX XXXX 3337,Bank account hacked,Cyber Crime,High,Local Police,2026-03-16,Open
+C0816,Citizen816,9755296170,XXXX XXXX 8371,My car was stolen,Vehicle Theft,Medium,Local Police,2026-03-21,Open
+C0817,Citizen817,9890953333,XXXX XXXX 5504,Online scam,Fraud,High,Local Police,2026-04-02,Open
+C0818,Citizen818,9244952221,XXXX XXXX 1085,Bank account hacked,Cyber Crime,High,Local Police,2026-01-21,Open
+C0819,Citizen819,9303589357,XXXX XXXX 1487,Online scam,Fraud,High,Local Police,2026-04-23,Open
+C0820,Citizen820,9886347392,XXXX XXXX 6323,My car was stolen,Vehicle Theft,Medium,Local Police,2026-02-14,Open
+C0821,Citizen821,9549562102,XXXX XXXX 5856,Bank account hacked,Cyber Crime,High,Local Police,2026-04-05,Open
+C0822,Citizen822,9474799019,XXXX XXXX 4117,Bank account hacked,Cyber Crime,High,Local Police,2026-01-22,Open
+C0823,Citizen823,9047900568,XXXX XXXX 6766,Neighbor attacked me,Assault,Medium,Local Police,2026-01-03,Open
+C0824,Citizen824,9092593059,XXXX XXXX 5552,Neighbor attacked me,Assault,Medium,Local Police,2026-01-02,Open
+C0825,Citizen825,9290439340,XXXX XXXX 6214,Online scam,Fraud,High,Local Police,2026-06-02,Open
+C0826,Citizen826,9166697596,XXXX XXXX 7831,Someone stole my bike,Theft,Medium,Local Police,2026-06-28,Open
+C0827,Citizen827,9731149656,XXXX XXXX 8603,Online scam,Fraud,High,Local Police,2026-03-09,Open
+C0828,Citizen828,9055896327,XXXX XXXX 2276,Bank account hacked,Cyber Crime,High,Local Police,2026-07-22,Open
+C0829,Citizen829,9178672802,XXXX XXXX 3653,Neighbor attacked me,Assault,Medium,Local Police,2026-05-19,Open
+C0830,Citizen830,9041671594,XXXX XXXX 2002,Bank account hacked,Cyber Crime,High,Local Police,2026-02-01,Open
+C0831,Citizen831,9027484400,XXXX XXXX 2473,Online scam,Fraud,High,Local Police,2026-04-16,Open
+C0832,Citizen832,9244780954,XXXX XXXX 8513,Someone stole my bike,Theft,Medium,Local Police,2026-02-17,Open
+C0833,Citizen833,9643285589,XXXX XXXX 5122,Online scam,Fraud,High,Local Police,2026-07-16,Open
+C0834,Citizen834,9827068117,XXXX XXXX 8407,Someone stole my bike,Theft,Medium,Local Police,2026-07-25,Open
+C0835,Citizen835,9575893272,XXXX XXXX 7221,Neighbor attacked me,Assault,Medium,Local Police,2026-02-16,Open
+C0836,Citizen836,9147358587,XXXX XXXX 8921,My car was stolen,Vehicle Theft,Medium,Local Police,2026-02-24,Open
+C0837,Citizen837,9871581090,XXXX XXXX 8893,Bank account hacked,Cyber Crime,High,Local Police,2026-04-07,Open
+C0838,Citizen838,9780286362,XXXX XXXX 9677,Someone stole my bike,Theft,Medium,Local Police,2026-01-25,Open
+C0839,Citizen839,9806997915,XXXX XXXX 6546,Bank account hacked,Cyber Crime,High,Local Police,2026-04-26,Open
+C0840,Citizen840,9875356171,XXXX XXXX 2821,Bank account hacked,Cyber Crime,High,Local Police,2026-07-01,Open
+C0841,Citizen841,9486396011,XXXX XXXX 4182,Neighbor attacked me,Assault,Medium,Local Police,2026-04-17,Open
+C0842,Citizen842,9353529535,XXXX XXXX 8647,Online scam,Fraud,High,Local Police,2026-06-06,Open
+C0843,Citizen843,9424042617,XXXX XXXX 4871,Online scam,Fraud,High,Local Police,2026-06-20,Open
+C0844,Citizen844,9875655939,XXXX XXXX 1468,Neighbor attacked me,Assault,Medium,Local Police,2026-03-28,Open
+C0845,Citizen845,9832368982,XXXX XXXX 4782,Neighbor attacked me,Assault,Medium,Local Police,2026-01-21,Open
+C0846,Citizen846,9396624541,XXXX XXXX 9631,Bank account hacked,Cyber Crime,High,Local Police,2026-03-11,Open
+C0847,Citizen847,9663959079,XXXX XXXX 8754,Someone stole my bike,Theft,Medium,Local Police,2026-06-26,Open
+C0848,Citizen848,9646441400,XXXX XXXX 3736,Bank account hacked,Cyber Crime,High,Local Police,2026-03-10,Open
+C0849,Citizen849,9819417682,XXXX XXXX 9196,Online scam,Fraud,High,Local Police,2026-06-10,Open
+C0850,Citizen850,9701748708,XXXX XXXX 4452,Neighbor attacked me,Assault,Medium,Local Police,2026-04-11,Open
+C0851,Citizen851,9608630789,XXXX XXXX 7635,Someone stole my bike,Theft,Medium,Local Police,2026-04-26,Open
+C0852,Citizen852,9577638896,XXXX XXXX 5747,Bank account hacked,Cyber Crime,High,Local Police,2026-04-22,Open
+C0853,Citizen853,9114199790,XXXX XXXX 6755,Someone stole my bike,Theft,Medium,Local Police,2026-03-21,Open
+C0854,Citizen854,9492773807,XXXX XXXX 7443,Bank account hacked,Cyber Crime,High,Local Police,2026-01-07,Open
+C0855,Citizen855,9649167389,XXXX XXXX 7372,My car was stolen,Vehicle Theft,Medium,Local Police,2026-06-17,Open
+C0856,Citizen856,9480052771,XXXX XXXX 4622,My car was stolen,Vehicle Theft,Medium,Local Police,2026-07-23,Open
+C0857,Citizen857,9241929376,XXXX XXXX 1621,Someone stole my bike,Theft,Medium,Local Police,2026-01-15,Open
+C0858,Citizen858,9211829122,XXXX XXXX 5883,My car was stolen,Vehicle Theft,Medium,Local Police,2026-07-23,Open
+C0859,Citizen859,9172778345,XXXX XXXX 5455,Someone stole my bike,Theft,Medium,Local Police,2026-07-11,Open
+C0860,Citizen860,9276103315,XXXX XXXX 9975,Online scam,Fraud,High,Local Police,2026-05-10,Open
+C0861,Citizen861,9289951447,XXXX XXXX 4372,Neighbor attacked me,Assault,Medium,Local Police,2026-07-02,Open
+C0862,Citizen862,9794634984,XXXX XXXX 7837,My car was stolen,Vehicle Theft,Medium,Local Police,2026-07-25,Open
+C0863,Citizen863,9363450852,XXXX XXXX 3222,Bank account hacked,Cyber Crime,High,Local Police,2026-06-17,Open
+C0864,Citizen864,9814461395,XXXX XXXX 8609,Someone stole my bike,Theft,Medium,Local Police,2026-01-25,Open
+C0865,Citizen865,9773994324,XXXX XXXX 1114,My car was stolen,Vehicle Theft,Medium,Local Police,2026-07-23,Open
+C0866,Citizen866,9673792662,XXXX XXXX 2493,Online scam,Fraud,High,Local Police,2026-01-23,Open
+C0867,Citizen867,9585100993,XXXX XXXX 7021,Online scam,Fraud,High,Local Police,2026-04-07,Open
+C0868,Citizen868,9138714860,XXXX XXXX 7324,Bank account hacked,Cyber Crime,High,Local Police,2026-04-02,Open
+C0869,Citizen869,9905831420,XXXX XXXX 1789,Online scam,Fraud,High,Local Police,2026-06-03,Open
+C0870,Citizen870,9902555093,XXXX XXXX 4002,My car was stolen,Vehicle Theft,Medium,Local Police,2026-06-20,Open
+C0871,Citizen871,9533208170,XXXX XXXX 6958,Neighbor attacked me,Assault,Medium,Local Police,2026-07-26,Open
+C0872,Citizen872,9275803469,XXXX XXXX 4889,My car was stolen,Vehicle Theft,Medium,Local Police,2026-07-07,Open
+C0873,Citizen873,9061877175,XXXX XXXX 7857,Someone stole my bike,Theft,Medium,Local Police,2026-07-03,Open
+C0874,Citizen874,9802803803,XXXX XXXX 1738,Bank account hacked,Cyber Crime,High,Local Police,2026-07-10,Open
+C0875,Citizen875,9072873585,XXXX XXXX 4274,Bank account hacked,Cyber Crime,High,Local Police,2026-04-07,Open
+C0876,Citizen876,9444098035,XXXX XXXX 8762,Bank account hacked,Cyber Crime,High,Local Police,2026-03-01,Open
+C0877,Citizen877,9658411171,XXXX XXXX 2748,Online scam,Fraud,High,Local Police,2026-02-08,Open
+C0878,Citizen878,9480327558,XXXX XXXX 1375,Someone stole my bike,Theft,Medium,Local Police,2026-04-05,Open
+C0879,Citizen879,9956665195,XXXX XXXX 3724,My car was stolen,Vehicle Theft,Medium,Local Police,2026-02-13,Open
+C0880,Citizen880,9163368604,XXXX XXXX 8143,Bank account hacked,Cyber Crime,High,Local Police,2026-07-16,Open
+C0881,Citizen881,9361166313,XXXX XXXX 1356,Bank account hacked,Cyber Crime,High,Local Police,2026-06-09,Open
+C0882,Citizen882,9146016324,XXXX XXXX 3914,Someone stole my bike,Theft,Medium,Local Police,2026-01-15,Open
+C0883,Citizen883,9443913277,XXXX XXXX 7691,Bank account hacked,Cyber Crime,High,Local Police,2026-06-10,Open
+C0884,Citizen884,9698708178,XXXX XXXX 1620,Neighbor attacked me,Assault,Medium,Local Police,2026-03-08,Open
+C0885,Citizen885,9841600166,XXXX XXXX 7792,Neighbor attacked me,Assault,Medium,Local Police,2026-07-14,Open
+C0886,Citizen886,9007061787,XXXX XXXX 4461,My car was stolen,Vehicle Theft,Medium,Local Police,2026-03-11,Open
+C0887,Citizen887,9572556130,XXXX XXXX 5230,Neighbor attacked me,Assault,Medium,Local Police,2026-05-19,Open
+C0888,Citizen888,9971600592,XXXX XXXX 8593,Online scam,Fraud,High,Local Police,2026-01-18,Open
+C0889,Citizen889,9772841531,XXXX XXXX 4427,Bank account hacked,Cyber Crime,High,Local Police,2026-06-17,Open
+C0890,Citizen890,9475437691,XXXX XXXX 9011,Bank account hacked,Cyber Crime,High,Local Police,2026-04-28,Open
+C0891,Citizen891,9481204558,XXXX XXXX 9723,My car was stolen,Vehicle Theft,Medium,Local Police,2026-06-23,Open
+C0892,Citizen892,9818516402,XXXX XXXX 1000,Neighbor attacked me,Assault,Medium,Local Police,2026-07-19,Open
+C0893,Citizen893,9791591841,XXXX XXXX 3553,Online scam,Fraud,High,Local Police,2026-07-01,Open
+C0894,Citizen894,9250545620,XXXX XXXX 8625,Neighbor attacked me,Assault,Medium,Local Police,2026-03-01,Open
+C0895,Citizen895,9861327446,XXXX XXXX 2226,Online scam,Fraud,High,Local Police,2026-07-17,Open
+C0896,Citizen896,9120041661,XXXX XXXX 4657,My car was stolen,Vehicle Theft,Medium,Local Police,2026-03-09,Open
+C0897,Citizen897,9183359984,XXXX XXXX 7641,Bank account hacked,Cyber Crime,High,Local Police,2026-04-05,Open
+C0898,Citizen898,9289280544,XXXX XXXX 9086,My car was stolen,Vehicle Theft,Medium,Local Police,2026-03-17,Open
+C0899,Citizen899,9618374037,XXXX XXXX 1651,Neighbor attacked me,Assault,Medium,Local Police,2026-04-17,Open
+C0900,Citizen900,9876086291,XXXX XXXX 3964,Neighbor attacked me,Assault,Medium,Local Police,2026-07-04,Open
+C0901,Citizen901,9950712089,XXXX XXXX 8284,Neighbor attacked me,Assault,Medium,Local Police,2026-07-27,Open
+C0902,Citizen902,9714295388,XXXX XXXX 3264,Bank account hacked,Cyber Crime,High,Local Police,2026-03-08,Open
+C0903,Citizen903,9965472741,XXXX XXXX 5179,Someone stole my bike,Theft,Medium,Local Police,2026-01-19,Open
+C0904,Citizen904,9662032890,XXXX XXXX 4718,My car was stolen,Vehicle Theft,Medium,Local Police,2026-05-03,Open
+C0905,Citizen905,9964500789,XXXX XXXX 6433,Someone stole my bike,Theft,Medium,Local Police,2026-04-02,Open
+C0906,Citizen906,9751814120,XXXX XXXX 6589,Someone stole my bike,Theft,Medium,Local Police,2026-01-22,Open
+C0907,Citizen907,9947958070,XXXX XXXX 6576,Bank account hacked,Cyber Crime,High,Local Police,2026-01-11,Open
+C0908,Citizen908,9683920080,XXXX XXXX 9857,Online scam,Fraud,High,Local Police,2026-05-09,Open
+C0909,Citizen909,9375064474,XXXX XXXX 2790,Someone stole my bike,Theft,Medium,Local Police,2026-04-25,Open
+C0910,Citizen910,9816450801,XXXX XXXX 9968,Bank account hacked,Cyber Crime,High,Local Police,2026-04-05,Open
+C0911,Citizen911,9706153422,XXXX XXXX 3661,Someone stole my bike,Theft,Medium,Local Police,2026-01-15,Open
+C0912,Citizen912,9356090064,XXXX XXXX 7616,Bank account hacked,Cyber Crime,High,Local Police,2026-02-21,Open
+C0913,Citizen913,9870269427,XXXX XXXX 9947,Online scam,Fraud,High,Local Police,2026-05-01,Open
+C0914,Citizen914,9231928054,XXXX XXXX 7535,Online scam,Fraud,High,Local Police,2026-04-22,Open
+C0915,Citizen915,9386759853,XXXX XXXX 1085,Online scam,Fraud,High,Local Police,2026-06-26,Open
+C0916,Citizen916,9159789317,XXXX XXXX 5674,My car was stolen,Vehicle Theft,Medium,Local Police,2026-01-01,Open
+C0917,Citizen917,9215030032,XXXX XXXX 4480,Someone stole my bike,Theft,Medium,Local Police,2026-06-08,Open
+C0918,Citizen918,9778978639,XXXX XXXX 5228,My car was stolen,Vehicle Theft,Medium,Local Police,2026-02-23,Open
+C0919,Citizen919,9235954387,XXXX XXXX 3086,Bank account hacked,Cyber Crime,High,Local Police,2026-02-07,Open
+C0920,Citizen920,9089572540,XXXX XXXX 5153,Someone stole my bike,Theft,Medium,Local Police,2026-04-07,Open
+C0921,Citizen921,9031356626,XXXX XXXX 6738,Online scam,Fraud,High,Local Police,2026-05-17,Open
+C0922,Citizen922,9026271058,XXXX XXXX 4791,Someone stole my bike,Theft,Medium,Local Police,2026-03-15,Open
+C0923,Citizen923,9145938130,XXXX XXXX 6128,Online scam,Fraud,High,Local Police,2026-01-02,Open
+C0924,Citizen924,9130782922,XXXX XXXX 3872,My car was stolen,Vehicle Theft,Medium,Local Police,2026-03-27,Open
+C0925,Citizen925,9124403698,XXXX XXXX 4939,My car was stolen,Vehicle Theft,Medium,Local Police,2026-06-08,Open
+C0926,Citizen926,9968225109,XXXX XXXX 2774,My car was stolen,Vehicle Theft,Medium,Local Police,2026-03-27,Open
+C0927,Citizen927,9954518337,XXXX XXXX 2551,My car was stolen,Vehicle Theft,Medium,Local Police,2026-06-20,Open
+C0928,Citizen928,9179614428,XXXX XXXX 9146,Online scam,Fraud,High,Local Police,2026-05-19,Open
+C0929,Citizen929,9643243682,XXXX XXXX 8356,Online scam,Fraud,High,Local Police,2026-07-04,Open
+C0930,Citizen930,9806958738,XXXX XXXX 1675,Someone stole my bike,Theft,Medium,Local Police,2026-07-04,Open
+C0931,Citizen931,9902714962,XXXX XXXX 1581,Online scam,Fraud,High,Local Police,2026-07-07,Open
+C0932,Citizen932,9018569143,XXXX XXXX 8879,Neighbor attacked me,Assault,Medium,Local Police,2026-01-12,Open
+C0933,Citizen933,9208588878,XXXX XXXX 5856,Someone stole my bike,Theft,Medium,Local Police,2026-03-17,Open
+C0934,Citizen934,9318961899,XXXX XXXX 6280,Neighbor attacked me,Assault,Medium,Local Police,2026-07-24,Open
+C0935,Citizen935,9065364168,XXXX XXXX 2465,Neighbor attacked me,Assault,Medium,Local Police,2026-02-01,Open
+C0936,Citizen936,9719885946,XXXX XXXX 3634,Online scam,Fraud,High,Local Police,2026-04-01,Open
+C0937,Citizen937,9383773292,XXXX XXXX 9596,Online scam,Fraud,High,Local Police,2026-03-02,Open
+C0938,Citizen938,9536618439,XXXX XXXX 4723,Online scam,Fraud,High,Local Police,2026-03-12,Open
+C0939,Citizen939,9227778968,XXXX XXXX 3439,Neighbor attacked me,Assault,Medium,Local Police,2026-05-02,Open
+C0940,Citizen940,9152137835,XXXX XXXX 5574,Neighbor attacked me,Assault,Medium,Local Police,2026-07-21,Open
+C0941,Citizen941,9154464523,XXXX XXXX 2781,Someone stole my bike,Theft,Medium,Local Police,2026-05-09,Open
+C0942,Citizen942,9048538040,XXXX XXXX 9770,Neighbor attacked me,Assault,Medium,Local Police,2026-04-13,Open
+C0943,Citizen943,9649291905,XXXX XXXX 4488,My car was stolen,Vehicle Theft,Medium,Local Police,2026-06-12,Open
+C0944,Citizen944,9399562909,XXXX XXXX 6530,Neighbor attacked me,Assault,Medium,Local Police,2026-05-13,Open
+C0945,Citizen945,9908360589,XXXX XXXX 3208,Neighbor attacked me,Assault,Medium,Local Police,2026-07-24,Open
+C0946,Citizen946,9921760618,XXXX XXXX 4062,Online scam,Fraud,High,Local Police,2026-05-05,Open
+C0947,Citizen947,9658016513,XXXX XXXX 5053,Neighbor attacked me,Assault,Medium,Local Police,2026-07-09,Open
+C0948,Citizen948,9433312466,XXXX XXXX 6468,Someone stole my bike,Theft,Medium,Local Police,2026-06-22,Open
+C0949,Citizen949,9374191699,XXXX XXXX 8932,Someone stole my bike,Theft,Medium,Local Police,2026-02-17,Open
+C0950,Citizen950,9059911984,XXXX XXXX 5247,Neighbor attacked me,Assault,Medium,Local Police,2026-04-24,Open
+C0951,Citizen951,9323921155,XXXX XXXX 2621,My car was stolen,Vehicle Theft,Medium,Local Police,2026-07-26,Open
+C0952,Citizen952,9304856434,XXXX XXXX 7257,Online scam,Fraud,High,Local Police,2026-05-17,Open
+C0953,Citizen953,9335047344,XXXX XXXX 3658,Neighbor attacked me,Assault,Medium,Local Police,2026-04-18,Open
+C0954,Citizen954,9427804813,XXXX XXXX 6512,Someone stole my bike,Theft,Medium,Local Police,2026-07-18,Open
+C0955,Citizen955,9602934047,XXXX XXXX 3931,Neighbor attacked me,Assault,Medium,Local Police,2026-02-14,Open
+C0956,Citizen956,9402148296,XXXX XXXX 5257,My car was stolen,Vehicle Theft,Medium,Local Police,2026-05-04,Open
+C0957,Citizen957,9787312725,XXXX XXXX 3725,Online scam,Fraud,High,Local Police,2026-07-17,Open
+C0958,Citizen958,9256843589,XXXX XXXX 7909,Neighbor attacked me,Assault,Medium,Local Police,2026-02-10,Open
+C0959,Citizen959,9122343954,XXXX XXXX 6666,Online scam,Fraud,High,Local Police,2026-01-14,Open
+C0960,Citizen960,9012380181,XXXX XXXX 3860,Bank account hacked,Cyber Crime,High,Local Police,2026-04-02,Open
+C0961,Citizen961,9295225154,XXXX XXXX 8868,Neighbor attacked me,Assault,Medium,Local Police,2026-01-10,Open
+C0962,Citizen962,9334421684,XXXX XXXX 2264,Bank account hacked,Cyber Crime,High,Local Police,2026-06-25,Open
+C0963,Citizen963,9265898259,XXXX XXXX 6551,My car was stolen,Vehicle Theft,Medium,Local Police,2026-03-03,Open
+C0964,Citizen964,9117544337,XXXX XXXX 9658,Someone stole my bike,Theft,Medium,Local Police,2026-02-22,Open
+C0965,Citizen965,9750175660,XXXX XXXX 9053,Neighbor attacked me,Assault,Medium,Local Police,2026-01-19,Open
+C0966,Citizen966,9072500605,XXXX XXXX 3742,My car was stolen,Vehicle Theft,Medium,Local Police,2026-02-14,Open
+C0967,Citizen967,9100956461,XXXX XXXX 4744,My car was stolen,Vehicle Theft,Medium,Local Police,2026-01-26,Open
+C0968,Citizen968,9492733484,XXXX XXXX 2243,Neighbor attacked me,Assault,Medium,Local Police,2026-04-20,Open
+C0969,Citizen969,9758128206,XXXX XXXX 1847,My car was stolen,Vehicle Theft,Medium,Local Police,2026-06-09,Open
+C0970,Citizen970,9757464671,XXXX XXXX 8450,Someone stole my bike,Theft,Medium,Local Police,2026-04-18,Open
+C0971,Citizen971,9352321391,XXXX XXXX 9743,Neighbor attacked me,Assault,Medium,Local Police,2026-07-02,Open
+C0972,Citizen972,9373959450,XXXX XXXX 3378,Neighbor attacked me,Assault,Medium,Local Police,2026-06-14,Open
+C0973,Citizen973,9028920348,XXXX XXXX 4529,Someone stole my bike,Theft,Medium,Local Police,2026-07-28,Open
+C0974,Citizen974,9553025424,XXXX XXXX 2630,Neighbor attacked me,Assault,Medium,Local Police,2026-07-10,Open
+C0975,Citizen975,9001425600,XXXX XXXX 4615,Neighbor attacked me,Assault,Medium,Local Police,2026-03-23,Open
+C0976,Citizen976,9408322928,XXXX XXXX 7450,Bank account hacked,Cyber Crime,High,Local Police,2026-01-09,Open
+C0977,Citizen977,9899377979,XXXX XXXX 1710,Online scam,Fraud,High,Local Police,2026-03-16,Open
+C0978,Citizen978,9292176931,XXXX XXXX 3504,My car was stolen,Vehicle Theft,Medium,Local Police,2026-02-13,Open
+C0979,Citizen979,9944533683,XXXX XXXX 9715,Neighbor attacked me,Assault,Medium,Local Police,2026-06-06,Open
+C0980,Citizen980,9550051570,XXXX XXXX 8104,Someone stole my bike,Theft,Medium,Local Police,2026-04-21,Open
+C0981,Citizen981,9988182683,XXXX XXXX 1703,Someone stole my bike,Theft,Medium,Local Police,2026-06-02,Open
+C0982,Citizen982,9610481828,XXXX XXXX 2972,My car was stolen,Vehicle Theft,Medium,Local Police,2026-02-19,Open
+C0983,Citizen983,9281278436,XXXX XXXX 1618,Bank account hacked,Cyber Crime,High,Local Police,2026-06-23,Open
+C0984,Citizen984,9631732470,XXXX XXXX 2282,My car was stolen,Vehicle Theft,Medium,Local Police,2026-05-15,Open
+C0985,Citizen985,9653503007,XXXX XXXX 3879,Online scam,Fraud,High,Local Police,2026-01-22,Open
+C0986,Citizen986,9148186235,XXXX XXXX 6868,My car was stolen,Vehicle Theft,Medium,Local Police,2026-04-24,Open
+C0987,Citizen987,9869873814,XXXX XXXX 9519,My car was stolen,Vehicle Theft,Medium,Local Police,2026-02-03,Open
+C0988,Citizen988,9203674979,XXXX XXXX 3229,My car was stolen,Vehicle Theft,Medium,Local Police,2026-04-25,Open
+C0989,Citizen989,9314833774,XXXX XXXX 2909,My car was stolen,Vehicle Theft,Medium,Local Police,2026-05-14,Open
+C0990,Citizen990,9774966922,XXXX XXXX 8886,Neighbor attacked me,Assault,Medium,Local Police,2026-03-01,Open
+C0991,Citizen991,9064878498,XXXX XXXX 4503,Neighbor attacked me,Assault,Medium,Local Police,2026-03-15,Open
+C0992,Citizen992,9429149695,XXXX XXXX 7939,Online scam,Fraud,High,Local Police,2026-03-08,Open
+C0993,Citizen993,9069587395,XXXX XXXX 1327,Online scam,Fraud,High,Local Police,2026-04-22,Open
+C0994,Citizen994,9268460737,XXXX XXXX 8083,Bank account hacked,Cyber Crime,High,Local Police,2026-03-24,Open
+C0995,Citizen995,9242445789,XXXX XXXX 4362,Someone stole my bike,Theft,Medium,Local Police,2026-07-06,Open
+C0996,Citizen996,9791514248,XXXX XXXX 9616,My car was stolen,Vehicle Theft,Medium,Local Police,2026-07-14,Open
+C0997,Citizen997,9010746075,XXXX XXXX 1313,My car was stolen,Vehicle Theft,Medium,Local Police,2026-07-05,Open
+C0998,Citizen998,9239782512,XXXX XXXX 6039,Neighbor attacked me,Assault,Medium,Local Police,2026-06-04,Open
+C0999,Citizen999,9814373580,XXXX XXXX 8611,Someone stole my bike,Theft,Medium,Local Police,2026-02-28,Open
+C1000,Citizen1000,9127813419,XXXX XXXX 5460,Online scam,Fraud,High,Local Police,2026-05-05,Open

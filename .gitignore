@@ -1,0 +1,45 @@
+# Python virtual environments
+backend/venv/
+backend/.venv/
+venv/
+.venv/
+
+# Python cache and compiled files
+__pycache__/
+*.py[cod]
+*$py.class
+backend/__pycache__/
+
+# Node.js dependencies
+frontend/node_modules/
+node_modules/
+
+# Frontend build outputs
+frontend/dist/
+frontend/build/
+dist/
+build/
+
+# Local databases and vector stores
+backend/police.db
+backend/chroma_store/
+
+# Environment configurations (secrets)
+backend/.env
+.env
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+
+# Editor configurations and temp files
+.vscode/
+.idea/
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.swp
+*.swo
+.DS_Store
+Thumbs.db

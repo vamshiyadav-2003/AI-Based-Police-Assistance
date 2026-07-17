@@ -1,0 +1,1001 @@
+FIR ID,Complaint ID,Victim Name,Crime Type,IPC/BNS Section,Incident Date,Location,Police Station,Officer,Status
+FIR0001,C0001,Citizen1,Vehicle Theft,BNS 303,2026-01-11,Medchal-Malkajgiri,Banjara Hills PS,Officer77,Under Investigation
+FIR0002,C0002,Citizen2,Assault,BNS 115,2026-03-17,Rangareddy,Kukatpally PS,Officer46,Open
+FIR0003,C0003,Citizen3,Theft,BNS 303,2026-04-20,Medchal-Malkajgiri,Gachibowli PS,Officer26,Closed
+FIR0004,C0004,Citizen4,Vehicle Theft,BNS 303,2026-01-23,Rangareddy,Gachibowli PS,Officer89,Closed
+FIR0005,C0005,Citizen5,Theft,BNS 303,2026-01-19,Warangal,Gachibowli PS,Officer81,Closed
+FIR0006,C0006,Citizen6,Theft,BNS 303,2026-03-21,Hyderabad,Banjara Hills PS,Officer55,Open
+FIR0007,C0007,Citizen7,Vehicle Theft,BNS 303,2026-06-21,Rangareddy,Begumpet PS,Officer41,Under Investigation
+FIR0008,C0008,Citizen8,Vehicle Theft,BNS 303,2026-03-09,Hyderabad,Begumpet PS,Officer47,Under Investigation
+FIR0009,C0009,Citizen9,Fraud,BNS 318,2026-05-22,Warangal,Gachibowli PS,Officer76,Open
+FIR0010,C0010,Citizen10,Vehicle Theft,BNS 303,2026-02-26,Medchal-Malkajgiri,Banjara Hills PS,Officer34,Open
+FIR0011,C0011,Citizen11,Assault,BNS 115,2026-07-16,Medchal-Malkajgiri,Banjara Hills PS,Officer98,Open
+FIR0012,C0012,Citizen12,Fraud,BNS 318,2026-06-14,Rangareddy,Gachibowli PS,Officer88,Under Investigation
+FIR0013,C0013,Citizen13,Assault,BNS 115,2026-02-25,Rangareddy,Madhapur PS,Officer93,Closed
+FIR0014,C0014,Citizen14,Vehicle Theft,BNS 303,2026-06-27,Rangareddy,Kukatpally PS,Officer93,Closed
+FIR0015,C0015,Citizen15,Theft,BNS 303,2026-07-02,Warangal,Gachibowli PS,Officer70,Open
+FIR0016,C0016,Citizen16,Assault,BNS 115,2026-06-12,Hyderabad,Madhapur PS,Officer54,Closed
+FIR0017,C0017,Citizen17,Assault,BNS 115,2026-01-28,Hyderabad,Madhapur PS,Officer41,Under Investigation
+FIR0018,C0018,Citizen18,Assault,BNS 115,2026-01-17,Warangal,Begumpet PS,Officer86,Under Investigation
+FIR0019,C0019,Citizen19,Fraud,BNS 318,2026-06-28,Hyderabad,Madhapur PS,Officer73,Under Investigation
+FIR0020,C0020,Citizen20,Vehicle Theft,BNS 303,2026-04-16,Medchal-Malkajgiri,Madhapur PS,Officer69,Under Investigation
+FIR0021,C0021,Citizen21,Fraud,BNS 318,2026-03-06,Rangareddy,Madhapur PS,Officer90,Under Investigation
+FIR0022,C0022,Citizen22,Fraud,BNS 318,2026-07-13,Warangal,Begumpet PS,Officer15,Under Investigation
+FIR0023,C0023,Citizen23,Vehicle Theft,BNS 303,2026-03-23,Hyderabad,Banjara Hills PS,Officer18,Under Investigation
+FIR0024,C0024,Citizen24,Cyber Crime,IT Act,2026-05-28,Warangal,Gachibowli PS,Officer70,Open
+FIR0025,C0025,Citizen25,Cyber Crime,IT Act,2026-06-14,Warangal,Begumpet PS,Officer11,Closed
+FIR0026,C0026,Citizen26,Cyber Crime,IT Act,2026-01-23,Medchal-Malkajgiri,Gachibowli PS,Officer22,Open
+FIR0027,C0027,Citizen27,Vehicle Theft,BNS 303,2026-01-03,Hyderabad,Madhapur PS,Officer77,Under Investigation
+FIR0028,C0028,Citizen28,Assault,BNS 115,2026-02-09,Rangareddy,Banjara Hills PS,Officer47,Closed
+FIR0029,C0029,Citizen29,Theft,BNS 303,2026-02-27,Hyderabad,Gachibowli PS,Officer14,Closed
+FIR0030,C0030,Citizen30,Assault,BNS 115,2026-02-12,Rangareddy,Banjara Hills PS,Officer59,Closed
+FIR0031,C0031,Citizen31,Assault,BNS 115,2026-01-03,Medchal-Malkajgiri,Banjara Hills PS,Officer93,Closed
+FIR0032,C0032,Citizen32,Assault,BNS 115,2026-06-08,Hyderabad,Gachibowli PS,Officer82,Closed
+FIR0033,C0033,Citizen33,Assault,BNS 115,2026-03-06,Medchal-Malkajgiri,Gachibowli PS,Officer61,Closed
+FIR0034,C0034,Citizen34,Cyber Crime,IT Act,2026-07-22,Medchal-Malkajgiri,Madhapur PS,Officer14,Under Investigation
+FIR0035,C0035,Citizen35,Fraud,BNS 318,2026-07-08,Warangal,Begumpet PS,Officer16,Closed
+FIR0036,C0036,Citizen36,Fraud,BNS 318,2026-02-28,Rangareddy,Gachibowli PS,Officer61,Under Investigation
+FIR0037,C0037,Citizen37,Cyber Crime,IT Act,2026-07-04,Karimnagar,Begumpet PS,Officer69,Open
+FIR0038,C0038,Citizen38,Assault,BNS 115,2026-06-23,Warangal,Banjara Hills PS,Officer75,Open
+FIR0039,C0039,Citizen39,Vehicle Theft,BNS 303,2026-07-18,Rangareddy,Kukatpally PS,Officer73,Under Investigation
+FIR0040,C0040,Citizen40,Fraud,BNS 318,2026-06-05,Warangal,Kukatpally PS,Officer82,Closed
+FIR0041,C0041,Citizen41,Theft,BNS 303,2026-05-23,Hyderabad,Banjara Hills PS,Officer43,Closed
+FIR0042,C0042,Citizen42,Fraud,BNS 318,2026-02-10,Hyderabad,Gachibowli PS,Officer16,Closed
+FIR0043,C0043,Citizen43,Assault,BNS 115,2026-02-11,Rangareddy,Begumpet PS,Officer51,Under Investigation
+FIR0044,C0044,Citizen44,Cyber Crime,IT Act,2026-03-06,Rangareddy,Madhapur PS,Officer49,Open
+FIR0045,C0045,Citizen45,Cyber Crime,IT Act,2026-04-14,Karimnagar,Kukatpally PS,Officer15,Under Investigation
+FIR0046,C0046,Citizen46,Fraud,BNS 318,2026-07-21,Warangal,Kukatpally PS,Officer6,Closed
+FIR0047,C0047,Citizen47,Cyber Crime,IT Act,2026-05-08,Karimnagar,Madhapur PS,Officer17,Open
+FIR0048,C0048,Citizen48,Fraud,BNS 318,2026-05-21,Hyderabad,Gachibowli PS,Officer34,Open
+FIR0049,C0049,Citizen49,Assault,BNS 115,2026-06-03,Karimnagar,Madhapur PS,Officer43,Closed
+FIR0050,C0050,Citizen50,Assault,BNS 115,2026-07-06,Warangal,Kukatpally PS,Officer25,Closed
+FIR0051,C0051,Citizen51,Cyber Crime,IT Act,2026-02-03,Rangareddy,Banjara Hills PS,Officer36,Closed
+FIR0052,C0052,Citizen52,Assault,BNS 115,2026-01-11,Medchal-Malkajgiri,Madhapur PS,Officer50,Open
+FIR0053,C0053,Citizen53,Fraud,BNS 318,2026-05-26,Medchal-Malkajgiri,Begumpet PS,Officer67,Under Investigation
+FIR0054,C0054,Citizen54,Vehicle Theft,BNS 303,2026-04-18,Karimnagar,Begumpet PS,Officer20,Closed
+FIR0055,C0055,Citizen55,Fraud,BNS 318,2026-06-12,Medchal-Malkajgiri,Begumpet PS,Officer92,Closed
+FIR0056,C0056,Citizen56,Cyber Crime,IT Act,2026-01-28,Karimnagar,Begumpet PS,Officer80,Open
+FIR0057,C0057,Citizen57,Assault,BNS 115,2026-07-10,Warangal,Gachibowli PS,Officer62,Closed
+FIR0058,C0058,Citizen58,Vehicle Theft,BNS 303,2026-01-16,Rangareddy,Gachibowli PS,Officer61,Closed
+FIR0059,C0059,Citizen59,Theft,BNS 303,2026-01-09,Hyderabad,Gachibowli PS,Officer46,Closed
+FIR0060,C0060,Citizen60,Cyber Crime,IT Act,2026-04-12,Rangareddy,Madhapur PS,Officer92,Closed
+FIR0061,C0061,Citizen61,Assault,BNS 115,2026-04-24,Karimnagar,Kukatpally PS,Officer42,Closed
+FIR0062,C0062,Citizen62,Vehicle Theft,BNS 303,2026-04-04,Rangareddy,Begumpet PS,Officer69,Under Investigation
+FIR0063,C0063,Citizen63,Assault,BNS 115,2026-03-09,Karimnagar,Madhapur PS,Officer31,Under Investigation
+FIR0064,C0064,Citizen64,Assault,BNS 115,2026-03-13,Hyderabad,Kukatpally PS,Officer93,Under Investigation
+FIR0065,C0065,Citizen65,Assault,BNS 115,2026-04-09,Warangal,Begumpet PS,Officer6,Closed
+FIR0066,C0066,Citizen66,Assault,BNS 115,2026-03-08,Warangal,Madhapur PS,Officer27,Closed
+FIR0067,C0067,Citizen67,Theft,BNS 303,2026-01-14,Warangal,Madhapur PS,Officer99,Under Investigation
+FIR0068,C0068,Citizen68,Cyber Crime,IT Act,2026-06-17,Warangal,Kukatpally PS,Officer55,Under Investigation
+FIR0069,C0069,Citizen69,Cyber Crime,IT Act,2026-01-04,Hyderabad,Begumpet PS,Officer34,Closed
+FIR0070,C0070,Citizen70,Vehicle Theft,BNS 303,2026-05-03,Warangal,Begumpet PS,Officer78,Under Investigation
+FIR0071,C0071,Citizen71,Assault,BNS 115,2026-05-10,Medchal-Malkajgiri,Begumpet PS,Officer44,Closed
+FIR0072,C0072,Citizen72,Assault,BNS 115,2026-07-25,Medchal-Malkajgiri,Gachibowli PS,Officer89,Under Investigation
+FIR0073,C0073,Citizen73,Theft,BNS 303,2026-07-22,Karimnagar,Madhapur PS,Officer62,Open
+FIR0074,C0074,Citizen74,Theft,BNS 303,2026-05-28,Karimnagar,Begumpet PS,Officer41,Under Investigation
+FIR0075,C0075,Citizen75,Cyber Crime,IT Act,2026-05-14,Medchal-Malkajgiri,Kukatpally PS,Officer84,Closed
+FIR0076,C0076,Citizen76,Theft,BNS 303,2026-04-08,Hyderabad,Kukatpally PS,Officer12,Closed
+FIR0077,C0077,Citizen77,Fraud,BNS 318,2026-01-21,Warangal,Begumpet PS,Officer60,Closed
+FIR0078,C0078,Citizen78,Cyber Crime,IT Act,2026-04-01,Karimnagar,Begumpet PS,Officer77,Under Investigation
+FIR0079,C0079,Citizen79,Cyber Crime,IT Act,2026-06-09,Rangareddy,Banjara Hills PS,Officer61,Closed
+FIR0080,C0080,Citizen80,Theft,BNS 303,2026-02-05,Hyderabad,Kukatpally PS,Officer27,Open
+FIR0081,C0081,Citizen81,Assault,BNS 115,2026-02-18,Rangareddy,Banjara Hills PS,Officer31,Open
+FIR0082,C0082,Citizen82,Cyber Crime,IT Act,2026-06-26,Warangal,Madhapur PS,Officer21,Under Investigation
+FIR0083,C0083,Citizen83,Vehicle Theft,BNS 303,2026-01-19,Hyderabad,Banjara Hills PS,Officer27,Under Investigation
+FIR0084,C0084,Citizen84,Assault,BNS 115,2026-03-14,Warangal,Begumpet PS,Officer57,Under Investigation
+FIR0085,C0085,Citizen85,Fraud,BNS 318,2026-04-06,Karimnagar,Banjara Hills PS,Officer48,Under Investigation
+FIR0086,C0086,Citizen86,Vehicle Theft,BNS 303,2026-02-09,Hyderabad,Gachibowli PS,Officer82,Closed
+FIR0087,C0087,Citizen87,Cyber Crime,IT Act,2026-06-03,Warangal,Kukatpally PS,Officer21,Under Investigation
+FIR0088,C0088,Citizen88,Assault,BNS 115,2026-02-14,Karimnagar,Kukatpally PS,Officer53,Under Investigation
+FIR0089,C0089,Citizen89,Assault,BNS 115,2026-05-14,Karimnagar,Kukatpally PS,Officer26,Closed
+FIR0090,C0090,Citizen90,Assault,BNS 115,2026-01-01,Medchal-Malkajgiri,Gachibowli PS,Officer75,Closed
+FIR0091,C0091,Citizen91,Theft,BNS 303,2026-04-25,Warangal,Kukatpally PS,Officer91,Closed
+FIR0092,C0092,Citizen92,Theft,BNS 303,2026-01-26,Rangareddy,Kukatpally PS,Officer5,Under Investigation
+FIR0093,C0093,Citizen93,Cyber Crime,IT Act,2026-04-11,Medchal-Malkajgiri,Banjara Hills PS,Officer92,Under Investigation
+FIR0094,C0094,Citizen94,Cyber Crime,IT Act,2026-03-01,Medchal-Malkajgiri,Madhapur PS,Officer69,Open
+FIR0095,C0095,Citizen95,Assault,BNS 115,2026-01-22,Rangareddy,Gachibowli PS,Officer13,Open
+FIR0096,C0096,Citizen96,Vehicle Theft,BNS 303,2026-05-03,Hyderabad,Begumpet PS,Officer90,Closed
+FIR0097,C0097,Citizen97,Assault,BNS 115,2026-01-01,Medchal-Malkajgiri,Gachibowli PS,Officer15,Closed
+FIR0098,C0098,Citizen98,Fraud,BNS 318,2026-07-18,Hyderabad,Banjara Hills PS,Officer54,Under Investigation
+FIR0099,C0099,Citizen99,Assault,BNS 115,2026-01-15,Hyderabad,Gachibowli PS,Officer9,Open
+FIR0100,C0100,Citizen100,Theft,BNS 303,2026-06-04,Medchal-Malkajgiri,Madhapur PS,Officer47,Under Investigation
+FIR0101,C0101,Citizen101,Theft,BNS 303,2026-07-15,Hyderabad,Gachibowli PS,Officer15,Open
+FIR0102,C0102,Citizen102,Fraud,BNS 318,2026-06-05,Medchal-Malkajgiri,Madhapur PS,Officer94,Open
+FIR0103,C0103,Citizen103,Theft,BNS 303,2026-03-26,Warangal,Begumpet PS,Officer48,Closed
+FIR0104,C0104,Citizen104,Assault,BNS 115,2026-06-13,Rangareddy,Begumpet PS,Officer72,Closed
+FIR0105,C0105,Citizen105,Cyber Crime,IT Act,2026-04-26,Rangareddy,Gachibowli PS,Officer88,Open
+FIR0106,C0106,Citizen106,Theft,BNS 303,2026-06-12,Warangal,Banjara Hills PS,Officer77,Open
+FIR0107,C0107,Citizen107,Fraud,BNS 318,2026-01-14,Rangareddy,Begumpet PS,Officer100,Under Investigation
+FIR0108,C0108,Citizen108,Cyber Crime,IT Act,2026-01-08,Warangal,Begumpet PS,Officer37,Open
+FIR0109,C0109,Citizen109,Fraud,BNS 318,2026-02-15,Warangal,Madhapur PS,Officer61,Open
+FIR0110,C0110,Citizen110,Assault,BNS 115,2026-01-10,Hyderabad,Gachibowli PS,Officer82,Under Investigation
+FIR0111,C0111,Citizen111,Fraud,BNS 318,2026-07-08,Rangareddy,Madhapur PS,Officer100,Closed
+FIR0112,C0112,Citizen112,Fraud,BNS 318,2026-01-01,Rangareddy,Banjara Hills PS,Officer9,Closed
+FIR0113,C0113,Citizen113,Fraud,BNS 318,2026-06-06,Medchal-Malkajgiri,Madhapur PS,Officer36,Closed
+FIR0114,C0114,Citizen114,Theft,BNS 303,2026-06-01,Hyderabad,Gachibowli PS,Officer4,Open
+FIR0115,C0115,Citizen115,Theft,BNS 303,2026-06-24,Hyderabad,Banjara Hills PS,Officer48,Under Investigation
+FIR0116,C0116,Citizen116,Vehicle Theft,BNS 303,2026-07-08,Rangareddy,Madhapur PS,Officer84,Under Investigation
+FIR0117,C0117,Citizen117,Cyber Crime,IT Act,2026-06-27,Warangal,Kukatpally PS,Officer41,Open
+FIR0118,C0118,Citizen118,Vehicle Theft,BNS 303,2026-05-09,Rangareddy,Kukatpally PS,Officer62,Under Investigation
+FIR0119,C0119,Citizen119,Fraud,BNS 318,2026-06-08,Warangal,Gachibowli PS,Officer99,Under Investigation
+FIR0120,C0120,Citizen120,Vehicle Theft,BNS 303,2026-05-23,Warangal,Madhapur PS,Officer25,Open
+FIR0121,C0121,Citizen121,Cyber Crime,IT Act,2026-04-08,Medchal-Malkajgiri,Kukatpally PS,Officer71,Open
+FIR0122,C0122,Citizen122,Cyber Crime,IT Act,2026-06-08,Warangal,Kukatpally PS,Officer20,Under Investigation
+FIR0123,C0123,Citizen123,Fraud,BNS 318,2026-05-05,Medchal-Malkajgiri,Begumpet PS,Officer72,Open
+FIR0124,C0124,Citizen124,Theft,BNS 303,2026-01-01,Rangareddy,Begumpet PS,Officer47,Under Investigation
+FIR0125,C0125,Citizen125,Theft,BNS 303,2026-02-28,Warangal,Begumpet PS,Officer63,Under Investigation
+FIR0126,C0126,Citizen126,Theft,BNS 303,2026-07-06,Rangareddy,Banjara Hills PS,Officer62,Under Investigation
+FIR0127,C0127,Citizen127,Vehicle Theft,BNS 303,2026-06-15,Warangal,Begumpet PS,Officer84,Closed
+FIR0128,C0128,Citizen128,Fraud,BNS 318,2026-01-05,Medchal-Malkajgiri,Madhapur PS,Officer7,Closed
+FIR0129,C0129,Citizen129,Theft,BNS 303,2026-02-11,Warangal,Begumpet PS,Officer82,Under Investigation
+FIR0130,C0130,Citizen130,Cyber Crime,IT Act,2026-01-10,Warangal,Gachibowli PS,Officer89,Closed
+FIR0131,C0131,Citizen131,Theft,BNS 303,2026-06-19,Rangareddy,Begumpet PS,Officer43,Closed
+FIR0132,C0132,Citizen132,Fraud,BNS 318,2026-03-11,Medchal-Malkajgiri,Gachibowli PS,Officer60,Closed
+FIR0133,C0133,Citizen133,Assault,BNS 115,2026-04-26,Warangal,Kukatpally PS,Officer29,Open
+FIR0134,C0134,Citizen134,Fraud,BNS 318,2026-07-10,Medchal-Malkajgiri,Banjara Hills PS,Officer55,Open
+FIR0135,C0135,Citizen135,Fraud,BNS 318,2026-06-24,Karimnagar,Begumpet PS,Officer81,Open
+FIR0136,C0136,Citizen136,Fraud,BNS 318,2026-07-28,Hyderabad,Kukatpally PS,Officer32,Closed
+FIR0137,C0137,Citizen137,Fraud,BNS 318,2026-02-26,Warangal,Gachibowli PS,Officer22,Open
+FIR0138,C0138,Citizen138,Vehicle Theft,BNS 303,2026-07-02,Karimnagar,Banjara Hills PS,Officer57,Under Investigation
+FIR0139,C0139,Citizen139,Vehicle Theft,BNS 303,2026-05-17,Rangareddy,Kukatpally PS,Officer37,Closed
+FIR0140,C0140,Citizen140,Fraud,BNS 318,2026-04-27,Karimnagar,Banjara Hills PS,Officer72,Under Investigation
+FIR0141,C0141,Citizen141,Cyber Crime,IT Act,2026-03-16,Hyderabad,Kukatpally PS,Officer42,Open
+FIR0142,C0142,Citizen142,Fraud,BNS 318,2026-01-04,Karimnagar,Madhapur PS,Officer18,Closed
+FIR0143,C0143,Citizen143,Vehicle Theft,BNS 303,2026-05-05,Medchal-Malkajgiri,Madhapur PS,Officer74,Under Investigation
+FIR0144,C0144,Citizen144,Theft,BNS 303,2026-04-04,Karimnagar,Begumpet PS,Officer84,Closed
+FIR0145,C0145,Citizen145,Cyber Crime,IT Act,2026-03-20,Hyderabad,Kukatpally PS,Officer58,Open
+FIR0146,C0146,Citizen146,Cyber Crime,IT Act,2026-03-24,Rangareddy,Begumpet PS,Officer35,Closed
+FIR0147,C0147,Citizen147,Assault,BNS 115,2026-07-26,Rangareddy,Banjara Hills PS,Officer77,Open
+FIR0148,C0148,Citizen148,Fraud,BNS 318,2026-05-07,Rangareddy,Madhapur PS,Officer42,Open
+FIR0149,C0149,Citizen149,Cyber Crime,IT Act,2026-05-07,Warangal,Gachibowli PS,Officer37,Open
+FIR0150,C0150,Citizen150,Cyber Crime,IT Act,2026-01-21,Rangareddy,Begumpet PS,Officer2,Closed
+FIR0151,C0151,Citizen151,Fraud,BNS 318,2026-01-19,Rangareddy,Gachibowli PS,Officer38,Closed
+FIR0152,C0152,Citizen152,Assault,BNS 115,2026-06-02,Karimnagar,Banjara Hills PS,Officer28,Open
+FIR0153,C0153,Citizen153,Fraud,BNS 318,2026-03-07,Rangareddy,Kukatpally PS,Officer28,Under Investigation
+FIR0154,C0154,Citizen154,Theft,BNS 303,2026-03-25,Warangal,Begumpet PS,Officer30,Closed
+FIR0155,C0155,Citizen155,Fraud,BNS 318,2026-02-09,Hyderabad,Begumpet PS,Officer5,Under Investigation
+FIR0156,C0156,Citizen156,Vehicle Theft,BNS 303,2026-05-12,Rangareddy,Gachibowli PS,Officer50,Open
+FIR0157,C0157,Citizen157,Theft,BNS 303,2026-06-10,Rangareddy,Kukatpally PS,Officer9,Under Investigation
+FIR0158,C0158,Citizen158,Theft,BNS 303,2026-03-06,Hyderabad,Begumpet PS,Officer44,Under Investigation
+FIR0159,C0159,Citizen159,Cyber Crime,IT Act,2026-06-19,Hyderabad,Kukatpally PS,Officer24,Closed
+FIR0160,C0160,Citizen160,Theft,BNS 303,2026-05-06,Medchal-Malkajgiri,Begumpet PS,Officer22,Open
+FIR0161,C0161,Citizen161,Vehicle Theft,BNS 303,2026-01-07,Hyderabad,Begumpet PS,Officer35,Under Investigation
+FIR0162,C0162,Citizen162,Cyber Crime,IT Act,2026-05-12,Karimnagar,Begumpet PS,Officer77,Open
+FIR0163,C0163,Citizen163,Assault,BNS 115,2026-05-16,Hyderabad,Gachibowli PS,Officer99,Closed
+FIR0164,C0164,Citizen164,Assault,BNS 115,2026-03-18,Karimnagar,Madhapur PS,Officer72,Open
+FIR0165,C0165,Citizen165,Fraud,BNS 318,2026-07-13,Medchal-Malkajgiri,Madhapur PS,Officer1,Closed
+FIR0166,C0166,Citizen166,Theft,BNS 303,2026-01-11,Warangal,Madhapur PS,Officer69,Open
+FIR0167,C0167,Citizen167,Theft,BNS 303,2026-06-15,Hyderabad,Begumpet PS,Officer43,Under Investigation
+FIR0168,C0168,Citizen168,Vehicle Theft,BNS 303,2026-05-13,Hyderabad,Kukatpally PS,Officer87,Closed
+FIR0169,C0169,Citizen169,Vehicle Theft,BNS 303,2026-02-21,Warangal,Banjara Hills PS,Officer72,Under Investigation
+FIR0170,C0170,Citizen170,Vehicle Theft,BNS 303,2026-05-10,Hyderabad,Banjara Hills PS,Officer91,Open
+FIR0171,C0171,Citizen171,Fraud,BNS 318,2026-07-24,Medchal-Malkajgiri,Banjara Hills PS,Officer85,Under Investigation
+FIR0172,C0172,Citizen172,Cyber Crime,IT Act,2026-03-19,Hyderabad,Madhapur PS,Officer19,Open
+FIR0173,C0173,Citizen173,Theft,BNS 303,2026-01-22,Warangal,Begumpet PS,Officer22,Under Investigation
+FIR0174,C0174,Citizen174,Cyber Crime,IT Act,2026-07-14,Medchal-Malkajgiri,Banjara Hills PS,Officer28,Under Investigation
+FIR0175,C0175,Citizen175,Vehicle Theft,BNS 303,2026-03-25,Rangareddy,Begumpet PS,Officer18,Open
+FIR0176,C0176,Citizen176,Vehicle Theft,BNS 303,2026-02-12,Karimnagar,Banjara Hills PS,Officer40,Closed
+FIR0177,C0177,Citizen177,Fraud,BNS 318,2026-04-13,Medchal-Malkajgiri,Madhapur PS,Officer6,Open
+FIR0178,C0178,Citizen178,Cyber Crime,IT Act,2026-07-05,Karimnagar,Gachibowli PS,Officer39,Under Investigation
+FIR0179,C0179,Citizen179,Fraud,BNS 318,2026-03-22,Hyderabad,Banjara Hills PS,Officer79,Open
+FIR0180,C0180,Citizen180,Cyber Crime,IT Act,2026-04-03,Medchal-Malkajgiri,Gachibowli PS,Officer39,Under Investigation
+FIR0181,C0181,Citizen181,Vehicle Theft,BNS 303,2026-04-21,Medchal-Malkajgiri,Kukatpally PS,Officer7,Under Investigation
+FIR0182,C0182,Citizen182,Cyber Crime,IT Act,2026-07-09,Medchal-Malkajgiri,Madhapur PS,Officer34,Closed
+FIR0183,C0183,Citizen183,Theft,BNS 303,2026-03-19,Warangal,Kukatpally PS,Officer83,Under Investigation
+FIR0184,C0184,Citizen184,Assault,BNS 115,2026-05-16,Hyderabad,Kukatpally PS,Officer56,Under Investigation
+FIR0185,C0185,Citizen185,Cyber Crime,IT Act,2026-02-15,Warangal,Begumpet PS,Officer37,Under Investigation
+FIR0186,C0186,Citizen186,Vehicle Theft,BNS 303,2026-03-13,Karimnagar,Banjara Hills PS,Officer93,Closed
+FIR0187,C0187,Citizen187,Fraud,BNS 318,2026-04-08,Karimnagar,Gachibowli PS,Officer44,Open
+FIR0188,C0188,Citizen188,Fraud,BNS 318,2026-02-13,Karimnagar,Gachibowli PS,Officer50,Open
+FIR0189,C0189,Citizen189,Theft,BNS 303,2026-02-28,Medchal-Malkajgiri,Madhapur PS,Officer98,Open
+FIR0190,C0190,Citizen190,Cyber Crime,IT Act,2026-01-21,Hyderabad,Kukatpally PS,Officer47,Closed
+FIR0191,C0191,Citizen191,Assault,BNS 115,2026-07-10,Warangal,Kukatpally PS,Officer75,Open
+FIR0192,C0192,Citizen192,Cyber Crime,IT Act,2026-05-19,Warangal,Madhapur PS,Officer82,Under Investigation
+FIR0193,C0193,Citizen193,Cyber Crime,IT Act,2026-02-09,Rangareddy,Madhapur PS,Officer69,Open
+FIR0194,C0194,Citizen194,Vehicle Theft,BNS 303,2026-07-04,Rangareddy,Banjara Hills PS,Officer60,Under Investigation
+FIR0195,C0195,Citizen195,Assault,BNS 115,2026-02-10,Rangareddy,Kukatpally PS,Officer43,Open
+FIR0196,C0196,Citizen196,Cyber Crime,IT Act,2026-05-08,Rangareddy,Gachibowli PS,Officer98,Open
+FIR0197,C0197,Citizen197,Fraud,BNS 318,2026-07-03,Hyderabad,Kukatpally PS,Officer78,Closed
+FIR0198,C0198,Citizen198,Cyber Crime,IT Act,2026-04-26,Medchal-Malkajgiri,Kukatpally PS,Officer89,Closed
+FIR0199,C0199,Citizen199,Assault,BNS 115,2026-02-06,Karimnagar,Kukatpally PS,Officer70,Under Investigation
+FIR0200,C0200,Citizen200,Fraud,BNS 318,2026-04-16,Rangareddy,Gachibowli PS,Officer93,Under Investigation
+FIR0201,C0201,Citizen201,Cyber Crime,IT Act,2026-06-02,Hyderabad,Kukatpally PS,Officer17,Open
+FIR0202,C0202,Citizen202,Theft,BNS 303,2026-04-14,Medchal-Malkajgiri,Gachibowli PS,Officer8,Open
+FIR0203,C0203,Citizen203,Theft,BNS 303,2026-07-08,Rangareddy,Banjara Hills PS,Officer81,Under Investigation
+FIR0204,C0204,Citizen204,Fraud,BNS 318,2026-02-15,Medchal-Malkajgiri,Banjara Hills PS,Officer52,Open
+FIR0205,C0205,Citizen205,Vehicle Theft,BNS 303,2026-05-14,Karimnagar,Begumpet PS,Officer64,Closed
+FIR0206,C0206,Citizen206,Vehicle Theft,BNS 303,2026-07-10,Warangal,Begumpet PS,Officer21,Closed
+FIR0207,C0207,Citizen207,Cyber Crime,IT Act,2026-04-26,Medchal-Malkajgiri,Banjara Hills PS,Officer3,Open
+FIR0208,C0208,Citizen208,Assault,BNS 115,2026-03-17,Rangareddy,Banjara Hills PS,Officer1,Closed
+FIR0209,C0209,Citizen209,Cyber Crime,IT Act,2026-07-12,Warangal,Gachibowli PS,Officer77,Closed
+FIR0210,C0210,Citizen210,Assault,BNS 115,2026-04-06,Rangareddy,Gachibowli PS,Officer54,Under Investigation
+FIR0211,C0211,Citizen211,Cyber Crime,IT Act,2026-05-02,Rangareddy,Gachibowli PS,Officer25,Open
+FIR0212,C0212,Citizen212,Cyber Crime,IT Act,2026-02-20,Warangal,Banjara Hills PS,Officer54,Under Investigation
+FIR0213,C0213,Citizen213,Theft,BNS 303,2026-06-19,Warangal,Madhapur PS,Officer43,Open
+FIR0214,C0214,Citizen214,Vehicle Theft,BNS 303,2026-03-08,Medchal-Malkajgiri,Madhapur PS,Officer39,Open
+FIR0215,C0215,Citizen215,Fraud,BNS 318,2026-02-12,Hyderabad,Begumpet PS,Officer4,Under Investigation
+FIR0216,C0216,Citizen216,Vehicle Theft,BNS 303,2026-06-10,Hyderabad,Gachibowli PS,Officer79,Open
+FIR0217,C0217,Citizen217,Fraud,BNS 318,2026-03-04,Hyderabad,Begumpet PS,Officer78,Closed
+FIR0218,C0218,Citizen218,Assault,BNS 115,2026-04-23,Medchal-Malkajgiri,Madhapur PS,Officer90,Open
+FIR0219,C0219,Citizen219,Cyber Crime,IT Act,2026-03-17,Rangareddy,Banjara Hills PS,Officer97,Open
+FIR0220,C0220,Citizen220,Theft,BNS 303,2026-03-19,Medchal-Malkajgiri,Banjara Hills PS,Officer53,Closed
+FIR0221,C0221,Citizen221,Cyber Crime,IT Act,2026-03-07,Hyderabad,Kukatpally PS,Officer65,Open
+FIR0222,C0222,Citizen222,Theft,BNS 303,2026-06-01,Medchal-Malkajgiri,Madhapur PS,Officer89,Open
+FIR0223,C0223,Citizen223,Assault,BNS 115,2026-01-22,Karimnagar,Kukatpally PS,Officer6,Under Investigation
+FIR0224,C0224,Citizen224,Fraud,BNS 318,2026-05-09,Rangareddy,Begumpet PS,Officer9,Closed
+FIR0225,C0225,Citizen225,Theft,BNS 303,2026-06-25,Rangareddy,Begumpet PS,Officer38,Open
+FIR0226,C0226,Citizen226,Theft,BNS 303,2026-04-01,Rangareddy,Begumpet PS,Officer14,Closed
+FIR0227,C0227,Citizen227,Cyber Crime,IT Act,2026-03-26,Hyderabad,Madhapur PS,Officer44,Under Investigation
+FIR0228,C0228,Citizen228,Theft,BNS 303,2026-04-01,Warangal,Madhapur PS,Officer75,Closed
+FIR0229,C0229,Citizen229,Fraud,BNS 318,2026-01-28,Medchal-Malkajgiri,Gachibowli PS,Officer6,Under Investigation
+FIR0230,C0230,Citizen230,Theft,BNS 303,2026-04-02,Warangal,Begumpet PS,Officer34,Under Investigation
+FIR0231,C0231,Citizen231,Assault,BNS 115,2026-02-18,Karimnagar,Kukatpally PS,Officer22,Closed
+FIR0232,C0232,Citizen232,Vehicle Theft,BNS 303,2026-03-10,Warangal,Begumpet PS,Officer43,Under Investigation
+FIR0233,C0233,Citizen233,Vehicle Theft,BNS 303,2026-01-06,Karimnagar,Madhapur PS,Officer44,Under Investigation
+FIR0234,C0234,Citizen234,Fraud,BNS 318,2026-01-11,Rangareddy,Kukatpally PS,Officer28,Closed
+FIR0235,C0235,Citizen235,Fraud,BNS 318,2026-01-27,Rangareddy,Gachibowli PS,Officer63,Under Investigation
+FIR0236,C0236,Citizen236,Theft,BNS 303,2026-03-28,Medchal-Malkajgiri,Banjara Hills PS,Officer39,Closed
+FIR0237,C0237,Citizen237,Vehicle Theft,BNS 303,2026-01-20,Medchal-Malkajgiri,Kukatpally PS,Officer37,Under Investigation
+FIR0238,C0238,Citizen238,Cyber Crime,IT Act,2026-03-11,Hyderabad,Banjara Hills PS,Officer53,Open
+FIR0239,C0239,Citizen239,Cyber Crime,IT Act,2026-02-24,Warangal,Kukatpally PS,Officer54,Open
+FIR0240,C0240,Citizen240,Cyber Crime,IT Act,2026-06-05,Warangal,Begumpet PS,Officer68,Open
+FIR0241,C0241,Citizen241,Cyber Crime,IT Act,2026-06-21,Karimnagar,Kukatpally PS,Officer9,Closed
+FIR0242,C0242,Citizen242,Theft,BNS 303,2026-04-18,Warangal,Madhapur PS,Officer58,Open
+FIR0243,C0243,Citizen243,Fraud,BNS 318,2026-04-01,Karimnagar,Begumpet PS,Officer33,Open
+FIR0244,C0244,Citizen244,Cyber Crime,IT Act,2026-01-19,Hyderabad,Madhapur PS,Officer28,Open
+FIR0245,C0245,Citizen245,Theft,BNS 303,2026-02-09,Warangal,Madhapur PS,Officer65,Open
+FIR0246,C0246,Citizen246,Cyber Crime,IT Act,2026-06-14,Warangal,Kukatpally PS,Officer97,Open
+FIR0247,C0247,Citizen247,Theft,BNS 303,2026-02-28,Warangal,Gachibowli PS,Officer45,Under Investigation
+FIR0248,C0248,Citizen248,Assault,BNS 115,2026-05-10,Hyderabad,Madhapur PS,Officer30,Open
+FIR0249,C0249,Citizen249,Cyber Crime,IT Act,2026-06-05,Warangal,Kukatpally PS,Officer94,Closed
+FIR0250,C0250,Citizen250,Fraud,BNS 318,2026-07-21,Warangal,Kukatpally PS,Officer44,Open
+FIR0251,C0251,Citizen251,Fraud,BNS 318,2026-04-10,Warangal,Begumpet PS,Officer100,Open
+FIR0252,C0252,Citizen252,Cyber Crime,IT Act,2026-07-11,Hyderabad,Kukatpally PS,Officer92,Closed
+FIR0253,C0253,Citizen253,Assault,BNS 115,2026-05-23,Warangal,Gachibowli PS,Officer55,Open
+FIR0254,C0254,Citizen254,Theft,BNS 303,2026-04-21,Karimnagar,Banjara Hills PS,Officer86,Closed
+FIR0255,C0255,Citizen255,Theft,BNS 303,2026-02-17,Warangal,Banjara Hills PS,Officer75,Under Investigation
+FIR0256,C0256,Citizen256,Vehicle Theft,BNS 303,2026-04-06,Karimnagar,Gachibowli PS,Officer13,Open
+FIR0257,C0257,Citizen257,Fraud,BNS 318,2026-05-22,Warangal,Gachibowli PS,Officer7,Open
+FIR0258,C0258,Citizen258,Fraud,BNS 318,2026-02-20,Rangareddy,Madhapur PS,Officer18,Closed
+FIR0259,C0259,Citizen259,Fraud,BNS 318,2026-05-21,Medchal-Malkajgiri,Madhapur PS,Officer93,Under Investigation
+FIR0260,C0260,Citizen260,Vehicle Theft,BNS 303,2026-01-04,Hyderabad,Banjara Hills PS,Officer22,Open
+FIR0261,C0261,Citizen261,Theft,BNS 303,2026-01-13,Medchal-Malkajgiri,Madhapur PS,Officer61,Open
+FIR0262,C0262,Citizen262,Vehicle Theft,BNS 303,2026-06-14,Rangareddy,Begumpet PS,Officer83,Closed
+FIR0263,C0263,Citizen263,Theft,BNS 303,2026-03-21,Medchal-Malkajgiri,Kukatpally PS,Officer71,Open
+FIR0264,C0264,Citizen264,Theft,BNS 303,2026-03-13,Karimnagar,Begumpet PS,Officer54,Closed
+FIR0265,C0265,Citizen265,Assault,BNS 115,2026-07-22,Warangal,Begumpet PS,Officer64,Closed
+FIR0266,C0266,Citizen266,Assault,BNS 115,2026-03-04,Rangareddy,Begumpet PS,Officer80,Under Investigation
+FIR0267,C0267,Citizen267,Cyber Crime,IT Act,2026-03-18,Warangal,Banjara Hills PS,Officer40,Open
+FIR0268,C0268,Citizen268,Fraud,BNS 318,2026-04-18,Hyderabad,Madhapur PS,Officer50,Open
+FIR0269,C0269,Citizen269,Cyber Crime,IT Act,2026-07-23,Warangal,Begumpet PS,Officer95,Under Investigation
+FIR0270,C0270,Citizen270,Theft,BNS 303,2026-06-12,Medchal-Malkajgiri,Kukatpally PS,Officer81,Open
+FIR0271,C0271,Citizen271,Fraud,BNS 318,2026-06-04,Medchal-Malkajgiri,Begumpet PS,Officer61,Closed
+FIR0272,C0272,Citizen272,Fraud,BNS 318,2026-05-09,Hyderabad,Begumpet PS,Officer87,Open
+FIR0273,C0273,Citizen273,Fraud,BNS 318,2026-01-07,Rangareddy,Kukatpally PS,Officer81,Under Investigation
+FIR0274,C0274,Citizen274,Cyber Crime,IT Act,2026-03-13,Karimnagar,Kukatpally PS,Officer10,Closed
+FIR0275,C0275,Citizen275,Theft,BNS 303,2026-04-23,Karimnagar,Gachibowli PS,Officer60,Open
+FIR0276,C0276,Citizen276,Cyber Crime,IT Act,2026-02-05,Medchal-Malkajgiri,Madhapur PS,Officer28,Under Investigation
+FIR0277,C0277,Citizen277,Theft,BNS 303,2026-01-22,Medchal-Malkajgiri,Gachibowli PS,Officer79,Under Investigation
+FIR0278,C0278,Citizen278,Theft,BNS 303,2026-06-03,Rangareddy,Gachibowli PS,Officer17,Closed
+FIR0279,C0279,Citizen279,Fraud,BNS 318,2026-04-09,Medchal-Malkajgiri,Kukatpally PS,Officer37,Closed
+FIR0280,C0280,Citizen280,Theft,BNS 303,2026-04-28,Karimnagar,Gachibowli PS,Officer7,Under Investigation
+FIR0281,C0281,Citizen281,Assault,BNS 115,2026-07-05,Warangal,Begumpet PS,Officer98,Closed
+FIR0282,C0282,Citizen282,Assault,BNS 115,2026-03-18,Medchal-Malkajgiri,Madhapur PS,Officer51,Under Investigation
+FIR0283,C0283,Citizen283,Theft,BNS 303,2026-04-26,Karimnagar,Madhapur PS,Officer43,Under Investigation
+FIR0284,C0284,Citizen284,Theft,BNS 303,2026-06-21,Karimnagar,Gachibowli PS,Officer49,Closed
+FIR0285,C0285,Citizen285,Vehicle Theft,BNS 303,2026-01-27,Warangal,Kukatpally PS,Officer63,Open
+FIR0286,C0286,Citizen286,Assault,BNS 115,2026-02-12,Medchal-Malkajgiri,Madhapur PS,Officer11,Closed
+FIR0287,C0287,Citizen287,Vehicle Theft,BNS 303,2026-06-09,Warangal,Banjara Hills PS,Officer76,Closed
+FIR0288,C0288,Citizen288,Fraud,BNS 318,2026-02-11,Medchal-Malkajgiri,Begumpet PS,Officer14,Closed
+FIR0289,C0289,Citizen289,Theft,BNS 303,2026-02-01,Karimnagar,Madhapur PS,Officer67,Closed
+FIR0290,C0290,Citizen290,Vehicle Theft,BNS 303,2026-06-22,Rangareddy,Kukatpally PS,Officer25,Under Investigation
+FIR0291,C0291,Citizen291,Cyber Crime,IT Act,2026-07-19,Rangareddy,Banjara Hills PS,Officer1,Open
+FIR0292,C0292,Citizen292,Theft,BNS 303,2026-02-18,Warangal,Kukatpally PS,Officer78,Closed
+FIR0293,C0293,Citizen293,Theft,BNS 303,2026-04-18,Rangareddy,Begumpet PS,Officer29,Closed
+FIR0294,C0294,Citizen294,Fraud,BNS 318,2026-02-26,Hyderabad,Begumpet PS,Officer87,Open
+FIR0295,C0295,Citizen295,Fraud,BNS 318,2026-06-25,Warangal,Kukatpally PS,Officer93,Closed
+FIR0296,C0296,Citizen296,Vehicle Theft,BNS 303,2026-05-17,Medchal-Malkajgiri,Gachibowli PS,Officer3,Under Investigation
+FIR0297,C0297,Citizen297,Theft,BNS 303,2026-04-26,Warangal,Begumpet PS,Officer70,Open
+FIR0298,C0298,Citizen298,Assault,BNS 115,2026-04-03,Rangareddy,Begumpet PS,Officer62,Closed
+FIR0299,C0299,Citizen299,Assault,BNS 115,2026-01-04,Medchal-Malkajgiri,Banjara Hills PS,Officer31,Closed
+FIR0300,C0300,Citizen300,Theft,BNS 303,2026-05-24,Rangareddy,Begumpet PS,Officer51,Under Investigation
+FIR0301,C0301,Citizen301,Cyber Crime,IT Act,2026-07-10,Warangal,Gachibowli PS,Officer33,Open
+FIR0302,C0302,Citizen302,Fraud,BNS 318,2026-03-28,Rangareddy,Kukatpally PS,Officer68,Closed
+FIR0303,C0303,Citizen303,Vehicle Theft,BNS 303,2026-04-11,Hyderabad,Gachibowli PS,Officer48,Open
+FIR0304,C0304,Citizen304,Theft,BNS 303,2026-05-11,Karimnagar,Kukatpally PS,Officer97,Under Investigation
+FIR0305,C0305,Citizen305,Theft,BNS 303,2026-02-26,Rangareddy,Gachibowli PS,Officer59,Open
+FIR0306,C0306,Citizen306,Cyber Crime,IT Act,2026-01-09,Hyderabad,Madhapur PS,Officer28,Under Investigation
+FIR0307,C0307,Citizen307,Cyber Crime,IT Act,2026-06-04,Rangareddy,Begumpet PS,Officer60,Open
+FIR0308,C0308,Citizen308,Fraud,BNS 318,2026-04-27,Medchal-Malkajgiri,Madhapur PS,Officer89,Under Investigation
+FIR0309,C0309,Citizen309,Theft,BNS 303,2026-05-08,Medchal-Malkajgiri,Madhapur PS,Officer80,Closed
+FIR0310,C0310,Citizen310,Assault,BNS 115,2026-05-23,Hyderabad,Begumpet PS,Officer47,Closed
+FIR0311,C0311,Citizen311,Cyber Crime,IT Act,2026-05-11,Warangal,Begumpet PS,Officer49,Open
+FIR0312,C0312,Citizen312,Cyber Crime,IT Act,2026-05-15,Karimnagar,Gachibowli PS,Officer41,Open
+FIR0313,C0313,Citizen313,Cyber Crime,IT Act,2026-04-24,Medchal-Malkajgiri,Madhapur PS,Officer42,Open
+FIR0314,C0314,Citizen314,Cyber Crime,IT Act,2026-05-02,Rangareddy,Gachibowli PS,Officer89,Under Investigation
+FIR0315,C0315,Citizen315,Theft,BNS 303,2026-03-01,Warangal,Banjara Hills PS,Officer100,Open
+FIR0316,C0316,Citizen316,Theft,BNS 303,2026-07-24,Rangareddy,Begumpet PS,Officer75,Open
+FIR0317,C0317,Citizen317,Theft,BNS 303,2026-06-01,Warangal,Banjara Hills PS,Officer29,Closed
+FIR0318,C0318,Citizen318,Assault,BNS 115,2026-03-26,Karimnagar,Begumpet PS,Officer28,Open
+FIR0319,C0319,Citizen319,Assault,BNS 115,2026-04-27,Karimnagar,Kukatpally PS,Officer16,Under Investigation
+FIR0320,C0320,Citizen320,Theft,BNS 303,2026-02-14,Warangal,Kukatpally PS,Officer80,Open
+FIR0321,C0321,Citizen321,Vehicle Theft,BNS 303,2026-07-10,Medchal-Malkajgiri,Begumpet PS,Officer17,Closed
+FIR0322,C0322,Citizen322,Vehicle Theft,BNS 303,2026-06-17,Warangal,Banjara Hills PS,Officer63,Under Investigation
+FIR0323,C0323,Citizen323,Cyber Crime,IT Act,2026-02-02,Medchal-Malkajgiri,Banjara Hills PS,Officer37,Open
+FIR0324,C0324,Citizen324,Cyber Crime,IT Act,2026-03-17,Hyderabad,Kukatpally PS,Officer3,Closed
+FIR0325,C0325,Citizen325,Assault,BNS 115,2026-06-21,Medchal-Malkajgiri,Gachibowli PS,Officer27,Closed
+FIR0326,C0326,Citizen326,Assault,BNS 115,2026-04-24,Hyderabad,Banjara Hills PS,Officer5,Closed
+FIR0327,C0327,Citizen327,Assault,BNS 115,2026-07-02,Rangareddy,Kukatpally PS,Officer62,Open
+FIR0328,C0328,Citizen328,Fraud,BNS 318,2026-05-14,Medchal-Malkajgiri,Kukatpally PS,Officer48,Closed
+FIR0329,C0329,Citizen329,Cyber Crime,IT Act,2026-01-24,Medchal-Malkajgiri,Kukatpally PS,Officer70,Closed
+FIR0330,C0330,Citizen330,Vehicle Theft,BNS 303,2026-07-21,Karimnagar,Gachibowli PS,Officer32,Closed
+FIR0331,C0331,Citizen331,Vehicle Theft,BNS 303,2026-02-01,Warangal,Gachibowli PS,Officer35,Open
+FIR0332,C0332,Citizen332,Fraud,BNS 318,2026-02-18,Rangareddy,Madhapur PS,Officer49,Under Investigation
+FIR0333,C0333,Citizen333,Theft,BNS 303,2026-05-11,Karimnagar,Madhapur PS,Officer76,Closed
+FIR0334,C0334,Citizen334,Vehicle Theft,BNS 303,2026-07-06,Rangareddy,Banjara Hills PS,Officer72,Under Investigation
+FIR0335,C0335,Citizen335,Fraud,BNS 318,2026-02-08,Medchal-Malkajgiri,Madhapur PS,Officer33,Open
+FIR0336,C0336,Citizen336,Fraud,BNS 318,2026-03-28,Rangareddy,Begumpet PS,Officer87,Under Investigation
+FIR0337,C0337,Citizen337,Cyber Crime,IT Act,2026-05-10,Rangareddy,Kukatpally PS,Officer43,Under Investigation
+FIR0338,C0338,Citizen338,Cyber Crime,IT Act,2026-07-24,Warangal,Begumpet PS,Officer70,Closed
+FIR0339,C0339,Citizen339,Theft,BNS 303,2026-04-17,Medchal-Malkajgiri,Gachibowli PS,Officer41,Closed
+FIR0340,C0340,Citizen340,Fraud,BNS 318,2026-03-18,Karimnagar,Begumpet PS,Officer29,Under Investigation
+FIR0341,C0341,Citizen341,Cyber Crime,IT Act,2026-04-03,Warangal,Gachibowli PS,Officer45,Open
+FIR0342,C0342,Citizen342,Theft,BNS 303,2026-03-14,Hyderabad,Kukatpally PS,Officer45,Under Investigation
+FIR0343,C0343,Citizen343,Fraud,BNS 318,2026-02-11,Warangal,Madhapur PS,Officer53,Open
+FIR0344,C0344,Citizen344,Cyber Crime,IT Act,2026-06-10,Rangareddy,Gachibowli PS,Officer44,Under Investigation
+FIR0345,C0345,Citizen345,Theft,BNS 303,2026-04-20,Medchal-Malkajgiri,Begumpet PS,Officer7,Under Investigation
+FIR0346,C0346,Citizen346,Cyber Crime,IT Act,2026-03-05,Hyderabad,Banjara Hills PS,Officer42,Under Investigation
+FIR0347,C0347,Citizen347,Vehicle Theft,BNS 303,2026-04-11,Karimnagar,Kukatpally PS,Officer24,Open
+FIR0348,C0348,Citizen348,Fraud,BNS 318,2026-04-12,Karimnagar,Banjara Hills PS,Officer70,Closed
+FIR0349,C0349,Citizen349,Assault,BNS 115,2026-02-22,Warangal,Kukatpally PS,Officer95,Open
+FIR0350,C0350,Citizen350,Cyber Crime,IT Act,2026-02-18,Medchal-Malkajgiri,Gachibowli PS,Officer32,Open
+FIR0351,C0351,Citizen351,Theft,BNS 303,2026-02-04,Rangareddy,Gachibowli PS,Officer14,Under Investigation
+FIR0352,C0352,Citizen352,Cyber Crime,IT Act,2026-05-02,Medchal-Malkajgiri,Begumpet PS,Officer79,Under Investigation
+FIR0353,C0353,Citizen353,Vehicle Theft,BNS 303,2026-07-20,Warangal,Gachibowli PS,Officer91,Open
+FIR0354,C0354,Citizen354,Cyber Crime,IT Act,2026-04-02,Medchal-Malkajgiri,Madhapur PS,Officer98,Under Investigation
+FIR0355,C0355,Citizen355,Vehicle Theft,BNS 303,2026-06-05,Hyderabad,Kukatpally PS,Officer98,Closed
+FIR0356,C0356,Citizen356,Vehicle Theft,BNS 303,2026-05-28,Warangal,Kukatpally PS,Officer52,Closed
+FIR0357,C0357,Citizen357,Vehicle Theft,BNS 303,2026-05-21,Karimnagar,Kukatpally PS,Officer78,Closed
+FIR0358,C0358,Citizen358,Fraud,BNS 318,2026-03-03,Rangareddy,Banjara Hills PS,Officer14,Under Investigation
+FIR0359,C0359,Citizen359,Theft,BNS 303,2026-03-21,Hyderabad,Madhapur PS,Officer79,Open
+FIR0360,C0360,Citizen360,Fraud,BNS 318,2026-03-10,Warangal,Gachibowli PS,Officer6,Under Investigation
+FIR0361,C0361,Citizen361,Assault,BNS 115,2026-06-13,Rangareddy,Gachibowli PS,Officer95,Open
+FIR0362,C0362,Citizen362,Assault,BNS 115,2026-07-15,Hyderabad,Banjara Hills PS,Officer32,Under Investigation
+FIR0363,C0363,Citizen363,Cyber Crime,IT Act,2026-03-24,Karimnagar,Banjara Hills PS,Officer89,Closed
+FIR0364,C0364,Citizen364,Assault,BNS 115,2026-01-12,Warangal,Banjara Hills PS,Officer66,Open
+FIR0365,C0365,Citizen365,Assault,BNS 115,2026-04-23,Warangal,Begumpet PS,Officer85,Under Investigation
+FIR0366,C0366,Citizen366,Fraud,BNS 318,2026-03-01,Warangal,Madhapur PS,Officer93,Closed
+FIR0367,C0367,Citizen367,Assault,BNS 115,2026-07-15,Karimnagar,Begumpet PS,Officer37,Under Investigation
+FIR0368,C0368,Citizen368,Vehicle Theft,BNS 303,2026-07-16,Medchal-Malkajgiri,Kukatpally PS,Officer77,Under Investigation
+FIR0369,C0369,Citizen369,Fraud,BNS 318,2026-03-13,Karimnagar,Madhapur PS,Officer70,Open
+FIR0370,C0370,Citizen370,Fraud,BNS 318,2026-06-11,Rangareddy,Gachibowli PS,Officer96,Under Investigation
+FIR0371,C0371,Citizen371,Vehicle Theft,BNS 303,2026-04-23,Warangal,Gachibowli PS,Officer29,Under Investigation
+FIR0372,C0372,Citizen372,Vehicle Theft,BNS 303,2026-07-05,Hyderabad,Begumpet PS,Officer83,Open
+FIR0373,C0373,Citizen373,Fraud,BNS 318,2026-07-23,Karimnagar,Banjara Hills PS,Officer45,Under Investigation
+FIR0374,C0374,Citizen374,Assault,BNS 115,2026-01-06,Hyderabad,Begumpet PS,Officer90,Open
+FIR0375,C0375,Citizen375,Cyber Crime,IT Act,2026-04-17,Rangareddy,Begumpet PS,Officer30,Under Investigation
+FIR0376,C0376,Citizen376,Assault,BNS 115,2026-06-17,Warangal,Banjara Hills PS,Officer61,Open
+FIR0377,C0377,Citizen377,Vehicle Theft,BNS 303,2026-05-21,Karimnagar,Kukatpally PS,Officer64,Closed
+FIR0378,C0378,Citizen378,Cyber Crime,IT Act,2026-04-08,Karimnagar,Banjara Hills PS,Officer31,Open
+FIR0379,C0379,Citizen379,Assault,BNS 115,2026-02-24,Hyderabad,Gachibowli PS,Officer22,Under Investigation
+FIR0380,C0380,Citizen380,Cyber Crime,IT Act,2026-06-14,Rangareddy,Madhapur PS,Officer20,Under Investigation
+FIR0381,C0381,Citizen381,Vehicle Theft,BNS 303,2026-05-16,Hyderabad,Begumpet PS,Officer32,Closed
+FIR0382,C0382,Citizen382,Assault,BNS 115,2026-06-10,Karimnagar,Gachibowli PS,Officer60,Closed
+FIR0383,C0383,Citizen383,Vehicle Theft,BNS 303,2026-04-01,Rangareddy,Banjara Hills PS,Officer13,Closed
+FIR0384,C0384,Citizen384,Assault,BNS 115,2026-05-03,Warangal,Gachibowli PS,Officer86,Under Investigation
+FIR0385,C0385,Citizen385,Assault,BNS 115,2026-05-23,Rangareddy,Madhapur PS,Officer67,Open
+FIR0386,C0386,Citizen386,Cyber Crime,IT Act,2026-02-08,Hyderabad,Begumpet PS,Officer17,Under Investigation
+FIR0387,C0387,Citizen387,Vehicle Theft,BNS 303,2026-04-23,Hyderabad,Banjara Hills PS,Officer34,Closed
+FIR0388,C0388,Citizen388,Assault,BNS 115,2026-06-22,Rangareddy,Banjara Hills PS,Officer61,Closed
+FIR0389,C0389,Citizen389,Cyber Crime,IT Act,2026-06-19,Hyderabad,Madhapur PS,Officer3,Closed
+FIR0390,C0390,Citizen390,Fraud,BNS 318,2026-07-08,Hyderabad,Kukatpally PS,Officer66,Open
+FIR0391,C0391,Citizen391,Fraud,BNS 318,2026-05-13,Warangal,Begumpet PS,Officer44,Open
+FIR0392,C0392,Citizen392,Assault,BNS 115,2026-06-05,Warangal,Madhapur PS,Officer29,Under Investigation
+FIR0393,C0393,Citizen393,Cyber Crime,IT Act,2026-01-19,Warangal,Begumpet PS,Officer17,Open
+FIR0394,C0394,Citizen394,Fraud,BNS 318,2026-03-26,Medchal-Malkajgiri,Banjara Hills PS,Officer12,Closed
+FIR0395,C0395,Citizen395,Fraud,BNS 318,2026-02-26,Rangareddy,Begumpet PS,Officer17,Closed
+FIR0396,C0396,Citizen396,Cyber Crime,IT Act,2026-05-19,Warangal,Kukatpally PS,Officer66,Under Investigation
+FIR0397,C0397,Citizen397,Theft,BNS 303,2026-06-13,Karimnagar,Kukatpally PS,Officer26,Open
+FIR0398,C0398,Citizen398,Fraud,BNS 318,2026-02-25,Rangareddy,Kukatpally PS,Officer73,Open
+FIR0399,C0399,Citizen399,Assault,BNS 115,2026-07-12,Medchal-Malkajgiri,Madhapur PS,Officer44,Open
+FIR0400,C0400,Citizen400,Vehicle Theft,BNS 303,2026-01-23,Medchal-Malkajgiri,Banjara Hills PS,Officer89,Under Investigation
+FIR0401,C0401,Citizen401,Fraud,BNS 318,2026-05-04,Warangal,Begumpet PS,Officer92,Open
+FIR0402,C0402,Citizen402,Cyber Crime,IT Act,2026-01-28,Rangareddy,Gachibowli PS,Officer17,Under Investigation
+FIR0403,C0403,Citizen403,Cyber Crime,IT Act,2026-04-19,Hyderabad,Kukatpally PS,Officer1,Closed
+FIR0404,C0404,Citizen404,Assault,BNS 115,2026-01-09,Rangareddy,Madhapur PS,Officer43,Under Investigation
+FIR0405,C0405,Citizen405,Assault,BNS 115,2026-03-20,Medchal-Malkajgiri,Gachibowli PS,Officer59,Under Investigation
+FIR0406,C0406,Citizen406,Theft,BNS 303,2026-01-13,Medchal-Malkajgiri,Madhapur PS,Officer29,Under Investigation
+FIR0407,C0407,Citizen407,Vehicle Theft,BNS 303,2026-07-09,Warangal,Begumpet PS,Officer20,Open
+FIR0408,C0408,Citizen408,Theft,BNS 303,2026-05-05,Rangareddy,Madhapur PS,Officer93,Under Investigation
+FIR0409,C0409,Citizen409,Cyber Crime,IT Act,2026-07-08,Rangareddy,Gachibowli PS,Officer64,Under Investigation
+FIR0410,C0410,Citizen410,Theft,BNS 303,2026-03-18,Hyderabad,Begumpet PS,Officer8,Open
+FIR0411,C0411,Citizen411,Fraud,BNS 318,2026-03-01,Karimnagar,Madhapur PS,Officer80,Closed
+FIR0412,C0412,Citizen412,Cyber Crime,IT Act,2026-06-09,Hyderabad,Kukatpally PS,Officer89,Under Investigation
+FIR0413,C0413,Citizen413,Assault,BNS 115,2026-05-20,Karimnagar,Banjara Hills PS,Officer24,Closed
+FIR0414,C0414,Citizen414,Assault,BNS 115,2026-07-12,Rangareddy,Gachibowli PS,Officer27,Closed
+FIR0415,C0415,Citizen415,Cyber Crime,IT Act,2026-01-26,Karimnagar,Kukatpally PS,Officer97,Open
+FIR0416,C0416,Citizen416,Theft,BNS 303,2026-07-19,Medchal-Malkajgiri,Begumpet PS,Officer89,Closed
+FIR0417,C0417,Citizen417,Theft,BNS 303,2026-06-12,Karimnagar,Banjara Hills PS,Officer50,Open
+FIR0418,C0418,Citizen418,Cyber Crime,IT Act,2026-01-05,Rangareddy,Banjara Hills PS,Officer11,Open
+FIR0419,C0419,Citizen419,Assault,BNS 115,2026-07-13,Medchal-Malkajgiri,Banjara Hills PS,Officer81,Under Investigation
+FIR0420,C0420,Citizen420,Fraud,BNS 318,2026-04-22,Warangal,Begumpet PS,Officer72,Closed
+FIR0421,C0421,Citizen421,Cyber Crime,IT Act,2026-02-10,Warangal,Banjara Hills PS,Officer20,Closed
+FIR0422,C0422,Citizen422,Assault,BNS 115,2026-01-22,Warangal,Madhapur PS,Officer93,Closed
+FIR0423,C0423,Citizen423,Cyber Crime,IT Act,2026-02-20,Rangareddy,Banjara Hills PS,Officer61,Under Investigation
+FIR0424,C0424,Citizen424,Assault,BNS 115,2026-05-22,Karimnagar,Madhapur PS,Officer49,Closed
+FIR0425,C0425,Citizen425,Assault,BNS 115,2026-03-14,Rangareddy,Kukatpally PS,Officer72,Under Investigation
+FIR0426,C0426,Citizen426,Assault,BNS 115,2026-04-16,Rangareddy,Banjara Hills PS,Officer60,Under Investigation
+FIR0427,C0427,Citizen427,Cyber Crime,IT Act,2026-02-20,Rangareddy,Begumpet PS,Officer29,Under Investigation
+FIR0428,C0428,Citizen428,Fraud,BNS 318,2026-05-27,Karimnagar,Gachibowli PS,Officer67,Open
+FIR0429,C0429,Citizen429,Cyber Crime,IT Act,2026-03-02,Warangal,Madhapur PS,Officer58,Closed
+FIR0430,C0430,Citizen430,Assault,BNS 115,2026-07-25,Warangal,Begumpet PS,Officer62,Open
+FIR0431,C0431,Citizen431,Cyber Crime,IT Act,2026-01-21,Hyderabad,Begumpet PS,Officer25,Open
+FIR0432,C0432,Citizen432,Theft,BNS 303,2026-06-28,Rangareddy,Begumpet PS,Officer58,Open
+FIR0433,C0433,Citizen433,Cyber Crime,IT Act,2026-02-05,Medchal-Malkajgiri,Kukatpally PS,Officer75,Open
+FIR0434,C0434,Citizen434,Cyber Crime,IT Act,2026-03-04,Medchal-Malkajgiri,Madhapur PS,Officer16,Closed
+FIR0435,C0435,Citizen435,Fraud,BNS 318,2026-03-15,Hyderabad,Madhapur PS,Officer87,Closed
+FIR0436,C0436,Citizen436,Assault,BNS 115,2026-01-07,Hyderabad,Banjara Hills PS,Officer77,Under Investigation
+FIR0437,C0437,Citizen437,Fraud,BNS 318,2026-04-15,Warangal,Banjara Hills PS,Officer51,Closed
+FIR0438,C0438,Citizen438,Cyber Crime,IT Act,2026-06-09,Warangal,Begumpet PS,Officer12,Under Investigation
+FIR0439,C0439,Citizen439,Fraud,BNS 318,2026-03-06,Warangal,Kukatpally PS,Officer97,Closed
+FIR0440,C0440,Citizen440,Theft,BNS 303,2026-07-01,Medchal-Malkajgiri,Gachibowli PS,Officer68,Under Investigation
+FIR0441,C0441,Citizen441,Assault,BNS 115,2026-05-09,Warangal,Gachibowli PS,Officer43,Closed
+FIR0442,C0442,Citizen442,Cyber Crime,IT Act,2026-01-11,Karimnagar,Kukatpally PS,Officer68,Closed
+FIR0443,C0443,Citizen443,Vehicle Theft,BNS 303,2026-02-05,Rangareddy,Gachibowli PS,Officer42,Open
+FIR0444,C0444,Citizen444,Theft,BNS 303,2026-02-15,Karimnagar,Madhapur PS,Officer95,Under Investigation
+FIR0445,C0445,Citizen445,Assault,BNS 115,2026-06-26,Karimnagar,Begumpet PS,Officer41,Closed
+FIR0446,C0446,Citizen446,Cyber Crime,IT Act,2026-02-04,Warangal,Banjara Hills PS,Officer78,Under Investigation
+FIR0447,C0447,Citizen447,Cyber Crime,IT Act,2026-06-28,Rangareddy,Kukatpally PS,Officer76,Under Investigation
+FIR0448,C0448,Citizen448,Vehicle Theft,BNS 303,2026-04-02,Rangareddy,Gachibowli PS,Officer41,Under Investigation
+FIR0449,C0449,Citizen449,Cyber Crime,IT Act,2026-01-26,Hyderabad,Madhapur PS,Officer91,Under Investigation
+FIR0450,C0450,Citizen450,Fraud,BNS 318,2026-01-15,Medchal-Malkajgiri,Kukatpally PS,Officer77,Closed
+FIR0451,C0451,Citizen451,Assault,BNS 115,2026-02-25,Rangareddy,Gachibowli PS,Officer70,Closed
+FIR0452,C0452,Citizen452,Assault,BNS 115,2026-05-26,Warangal,Begumpet PS,Officer37,Under Investigation
+FIR0453,C0453,Citizen453,Fraud,BNS 318,2026-02-27,Rangareddy,Gachibowli PS,Officer72,Open
+FIR0454,C0454,Citizen454,Theft,BNS 303,2026-04-14,Warangal,Begumpet PS,Officer36,Closed
+FIR0455,C0455,Citizen455,Cyber Crime,IT Act,2026-01-25,Karimnagar,Gachibowli PS,Officer53,Under Investigation
+FIR0456,C0456,Citizen456,Theft,BNS 303,2026-04-05,Warangal,Gachibowli PS,Officer55,Under Investigation
+FIR0457,C0457,Citizen457,Fraud,BNS 318,2026-04-11,Medchal-Malkajgiri,Begumpet PS,Officer50,Open
+FIR0458,C0458,Citizen458,Fraud,BNS 318,2026-01-14,Warangal,Gachibowli PS,Officer46,Open
+FIR0459,C0459,Citizen459,Cyber Crime,IT Act,2026-01-07,Hyderabad,Begumpet PS,Officer11,Closed
+FIR0460,C0460,Citizen460,Fraud,BNS 318,2026-07-10,Warangal,Banjara Hills PS,Officer48,Closed
+FIR0461,C0461,Citizen461,Theft,BNS 303,2026-07-19,Warangal,Begumpet PS,Officer11,Closed
+FIR0462,C0462,Citizen462,Fraud,BNS 318,2026-04-18,Warangal,Madhapur PS,Officer91,Closed
+FIR0463,C0463,Citizen463,Fraud,BNS 318,2026-04-09,Karimnagar,Banjara Hills PS,Officer57,Under Investigation
+FIR0464,C0464,Citizen464,Vehicle Theft,BNS 303,2026-01-07,Karimnagar,Gachibowli PS,Officer26,Closed
+FIR0465,C0465,Citizen465,Cyber Crime,IT Act,2026-07-18,Karimnagar,Gachibowli PS,Officer56,Closed
+FIR0466,C0466,Citizen466,Cyber Crime,IT Act,2026-01-03,Hyderabad,Madhapur PS,Officer13,Open
+FIR0467,C0467,Citizen467,Theft,BNS 303,2026-01-19,Rangareddy,Kukatpally PS,Officer52,Closed
+FIR0468,C0468,Citizen468,Theft,BNS 303,2026-05-07,Karimnagar,Begumpet PS,Officer42,Under Investigation
+FIR0469,C0469,Citizen469,Theft,BNS 303,2026-04-21,Warangal,Kukatpally PS,Officer44,Open
+FIR0470,C0470,Citizen470,Assault,BNS 115,2026-03-14,Rangareddy,Gachibowli PS,Officer32,Closed
+FIR0471,C0471,Citizen471,Cyber Crime,IT Act,2026-04-25,Karimnagar,Kukatpally PS,Officer6,Open
+FIR0472,C0472,Citizen472,Assault,BNS 115,2026-06-04,Karimnagar,Banjara Hills PS,Officer91,Closed
+FIR0473,C0473,Citizen473,Assault,BNS 115,2026-06-08,Warangal,Banjara Hills PS,Officer18,Closed
+FIR0474,C0474,Citizen474,Fraud,BNS 318,2026-04-15,Karimnagar,Begumpet PS,Officer35,Under Investigation
+FIR0475,C0475,Citizen475,Assault,BNS 115,2026-04-11,Warangal,Begumpet PS,Officer51,Under Investigation
+FIR0476,C0476,Citizen476,Vehicle Theft,BNS 303,2026-01-08,Medchal-Malkajgiri,Kukatpally PS,Officer52,Open
+FIR0477,C0477,Citizen477,Assault,BNS 115,2026-03-20,Medchal-Malkajgiri,Kukatpally PS,Officer60,Closed
+FIR0478,C0478,Citizen478,Fraud,BNS 318,2026-02-25,Medchal-Malkajgiri,Banjara Hills PS,Officer20,Closed
+FIR0479,C0479,Citizen479,Vehicle Theft,BNS 303,2026-04-21,Rangareddy,Kukatpally PS,Officer61,Under Investigation
+FIR0480,C0480,Citizen480,Fraud,BNS 318,2026-06-19,Warangal,Kukatpally PS,Officer63,Closed
+FIR0481,C0481,Citizen481,Cyber Crime,IT Act,2026-06-19,Warangal,Kukatpally PS,Officer48,Under Investigation
+FIR0482,C0482,Citizen482,Theft,BNS 303,2026-01-28,Medchal-Malkajgiri,Banjara Hills PS,Officer6,Open
+FIR0483,C0483,Citizen483,Theft,BNS 303,2026-04-22,Warangal,Gachibowli PS,Officer45,Under Investigation
+FIR0484,C0484,Citizen484,Theft,BNS 303,2026-04-03,Rangareddy,Kukatpally PS,Officer48,Open
+FIR0485,C0485,Citizen485,Vehicle Theft,BNS 303,2026-05-14,Rangareddy,Gachibowli PS,Officer15,Under Investigation
+FIR0486,C0486,Citizen486,Theft,BNS 303,2026-05-08,Warangal,Begumpet PS,Officer18,Under Investigation
+FIR0487,C0487,Citizen487,Vehicle Theft,BNS 303,2026-07-06,Warangal,Gachibowli PS,Officer19,Under Investigation
+FIR0488,C0488,Citizen488,Assault,BNS 115,2026-03-17,Rangareddy,Banjara Hills PS,Officer95,Closed
+FIR0489,C0489,Citizen489,Theft,BNS 303,2026-06-09,Hyderabad,Madhapur PS,Officer55,Under Investigation
+FIR0490,C0490,Citizen490,Assault,BNS 115,2026-04-08,Rangareddy,Gachibowli PS,Officer78,Under Investigation
+FIR0491,C0491,Citizen491,Vehicle Theft,BNS 303,2026-01-04,Warangal,Banjara Hills PS,Officer31,Under Investigation
+FIR0492,C0492,Citizen492,Cyber Crime,IT Act,2026-01-26,Warangal,Madhapur PS,Officer83,Closed
+FIR0493,C0493,Citizen493,Assault,BNS 115,2026-02-14,Rangareddy,Banjara Hills PS,Officer99,Under Investigation
+FIR0494,C0494,Citizen494,Cyber Crime,IT Act,2026-06-12,Warangal,Kukatpally PS,Officer91,Closed
+FIR0495,C0495,Citizen495,Assault,BNS 115,2026-04-05,Medchal-Malkajgiri,Gachibowli PS,Officer96,Open
+FIR0496,C0496,Citizen496,Fraud,BNS 318,2026-02-18,Karimnagar,Begumpet PS,Officer64,Under Investigation
+FIR0497,C0497,Citizen497,Vehicle Theft,BNS 303,2026-02-12,Hyderabad,Madhapur PS,Officer40,Closed
+FIR0498,C0498,Citizen498,Fraud,BNS 318,2026-01-27,Hyderabad,Madhapur PS,Officer74,Under Investigation
+FIR0499,C0499,Citizen499,Fraud,BNS 318,2026-04-03,Hyderabad,Kukatpally PS,Officer25,Under Investigation
+FIR0500,C0500,Citizen500,Vehicle Theft,BNS 303,2026-03-16,Warangal,Begumpet PS,Officer77,Under Investigation
+FIR0501,C0501,Citizen501,Theft,BNS 303,2026-07-02,Rangareddy,Kukatpally PS,Officer98,Under Investigation
+FIR0502,C0502,Citizen502,Fraud,BNS 318,2026-05-09,Hyderabad,Madhapur PS,Officer66,Under Investigation
+FIR0503,C0503,Citizen503,Assault,BNS 115,2026-02-16,Hyderabad,Begumpet PS,Officer74,Under Investigation
+FIR0504,C0504,Citizen504,Cyber Crime,IT Act,2026-05-15,Rangareddy,Madhapur PS,Officer94,Under Investigation
+FIR0505,C0505,Citizen505,Assault,BNS 115,2026-03-26,Warangal,Gachibowli PS,Officer57,Under Investigation
+FIR0506,C0506,Citizen506,Vehicle Theft,BNS 303,2026-06-12,Hyderabad,Gachibowli PS,Officer65,Closed
+FIR0507,C0507,Citizen507,Theft,BNS 303,2026-06-15,Karimnagar,Madhapur PS,Officer31,Under Investigation
+FIR0508,C0508,Citizen508,Fraud,BNS 318,2026-05-07,Hyderabad,Gachibowli PS,Officer94,Closed
+FIR0509,C0509,Citizen509,Vehicle Theft,BNS 303,2026-02-28,Hyderabad,Banjara Hills PS,Officer41,Closed
+FIR0510,C0510,Citizen510,Fraud,BNS 318,2026-01-02,Warangal,Banjara Hills PS,Officer57,Under Investigation
+FIR0511,C0511,Citizen511,Cyber Crime,IT Act,2026-02-08,Rangareddy,Kukatpally PS,Officer68,Open
+FIR0512,C0512,Citizen512,Vehicle Theft,BNS 303,2026-02-04,Warangal,Madhapur PS,Officer60,Closed
+FIR0513,C0513,Citizen513,Vehicle Theft,BNS 303,2026-04-18,Rangareddy,Madhapur PS,Officer44,Under Investigation
+FIR0514,C0514,Citizen514,Vehicle Theft,BNS 303,2026-07-02,Warangal,Banjara Hills PS,Officer68,Closed
+FIR0515,C0515,Citizen515,Assault,BNS 115,2026-01-16,Hyderabad,Gachibowli PS,Officer69,Under Investigation
+FIR0516,C0516,Citizen516,Theft,BNS 303,2026-02-23,Karimnagar,Begumpet PS,Officer33,Under Investigation
+FIR0517,C0517,Citizen517,Assault,BNS 115,2026-04-06,Karimnagar,Gachibowli PS,Officer71,Closed
+FIR0518,C0518,Citizen518,Cyber Crime,IT Act,2026-01-22,Rangareddy,Kukatpally PS,Officer43,Under Investigation
+FIR0519,C0519,Citizen519,Fraud,BNS 318,2026-01-18,Medchal-Malkajgiri,Madhapur PS,Officer34,Under Investigation
+FIR0520,C0520,Citizen520,Fraud,BNS 318,2026-05-05,Warangal,Madhapur PS,Officer42,Closed
+FIR0521,C0521,Citizen521,Theft,BNS 303,2026-02-12,Medchal-Malkajgiri,Madhapur PS,Officer52,Open
+FIR0522,C0522,Citizen522,Cyber Crime,IT Act,2026-06-14,Hyderabad,Banjara Hills PS,Officer49,Under Investigation
+FIR0523,C0523,Citizen523,Vehicle Theft,BNS 303,2026-04-16,Karimnagar,Begumpet PS,Officer75,Open
+FIR0524,C0524,Citizen524,Vehicle Theft,BNS 303,2026-02-23,Warangal,Kukatpally PS,Officer80,Closed
+FIR0525,C0525,Citizen525,Cyber Crime,IT Act,2026-03-07,Warangal,Begumpet PS,Officer65,Under Investigation
+FIR0526,C0526,Citizen526,Assault,BNS 115,2026-07-11,Karimnagar,Kukatpally PS,Officer49,Closed
+FIR0527,C0527,Citizen527,Assault,BNS 115,2026-04-09,Medchal-Malkajgiri,Begumpet PS,Officer11,Closed
+FIR0528,C0528,Citizen528,Theft,BNS 303,2026-07-19,Karimnagar,Kukatpally PS,Officer56,Closed
+FIR0529,C0529,Citizen529,Vehicle Theft,BNS 303,2026-06-05,Medchal-Malkajgiri,Madhapur PS,Officer89,Under Investigation
+FIR0530,C0530,Citizen530,Assault,BNS 115,2026-05-12,Karimnagar,Gachibowli PS,Officer77,Closed
+FIR0531,C0531,Citizen531,Theft,BNS 303,2026-07-26,Karimnagar,Madhapur PS,Officer75,Open
+FIR0532,C0532,Citizen532,Vehicle Theft,BNS 303,2026-01-03,Medchal-Malkajgiri,Gachibowli PS,Officer19,Closed
+FIR0533,C0533,Citizen533,Theft,BNS 303,2026-07-26,Warangal,Begumpet PS,Officer31,Closed
+FIR0534,C0534,Citizen534,Cyber Crime,IT Act,2026-06-24,Medchal-Malkajgiri,Gachibowli PS,Officer36,Open
+FIR0535,C0535,Citizen535,Cyber Crime,IT Act,2026-07-20,Medchal-Malkajgiri,Banjara Hills PS,Officer19,Closed
+FIR0536,C0536,Citizen536,Vehicle Theft,BNS 303,2026-02-06,Karimnagar,Gachibowli PS,Officer36,Open
+FIR0537,C0537,Citizen537,Fraud,BNS 318,2026-01-05,Karimnagar,Gachibowli PS,Officer39,Open
+FIR0538,C0538,Citizen538,Theft,BNS 303,2026-02-28,Warangal,Banjara Hills PS,Officer11,Under Investigation
+FIR0539,C0539,Citizen539,Fraud,BNS 318,2026-04-09,Warangal,Madhapur PS,Officer5,Closed
+FIR0540,C0540,Citizen540,Assault,BNS 115,2026-02-01,Karimnagar,Madhapur PS,Officer83,Closed
+FIR0541,C0541,Citizen541,Fraud,BNS 318,2026-01-02,Rangareddy,Banjara Hills PS,Officer90,Closed
+FIR0542,C0542,Citizen542,Fraud,BNS 318,2026-03-24,Medchal-Malkajgiri,Madhapur PS,Officer79,Open
+FIR0543,C0543,Citizen543,Vehicle Theft,BNS 303,2026-01-23,Rangareddy,Madhapur PS,Officer18,Under Investigation
+FIR0544,C0544,Citizen544,Theft,BNS 303,2026-07-15,Medchal-Malkajgiri,Madhapur PS,Officer82,Open
+FIR0545,C0545,Citizen545,Theft,BNS 303,2026-04-09,Karimnagar,Banjara Hills PS,Officer91,Under Investigation
+FIR0546,C0546,Citizen546,Assault,BNS 115,2026-05-18,Karimnagar,Banjara Hills PS,Officer28,Open
+FIR0547,C0547,Citizen547,Assault,BNS 115,2026-03-11,Warangal,Gachibowli PS,Officer60,Open
+FIR0548,C0548,Citizen548,Assault,BNS 115,2026-02-03,Warangal,Gachibowli PS,Officer11,Closed
+FIR0549,C0549,Citizen549,Theft,BNS 303,2026-01-15,Warangal,Kukatpally PS,Officer73,Closed
+FIR0550,C0550,Citizen550,Theft,BNS 303,2026-07-07,Warangal,Madhapur PS,Officer40,Closed
+FIR0551,C0551,Citizen551,Vehicle Theft,BNS 303,2026-03-25,Karimnagar,Kukatpally PS,Officer100,Under Investigation
+FIR0552,C0552,Citizen552,Cyber Crime,IT Act,2026-05-05,Rangareddy,Gachibowli PS,Officer65,Closed
+FIR0553,C0553,Citizen553,Assault,BNS 115,2026-07-14,Rangareddy,Begumpet PS,Officer9,Open
+FIR0554,C0554,Citizen554,Fraud,BNS 318,2026-06-17,Karimnagar,Begumpet PS,Officer3,Under Investigation
+FIR0555,C0555,Citizen555,Assault,BNS 115,2026-07-21,Medchal-Malkajgiri,Madhapur PS,Officer89,Under Investigation
+FIR0556,C0556,Citizen556,Theft,BNS 303,2026-07-19,Karimnagar,Kukatpally PS,Officer26,Closed
+FIR0557,C0557,Citizen557,Cyber Crime,IT Act,2026-04-05,Medchal-Malkajgiri,Begumpet PS,Officer76,Open
+FIR0558,C0558,Citizen558,Assault,BNS 115,2026-06-28,Warangal,Madhapur PS,Officer80,Closed
+FIR0559,C0559,Citizen559,Theft,BNS 303,2026-01-02,Medchal-Malkajgiri,Banjara Hills PS,Officer48,Closed
+FIR0560,C0560,Citizen560,Assault,BNS 115,2026-05-07,Warangal,Kukatpally PS,Officer39,Open
+FIR0561,C0561,Citizen561,Theft,BNS 303,2026-02-27,Warangal,Kukatpally PS,Officer84,Closed
+FIR0562,C0562,Citizen562,Assault,BNS 115,2026-07-25,Warangal,Gachibowli PS,Officer90,Open
+FIR0563,C0563,Citizen563,Cyber Crime,IT Act,2026-06-15,Hyderabad,Banjara Hills PS,Officer2,Closed
+FIR0564,C0564,Citizen564,Assault,BNS 115,2026-04-11,Medchal-Malkajgiri,Begumpet PS,Officer34,Closed
+FIR0565,C0565,Citizen565,Vehicle Theft,BNS 303,2026-04-07,Hyderabad,Madhapur PS,Officer54,Under Investigation
+FIR0566,C0566,Citizen566,Vehicle Theft,BNS 303,2026-04-04,Warangal,Banjara Hills PS,Officer72,Closed
+FIR0567,C0567,Citizen567,Theft,BNS 303,2026-06-14,Rangareddy,Banjara Hills PS,Officer12,Open
+FIR0568,C0568,Citizen568,Theft,BNS 303,2026-07-08,Medchal-Malkajgiri,Kukatpally PS,Officer97,Closed
+FIR0569,C0569,Citizen569,Cyber Crime,IT Act,2026-04-21,Warangal,Gachibowli PS,Officer1,Closed
+FIR0570,C0570,Citizen570,Vehicle Theft,BNS 303,2026-01-10,Medchal-Malkajgiri,Madhapur PS,Officer72,Under Investigation
+FIR0571,C0571,Citizen571,Assault,BNS 115,2026-02-02,Medchal-Malkajgiri,Madhapur PS,Officer24,Open
+FIR0572,C0572,Citizen572,Assault,BNS 115,2026-06-09,Rangareddy,Banjara Hills PS,Officer84,Closed
+FIR0573,C0573,Citizen573,Fraud,BNS 318,2026-07-25,Medchal-Malkajgiri,Gachibowli PS,Officer33,Closed
+FIR0574,C0574,Citizen574,Fraud,BNS 318,2026-05-11,Karimnagar,Gachibowli PS,Officer8,Closed
+FIR0575,C0575,Citizen575,Cyber Crime,IT Act,2026-07-17,Medchal-Malkajgiri,Madhapur PS,Officer49,Under Investigation
+FIR0576,C0576,Citizen576,Cyber Crime,IT Act,2026-03-04,Rangareddy,Begumpet PS,Officer10,Under Investigation
+FIR0577,C0577,Citizen577,Theft,BNS 303,2026-04-05,Rangareddy,Madhapur PS,Officer39,Under Investigation
+FIR0578,C0578,Citizen578,Cyber Crime,IT Act,2026-02-21,Rangareddy,Madhapur PS,Officer81,Open
+FIR0579,C0579,Citizen579,Fraud,BNS 318,2026-02-07,Rangareddy,Madhapur PS,Officer95,Closed
+FIR0580,C0580,Citizen580,Vehicle Theft,BNS 303,2026-04-15,Medchal-Malkajgiri,Gachibowli PS,Officer94,Open
+FIR0581,C0581,Citizen581,Cyber Crime,IT Act,2026-07-27,Hyderabad,Banjara Hills PS,Officer90,Open
+FIR0582,C0582,Citizen582,Cyber Crime,IT Act,2026-03-14,Karimnagar,Madhapur PS,Officer62,Closed
+FIR0583,C0583,Citizen583,Assault,BNS 115,2026-06-28,Hyderabad,Kukatpally PS,Officer73,Under Investigation
+FIR0584,C0584,Citizen584,Fraud,BNS 318,2026-05-11,Hyderabad,Begumpet PS,Officer87,Open
+FIR0585,C0585,Citizen585,Vehicle Theft,BNS 303,2026-07-28,Medchal-Malkajgiri,Banjara Hills PS,Officer46,Under Investigation
+FIR0586,C0586,Citizen586,Theft,BNS 303,2026-05-10,Hyderabad,Begumpet PS,Officer56,Closed
+FIR0587,C0587,Citizen587,Vehicle Theft,BNS 303,2026-06-23,Warangal,Madhapur PS,Officer29,Closed
+FIR0588,C0588,Citizen588,Vehicle Theft,BNS 303,2026-07-21,Karimnagar,Kukatpally PS,Officer78,Open
+FIR0589,C0589,Citizen589,Cyber Crime,IT Act,2026-01-04,Karimnagar,Banjara Hills PS,Officer30,Closed
+FIR0590,C0590,Citizen590,Vehicle Theft,BNS 303,2026-05-04,Warangal,Madhapur PS,Officer16,Under Investigation
+FIR0591,C0591,Citizen591,Theft,BNS 303,2026-03-24,Hyderabad,Kukatpally PS,Officer59,Open
+FIR0592,C0592,Citizen592,Cyber Crime,IT Act,2026-04-12,Warangal,Banjara Hills PS,Officer86,Closed
+FIR0593,C0593,Citizen593,Cyber Crime,IT Act,2026-04-25,Warangal,Kukatpally PS,Officer5,Under Investigation
+FIR0594,C0594,Citizen594,Theft,BNS 303,2026-04-15,Hyderabad,Kukatpally PS,Officer95,Under Investigation
+FIR0595,C0595,Citizen595,Cyber Crime,IT Act,2026-06-18,Karimnagar,Begumpet PS,Officer95,Closed
+FIR0596,C0596,Citizen596,Fraud,BNS 318,2026-06-04,Warangal,Kukatpally PS,Officer89,Under Investigation
+FIR0597,C0597,Citizen597,Cyber Crime,IT Act,2026-03-21,Medchal-Malkajgiri,Madhapur PS,Officer84,Under Investigation
+FIR0598,C0598,Citizen598,Cyber Crime,IT Act,2026-04-24,Medchal-Malkajgiri,Gachibowli PS,Officer56,Open
+FIR0599,C0599,Citizen599,Vehicle Theft,BNS 303,2026-03-22,Medchal-Malkajgiri,Kukatpally PS,Officer49,Open
+FIR0600,C0600,Citizen600,Theft,BNS 303,2026-07-15,Medchal-Malkajgiri,Begumpet PS,Officer59,Closed
+FIR0601,C0601,Citizen601,Fraud,BNS 318,2026-02-15,Karimnagar,Begumpet PS,Officer20,Open
+FIR0602,C0602,Citizen602,Cyber Crime,IT Act,2026-07-08,Hyderabad,Madhapur PS,Officer67,Open
+FIR0603,C0603,Citizen603,Theft,BNS 303,2026-04-14,Rangareddy,Begumpet PS,Officer28,Closed
+FIR0604,C0604,Citizen604,Assault,BNS 115,2026-04-27,Medchal-Malkajgiri,Begumpet PS,Officer62,Closed
+FIR0605,C0605,Citizen605,Cyber Crime,IT Act,2026-06-28,Rangareddy,Kukatpally PS,Officer44,Under Investigation
+FIR0606,C0606,Citizen606,Theft,BNS 303,2026-04-22,Hyderabad,Madhapur PS,Officer8,Closed
+FIR0607,C0607,Citizen607,Fraud,BNS 318,2026-03-14,Karimnagar,Begumpet PS,Officer93,Open
+FIR0608,C0608,Citizen608,Vehicle Theft,BNS 303,2026-06-10,Warangal,Gachibowli PS,Officer20,Under Investigation
+FIR0609,C0609,Citizen609,Theft,BNS 303,2026-04-21,Rangareddy,Gachibowli PS,Officer39,Under Investigation
+FIR0610,C0610,Citizen610,Theft,BNS 303,2026-03-07,Rangareddy,Begumpet PS,Officer91,Open
+FIR0611,C0611,Citizen611,Fraud,BNS 318,2026-04-10,Rangareddy,Gachibowli PS,Officer68,Closed
+FIR0612,C0612,Citizen612,Theft,BNS 303,2026-04-24,Hyderabad,Begumpet PS,Officer6,Closed
+FIR0613,C0613,Citizen613,Assault,BNS 115,2026-07-25,Warangal,Gachibowli PS,Officer77,Closed
+FIR0614,C0614,Citizen614,Cyber Crime,IT Act,2026-06-04,Rangareddy,Begumpet PS,Officer64,Closed
+FIR0615,C0615,Citizen615,Vehicle Theft,BNS 303,2026-03-10,Warangal,Gachibowli PS,Officer81,Under Investigation
+FIR0616,C0616,Citizen616,Fraud,BNS 318,2026-06-04,Karimnagar,Gachibowli PS,Officer36,Closed
+FIR0617,C0617,Citizen617,Vehicle Theft,BNS 303,2026-04-01,Karimnagar,Gachibowli PS,Officer18,Open
+FIR0618,C0618,Citizen618,Theft,BNS 303,2026-02-11,Medchal-Malkajgiri,Kukatpally PS,Officer75,Under Investigation
+FIR0619,C0619,Citizen619,Theft,BNS 303,2026-05-13,Medchal-Malkajgiri,Madhapur PS,Officer39,Closed
+FIR0620,C0620,Citizen620,Cyber Crime,IT Act,2026-01-22,Warangal,Madhapur PS,Officer25,Under Investigation
+FIR0621,C0621,Citizen621,Fraud,BNS 318,2026-05-17,Warangal,Begumpet PS,Officer8,Under Investigation
+FIR0622,C0622,Citizen622,Assault,BNS 115,2026-05-24,Warangal,Banjara Hills PS,Officer48,Open
+FIR0623,C0623,Citizen623,Fraud,BNS 318,2026-04-23,Hyderabad,Madhapur PS,Officer45,Closed
+FIR0624,C0624,Citizen624,Cyber Crime,IT Act,2026-02-24,Hyderabad,Banjara Hills PS,Officer35,Closed
+FIR0625,C0625,Citizen625,Theft,BNS 303,2026-05-26,Medchal-Malkajgiri,Madhapur PS,Officer45,Closed
+FIR0626,C0626,Citizen626,Fraud,BNS 318,2026-04-08,Hyderabad,Begumpet PS,Officer69,Closed
+FIR0627,C0627,Citizen627,Cyber Crime,IT Act,2026-04-14,Hyderabad,Kukatpally PS,Officer26,Open
+FIR0628,C0628,Citizen628,Fraud,BNS 318,2026-01-07,Hyderabad,Kukatpally PS,Officer42,Under Investigation
+FIR0629,C0629,Citizen629,Assault,BNS 115,2026-04-18,Rangareddy,Kukatpally PS,Officer39,Under Investigation
+FIR0630,C0630,Citizen630,Cyber Crime,IT Act,2026-06-13,Karimnagar,Banjara Hills PS,Officer33,Closed
+FIR0631,C0631,Citizen631,Cyber Crime,IT Act,2026-03-05,Hyderabad,Kukatpally PS,Officer16,Under Investigation
+FIR0632,C0632,Citizen632,Theft,BNS 303,2026-03-20,Karimnagar,Banjara Hills PS,Officer87,Closed
+FIR0633,C0633,Citizen633,Vehicle Theft,BNS 303,2026-03-02,Warangal,Kukatpally PS,Officer70,Under Investigation
+FIR0634,C0634,Citizen634,Vehicle Theft,BNS 303,2026-03-22,Warangal,Kukatpally PS,Officer66,Open
+FIR0635,C0635,Citizen635,Assault,BNS 115,2026-01-05,Medchal-Malkajgiri,Kukatpally PS,Officer79,Closed
+FIR0636,C0636,Citizen636,Cyber Crime,IT Act,2026-05-06,Karimnagar,Banjara Hills PS,Officer19,Open
+FIR0637,C0637,Citizen637,Theft,BNS 303,2026-05-02,Karimnagar,Madhapur PS,Officer7,Open
+FIR0638,C0638,Citizen638,Theft,BNS 303,2026-03-14,Medchal-Malkajgiri,Gachibowli PS,Officer19,Closed
+FIR0639,C0639,Citizen639,Vehicle Theft,BNS 303,2026-01-11,Warangal,Begumpet PS,Officer9,Closed
+FIR0640,C0640,Citizen640,Cyber Crime,IT Act,2026-02-18,Medchal-Malkajgiri,Madhapur PS,Officer9,Closed
+FIR0641,C0641,Citizen641,Theft,BNS 303,2026-02-11,Warangal,Banjara Hills PS,Officer13,Closed
+FIR0642,C0642,Citizen642,Assault,BNS 115,2026-06-25,Karimnagar,Madhapur PS,Officer70,Closed
+FIR0643,C0643,Citizen643,Theft,BNS 303,2026-02-17,Medchal-Malkajgiri,Gachibowli PS,Officer17,Closed
+FIR0644,C0644,Citizen644,Assault,BNS 115,2026-03-11,Warangal,Madhapur PS,Officer81,Open
+FIR0645,C0645,Citizen645,Fraud,BNS 318,2026-07-23,Hyderabad,Madhapur PS,Officer54,Open
+FIR0646,C0646,Citizen646,Cyber Crime,IT Act,2026-04-15,Warangal,Madhapur PS,Officer14,Closed
+FIR0647,C0647,Citizen647,Cyber Crime,IT Act,2026-06-23,Medchal-Malkajgiri,Kukatpally PS,Officer72,Closed
+FIR0648,C0648,Citizen648,Fraud,BNS 318,2026-04-17,Karimnagar,Madhapur PS,Officer73,Closed
+FIR0649,C0649,Citizen649,Theft,BNS 303,2026-01-05,Warangal,Banjara Hills PS,Officer48,Under Investigation
+FIR0650,C0650,Citizen650,Vehicle Theft,BNS 303,2026-07-18,Warangal,Begumpet PS,Officer36,Under Investigation
+FIR0651,C0651,Citizen651,Theft,BNS 303,2026-07-26,Karimnagar,Begumpet PS,Officer92,Closed
+FIR0652,C0652,Citizen652,Vehicle Theft,BNS 303,2026-04-11,Medchal-Malkajgiri,Begumpet PS,Officer83,Open
+FIR0653,C0653,Citizen653,Fraud,BNS 318,2026-04-16,Rangareddy,Madhapur PS,Officer3,Open
+FIR0654,C0654,Citizen654,Fraud,BNS 318,2026-03-20,Karimnagar,Banjara Hills PS,Officer8,Closed
+FIR0655,C0655,Citizen655,Assault,BNS 115,2026-01-13,Rangareddy,Banjara Hills PS,Officer93,Closed
+FIR0656,C0656,Citizen656,Theft,BNS 303,2026-07-03,Karimnagar,Madhapur PS,Officer72,Open
+FIR0657,C0657,Citizen657,Theft,BNS 303,2026-04-26,Medchal-Malkajgiri,Gachibowli PS,Officer70,Open
+FIR0658,C0658,Citizen658,Theft,BNS 303,2026-02-22,Karimnagar,Gachibowli PS,Officer36,Under Investigation
+FIR0659,C0659,Citizen659,Theft,BNS 303,2026-06-08,Medchal-Malkajgiri,Gachibowli PS,Officer91,Closed
+FIR0660,C0660,Citizen660,Fraud,BNS 318,2026-07-22,Hyderabad,Begumpet PS,Officer29,Open
+FIR0661,C0661,Citizen661,Theft,BNS 303,2026-01-11,Rangareddy,Banjara Hills PS,Officer34,Under Investigation
+FIR0662,C0662,Citizen662,Vehicle Theft,BNS 303,2026-06-13,Karimnagar,Banjara Hills PS,Officer5,Closed
+FIR0663,C0663,Citizen663,Theft,BNS 303,2026-03-13,Medchal-Malkajgiri,Gachibowli PS,Officer61,Open
+FIR0664,C0664,Citizen664,Theft,BNS 303,2026-05-01,Warangal,Gachibowli PS,Officer91,Open
+FIR0665,C0665,Citizen665,Assault,BNS 115,2026-03-04,Rangareddy,Madhapur PS,Officer57,Closed
+FIR0666,C0666,Citizen666,Assault,BNS 115,2026-01-20,Rangareddy,Gachibowli PS,Officer11,Under Investigation
+FIR0667,C0667,Citizen667,Cyber Crime,IT Act,2026-01-16,Warangal,Begumpet PS,Officer68,Under Investigation
+FIR0668,C0668,Citizen668,Cyber Crime,IT Act,2026-06-11,Warangal,Banjara Hills PS,Officer84,Under Investigation
+FIR0669,C0669,Citizen669,Assault,BNS 115,2026-05-11,Warangal,Gachibowli PS,Officer51,Open
+FIR0670,C0670,Citizen670,Fraud,BNS 318,2026-05-28,Medchal-Malkajgiri,Kukatpally PS,Officer63,Under Investigation
+FIR0671,C0671,Citizen671,Cyber Crime,IT Act,2026-02-05,Rangareddy,Gachibowli PS,Officer41,Open
+FIR0672,C0672,Citizen672,Vehicle Theft,BNS 303,2026-06-07,Warangal,Banjara Hills PS,Officer49,Open
+FIR0673,C0673,Citizen673,Fraud,BNS 318,2026-01-15,Hyderabad,Kukatpally PS,Officer38,Closed
+FIR0674,C0674,Citizen674,Theft,BNS 303,2026-04-09,Medchal-Malkajgiri,Begumpet PS,Officer36,Closed
+FIR0675,C0675,Citizen675,Vehicle Theft,BNS 303,2026-04-28,Medchal-Malkajgiri,Kukatpally PS,Officer68,Closed
+FIR0676,C0676,Citizen676,Assault,BNS 115,2026-06-16,Rangareddy,Madhapur PS,Officer21,Closed
+FIR0677,C0677,Citizen677,Fraud,BNS 318,2026-02-04,Medchal-Malkajgiri,Begumpet PS,Officer5,Under Investigation
+FIR0678,C0678,Citizen678,Assault,BNS 115,2026-04-16,Warangal,Kukatpally PS,Officer82,Under Investigation
+FIR0679,C0679,Citizen679,Fraud,BNS 318,2026-03-21,Medchal-Malkajgiri,Begumpet PS,Officer23,Under Investigation
+FIR0680,C0680,Citizen680,Theft,BNS 303,2026-05-17,Rangareddy,Begumpet PS,Officer46,Under Investigation
+FIR0681,C0681,Citizen681,Fraud,BNS 318,2026-07-06,Warangal,Banjara Hills PS,Officer47,Under Investigation
+FIR0682,C0682,Citizen682,Vehicle Theft,BNS 303,2026-06-26,Hyderabad,Banjara Hills PS,Officer3,Under Investigation
+FIR0683,C0683,Citizen683,Fraud,BNS 318,2026-07-01,Karimnagar,Madhapur PS,Officer56,Closed
+FIR0684,C0684,Citizen684,Vehicle Theft,BNS 303,2026-01-07,Karimnagar,Begumpet PS,Officer16,Under Investigation
+FIR0685,C0685,Citizen685,Fraud,BNS 318,2026-07-28,Medchal-Malkajgiri,Banjara Hills PS,Officer49,Closed
+FIR0686,C0686,Citizen686,Assault,BNS 115,2026-03-11,Warangal,Banjara Hills PS,Officer54,Open
+FIR0687,C0687,Citizen687,Fraud,BNS 318,2026-01-20,Hyderabad,Begumpet PS,Officer37,Closed
+FIR0688,C0688,Citizen688,Assault,BNS 115,2026-04-09,Warangal,Madhapur PS,Officer58,Under Investigation
+FIR0689,C0689,Citizen689,Cyber Crime,IT Act,2026-06-20,Karimnagar,Gachibowli PS,Officer32,Under Investigation
+FIR0690,C0690,Citizen690,Cyber Crime,IT Act,2026-03-10,Hyderabad,Begumpet PS,Officer84,Open
+FIR0691,C0691,Citizen691,Fraud,BNS 318,2026-05-27,Karimnagar,Madhapur PS,Officer74,Under Investigation
+FIR0692,C0692,Citizen692,Fraud,BNS 318,2026-01-17,Hyderabad,Gachibowli PS,Officer19,Closed
+FIR0693,C0693,Citizen693,Theft,BNS 303,2026-05-11,Medchal-Malkajgiri,Madhapur PS,Officer100,Under Investigation
+FIR0694,C0694,Citizen694,Vehicle Theft,BNS 303,2026-05-02,Warangal,Banjara Hills PS,Officer76,Open
+FIR0695,C0695,Citizen695,Theft,BNS 303,2026-04-10,Warangal,Banjara Hills PS,Officer23,Open
+FIR0696,C0696,Citizen696,Cyber Crime,IT Act,2026-07-11,Warangal,Kukatpally PS,Officer90,Open
+FIR0697,C0697,Citizen697,Assault,BNS 115,2026-06-04,Warangal,Banjara Hills PS,Officer18,Open
+FIR0698,C0698,Citizen698,Fraud,BNS 318,2026-03-09,Warangal,Kukatpally PS,Officer99,Closed
+FIR0699,C0699,Citizen699,Vehicle Theft,BNS 303,2026-04-17,Warangal,Begumpet PS,Officer64,Under Investigation
+FIR0700,C0700,Citizen700,Cyber Crime,IT Act,2026-03-16,Medchal-Malkajgiri,Banjara Hills PS,Officer71,Closed
+FIR0701,C0701,Citizen701,Cyber Crime,IT Act,2026-04-19,Karimnagar,Madhapur PS,Officer31,Open
+FIR0702,C0702,Citizen702,Cyber Crime,IT Act,2026-06-26,Warangal,Madhapur PS,Officer9,Open
+FIR0703,C0703,Citizen703,Assault,BNS 115,2026-02-05,Medchal-Malkajgiri,Kukatpally PS,Officer2,Under Investigation
+FIR0704,C0704,Citizen704,Assault,BNS 115,2026-06-04,Hyderabad,Banjara Hills PS,Officer81,Open
+FIR0705,C0705,Citizen705,Fraud,BNS 318,2026-02-07,Medchal-Malkajgiri,Kukatpally PS,Officer32,Under Investigation
+FIR0706,C0706,Citizen706,Vehicle Theft,BNS 303,2026-07-19,Warangal,Kukatpally PS,Officer17,Closed
+FIR0707,C0707,Citizen707,Theft,BNS 303,2026-05-02,Rangareddy,Banjara Hills PS,Officer38,Open
+FIR0708,C0708,Citizen708,Fraud,BNS 318,2026-02-11,Hyderabad,Begumpet PS,Officer79,Under Investigation
+FIR0709,C0709,Citizen709,Theft,BNS 303,2026-03-02,Karimnagar,Madhapur PS,Officer6,Closed
+FIR0710,C0710,Citizen710,Fraud,BNS 318,2026-04-28,Medchal-Malkajgiri,Madhapur PS,Officer37,Closed
+FIR0711,C0711,Citizen711,Vehicle Theft,BNS 303,2026-02-03,Rangareddy,Begumpet PS,Officer6,Open
+FIR0712,C0712,Citizen712,Assault,BNS 115,2026-01-25,Hyderabad,Begumpet PS,Officer16,Closed
+FIR0713,C0713,Citizen713,Assault,BNS 115,2026-02-25,Medchal-Malkajgiri,Banjara Hills PS,Officer26,Closed
+FIR0714,C0714,Citizen714,Cyber Crime,IT Act,2026-03-04,Karimnagar,Begumpet PS,Officer8,Under Investigation
+FIR0715,C0715,Citizen715,Vehicle Theft,BNS 303,2026-03-09,Rangareddy,Kukatpally PS,Officer35,Closed
+FIR0716,C0716,Citizen716,Fraud,BNS 318,2026-07-22,Rangareddy,Gachibowli PS,Officer17,Closed
+FIR0717,C0717,Citizen717,Assault,BNS 115,2026-04-15,Rangareddy,Begumpet PS,Officer18,Closed
+FIR0718,C0718,Citizen718,Cyber Crime,IT Act,2026-03-19,Rangareddy,Begumpet PS,Officer80,Under Investigation
+FIR0719,C0719,Citizen719,Vehicle Theft,BNS 303,2026-01-21,Warangal,Kukatpally PS,Officer20,Under Investigation
+FIR0720,C0720,Citizen720,Cyber Crime,IT Act,2026-05-09,Rangareddy,Madhapur PS,Officer43,Closed
+FIR0721,C0721,Citizen721,Vehicle Theft,BNS 303,2026-03-12,Warangal,Begumpet PS,Officer61,Under Investigation
+FIR0722,C0722,Citizen722,Fraud,BNS 318,2026-01-17,Warangal,Kukatpally PS,Officer55,Closed
+FIR0723,C0723,Citizen723,Assault,BNS 115,2026-03-20,Medchal-Malkajgiri,Madhapur PS,Officer50,Under Investigation
+FIR0724,C0724,Citizen724,Vehicle Theft,BNS 303,2026-02-05,Karimnagar,Begumpet PS,Officer18,Under Investigation
+FIR0725,C0725,Citizen725,Assault,BNS 115,2026-04-11,Hyderabad,Madhapur PS,Officer71,Closed
+FIR0726,C0726,Citizen726,Cyber Crime,IT Act,2026-06-08,Warangal,Madhapur PS,Officer8,Open
+FIR0727,C0727,Citizen727,Fraud,BNS 318,2026-06-05,Medchal-Malkajgiri,Gachibowli PS,Officer69,Closed
+FIR0728,C0728,Citizen728,Vehicle Theft,BNS 303,2026-01-17,Rangareddy,Madhapur PS,Officer56,Closed
+FIR0729,C0729,Citizen729,Cyber Crime,IT Act,2026-04-11,Warangal,Kukatpally PS,Officer35,Closed
+FIR0730,C0730,Citizen730,Vehicle Theft,BNS 303,2026-05-09,Karimnagar,Gachibowli PS,Officer46,Open
+FIR0731,C0731,Citizen731,Assault,BNS 115,2026-05-23,Medchal-Malkajgiri,Begumpet PS,Officer60,Under Investigation
+FIR0732,C0732,Citizen732,Assault,BNS 115,2026-06-28,Rangareddy,Gachibowli PS,Officer21,Open
+FIR0733,C0733,Citizen733,Cyber Crime,IT Act,2026-01-15,Hyderabad,Gachibowli PS,Officer28,Under Investigation
+FIR0734,C0734,Citizen734,Vehicle Theft,BNS 303,2026-01-17,Medchal-Malkajgiri,Kukatpally PS,Officer53,Closed
+FIR0735,C0735,Citizen735,Vehicle Theft,BNS 303,2026-04-08,Karimnagar,Banjara Hills PS,Officer5,Closed
+FIR0736,C0736,Citizen736,Fraud,BNS 318,2026-05-11,Rangareddy,Banjara Hills PS,Officer2,Under Investigation
+FIR0737,C0737,Citizen737,Theft,BNS 303,2026-03-05,Karimnagar,Madhapur PS,Officer2,Open
+FIR0738,C0738,Citizen738,Assault,BNS 115,2026-06-26,Rangareddy,Banjara Hills PS,Officer24,Open
+FIR0739,C0739,Citizen739,Theft,BNS 303,2026-01-05,Hyderabad,Banjara Hills PS,Officer19,Open
+FIR0740,C0740,Citizen740,Theft,BNS 303,2026-03-06,Karimnagar,Kukatpally PS,Officer36,Under Investigation
+FIR0741,C0741,Citizen741,Vehicle Theft,BNS 303,2026-01-15,Karimnagar,Banjara Hills PS,Officer60,Closed
+FIR0742,C0742,Citizen742,Cyber Crime,IT Act,2026-03-08,Rangareddy,Madhapur PS,Officer12,Closed
+FIR0743,C0743,Citizen743,Vehicle Theft,BNS 303,2026-06-27,Rangareddy,Kukatpally PS,Officer29,Under Investigation
+FIR0744,C0744,Citizen744,Theft,BNS 303,2026-02-05,Medchal-Malkajgiri,Kukatpally PS,Officer97,Under Investigation
+FIR0745,C0745,Citizen745,Theft,BNS 303,2026-05-25,Warangal,Banjara Hills PS,Officer4,Open
+FIR0746,C0746,Citizen746,Cyber Crime,IT Act,2026-07-13,Hyderabad,Madhapur PS,Officer43,Closed
+FIR0747,C0747,Citizen747,Theft,BNS 303,2026-02-27,Hyderabad,Gachibowli PS,Officer83,Closed
+FIR0748,C0748,Citizen748,Fraud,BNS 318,2026-01-16,Karimnagar,Gachibowli PS,Officer45,Open
+FIR0749,C0749,Citizen749,Fraud,BNS 318,2026-04-01,Warangal,Begumpet PS,Officer78,Open
+FIR0750,C0750,Citizen750,Cyber Crime,IT Act,2026-04-24,Karimnagar,Madhapur PS,Officer85,Under Investigation
+FIR0751,C0751,Citizen751,Theft,BNS 303,2026-05-14,Hyderabad,Madhapur PS,Officer23,Under Investigation
+FIR0752,C0752,Citizen752,Assault,BNS 115,2026-02-04,Hyderabad,Begumpet PS,Officer51,Under Investigation
+FIR0753,C0753,Citizen753,Vehicle Theft,BNS 303,2026-06-08,Medchal-Malkajgiri,Madhapur PS,Officer12,Closed
+FIR0754,C0754,Citizen754,Fraud,BNS 318,2026-05-16,Karimnagar,Begumpet PS,Officer28,Under Investigation
+FIR0755,C0755,Citizen755,Fraud,BNS 318,2026-03-27,Medchal-Malkajgiri,Banjara Hills PS,Officer75,Closed
+FIR0756,C0756,Citizen756,Cyber Crime,IT Act,2026-03-10,Medchal-Malkajgiri,Kukatpally PS,Officer48,Under Investigation
+FIR0757,C0757,Citizen757,Cyber Crime,IT Act,2026-01-14,Rangareddy,Kukatpally PS,Officer54,Closed
+FIR0758,C0758,Citizen758,Fraud,BNS 318,2026-03-16,Hyderabad,Begumpet PS,Officer46,Closed
+FIR0759,C0759,Citizen759,Vehicle Theft,BNS 303,2026-03-12,Warangal,Begumpet PS,Officer40,Under Investigation
+FIR0760,C0760,Citizen760,Fraud,BNS 318,2026-02-15,Hyderabad,Madhapur PS,Officer71,Closed
+FIR0761,C0761,Citizen761,Assault,BNS 115,2026-01-02,Rangareddy,Begumpet PS,Officer65,Closed
+FIR0762,C0762,Citizen762,Fraud,BNS 318,2026-06-04,Hyderabad,Gachibowli PS,Officer65,Closed
+FIR0763,C0763,Citizen763,Assault,BNS 115,2026-06-16,Medchal-Malkajgiri,Gachibowli PS,Officer1,Under Investigation
+FIR0764,C0764,Citizen764,Theft,BNS 303,2026-07-20,Warangal,Gachibowli PS,Officer90,Under Investigation
+FIR0765,C0765,Citizen765,Cyber Crime,IT Act,2026-01-14,Rangareddy,Begumpet PS,Officer97,Open
+FIR0766,C0766,Citizen766,Fraud,BNS 318,2026-02-28,Karimnagar,Kukatpally PS,Officer48,Open
+FIR0767,C0767,Citizen767,Assault,BNS 115,2026-04-19,Hyderabad,Gachibowli PS,Officer5,Under Investigation
+FIR0768,C0768,Citizen768,Assault,BNS 115,2026-06-26,Karimnagar,Madhapur PS,Officer73,Under Investigation
+FIR0769,C0769,Citizen769,Cyber Crime,IT Act,2026-05-09,Hyderabad,Gachibowli PS,Officer35,Under Investigation
+FIR0770,C0770,Citizen770,Cyber Crime,IT Act,2026-06-28,Hyderabad,Banjara Hills PS,Officer96,Open
+FIR0771,C0771,Citizen771,Vehicle Theft,BNS 303,2026-04-01,Hyderabad,Gachibowli PS,Officer59,Closed
+FIR0772,C0772,Citizen772,Fraud,BNS 318,2026-06-16,Medchal-Malkajgiri,Madhapur PS,Officer76,Under Investigation
+FIR0773,C0773,Citizen773,Assault,BNS 115,2026-06-26,Rangareddy,Begumpet PS,Officer33,Closed
+FIR0774,C0774,Citizen774,Assault,BNS 115,2026-07-06,Karimnagar,Begumpet PS,Officer38,Closed
+FIR0775,C0775,Citizen775,Cyber Crime,IT Act,2026-01-09,Karimnagar,Gachibowli PS,Officer35,Under Investigation
+FIR0776,C0776,Citizen776,Cyber Crime,IT Act,2026-04-25,Karimnagar,Madhapur PS,Officer16,Closed
+FIR0777,C0777,Citizen777,Fraud,BNS 318,2026-05-18,Rangareddy,Madhapur PS,Officer56,Open
+FIR0778,C0778,Citizen778,Vehicle Theft,BNS 303,2026-04-15,Rangareddy,Banjara Hills PS,Officer6,Under Investigation
+FIR0779,C0779,Citizen779,Vehicle Theft,BNS 303,2026-05-14,Karimnagar,Gachibowli PS,Officer49,Under Investigation
+FIR0780,C0780,Citizen780,Vehicle Theft,BNS 303,2026-02-26,Medchal-Malkajgiri,Gachibowli PS,Officer91,Closed
+FIR0781,C0781,Citizen781,Theft,BNS 303,2026-07-19,Karimnagar,Kukatpally PS,Officer40,Closed
+FIR0782,C0782,Citizen782,Cyber Crime,IT Act,2026-03-28,Karimnagar,Begumpet PS,Officer68,Closed
+FIR0783,C0783,Citizen783,Vehicle Theft,BNS 303,2026-07-09,Karimnagar,Banjara Hills PS,Officer59,Under Investigation
+FIR0784,C0784,Citizen784,Fraud,BNS 318,2026-07-03,Warangal,Begumpet PS,Officer56,Under Investigation
+FIR0785,C0785,Citizen785,Theft,BNS 303,2026-07-08,Rangareddy,Banjara Hills PS,Officer38,Under Investigation
+FIR0786,C0786,Citizen786,Theft,BNS 303,2026-04-27,Rangareddy,Gachibowli PS,Officer96,Open
+FIR0787,C0787,Citizen787,Assault,BNS 115,2026-06-15,Rangareddy,Madhapur PS,Officer34,Under Investigation
+FIR0788,C0788,Citizen788,Theft,BNS 303,2026-05-20,Medchal-Malkajgiri,Banjara Hills PS,Officer84,Under Investigation
+FIR0789,C0789,Citizen789,Assault,BNS 115,2026-04-22,Hyderabad,Madhapur PS,Officer40,Closed
+FIR0790,C0790,Citizen790,Theft,BNS 303,2026-07-07,Hyderabad,Begumpet PS,Officer10,Open
+FIR0791,C0791,Citizen791,Vehicle Theft,BNS 303,2026-04-27,Medchal-Malkajgiri,Begumpet PS,Officer49,Open
+FIR0792,C0792,Citizen792,Cyber Crime,IT Act,2026-02-27,Medchal-Malkajgiri,Banjara Hills PS,Officer16,Open
+FIR0793,C0793,Citizen793,Assault,BNS 115,2026-04-05,Hyderabad,Madhapur PS,Officer51,Closed
+FIR0794,C0794,Citizen794,Assault,BNS 115,2026-01-19,Rangareddy,Kukatpally PS,Officer33,Under Investigation
+FIR0795,C0795,Citizen795,Cyber Crime,IT Act,2026-01-10,Hyderabad,Begumpet PS,Officer69,Closed
+FIR0796,C0796,Citizen796,Fraud,BNS 318,2026-07-23,Karimnagar,Gachibowli PS,Officer26,Under Investigation
+FIR0797,C0797,Citizen797,Fraud,BNS 318,2026-04-26,Medchal-Malkajgiri,Gachibowli PS,Officer32,Closed
+FIR0798,C0798,Citizen798,Theft,BNS 303,2026-04-13,Warangal,Kukatpally PS,Officer18,Open
+FIR0799,C0799,Citizen799,Cyber Crime,IT Act,2026-04-21,Medchal-Malkajgiri,Madhapur PS,Officer95,Closed
+FIR0800,C0800,Citizen800,Cyber Crime,IT Act,2026-04-15,Hyderabad,Kukatpally PS,Officer47,Open
+FIR0801,C0801,Citizen801,Cyber Crime,IT Act,2026-05-22,Karimnagar,Gachibowli PS,Officer14,Open
+FIR0802,C0802,Citizen802,Vehicle Theft,BNS 303,2026-06-05,Medchal-Malkajgiri,Madhapur PS,Officer35,Open
+FIR0803,C0803,Citizen803,Fraud,BNS 318,2026-02-08,Karimnagar,Banjara Hills PS,Officer59,Closed
+FIR0804,C0804,Citizen804,Vehicle Theft,BNS 303,2026-03-09,Hyderabad,Kukatpally PS,Officer99,Open
+FIR0805,C0805,Citizen805,Theft,BNS 303,2026-04-12,Hyderabad,Banjara Hills PS,Officer3,Closed
+FIR0806,C0806,Citizen806,Vehicle Theft,BNS 303,2026-07-09,Hyderabad,Gachibowli PS,Officer25,Open
+FIR0807,C0807,Citizen807,Theft,BNS 303,2026-07-18,Karimnagar,Kukatpally PS,Officer93,Under Investigation
+FIR0808,C0808,Citizen808,Cyber Crime,IT Act,2026-02-15,Medchal-Malkajgiri,Gachibowli PS,Officer46,Open
+FIR0809,C0809,Citizen809,Theft,BNS 303,2026-01-27,Medchal-Malkajgiri,Begumpet PS,Officer7,Open
+FIR0810,C0810,Citizen810,Cyber Crime,IT Act,2026-02-16,Warangal,Begumpet PS,Officer66,Under Investigation
+FIR0811,C0811,Citizen811,Fraud,BNS 318,2026-07-13,Rangareddy,Kukatpally PS,Officer81,Closed
+FIR0812,C0812,Citizen812,Assault,BNS 115,2026-01-19,Medchal-Malkajgiri,Kukatpally PS,Officer71,Open
+FIR0813,C0813,Citizen813,Fraud,BNS 318,2026-06-24,Hyderabad,Banjara Hills PS,Officer30,Under Investigation
+FIR0814,C0814,Citizen814,Assault,BNS 115,2026-01-22,Hyderabad,Gachibowli PS,Officer77,Open
+FIR0815,C0815,Citizen815,Fraud,BNS 318,2026-05-06,Rangareddy,Begumpet PS,Officer25,Closed
+FIR0816,C0816,Citizen816,Vehicle Theft,BNS 303,2026-04-07,Medchal-Malkajgiri,Kukatpally PS,Officer2,Closed
+FIR0817,C0817,Citizen817,Cyber Crime,IT Act,2026-02-04,Karimnagar,Gachibowli PS,Officer97,Open
+FIR0818,C0818,Citizen818,Cyber Crime,IT Act,2026-03-14,Rangareddy,Kukatpally PS,Officer59,Closed
+FIR0819,C0819,Citizen819,Vehicle Theft,BNS 303,2026-01-03,Rangareddy,Gachibowli PS,Officer48,Closed
+FIR0820,C0820,Citizen820,Vehicle Theft,BNS 303,2026-03-02,Hyderabad,Madhapur PS,Officer68,Open
+FIR0821,C0821,Citizen821,Vehicle Theft,BNS 303,2026-04-06,Medchal-Malkajgiri,Gachibowli PS,Officer51,Open
+FIR0822,C0822,Citizen822,Vehicle Theft,BNS 303,2026-06-25,Medchal-Malkajgiri,Madhapur PS,Officer1,Open
+FIR0823,C0823,Citizen823,Assault,BNS 115,2026-05-19,Medchal-Malkajgiri,Begumpet PS,Officer99,Open
+FIR0824,C0824,Citizen824,Assault,BNS 115,2026-01-13,Medchal-Malkajgiri,Gachibowli PS,Officer77,Open
+FIR0825,C0825,Citizen825,Cyber Crime,IT Act,2026-05-01,Medchal-Malkajgiri,Gachibowli PS,Officer86,Under Investigation
+FIR0826,C0826,Citizen826,Vehicle Theft,BNS 303,2026-06-24,Warangal,Banjara Hills PS,Officer58,Open
+FIR0827,C0827,Citizen827,Vehicle Theft,BNS 303,2026-02-15,Hyderabad,Banjara Hills PS,Officer89,Open
+FIR0828,C0828,Citizen828,Vehicle Theft,BNS 303,2026-05-25,Warangal,Begumpet PS,Officer91,Under Investigation
+FIR0829,C0829,Citizen829,Theft,BNS 303,2026-07-17,Rangareddy,Begumpet PS,Officer70,Under Investigation
+FIR0830,C0830,Citizen830,Fraud,BNS 318,2026-06-15,Rangareddy,Banjara Hills PS,Officer60,Closed
+FIR0831,C0831,Citizen831,Vehicle Theft,BNS 303,2026-07-27,Medchal-Malkajgiri,Kukatpally PS,Officer69,Open
+FIR0832,C0832,Citizen832,Assault,BNS 115,2026-05-27,Karimnagar,Madhapur PS,Officer73,Closed
+FIR0833,C0833,Citizen833,Fraud,BNS 318,2026-07-27,Rangareddy,Gachibowli PS,Officer6,Under Investigation
+FIR0834,C0834,Citizen834,Fraud,BNS 318,2026-05-14,Hyderabad,Gachibowli PS,Officer37,Under Investigation
+FIR0835,C0835,Citizen835,Fraud,BNS 318,2026-06-14,Rangareddy,Madhapur PS,Officer95,Open
+FIR0836,C0836,Citizen836,Assault,BNS 115,2026-04-15,Hyderabad,Begumpet PS,Officer79,Open
+FIR0837,C0837,Citizen837,Cyber Crime,IT Act,2026-05-11,Warangal,Banjara Hills PS,Officer8,Closed
+FIR0838,C0838,Citizen838,Cyber Crime,IT Act,2026-01-15,Hyderabad,Madhapur PS,Officer59,Closed
+FIR0839,C0839,Citizen839,Theft,BNS 303,2026-07-10,Warangal,Gachibowli PS,Officer53,Closed
+FIR0840,C0840,Citizen840,Theft,BNS 303,2026-05-26,Rangareddy,Kukatpally PS,Officer86,Under Investigation
+FIR0841,C0841,Citizen841,Cyber Crime,IT Act,2026-05-21,Warangal,Begumpet PS,Officer38,Closed
+FIR0842,C0842,Citizen842,Fraud,BNS 318,2026-04-20,Rangareddy,Gachibowli PS,Officer84,Open
+FIR0843,C0843,Citizen843,Cyber Crime,IT Act,2026-03-16,Warangal,Gachibowli PS,Officer87,Open
+FIR0844,C0844,Citizen844,Cyber Crime,IT Act,2026-01-18,Hyderabad,Begumpet PS,Officer9,Closed
+FIR0845,C0845,Citizen845,Fraud,BNS 318,2026-02-09,Warangal,Kukatpally PS,Officer39,Under Investigation
+FIR0846,C0846,Citizen846,Theft,BNS 303,2026-03-24,Karimnagar,Gachibowli PS,Officer21,Open
+FIR0847,C0847,Citizen847,Vehicle Theft,BNS 303,2026-05-11,Hyderabad,Madhapur PS,Officer92,Closed
+FIR0848,C0848,Citizen848,Assault,BNS 115,2026-05-17,Hyderabad,Gachibowli PS,Officer39,Closed
+FIR0849,C0849,Citizen849,Theft,BNS 303,2026-03-23,Rangareddy,Banjara Hills PS,Officer3,Closed
+FIR0850,C0850,Citizen850,Cyber Crime,IT Act,2026-01-08,Medchal-Malkajgiri,Banjara Hills PS,Officer57,Open
+FIR0851,C0851,Citizen851,Vehicle Theft,BNS 303,2026-03-04,Medchal-Malkajgiri,Begumpet PS,Officer75,Open
+FIR0852,C0852,Citizen852,Assault,BNS 115,2026-01-15,Medchal-Malkajgiri,Madhapur PS,Officer55,Closed
+FIR0853,C0853,Citizen853,Cyber Crime,IT Act,2026-03-13,Medchal-Malkajgiri,Banjara Hills PS,Officer78,Closed
+FIR0854,C0854,Citizen854,Fraud,BNS 318,2026-05-12,Warangal,Begumpet PS,Officer73,Open
+FIR0855,C0855,Citizen855,Fraud,BNS 318,2026-07-15,Rangareddy,Begumpet PS,Officer40,Under Investigation
+FIR0856,C0856,Citizen856,Vehicle Theft,BNS 303,2026-03-12,Warangal,Kukatpally PS,Officer100,Closed
+FIR0857,C0857,Citizen857,Fraud,BNS 318,2026-06-01,Rangareddy,Madhapur PS,Officer58,Closed
+FIR0858,C0858,Citizen858,Assault,BNS 115,2026-01-28,Warangal,Kukatpally PS,Officer15,Under Investigation
+FIR0859,C0859,Citizen859,Assault,BNS 115,2026-01-01,Warangal,Banjara Hills PS,Officer29,Under Investigation
+FIR0860,C0860,Citizen860,Fraud,BNS 318,2026-06-23,Rangareddy,Gachibowli PS,Officer41,Closed
+FIR0861,C0861,Citizen861,Cyber Crime,IT Act,2026-06-10,Karimnagar,Begumpet PS,Officer62,Open
+FIR0862,C0862,Citizen862,Assault,BNS 115,2026-05-26,Hyderabad,Begumpet PS,Officer96,Under Investigation
+FIR0863,C0863,Citizen863,Cyber Crime,IT Act,2026-04-03,Warangal,Gachibowli PS,Officer89,Open
+FIR0864,C0864,Citizen864,Theft,BNS 303,2026-01-26,Hyderabad,Banjara Hills PS,Officer92,Under Investigation
+FIR0865,C0865,Citizen865,Theft,BNS 303,2026-06-01,Warangal,Begumpet PS,Officer96,Under Investigation
+FIR0866,C0866,Citizen866,Assault,BNS 115,2026-01-04,Hyderabad,Madhapur PS,Officer14,Open
+FIR0867,C0867,Citizen867,Theft,BNS 303,2026-05-11,Warangal,Begumpet PS,Officer75,Open
+FIR0868,C0868,Citizen868,Vehicle Theft,BNS 303,2026-05-02,Medchal-Malkajgiri,Begumpet PS,Officer72,Open
+FIR0869,C0869,Citizen869,Assault,BNS 115,2026-04-27,Karimnagar,Gachibowli PS,Officer64,Open
+FIR0870,C0870,Citizen870,Assault,BNS 115,2026-05-14,Hyderabad,Madhapur PS,Officer42,Closed
+FIR0871,C0871,Citizen871,Vehicle Theft,BNS 303,2026-05-24,Hyderabad,Banjara Hills PS,Officer9,Open
+FIR0872,C0872,Citizen872,Theft,BNS 303,2026-06-11,Warangal,Kukatpally PS,Officer83,Under Investigation
+FIR0873,C0873,Citizen873,Assault,BNS 115,2026-06-19,Warangal,Begumpet PS,Officer95,Open
+FIR0874,C0874,Citizen874,Cyber Crime,IT Act,2026-05-28,Hyderabad,Madhapur PS,Officer88,Closed
+FIR0875,C0875,Citizen875,Theft,BNS 303,2026-03-03,Rangareddy,Madhapur PS,Officer66,Open
+FIR0876,C0876,Citizen876,Assault,BNS 115,2026-02-15,Rangareddy,Gachibowli PS,Officer39,Under Investigation
+FIR0877,C0877,Citizen877,Fraud,BNS 318,2026-02-20,Hyderabad,Madhapur PS,Officer92,Open
+FIR0878,C0878,Citizen878,Cyber Crime,IT Act,2026-02-11,Medchal-Malkajgiri,Kukatpally PS,Officer94,Closed
+FIR0879,C0879,Citizen879,Assault,BNS 115,2026-01-11,Medchal-Malkajgiri,Madhapur PS,Officer55,Closed
+FIR0880,C0880,Citizen880,Vehicle Theft,BNS 303,2026-01-08,Medchal-Malkajgiri,Begumpet PS,Officer95,Open
+FIR0881,C0881,Citizen881,Theft,BNS 303,2026-04-13,Rangareddy,Madhapur PS,Officer54,Open
+FIR0882,C0882,Citizen882,Theft,BNS 303,2026-06-09,Rangareddy,Banjara Hills PS,Officer52,Closed
+FIR0883,C0883,Citizen883,Assault,BNS 115,2026-03-01,Rangareddy,Banjara Hills PS,Officer60,Open
+FIR0884,C0884,Citizen884,Cyber Crime,IT Act,2026-03-16,Hyderabad,Begumpet PS,Officer65,Under Investigation
+FIR0885,C0885,Citizen885,Assault,BNS 115,2026-01-19,Warangal,Madhapur PS,Officer72,Closed
+FIR0886,C0886,Citizen886,Theft,BNS 303,2026-01-13,Hyderabad,Banjara Hills PS,Officer8,Closed
+FIR0887,C0887,Citizen887,Assault,BNS 115,2026-03-27,Medchal-Malkajgiri,Kukatpally PS,Officer5,Under Investigation
+FIR0888,C0888,Citizen888,Assault,BNS 115,2026-03-13,Hyderabad,Madhapur PS,Officer35,Closed
+FIR0889,C0889,Citizen889,Vehicle Theft,BNS 303,2026-06-11,Hyderabad,Gachibowli PS,Officer24,Open
+FIR0890,C0890,Citizen890,Fraud,BNS 318,2026-06-24,Karimnagar,Kukatpally PS,Officer34,Open
+FIR0891,C0891,Citizen891,Fraud,BNS 318,2026-01-01,Medchal-Malkajgiri,Gachibowli PS,Officer28,Closed
+FIR0892,C0892,Citizen892,Assault,BNS 115,2026-05-22,Karimnagar,Banjara Hills PS,Officer90,Closed
+FIR0893,C0893,Citizen893,Fraud,BNS 318,2026-06-16,Warangal,Kukatpally PS,Officer44,Open
+FIR0894,C0894,Citizen894,Theft,BNS 303,2026-04-17,Hyderabad,Kukatpally PS,Officer33,Under Investigation
+FIR0895,C0895,Citizen895,Vehicle Theft,BNS 303,2026-05-05,Medchal-Malkajgiri,Gachibowli PS,Officer91,Closed
+FIR0896,C0896,Citizen896,Theft,BNS 303,2026-05-23,Karimnagar,Madhapur PS,Officer86,Open
+FIR0897,C0897,Citizen897,Cyber Crime,IT Act,2026-03-10,Hyderabad,Banjara Hills PS,Officer66,Under Investigation
+FIR0898,C0898,Citizen898,Theft,BNS 303,2026-06-23,Rangareddy,Gachibowli PS,Officer58,Closed
+FIR0899,C0899,Citizen899,Fraud,BNS 318,2026-07-04,Warangal,Begumpet PS,Officer6,Open
+FIR0900,C0900,Citizen900,Cyber Crime,IT Act,2026-02-20,Karimnagar,Begumpet PS,Officer16,Under Investigation
+FIR0901,C0901,Citizen901,Vehicle Theft,BNS 303,2026-07-23,Medchal-Malkajgiri,Madhapur PS,Officer83,Closed
+FIR0902,C0902,Citizen902,Theft,BNS 303,2026-06-06,Medchal-Malkajgiri,Banjara Hills PS,Officer64,Open
+FIR0903,C0903,Citizen903,Theft,BNS 303,2026-04-11,Medchal-Malkajgiri,Banjara Hills PS,Officer22,Under Investigation
+FIR0904,C0904,Citizen904,Assault,BNS 115,2026-07-07,Karimnagar,Kukatpally PS,Officer92,Under Investigation
+FIR0905,C0905,Citizen905,Vehicle Theft,BNS 303,2026-02-18,Hyderabad,Kukatpally PS,Officer91,Under Investigation
+FIR0906,C0906,Citizen906,Vehicle Theft,BNS 303,2026-06-19,Medchal-Malkajgiri,Begumpet PS,Officer88,Open
+FIR0907,C0907,Citizen907,Fraud,BNS 318,2026-06-18,Karimnagar,Gachibowli PS,Officer61,Open
+FIR0908,C0908,Citizen908,Cyber Crime,IT Act,2026-04-12,Medchal-Malkajgiri,Madhapur PS,Officer24,Closed
+FIR0909,C0909,Citizen909,Cyber Crime,IT Act,2026-03-23,Rangareddy,Banjara Hills PS,Officer70,Open
+FIR0910,C0910,Citizen910,Fraud,BNS 318,2026-06-20,Medchal-Malkajgiri,Kukatpally PS,Officer78,Open
+FIR0911,C0911,Citizen911,Assault,BNS 115,2026-06-28,Karimnagar,Begumpet PS,Officer72,Under Investigation
+FIR0912,C0912,Citizen912,Theft,BNS 303,2026-07-16,Hyderabad,Madhapur PS,Officer98,Under Investigation
+FIR0913,C0913,Citizen913,Cyber Crime,IT Act,2026-03-11,Hyderabad,Begumpet PS,Officer76,Under Investigation
+FIR0914,C0914,Citizen914,Cyber Crime,IT Act,2026-06-28,Karimnagar,Gachibowli PS,Officer49,Closed
+FIR0915,C0915,Citizen915,Fraud,BNS 318,2026-05-15,Hyderabad,Madhapur PS,Officer92,Closed
+FIR0916,C0916,Citizen916,Assault,BNS 115,2026-03-27,Warangal,Madhapur PS,Officer18,Closed
+FIR0917,C0917,Citizen917,Assault,BNS 115,2026-06-12,Rangareddy,Banjara Hills PS,Officer24,Under Investigation
+FIR0918,C0918,Citizen918,Theft,BNS 303,2026-07-28,Warangal,Banjara Hills PS,Officer87,Closed
+FIR0919,C0919,Citizen919,Assault,BNS 115,2026-03-09,Medchal-Malkajgiri,Kukatpally PS,Officer88,Closed
+FIR0920,C0920,Citizen920,Cyber Crime,IT Act,2026-06-03,Medchal-Malkajgiri,Kukatpally PS,Officer3,Open
+FIR0921,C0921,Citizen921,Vehicle Theft,BNS 303,2026-07-16,Rangareddy,Begumpet PS,Officer13,Closed
+FIR0922,C0922,Citizen922,Theft,BNS 303,2026-02-05,Hyderabad,Banjara Hills PS,Officer13,Open
+FIR0923,C0923,Citizen923,Fraud,BNS 318,2026-04-24,Warangal,Banjara Hills PS,Officer60,Open
+FIR0924,C0924,Citizen924,Fraud,BNS 318,2026-06-19,Hyderabad,Kukatpally PS,Officer12,Closed
+FIR0925,C0925,Citizen925,Cyber Crime,IT Act,2026-07-25,Hyderabad,Kukatpally PS,Officer56,Closed
+FIR0926,C0926,Citizen926,Fraud,BNS 318,2026-02-16,Warangal,Kukatpally PS,Officer11,Closed
+FIR0927,C0927,Citizen927,Vehicle Theft,BNS 303,2026-01-16,Rangareddy,Begumpet PS,Officer15,Under Investigation
+FIR0928,C0928,Citizen928,Vehicle Theft,BNS 303,2026-06-01,Karimnagar,Gachibowli PS,Officer47,Closed
+FIR0929,C0929,Citizen929,Vehicle Theft,BNS 303,2026-05-22,Warangal,Gachibowli PS,Officer47,Under Investigation
+FIR0930,C0930,Citizen930,Cyber Crime,IT Act,2026-02-07,Medchal-Malkajgiri,Begumpet PS,Officer56,Under Investigation
+FIR0931,C0931,Citizen931,Theft,BNS 303,2026-01-25,Medchal-Malkajgiri,Kukatpally PS,Officer69,Open
+FIR0932,C0932,Citizen932,Assault,BNS 115,2026-03-26,Warangal,Gachibowli PS,Officer67,Open
+FIR0933,C0933,Citizen933,Cyber Crime,IT Act,2026-03-10,Karimnagar,Gachibowli PS,Officer27,Closed
+FIR0934,C0934,Citizen934,Theft,BNS 303,2026-02-11,Hyderabad,Madhapur PS,Officer22,Closed
+FIR0935,C0935,Citizen935,Theft,BNS 303,2026-03-06,Rangareddy,Madhapur PS,Officer35,Open
+FIR0936,C0936,Citizen936,Assault,BNS 115,2026-07-13,Hyderabad,Begumpet PS,Officer11,Closed
+FIR0937,C0937,Citizen937,Cyber Crime,IT Act,2026-02-06,Karimnagar,Begumpet PS,Officer54,Open
+FIR0938,C0938,Citizen938,Theft,BNS 303,2026-07-03,Warangal,Madhapur PS,Officer33,Open
+FIR0939,C0939,Citizen939,Theft,BNS 303,2026-01-03,Rangareddy,Madhapur PS,Officer41,Under Investigation
+FIR0940,C0940,Citizen940,Vehicle Theft,BNS 303,2026-05-17,Hyderabad,Madhapur PS,Officer11,Closed
+FIR0941,C0941,Citizen941,Cyber Crime,IT Act,2026-07-11,Warangal,Begumpet PS,Officer12,Closed
+FIR0942,C0942,Citizen942,Cyber Crime,IT Act,2026-05-03,Rangareddy,Kukatpally PS,Officer10,Under Investigation
+FIR0943,C0943,Citizen943,Assault,BNS 115,2026-05-11,Rangareddy,Banjara Hills PS,Officer35,Open
+FIR0944,C0944,Citizen944,Theft,BNS 303,2026-04-01,Hyderabad,Banjara Hills PS,Officer77,Open
+FIR0945,C0945,Citizen945,Fraud,BNS 318,2026-02-15,Warangal,Banjara Hills PS,Officer95,Closed
+FIR0946,C0946,Citizen946,Assault,BNS 115,2026-04-21,Medchal-Malkajgiri,Madhapur PS,Officer64,Closed
+FIR0947,C0947,Citizen947,Fraud,BNS 318,2026-03-28,Karimnagar,Banjara Hills PS,Officer88,Under Investigation
+FIR0948,C0948,Citizen948,Theft,BNS 303,2026-06-19,Warangal,Banjara Hills PS,Officer19,Under Investigation
+FIR0949,C0949,Citizen949,Vehicle Theft,BNS 303,2026-06-14,Hyderabad,Banjara Hills PS,Officer46,Open
+FIR0950,C0950,Citizen950,Vehicle Theft,BNS 303,2026-04-17,Medchal-Malkajgiri,Kukatpally PS,Officer27,Open
+FIR0951,C0951,Citizen951,Cyber Crime,IT Act,2026-05-09,Warangal,Banjara Hills PS,Officer53,Open
+FIR0952,C0952,Citizen952,Cyber Crime,IT Act,2026-01-16,Karimnagar,Begumpet PS,Officer28,Closed
+FIR0953,C0953,Citizen953,Assault,BNS 115,2026-05-10,Rangareddy,Madhapur PS,Officer62,Open
+FIR0954,C0954,Citizen954,Theft,BNS 303,2026-04-22,Warangal,Kukatpally PS,Officer13,Open
+FIR0955,C0955,Citizen955,Assault,BNS 115,2026-02-20,Hyderabad,Kukatpally PS,Officer58,Open
+FIR0956,C0956,Citizen956,Assault,BNS 115,2026-07-05,Warangal,Banjara Hills PS,Officer52,Open
+FIR0957,C0957,Citizen957,Fraud,BNS 318,2026-04-15,Warangal,Gachibowli PS,Officer59,Open
+FIR0958,C0958,Citizen958,Theft,BNS 303,2026-06-24,Rangareddy,Kukatpally PS,Officer100,Open
+FIR0959,C0959,Citizen959,Fraud,BNS 318,2026-03-03,Karimnagar,Kukatpally PS,Officer42,Open
+FIR0960,C0960,Citizen960,Assault,BNS 115,2026-04-07,Rangareddy,Begumpet PS,Officer45,Open
+FIR0961,C0961,Citizen961,Fraud,BNS 318,2026-06-19,Warangal,Gachibowli PS,Officer57,Under Investigation
+FIR0962,C0962,Citizen962,Theft,BNS 303,2026-03-04,Hyderabad,Kukatpally PS,Officer83,Open
+FIR0963,C0963,Citizen963,Vehicle Theft,BNS 303,2026-03-19,Rangareddy,Madhapur PS,Officer98,Under Investigation
+FIR0964,C0964,Citizen964,Assault,BNS 115,2026-03-15,Hyderabad,Madhapur PS,Officer1,Open
+FIR0965,C0965,Citizen965,Assault,BNS 115,2026-05-19,Karimnagar,Begumpet PS,Officer20,Open
+FIR0966,C0966,Citizen966,Assault,BNS 115,2026-03-25,Warangal,Madhapur PS,Officer96,Closed
+FIR0967,C0967,Citizen967,Theft,BNS 303,2026-05-24,Medchal-Malkajgiri,Gachibowli PS,Officer55,Under Investigation
+FIR0968,C0968,Citizen968,Fraud,BNS 318,2026-05-28,Karimnagar,Kukatpally PS,Officer94,Under Investigation
+FIR0969,C0969,Citizen969,Assault,BNS 115,2026-02-02,Warangal,Banjara Hills PS,Officer32,Open
+FIR0970,C0970,Citizen970,Fraud,BNS 318,2026-05-11,Warangal,Madhapur PS,Officer27,Open
+FIR0971,C0971,Citizen971,Vehicle Theft,BNS 303,2026-05-15,Medchal-Malkajgiri,Madhapur PS,Officer5,Under Investigation
+FIR0972,C0972,Citizen972,Fraud,BNS 318,2026-01-02,Karimnagar,Kukatpally PS,Officer6,Under Investigation
+FIR0973,C0973,Citizen973,Vehicle Theft,BNS 303,2026-06-01,Hyderabad,Madhapur PS,Officer60,Under Investigation
+FIR0974,C0974,Citizen974,Theft,BNS 303,2026-06-16,Warangal,Gachibowli PS,Officer2,Open
+FIR0975,C0975,Citizen975,Cyber Crime,IT Act,2026-03-24,Karimnagar,Banjara Hills PS,Officer29,Under Investigation
+FIR0976,C0976,Citizen976,Vehicle Theft,BNS 303,2026-07-22,Medchal-Malkajgiri,Banjara Hills PS,Officer22,Under Investigation
+FIR0977,C0977,Citizen977,Fraud,BNS 318,2026-03-19,Hyderabad,Kukatpally PS,Officer12,Open
+FIR0978,C0978,Citizen978,Fraud,BNS 318,2026-07-24,Warangal,Kukatpally PS,Officer88,Open
+FIR0979,C0979,Citizen979,Cyber Crime,IT Act,2026-04-10,Warangal,Banjara Hills PS,Officer62,Under Investigation
+FIR0980,C0980,Citizen980,Vehicle Theft,BNS 303,2026-05-12,Warangal,Kukatpally PS,Officer85,Closed
+FIR0981,C0981,Citizen981,Vehicle Theft,BNS 303,2026-02-25,Rangareddy,Begumpet PS,Officer27,Open
+FIR0982,C0982,Citizen982,Assault,BNS 115,2026-04-20,Hyderabad,Begumpet PS,Officer31,Under Investigation
+FIR0983,C0983,Citizen983,Assault,BNS 115,2026-02-11,Medchal-Malkajgiri,Madhapur PS,Officer9,Under Investigation
+FIR0984,C0984,Citizen984,Fraud,BNS 318,2026-04-06,Rangareddy,Begumpet PS,Officer52,Open
+FIR0985,C0985,Citizen985,Vehicle Theft,BNS 303,2026-05-06,Karimnagar,Kukatpally PS,Officer22,Closed
+FIR0986,C0986,Citizen986,Fraud,BNS 318,2026-06-06,Rangareddy,Banjara Hills PS,Officer58,Under Investigation
+FIR0987,C0987,Citizen987,Fraud,BNS 318,2026-04-07,Rangareddy,Gachibowli PS,Officer85,Closed
+FIR0988,C0988,Citizen988,Assault,BNS 115,2026-01-02,Rangareddy,Begumpet PS,Officer50,Open
+FIR0989,C0989,Citizen989,Assault,BNS 115,2026-07-28,Karimnagar,Begumpet PS,Officer4,Closed
+FIR0990,C0990,Citizen990,Vehicle Theft,BNS 303,2026-04-25,Rangareddy,Begumpet PS,Officer76,Under Investigation
+FIR0991,C0991,Citizen991,Fraud,BNS 318,2026-06-03,Rangareddy,Banjara Hills PS,Officer73,Under Investigation
+FIR0992,C0992,Citizen992,Fraud,BNS 318,2026-02-24,Hyderabad,Banjara Hills PS,Officer69,Closed
+FIR0993,C0993,Citizen993,Theft,BNS 303,2026-06-04,Rangareddy,Kukatpally PS,Officer32,Under Investigation
+FIR0994,C0994,Citizen994,Assault,BNS 115,2026-07-27,Rangareddy,Gachibowli PS,Officer99,Open
+FIR0995,C0995,Citizen995,Fraud,BNS 318,2026-06-04,Hyderabad,Madhapur PS,Officer25,Under Investigation
+FIR0996,C0996,Citizen996,Theft,BNS 303,2026-05-10,Karimnagar,Begumpet PS,Officer65,Under Investigation
+FIR0997,C0997,Citizen997,Theft,BNS 303,2026-02-14,Rangareddy,Banjara Hills PS,Officer58,Under Investigation
+FIR0998,C0998,Citizen998,Cyber Crime,IT Act,2026-05-06,Rangareddy,Gachibowli PS,Officer72,Under Investigation
+FIR0999,C0999,Citizen999,Fraud,BNS 318,2026-05-04,Hyderabad,Banjara Hills PS,Officer92,Open
+FIR1000,C1000,Citizen1000,Assault,BNS 115,2026-03-26,Karimnagar,Banjara Hills PS,Officer3,Closed

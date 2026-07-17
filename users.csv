@@ -1,0 +1,101 @@
+User ID,Name,Badge ID,Email,Password (Hashed),Role,Police Station,District,Phone,Status
+U001,Officer1,TG1001,officer1@tsp.gov.in,hashed_password,Officer,Madhapur PS,Medchal-Malkajgiri,9952883758,Active
+U002,Officer2,TG1002,officer2@tsp.gov.in,hashed_password,Officer,Madhapur PS,Rangareddy,9938774040,Active
+U003,Officer3,TG1003,officer3@tsp.gov.in,hashed_password,Officer,Madhapur PS,Warangal,9894061462,Active
+U004,Officer4,TG1004,officer4@tsp.gov.in,hashed_password,Officer,Madhapur PS,Karimnagar,9362283505,Active
+U005,Officer5,TG1005,officer5@tsp.gov.in,hashed_password,Officer,Madhapur PS,Hyderabad,9858777583,Active
+U006,Officer6,TG1006,officer6@tsp.gov.in,hashed_password,Officer,Begumpet PS,Rangareddy,9723593227,Active
+U007,Officer7,TG1007,officer7@tsp.gov.in,hashed_password,Officer,Begumpet PS,Karimnagar,9191660360,Active
+U008,Officer8,TG1008,officer8@tsp.gov.in,hashed_password,Officer,Gachibowli PS,Warangal,9921307586,Active
+U009,Officer9,TG1009,officer9@tsp.gov.in,hashed_password,Officer,Gachibowli PS,Medchal-Malkajgiri,9512749556,Active
+U010,Officer10,TG1010,officer10@tsp.gov.in,hashed_password,Officer,Begumpet PS,Hyderabad,9405548538,Active
+U011,Officer11,TG1011,officer11@tsp.gov.in,hashed_password,Officer,Gachibowli PS,Medchal-Malkajgiri,9405214419,Active
+U012,Officer12,TG1012,officer12@tsp.gov.in,hashed_password,Officer,Kukatpally PS,Karimnagar,9623455680,Active
+U013,Officer13,TG1013,officer13@tsp.gov.in,hashed_password,Officer,Gachibowli PS,Warangal,9091292821,Active
+U014,Officer14,TG1014,officer14@tsp.gov.in,hashed_password,Officer,Gachibowli PS,Rangareddy,9695971421,Active
+U015,Officer15,TG1015,officer15@tsp.gov.in,hashed_password,Officer,Gachibowli PS,Hyderabad,9656110103,Active
+U016,Officer16,TG1016,officer16@tsp.gov.in,hashed_password,Officer,Kukatpally PS,Hyderabad,9117767825,Active
+U017,Officer17,TG1017,officer17@tsp.gov.in,hashed_password,Officer,Kukatpally PS,Medchal-Malkajgiri,9695571866,Active
+U018,Officer18,TG1018,officer18@tsp.gov.in,hashed_password,Officer,Banjara Hills PS,Karimnagar,9310053720,Active
+U019,Officer19,TG1019,officer19@tsp.gov.in,hashed_password,Officer,Gachibowli PS,Warangal,9070928102,Active
+U020,Officer20,TG1020,officer20@tsp.gov.in,hashed_password,Officer,Kukatpally PS,Karimnagar,9960231410,Active
+U021,Officer21,TG1021,officer21@tsp.gov.in,hashed_password,Officer,Madhapur PS,Warangal,9444813569,Active
+U022,Officer22,TG1022,officer22@tsp.gov.in,hashed_password,Officer,Banjara Hills PS,Karimnagar,9712598943,Active
+U023,Officer23,TG1023,officer23@tsp.gov.in,hashed_password,Officer,Banjara Hills PS,Karimnagar,9293635092,Active
+U024,Officer24,TG1024,officer24@tsp.gov.in,hashed_password,Officer,Kukatpally PS,Hyderabad,9220269001,Active
+U025,Officer25,TG1025,officer25@tsp.gov.in,hashed_password,Officer,Begumpet PS,Warangal,9924521979,Active
+U026,Officer26,TG1026,officer26@tsp.gov.in,hashed_password,Officer,Kukatpally PS,Warangal,9314381317,Active
+U027,Officer27,TG1027,officer27@tsp.gov.in,hashed_password,Officer,Banjara Hills PS,Rangareddy,9965637976,Active
+U028,Officer28,TG1028,officer28@tsp.gov.in,hashed_password,Officer,Kukatpally PS,Hyderabad,9323781351,Active
+U029,Officer29,TG1029,officer29@tsp.gov.in,hashed_password,Officer,Gachibowli PS,Hyderabad,9059327759,Active
+U030,Officer30,TG1030,officer30@tsp.gov.in,hashed_password,Officer,Begumpet PS,Rangareddy,9315395184,Active
+U031,Officer31,TG1031,officer31@tsp.gov.in,hashed_password,Officer,Madhapur PS,Medchal-Malkajgiri,9426321396,Active
+U032,Officer32,TG1032,officer32@tsp.gov.in,hashed_password,Officer,Gachibowli PS,Rangareddy,9229691554,Active
+U033,Officer33,TG1033,officer33@tsp.gov.in,hashed_password,Officer,Kukatpally PS,Warangal,9144241299,Active
+U034,Officer34,TG1034,officer34@tsp.gov.in,hashed_password,Officer,Gachibowli PS,Warangal,9329597736,Active
+U035,Officer35,TG1035,officer35@tsp.gov.in,hashed_password,Officer,Gachibowli PS,Rangareddy,9989092915,Active
+U036,Officer36,TG1036,officer36@tsp.gov.in,hashed_password,Officer,Madhapur PS,Medchal-Malkajgiri,9105588115,Active
+U037,Officer37,TG1037,officer37@tsp.gov.in,hashed_password,Officer,Banjara Hills PS,Hyderabad,9114944084,Active
+U038,Officer38,TG1038,officer38@tsp.gov.in,hashed_password,Officer,Begumpet PS,Karimnagar,9541071747,Active
+U039,Officer39,TG1039,officer39@tsp.gov.in,hashed_password,Officer,Banjara Hills PS,Warangal,9859031195,Active
+U040,Officer40,TG1040,officer40@tsp.gov.in,hashed_password,Officer,Banjara Hills PS,Rangareddy,9032408076,Active
+U041,Officer41,TG1041,officer41@tsp.gov.in,hashed_password,Officer,Madhapur PS,Medchal-Malkajgiri,9136892313,Active
+U042,Officer42,TG1042,officer42@tsp.gov.in,hashed_password,Officer,Begumpet PS,Karimnagar,9382564825,Active
+U043,Officer43,TG1043,officer43@tsp.gov.in,hashed_password,Officer,Gachibowli PS,Medchal-Malkajgiri,9137258264,Active
+U044,Officer44,TG1044,officer44@tsp.gov.in,hashed_password,Officer,Madhapur PS,Karimnagar,9024778903,Active
+U045,Officer45,TG1045,officer45@tsp.gov.in,hashed_password,Officer,Begumpet PS,Medchal-Malkajgiri,9987314150,Active
+U046,Officer46,TG1046,officer46@tsp.gov.in,hashed_password,Officer,Gachibowli PS,Hyderabad,9142644900,Active
+U047,Officer47,TG1047,officer47@tsp.gov.in,hashed_password,Officer,Banjara Hills PS,Rangareddy,9694218074,Active
+U048,Officer48,TG1048,officer48@tsp.gov.in,hashed_password,Officer,Banjara Hills PS,Warangal,9629859886,Active
+U049,Officer49,TG1049,officer49@tsp.gov.in,hashed_password,Officer,Gachibowli PS,Hyderabad,9961128242,Active
+U050,Officer50,TG1050,officer50@tsp.gov.in,hashed_password,Officer,Banjara Hills PS,Medchal-Malkajgiri,9635478649,Active
+U051,Officer51,TG1051,officer51@tsp.gov.in,hashed_password,Officer,Madhapur PS,Warangal,9197459883,Active
+U052,Officer52,TG1052,officer52@tsp.gov.in,hashed_password,Officer,Kukatpally PS,Karimnagar,9425279958,Active
+U053,Officer53,TG1053,officer53@tsp.gov.in,hashed_password,Officer,Kukatpally PS,Karimnagar,9443859477,Active
+U054,Officer54,TG1054,officer54@tsp.gov.in,hashed_password,Officer,Banjara Hills PS,Rangareddy,9054766350,Active
+U055,Officer55,TG1055,officer55@tsp.gov.in,hashed_password,Officer,Kukatpally PS,Rangareddy,9520530141,Active
+U056,Officer56,TG1056,officer56@tsp.gov.in,hashed_password,Officer,Begumpet PS,Warangal,9844784760,Active
+U057,Officer57,TG1057,officer57@tsp.gov.in,hashed_password,Officer,Madhapur PS,Warangal,9572108441,Active
+U058,Officer58,TG1058,officer58@tsp.gov.in,hashed_password,Officer,Gachibowli PS,Karimnagar,9425066745,Active
+U059,Officer59,TG1059,officer59@tsp.gov.in,hashed_password,Officer,Begumpet PS,Warangal,9494606325,Active
+U060,Officer60,TG1060,officer60@tsp.gov.in,hashed_password,Officer,Gachibowli PS,Hyderabad,9992754077,Active
+U061,Officer61,TG1061,officer61@tsp.gov.in,hashed_password,Officer,Gachibowli PS,Hyderabad,9516521615,Active
+U062,Officer62,TG1062,officer62@tsp.gov.in,hashed_password,Officer,Begumpet PS,Medchal-Malkajgiri,9233591156,Active
+U063,Officer63,TG1063,officer63@tsp.gov.in,hashed_password,Officer,Kukatpally PS,Hyderabad,9731120045,Active
+U064,Officer64,TG1064,officer64@tsp.gov.in,hashed_password,Officer,Begumpet PS,Hyderabad,9163364585,Active
+U065,Officer65,TG1065,officer65@tsp.gov.in,hashed_password,Officer,Madhapur PS,Karimnagar,9045450079,Active
+U066,Officer66,TG1066,officer66@tsp.gov.in,hashed_password,Officer,Begumpet PS,Hyderabad,9991506206,Active
+U067,Officer67,TG1067,officer67@tsp.gov.in,hashed_password,Officer,Begumpet PS,Karimnagar,9929260403,Active
+U068,Officer68,TG1068,officer68@tsp.gov.in,hashed_password,Officer,Madhapur PS,Medchal-Malkajgiri,9955618327,Active
+U069,Officer69,TG1069,officer69@tsp.gov.in,hashed_password,Officer,Gachibowli PS,Rangareddy,9745520305,Active
+U070,Officer70,TG1070,officer70@tsp.gov.in,hashed_password,Officer,Banjara Hills PS,Rangareddy,9332506379,Active
+U071,Officer71,TG1071,officer71@tsp.gov.in,hashed_password,Officer,Kukatpally PS,Rangareddy,9443642442,Active
+U072,Officer72,TG1072,officer72@tsp.gov.in,hashed_password,Officer,Gachibowli PS,Hyderabad,9755355040,Active
+U073,Officer73,TG1073,officer73@tsp.gov.in,hashed_password,Officer,Kukatpally PS,Karimnagar,9441163728,Active
+U074,Officer74,TG1074,officer74@tsp.gov.in,hashed_password,Officer,Begumpet PS,Karimnagar,9903484006,Active
+U075,Officer75,TG1075,officer75@tsp.gov.in,hashed_password,Officer,Madhapur PS,Hyderabad,9041415377,Active
+U076,Officer76,TG1076,officer76@tsp.gov.in,hashed_password,Officer,Gachibowli PS,Rangareddy,9942635790,Active
+U077,Officer77,TG1077,officer77@tsp.gov.in,hashed_password,Officer,Begumpet PS,Medchal-Malkajgiri,9471296948,Active
+U078,Officer78,TG1078,officer78@tsp.gov.in,hashed_password,Officer,Madhapur PS,Rangareddy,9579980488,Active
+U079,Officer79,TG1079,officer79@tsp.gov.in,hashed_password,Officer,Banjara Hills PS,Rangareddy,9109186580,Active
+U080,Officer80,TG1080,officer80@tsp.gov.in,hashed_password,Officer,Madhapur PS,Hyderabad,9860069860,Active
+U081,Officer81,TG1081,officer81@tsp.gov.in,hashed_password,Officer,Kukatpally PS,Warangal,9772463307,Active
+U082,Officer82,TG1082,officer82@tsp.gov.in,hashed_password,Officer,Kukatpally PS,Rangareddy,9259076871,Active
+U083,Officer83,TG1083,officer83@tsp.gov.in,hashed_password,Officer,Banjara Hills PS,Rangareddy,9167619715,Active
+U084,Officer84,TG1084,officer84@tsp.gov.in,hashed_password,Officer,Madhapur PS,Rangareddy,9868018370,Active
+U085,Officer85,TG1085,officer85@tsp.gov.in,hashed_password,Officer,Gachibowli PS,Rangareddy,9174232860,Active
+U086,Officer86,TG1086,officer86@tsp.gov.in,hashed_password,Officer,Madhapur PS,Hyderabad,9646854124,Active
+U087,Officer87,TG1087,officer87@tsp.gov.in,hashed_password,Officer,Kukatpally PS,Karimnagar,9432813425,Active
+U088,Officer88,TG1088,officer88@tsp.gov.in,hashed_password,Officer,Begumpet PS,Rangareddy,9975629248,Active
+U089,Officer89,TG1089,officer89@tsp.gov.in,hashed_password,Officer,Kukatpally PS,Warangal,9950274903,Active
+U090,Officer90,TG1090,officer90@tsp.gov.in,hashed_password,Officer,Banjara Hills PS,Rangareddy,9166994624,Active
+U091,Officer91,TG1091,officer91@tsp.gov.in,hashed_password,Officer,Kukatpally PS,Warangal,9767807521,Active
+U092,Officer92,TG1092,officer92@tsp.gov.in,hashed_password,Officer,Gachibowli PS,Karimnagar,9536731535,Active
+U093,Officer93,TG1093,officer93@tsp.gov.in,hashed_password,Officer,Gachibowli PS,Warangal,9633760657,Active
+U094,Officer94,TG1094,officer94@tsp.gov.in,hashed_password,Officer,Gachibowli PS,Medchal-Malkajgiri,9367642447,Active
+U095,Officer95,TG1095,officer95@tsp.gov.in,hashed_password,Officer,Gachibowli PS,Medchal-Malkajgiri,9032091100,Active
+U096,Officer96,TG1096,officer96@tsp.gov.in,hashed_password,Officer,Madhapur PS,Hyderabad,9979996525,Active
+U097,Officer97,TG1097,officer97@tsp.gov.in,hashed_password,Officer,Kukatpally PS,Medchal-Malkajgiri,9540251747,Active
+U098,Officer98,TG1098,officer98@tsp.gov.in,hashed_password,Officer,Banjara Hills PS,Rangareddy,9722566527,Active
+U099,Officer99,TG1099,officer99@tsp.gov.in,hashed_password,Officer,Banjara Hills PS,Hyderabad,9786976673,Active
+U100,Officer100,TG1100,officer100@tsp.gov.in,hashed_password,Officer,Gachibowli PS,Medchal-Malkajgiri,9182213017,Active

@@ -1,0 +1,32 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+  font-family: 'Inter', sans-serif;
+  color: #E4E8EF;
+}
+
+::-webkit-scrollbar {
+  width: 8px;
+}
+::-webkit-scrollbar-thumb {
+  background: #28344A;
+  border-radius: 4px;
+}
+
+/* Signature element: a left-edge "case tab" accent used on cards
+   throughout the app, evoking a physical case-file folder tab. */
+.case-tab {
+  position: relative;
+}
+.case-tab::before {
+  content: "";
+  position: absolute;
+  left: 0;
+  top: 12px;
+  bottom: 12px;
+  width: 3px;
+  border-radius: 2px;
+  background: #E8A33D;
+}
