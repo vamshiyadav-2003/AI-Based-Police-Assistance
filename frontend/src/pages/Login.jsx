@@ -5,6 +5,7 @@ import {
   User, Building2, MapPin, AlertTriangle, CheckCircle2, Fingerprint
 } from 'lucide-react'
 import api from '../api/client.js'
+import { useUser } from '../contexts/UserContext.jsx'
 
 /* ─────────────────────────────────────────────
    BOOT / SPLASH SCREEN
@@ -471,6 +472,7 @@ const AUTH_STEPS = [
    MAIN
 ───────────────────────────────────────────── */
 export default function Login() {
+  const { setUser } = useUser()
   const [booting, setBooting] = useState(true)
   const [authStep, setAuthStep] = useState(-1)
   const [mode, setMode] = useState('login')
@@ -520,6 +522,7 @@ export default function Login() {
           const me = await api.get('/auth/me', { headers: { Authorization: `Bearer ${token}` } })
           localStorage.setItem('role', me.data.role)
           localStorage.setItem('name', me.data.full_name)
+          setUser({ token, role: me.data.role, name: me.data.full_name })
           navigate('/')
         }
       })
