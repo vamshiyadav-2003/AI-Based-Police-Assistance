@@ -1,4 +1,4 @@
-import { useState, useEffect, useRef } from 'react'
+import { useState, useEffect } from 'react'
 import { useNavigate } from 'react-router-dom'
 import {
   Shield, Eye, EyeOff, ArrowLeft, Mail, KeyRound,
@@ -8,417 +8,135 @@ import api from '../api/client.js'
 import { useUser } from '../contexts/UserContext.jsx'
 
 /* ─────────────────────────────────────────────
-   BOOT / SPLASH SCREEN
-───────────────────────────────────────────── */
+   BOOT SCREEN (Minimal, Premium Mobile Splash)
+   ───────────────────────────────────────────── */
 function BootScreen({ onDone }) {
   const [progress, setProgress] = useState(0)
-  const [step, setStep] = useState(0)
-  const steps = [
-    'Initialising secure connection...',
-    'Loading biometric modules...',
-    'Verifying encryption keys...',
-    'Establishing command channel...',
-    'System ready.',
-  ]
 
   useEffect(() => {
-    const interval = setInterval(() => {
-      setProgress(p => {
-        const next = p + Math.random() * 18 + 4
-        if (next >= 100) { clearInterval(interval); setTimeout(onDone, 600); return 100 }
-        return next
-      })
-    }, 200)
-    return () => clearInterval(interval)
-  }, [])
-
-  useEffect(() => {
-    setStep(Math.min(4, Math.floor((progress / 100) * steps.length)))
-  }, [progress])
+    const start = performance.now()
+    const duration = 1600 // 1.6 seconds smooth load
+    let raf
+    const tick = (now) => {
+      const p = Math.min((now - start) / duration, 1)
+      setProgress(p)
+      if (p < 1) raf = requestAnimationFrame(tick)
+      else setTimeout(onDone, 300)
+    }
+    raf = requestAnimationFrame(tick)
+    return () => cancelAnimationFrame(raf)
+  }, [onDone])
 
   return (
     <div style={{
-      position: 'fixed', inset: 0, background: '#020817',
+      position: 'fixed', inset: 0,
+      background: 'linear-gradient(135deg, #050a18 0%, #02040a 100%)',
       display: 'flex', flexDirection: 'column',
       alignItems: 'center', justifyContent: 'center',
-      zIndex: 9999, fontFamily: "'Courier New', monospace"
+      zIndex: 9999, fontFamily: "'Inter', sans-serif",
+      color: '#f1f5f9'
     }}>
-      {/* Matrix rain */}
-      <MatrixRain />
+      {/* Background soft glowing circle */}
+      <div style={{
+        position: 'absolute', width: '250px', height: '250px',
+        borderRadius: '50%', background: 'radial-gradient(circle, rgba(251,191,36,0.08) 0%, transparent 70%)',
+        filter: 'blur(30px)', pointerEvents: 'none'
+      }} />
 
-      <div style={{ position: 'relative', zIndex: 2, textAlign: 'center', width: '100%', maxWidth: '400px', padding: '0 24px' }}>
-        {/* Radar emblem */}
-        <div style={{ position: 'relative', width: 120, height: 120, margin: '0 auto 32px' }}>
-          <div style={{
-            position: 'absolute', inset: 0, borderRadius: '50%',
-            border: '1px solid rgba(251,191,36,0.2)',
-            animation: 'pulse 2s ease-in-out infinite'
-          }} />
-          <div style={{
-            position: 'absolute', inset: -12, borderRadius: '50%',
-            border: '1px solid rgba(251,191,36,0.1)',
-            animation: 'pulse 2s ease-in-out infinite 0.4s'
-          }} />
-          <div style={{
-            position: 'absolute', inset: -24, borderRadius: '50%',
-            border: '1px solid rgba(251,191,36,0.05)',
-            animation: 'pulse 2s ease-in-out infinite 0.8s'
-          }} />
-          {/* Radar sweep */}
-          <div style={{
-            position: 'absolute', inset: 0, borderRadius: '50%', overflow: 'hidden'
-          }}>
-            <div style={{
-              position: 'absolute', top: '50%', left: '50%',
-              width: '50%', height: '2px', transformOrigin: '0% 50%',
-              background: 'linear-gradient(90deg, rgba(251,191,36,0.8), transparent)',
-              animation: 'radarSweep 2s linear infinite',
-              boxShadow: '0 0 8px rgba(251,191,36,0.4)'
-            }} />
-          </div>
-          <div style={{
-            position: 'absolute', inset: 0, borderRadius: '50%',
-            background: 'rgba(2,8,23,0.6)',
-            display: 'flex', alignItems: 'center', justifyContent: 'center',
-            border: '2px solid rgba(251,191,36,0.4)',
-            boxShadow: '0 0 30px rgba(251,191,36,0.15), inset 0 0 20px rgba(251,191,36,0.05)'
-          }}>
-            <Shield size={44} color="#fbbf24" strokeWidth={1.5} />
-          </div>
+      <div style={{ position: 'relative', zIndex: 2, textAlign: 'center', display: 'flex', flexDirection: 'column', alignItems: 'center' }}>
+        {/* Sleek pulsing shield */}
+        <div style={{
+          width: 80, height: 80, borderRadius: '50%',
+          background: 'rgba(251,191,36,0.06)', border: '1px solid rgba(251,191,36,0.25)',
+          display: 'flex', alignItems: 'center', justifyContent: 'center',
+          marginBottom: '24px', animation: 'bootPulse 2s ease-in-out infinite',
+          boxShadow: '0 8px 32px rgba(251,191,36,0.05)'
+        }}>
+          <Shield size={36} color="#fbbf24" strokeWidth={1.5} />
         </div>
 
-        <p style={{ fontSize: '10px', color: '#fbbf24', letterSpacing: '0.3em', marginBottom: '6px', fontWeight: 700 }}>
-          ◈ GVAK POLICE COMMAND ◈
+        <p style={{
+          fontSize: '11px', fontWeight: 800, color: '#fbbf24',
+          letterSpacing: '0.24em', textTransform: 'uppercase', marginBottom: '8px'
+        }}>
+          GVAK Police Network
         </p>
-        <h1 style={{ fontSize: '22px', fontWeight: 900, color: '#f1f5f9', letterSpacing: '0.05em', marginBottom: '32px' }}>
-          IPARTS v2.0
-        </h1>
+        <p style={{ fontSize: '12px', color: '#64748b', marginBottom: '32px', fontWeight: 500 }}>
+          Securing Connections...
+        </p>
 
-        {/* Progress bar */}
+        {/* Premium loader line */}
         <div style={{
-          width: '100%', height: '4px', background: 'rgba(30,41,59,0.8)',
-          borderRadius: '2px', marginBottom: '12px', overflow: 'hidden'
+          width: '180px', height: '3px', background: 'rgba(255,255,255,0.08)',
+          borderRadius: '2px', overflow: 'hidden', position: 'relative'
         }}>
           <div style={{
-            width: `${progress}%`, height: '100%',
+            width: `${progress * 100}%`, height: '100%',
             background: 'linear-gradient(90deg, #d97706, #fbbf24)',
-            borderRadius: '2px', transition: 'width 0.2s ease',
-            boxShadow: '0 0 10px rgba(251,191,36,0.5)'
+            borderRadius: '2px', transition: 'width 0.1s linear'
           }} />
-        </div>
-
-        <div style={{ display: 'flex', justifyContent: 'space-between', marginBottom: '20px' }}>
-          <span style={{ fontSize: '9px', color: '#475569', letterSpacing: '0.1em' }}>{steps[step]}</span>
-          <span style={{ fontSize: '9px', color: '#fbbf24', fontWeight: 700 }}>{Math.round(progress)}%</span>
-        </div>
-
-        {/* Boot log */}
-        <div style={{
-          background: 'rgba(2,6,23,0.9)', border: '1px solid rgba(30,41,59,0.8)',
-          borderRadius: '8px', padding: '12px 16px', textAlign: 'left'
-        }}>
-          {steps.slice(0, step + 1).map((s, i) => (
-            <div key={i} style={{ fontSize: '9px', color: i === step ? '#10b981' : '#1e3a5f', marginBottom: '4px', letterSpacing: '0.06em' }}>
-              <span style={{ color: '#fbbf24' }}>{'>'}</span> {s}
-              {i === step && <span style={{ animation: 'blink 1s step-end infinite', marginLeft: '4px', color: '#fbbf24' }}>█</span>}
-            </div>
-          ))}
         </div>
       </div>
+      <style>{`
+        @keyframes bootPulse {
+          0%, 100% { transform: scale(1); opacity: 1; box-shadow: 0 8px 32px rgba(251,191,36,0.05); }
+          50% { transform: scale(1.05); opacity: 0.85; box-shadow: 0 8px 48px rgba(251,191,36,0.15); }
+        }
+      `}</style>
     </div>
   )
 }
 
 /* ─────────────────────────────────────────────
-   MATRIX RAIN (canvas)
-───────────────────────────────────────────── */
-function MatrixRain() {
-  const ref = useRef(null)
-  useEffect(() => {
-    const canvas = ref.current
-    const ctx = canvas.getContext('2d')
-    canvas.width = window.innerWidth
-    canvas.height = window.innerHeight
-    const cols = Math.floor(canvas.width / 18)
-    const drops = Array(cols).fill(1)
-    const chars = 'TSPOLICEABCDEF0123456789@#$%&*'
-    let raf
-    function draw() {
-      ctx.fillStyle = 'rgba(2,8,23,0.05)'
-      ctx.fillRect(0, 0, canvas.width, canvas.height)
-      ctx.fillStyle = 'rgba(251,191,36,0.15)'
-      ctx.font = '12px monospace'
-      drops.forEach((y, i) => {
-        ctx.fillText(chars[Math.floor(Math.random() * chars.length)], i * 18, y * 18)
-        if (y * 18 > canvas.height && Math.random() > 0.975) drops[i] = 0
-        drops[i]++
-      })
-      raf = requestAnimationFrame(draw)
-    }
-    draw()
-    return () => cancelAnimationFrame(raf)
-  }, [])
-  return <canvas ref={ref} style={{ position: 'absolute', inset: 0, opacity: 0.4 }} />
-}
-
-/* ─────────────────────────────────────────────
-   PARTICLE NETWORK (login bg)
-───────────────────────────────────────────── */
-function ParticleNet() {
-  const ref = useRef(null)
-  useEffect(() => {
-    const c = ref.current, ctx = c.getContext('2d')
-    c.width = window.innerWidth; c.height = window.innerHeight
-    const pts = Array.from({ length: 70 }, () => ({
-      x: Math.random() * c.width, y: Math.random() * c.height,
-      vx: (Math.random() - 0.5) * 0.3, vy: (Math.random() - 0.5) * 0.3,
-      r: Math.random() * 1.5 + 0.3, a: Math.random() * 0.4 + 0.1
-    }))
-    let raf
-    function draw() {
-      ctx.clearRect(0, 0, c.width, c.height)
-      pts.forEach(p => {
-        ctx.beginPath(); ctx.arc(p.x, p.y, p.r, 0, Math.PI * 2)
-        ctx.fillStyle = `rgba(251,191,36,${p.a})`; ctx.fill()
-        p.x += p.vx; p.y += p.vy
-        if (p.x < 0 || p.x > c.width) p.vx *= -1
-        if (p.y < 0 || p.y > c.height) p.vy *= -1
-      })
-      for (let i = 0; i < pts.length; i++)
-        for (let j = i + 1; j < pts.length; j++) {
-          const dx = pts[i].x - pts[j].x, dy = pts[i].y - pts[j].y
-          const d = Math.sqrt(dx * dx + dy * dy)
-          if (d < 130) {
-            ctx.beginPath(); ctx.moveTo(pts[i].x, pts[i].y); ctx.lineTo(pts[j].x, pts[j].y)
-            ctx.strokeStyle = `rgba(251,191,36,${0.07 * (1 - d / 130)})`
-            ctx.lineWidth = 0.5; ctx.stroke()
-          }
-        }
-      raf = requestAnimationFrame(draw)
-    }
-    draw()
-    const resize = () => { c.width = window.innerWidth; c.height = window.innerHeight }
-    window.addEventListener('resize', resize)
-    return () => { cancelAnimationFrame(raf); window.removeEventListener('resize', resize) }
-  }, [])
-  return <canvas ref={ref} style={{ position: 'fixed', inset: 0, pointerEvents: 'none', zIndex: 0 }} />
-}
-
-/* ─────────────────────────────────────────────
-   TYPEWRITER
-───────────────────────────────────────────── */
-function Typewriter({ texts, speed = 80 }) {
-  const [display, setDisplay] = useState('')
-  const [tIdx, setTIdx] = useState(0)
-  const [cIdx, setCIdx] = useState(0)
-  const [deleting, setDeleting] = useState(false)
-  useEffect(() => {
-    const t = texts[tIdx]
-    const delay = deleting ? 40 : speed
-    const timer = setTimeout(() => {
-      if (!deleting) {
-        setDisplay(t.slice(0, cIdx + 1))
-        if (cIdx + 1 === t.length) setTimeout(() => setDeleting(true), 1800)
-        else setCIdx(c => c + 1)
-      } else {
-        setDisplay(t.slice(0, cIdx - 1))
-        if (cIdx - 1 === 0) { setDeleting(false); setTIdx(i => (i + 1) % texts.length); setCIdx(0) }
-        else setCIdx(c => c - 1)
-      }
-    }, delay)
-    return () => clearTimeout(timer)
-  }, [cIdx, deleting, tIdx])
-  return (
-    <span>
-      {display}
-      <span style={{ animation: 'blink 1s step-end infinite', color: '#fbbf24' }}>|</span>
-    </span>
-  )
-}
-
-/* ─────────────────────────────────────────────
-   AUTH PROGRESS (login animation)
-───────────────────────────────────────────── */
+   AUTH PROGRESS (Clean, Minimalist Spinner)
+   ───────────────────────────────────────────── */
 function AuthProgress({ steps, currentStep }) {
   return (
     <div style={{
       position: 'fixed', inset: 0, zIndex: 100,
-      background: 'rgba(2,8,23,0.92)', backdropFilter: 'blur(12px)',
+      background: 'rgba(2,6,18,0.85)', backdropFilter: 'blur(8px)',
       display: 'flex', alignItems: 'center', justifyContent: 'center',
-      animation: 'fadeIn 0.3s ease'
+      animation: 'fadeIn 0.25s ease'
     }}>
       <div style={{
-        background: 'rgba(10,17,34,0.95)', border: '1px solid rgba(251,191,36,0.2)',
-        borderRadius: '20px', padding: '40px', width: '340px',
-        boxShadow: '0 30px 80px rgba(0,0,0,0.6), 0 0 40px rgba(251,191,36,0.05)'
+        background: '#090d16', border: '1px solid rgba(251,191,36,0.15)',
+        borderRadius: '16px', padding: '32px 40px', width: '320px',
+        textAlign: 'center', boxShadow: '0 20px 50px rgba(0,0,0,0.5)'
       }}>
-        {/* Spinning shield */}
-        <div style={{ textAlign: 'center', marginBottom: '28px' }}>
-          <div style={{ position: 'relative', width: 64, height: 64, margin: '0 auto' }}>
-            <div style={{
-              position: 'absolute', inset: -8, borderRadius: '50%',
-              border: '2px solid transparent',
-              borderTopColor: '#fbbf24', borderRightColor: 'rgba(251,191,36,0.3)',
-              animation: 'spin 1s linear infinite'
-            }} />
-            <div style={{
-              width: 64, height: 64, borderRadius: '50%',
-              background: 'rgba(251,191,36,0.08)', border: '1px solid rgba(251,191,36,0.2)',
-              display: 'flex', alignItems: 'center', justifyContent: 'center'
-            }}>
-              <Shield size={28} color="#fbbf24" />
-            </div>
-          </div>
-          <p style={{ fontSize: '13px', fontWeight: 700, color: '#f1f5f9', margin: '16px 0 4px' }}>Authenticating</p>
-          <p style={{ fontSize: '10px', color: '#475569', margin: 0, fontFamily: 'monospace' }}>{steps[currentStep]}</p>
-        </div>
-        {/* Steps */}
-        <div style={{ display: 'flex', flexDirection: 'column', gap: '8px' }}>
-          {steps.map((s, i) => (
-            <div key={i} style={{ display: 'flex', alignItems: 'center', gap: '10px' }}>
-              <div style={{
-                width: 20, height: 20, borderRadius: '50%', flexShrink: 0,
-                display: 'flex', alignItems: 'center', justifyContent: 'center',
-                background: i < currentStep ? 'rgba(16,185,129,0.15)' : i === currentStep ? 'rgba(251,191,36,0.15)' : 'rgba(30,41,59,0.5)',
-                border: `1px solid ${i < currentStep ? 'rgba(16,185,129,0.4)' : i === currentStep ? 'rgba(251,191,36,0.4)' : 'rgba(30,41,59,0.8)'}`,
-                transition: 'all 0.3s'
-              }}>
-                {i < currentStep
-                  ? <CheckCircle2 size={10} color="#10b981" />
-                  : i === currentStep
-                  ? <div style={{ width: 6, height: 6, borderRadius: '50%', background: '#fbbf24', animation: 'pulse 1s ease-in-out infinite' }} />
-                  : <div style={{ width: 5, height: 5, borderRadius: '50%', background: '#1e293b' }} />
-                }
-              </div>
-              <span style={{
-                fontSize: '10px', fontFamily: 'monospace',
-                color: i < currentStep ? '#10b981' : i === currentStep ? '#fbbf24' : '#1e3a5f',
-                transition: 'color 0.3s'
-              }}>{s}</span>
-            </div>
-          ))}
-        </div>
+        <div style={{
+          width: 48, height: 48, borderRadius: '50%', margin: '0 auto 16px',
+          border: '3px solid rgba(251,191,36,0.1)', borderTopColor: '#fbbf24',
+          animation: 'spin 0.8s linear infinite'
+        }} />
+        <h3 style={{ fontSize: '14px', fontWeight: 700, color: '#f1f5f9', margin: '0 0 4px' }}>Securing Session</h3>
+        <p style={{ fontSize: '11px', color: '#475569', margin: 0, fontFamily: 'monospace' }}>{steps[currentStep]}</p>
       </div>
     </div>
   )
 }
 
 /* ─────────────────────────────────────────────
-   BADGE EMBLEM (with radar)
-───────────────────────────────────────────── */
-function BadgeEmblem() {
-  return (
-    <div style={{ position: 'relative', width: 110, height: 110, margin: '0 auto 28px' }}>
-      {[1, 2, 3].map(i => (
-        <div key={i} style={{
-          position: 'absolute', inset: `${-i * 12}px`, borderRadius: '50%',
-          border: `1px solid rgba(251,191,36,${0.12 / i})`,
-          animation: `spin ${12 + i * 6}s linear infinite ${i % 2 ? '' : 'reverse'}`
-        }} />
-      ))}
-      {/* Radar sweep */}
-      <div style={{ position: 'absolute', inset: 0, borderRadius: '50%', overflow: 'hidden' }}>
-        <div style={{
-          position: 'absolute', top: '50%', left: '50%', width: '50%', height: '2px',
-          transformOrigin: '0% 50%',
-          background: 'linear-gradient(90deg, rgba(251,191,36,0.9), transparent)',
-          animation: 'radarSweep 3s linear infinite',
-          boxShadow: '0 0 8px rgba(251,191,36,0.5)'
-        }} />
-        <div style={{
-          position: 'absolute', inset: 0,
-          background: 'conic-gradient(from 0deg, rgba(251,191,36,0.06) 0deg, transparent 60deg)',
-          animation: 'radarSweep 3s linear infinite'
-        }} />
-      </div>
-      <div style={{
-        position: 'absolute', inset: 0, borderRadius: '50%',
-        background: 'radial-gradient(circle at 35% 35%, rgba(251,191,36,0.15), rgba(2,8,23,0.95))',
-        border: '2px solid rgba(251,191,36,0.45)',
-        display: 'flex', alignItems: 'center', justifyContent: 'center',
-        boxShadow: '0 0 40px rgba(251,191,36,0.25), 0 0 80px rgba(251,191,36,0.08), inset 0 0 30px rgba(251,191,36,0.05)'
-      }}>
-        <Shield size={46} color="#fbbf24" strokeWidth={1.5} />
-      </div>
-    </div>
-  )
-}
-
-/* ─────────────────────────────────────────────
-   RIPPLE BUTTON
-───────────────────────────────────────────── */
-function RippleBtn({ loading, children, onClick }) {
-  const [ripples, setRipples] = useState([])
-  function addRipple(e) {
-    const r = e.currentTarget.getBoundingClientRect()
-    const x = e.clientX - r.left, y = e.clientY - r.top
-    const id = Date.now()
-    setRipples(p => [...p, { x, y, id }])
-    setTimeout(() => setRipples(p => p.filter(r => r.id !== id)), 600)
-  }
-  return (
-    <button type="submit" disabled={loading} onClick={addRipple}
-      style={{
-        position: 'relative', overflow: 'hidden',
-        width: '100%', padding: '14px 20px',
-        background: loading ? 'rgba(30,41,59,0.5)' : 'linear-gradient(135deg, #f59e0b 0%, #d97706 100%)',
-        border: 'none', borderRadius: '12px',
-        color: loading ? '#475569' : '#0c0800',
-        fontSize: '11px', fontWeight: 900, letterSpacing: '0.12em', textTransform: 'uppercase',
-        cursor: loading ? 'not-allowed' : 'pointer',
-        boxShadow: loading ? 'none' : '0 4px 24px rgba(251,191,36,0.35)',
-        transition: 'all 0.2s', marginTop: '6px',
-        display: 'flex', alignItems: 'center', justifyContent: 'center', gap: '8px'
-      }}
-      onMouseEnter={e => { if (!loading) { e.currentTarget.style.transform = 'translateY(-2px)'; e.currentTarget.style.boxShadow = '0 8px 36px rgba(251,191,36,0.5)' }}}
-      onMouseLeave={e => { e.currentTarget.style.transform = 'translateY(0)'; e.currentTarget.style.boxShadow = loading ? 'none' : '0 4px 24px rgba(251,191,36,0.35)' }}>
-      {ripples.map(r => (
-        <span key={r.id} style={{
-          position: 'absolute', left: r.x, top: r.y,
-          width: 0, height: 0, borderRadius: '50%',
-          background: 'rgba(255,255,255,0.3)',
-          transform: 'translate(-50%,-50%)',
-          animation: 'ripple 0.6s ease-out forwards'
-        }} />
-      ))}
-      {loading
-        ? <><Spinner />Processing...</>
-        : children}
-    </button>
-  )
-}
-
-function Spinner() {
-  return (
-    <div style={{
-      width: 14, height: 14, borderRadius: '50%',
-      border: '2px solid rgba(71,85,105,0.3)', borderTopColor: '#64748b',
-      animation: 'spin 0.7s linear infinite', flexShrink: 0
-    }} />
-  )
-}
-
-/* ─────────────────────────────────────────────
-   FIELD
-───────────────────────────────────────────── */
-function Field({ label, icon: Icon, type = 'text', value, onChange, placeholder, required, disabled, mono }) {
+   CLEAN FIELD
+   ───────────────────────────────────────────── */
+function Field({ label, icon: Icon, type = 'text', value, onChange, placeholder, required, disabled }) {
   const [focused, setFocused] = useState(false)
   const [show, setShow] = useState(false)
   const isPass = type === 'password'
+  
   return (
-    <div>
+    <div style={{ display: 'flex', flexDirection: 'column', gap: '6px' }}>
       <label style={{
-        display: 'block', fontSize: '9px', fontWeight: 700,
-        textTransform: 'uppercase', letterSpacing: '0.14em',
-        color: focused ? '#fbbf24' : '#475569',
-        marginBottom: '6px', transition: 'color 0.2s'
+        fontSize: '10px', fontWeight: 700,
+        textTransform: 'uppercase', letterSpacing: '0.08em',
+        color: focused ? '#fbbf24' : '#64748b',
+        transition: 'color 0.2s'
       }}>{label}</label>
       <div style={{ position: 'relative' }}>
         <div style={{
-          position: 'absolute', inset: '0 auto 0 0', paddingLeft: '13px',
+          position: 'absolute', inset: '0 auto 0 0', paddingLeft: '14px',
           display: 'flex', alignItems: 'center', pointerEvents: 'none',
-          color: focused ? '#fbbf24' : '#334155', transition: 'color 0.2s'
-        }}><Icon size={14} /></div>
+          color: focused ? '#fbbf24' : '#475569', transition: 'color 0.2s'
+        }}><Icon size={15} /></div>
         <input
           type={isPass ? (show ? 'text' : 'password') : type}
           value={value} onChange={onChange} required={required} disabled={disabled}
@@ -426,21 +144,20 @@ function Field({ label, icon: Icon, type = 'text', value, onChange, placeholder,
           onFocus={() => setFocused(true)} onBlur={() => setFocused(false)}
           style={{
             width: '100%', boxSizing: 'border-box',
-            paddingLeft: '40px', paddingRight: isPass ? '40px' : '12px',
-            paddingTop: '11px', paddingBottom: '11px',
-            background: focused ? 'rgba(251,191,36,0.04)' : 'rgba(2,6,23,0.7)',
-            border: `1px solid ${focused ? 'rgba(251,191,36,0.45)' : 'rgba(30,41,59,0.8)'}`,
-            borderRadius: '10px', color: disabled ? '#334155' : '#f1f5f9',
-            fontSize: '13px', fontFamily: mono ? "'Courier New', monospace" : 'inherit',
-            outline: 'none', transition: 'all 0.2s',
-            boxShadow: focused ? '0 0 0 3px rgba(251,191,36,0.07)' : 'none'
+            paddingLeft: '42px', paddingRight: isPass ? '42px' : '14px',
+            paddingTop: '12px', paddingBottom: '12px',
+            background: 'rgba(2,6,18,0.7)',
+            border: `1px solid ${focused ? '#fbbf24' : 'rgba(51,65,85,0.7)'}`,
+            borderRadius: '10px', color: '#f1f5f9',
+            fontSize: '13px', outline: 'none', transition: 'all 0.2s',
+            boxShadow: focused ? '0 0 0 3px rgba(251,191,36,0.06)' : 'none'
           }}
         />
         {isPass && (
           <button type="button" onClick={() => setShow(s => !s)} style={{
-            position: 'absolute', inset: '0 0 0 auto', paddingRight: '13px',
-            background: 'none', border: 'none', color: '#334155', cursor: 'pointer', display: 'flex', alignItems: 'center'
-          }}>{show ? <EyeOff size={13} /> : <Eye size={13} />}</button>
+            position: 'absolute', inset: '0 0 0 auto', paddingRight: '14px',
+            background: 'none', border: 'none', color: '#475569', cursor: 'pointer', display: 'flex', alignItems: 'center'
+          }}>{show ? <EyeOff size={14} /> : <Eye size={14} />}</button>
         )}
       </div>
     </div>
@@ -450,27 +167,26 @@ function Field({ label, icon: Icon, type = 'text', value, onChange, placeholder,
 function GhostBtn({ onClick, children }) {
   return (
     <button type="button" onClick={onClick} style={{
-      background: 'none', border: 'none', fontSize: '10px', fontWeight: 700,
-      color: '#334155', cursor: 'pointer', textTransform: 'uppercase',
-      letterSpacing: '0.1em', transition: 'color 0.2s'
+      background: 'none', border: 'none', fontSize: '11px', fontWeight: 600,
+      color: '#64748b', cursor: 'pointer', transition: 'color 0.2s'
     }}
       onMouseEnter={e => e.currentTarget.style.color = '#fbbf24'}
-      onMouseLeave={e => e.currentTarget.style.color = '#334155'}>
+      onMouseLeave={e => e.currentTarget.style.color = '#64748b'}>
       {children}
     </button>
   )
 }
 
 const AUTH_STEPS = [
-  'Verifying Badge ID...',
-  'Checking security clearance...',
-  'Validating credentials...',
-  'Granting access...',
+  'Verifying identity...',
+  'Checking clearance...',
+  'Validating token...',
+  'Establishing connection...'
 ]
 
 /* ─────────────────────────────────────────────
-   MAIN
-───────────────────────────────────────────── */
+   MAIN COMPONENT
+   ───────────────────────────────────────────── */
 export default function Login() {
   const { setUser } = useUser()
   const [booting, setBooting] = useState(true)
@@ -490,7 +206,14 @@ export default function Login() {
   const [success, setSuccess] = useState('')
   const [loading, setLoading] = useState(false)
   const [time, setTime] = useState(new Date())
+  const [isMobile, setIsMobile] = useState(window.innerWidth < 640)
   const navigate = useNavigate()
+
+  useEffect(() => {
+    function handleResize() { setIsMobile(window.innerWidth < 640) }
+    window.addEventListener('resize', handleResize)
+    return () => window.removeEventListener('resize', handleResize)
+  }, [])
 
   useEffect(() => { const t = setInterval(() => setTime(new Date()), 1000); return () => clearInterval(t) }, [])
 
@@ -498,7 +221,7 @@ export default function Login() {
 
   async function runAuthAnimation(fn) {
     setLoading(true); setAuthStep(0)
-    const delays = [600, 700, 700, 500]
+    const delays = [400, 450, 450, 300]
     for (let i = 0; i < AUTH_STEPS.length; i++) {
       setAuthStep(i)
       await new Promise(r => setTimeout(r, delays[i]))
@@ -564,259 +287,284 @@ export default function Login() {
   if (booting) return <BootScreen onDone={() => setBooting(false)} />
 
   return (
-    <div style={{ minHeight: '100vh', background: '#020817', display: 'flex', alignItems: 'center', justifyContent: 'center', fontFamily: "'Inter', system-ui, sans-serif", position: 'relative', overflow: 'hidden' }}>
-      <ParticleNet />
+    <div style={{
+      minHeight: '100vh', display: 'flex', alignItems: 'center', justifyContent: 'center',
+      fontFamily: "'Inter', system-ui, sans-serif", position: 'relative', overflow: 'hidden'
+    }}>
+      {/* GVAK Police Background Image */}
+      <div style={{
+        position: 'fixed', inset: 0,
+        backgroundImage: 'url(/police-bg.jpg)',
+        backgroundSize: 'cover', backgroundPosition: 'center',
+        backgroundRepeat: 'no-repeat',
+        zIndex: 0
+      }} />
+      
+      {/* Sleek, solid Government-style dark blue backdrop filter overlay */}
+      <div style={{
+        position: 'fixed', inset: 0,
+        background: 'radial-gradient(circle, rgba(5,11,28,0.78) 0%, rgba(2,6,18,0.92) 100%)',
+        zIndex: 1
+      }} />
 
       {/* Auth progress overlay */}
       {authStep >= 0 && <AuthProgress steps={AUTH_STEPS} currentStep={authStep} />}
 
-      {/* BG glows */}
-      <div style={{ position: 'fixed', top: '5%', left: '10%', width: '50vw', height: '50vh', borderRadius: '50%', background: 'radial-gradient(circle, rgba(251,191,36,0.07) 0%, transparent 70%)', filter: 'blur(60px)', pointerEvents: 'none' }} />
-      <div style={{ position: 'fixed', bottom: '5%', right: '10%', width: '40vw', height: '40vh', borderRadius: '50%', background: 'radial-gradient(circle, rgba(59,130,246,0.05) 0%, transparent 70%)', filter: 'blur(60px)', pointerEvents: 'none' }} />
-
-      {/* Top status bar */}
+      {/* Top clean status bar */}
       <div style={{
-        position: 'fixed', top: 0, left: 0, right: 0, zIndex: 50,
+        position: 'fixed', top: 0, left: 0, right: 0, zIndex: 10,
         display: 'flex', alignItems: 'center', justifyContent: 'space-between',
-        padding: '10px 32px', borderBottom: '1px solid rgba(30,41,59,0.5)',
-        background: 'rgba(2,8,23,0.85)', backdropFilter: 'blur(20px)'
+        padding: isMobile ? '12px 16px' : '14px 40px',
+        borderBottom: '1px solid rgba(255,255,255,0.06)',
+        background: 'rgba(2,6,18,0.6)', backdropFilter: 'blur(12px)'
       }}>
-        <div style={{ display: 'flex', alignItems: 'center', gap: '18px' }}>
-          <div style={{ display: 'flex', alignItems: 'center', gap: '6px' }}>
-            <span style={{ width: 6, height: 6, borderRadius: '50%', background: '#10b981', display: 'inline-block', animation: 'ping 1.5s ease-in-out infinite' }} />
-            <span style={{ fontSize: '9px', color: '#10b981', fontFamily: 'monospace', fontWeight: 700, letterSpacing: '0.12em' }}>ALL SYSTEMS OPERATIONAL</span>
-          </div>
-          <span style={{ fontSize: '9px', color: '#1e293b', fontFamily: 'monospace' }}>IPARTS v2.0 · CLASSIFIED</span>
+        <div style={{ display: 'flex', alignItems: 'center', gap: '8px' }}>
+          <Shield size={16} color="#fbbf24" />
+          <span style={{ fontSize: '10px', color: '#fbbf24', fontWeight: 800, letterSpacing: '0.08em' }}>GVAK SECURE ACCESS</span>
         </div>
-        <div style={{ display: 'flex', alignItems: 'center', gap: '14px' }}>
-          <span style={{ fontSize: '9px', color: '#334155', fontFamily: 'monospace' }}>
-            {time.toLocaleDateString('en-IN', { weekday: 'short', day: '2-digit', month: 'short' })}
-          </span>
-          <span style={{ fontSize: '11px', color: '#fbbf24', fontFamily: 'monospace', fontWeight: 700 }}>
-            {time.toLocaleTimeString('en-IN', { hour12: false })} IST
-          </span>
+        <div style={{ fontSize: '11px', color: '#94a3b8', fontFamily: 'monospace' }}>
+          {time.toLocaleTimeString('en-IN', { hour12: false })} IST
         </div>
       </div>
 
-      {/* Main content */}
-      <div style={{ position: 'relative', zIndex: 10, width: '100%', maxWidth: '460px', margin: '80px 20px 20px', animation: 'slideUp 0.5s cubic-bezier(0.34,1.56,0.64,1)' }}>
-
-        {/* Header */}
-        <div style={{ textAlign: 'center', marginBottom: '28px' }}>
-          <BadgeEmblem />
-          <p style={{ fontSize: '9px', color: '#fbbf24', letterSpacing: '0.28em', fontFamily: 'monospace', fontWeight: 700, marginBottom: '6px' }}>◈ GVAK POLICE COMMAND ◈</p>
-          <h1 style={{
-            fontSize: '30px', fontWeight: 900, margin: '6px 0 4px',
-            background: 'linear-gradient(135deg, #f1f5f9 30%, #fbbf24 100%)',
-            WebkitBackgroundClip: 'text', WebkitTextFillColor: 'transparent',
-            letterSpacing: '-0.02em', minHeight: '38px'
-          }}>
-            <Typewriter texts={['Command Console', 'Secure Access Portal', 'IPARTS v2.0', 'Police AI System']} speed={70} />
-          </h1>
-          <p style={{ fontSize: '10px', color: '#334155', letterSpacing: '0.06em', margin: 0 }}>Intelligent Police Assistant & Records System</p>
-        </div>
-
-        {/* Alerts */}
-        {error && (
-          <div style={{ display: 'flex', alignItems: 'center', gap: '10px', marginBottom: '14px', background: 'rgba(239,68,68,0.08)', border: '1px solid rgba(239,68,68,0.25)', borderRadius: '12px', padding: '12px 16px', color: '#fca5a5', fontSize: '12px', animation: 'shakeX 0.4s ease' }}>
-            <AlertTriangle size={14} style={{ flexShrink: 0, color: '#ef4444' }} />{error}
-          </div>
-        )}
-        {success && (
-          <div style={{ display: 'flex', alignItems: 'center', gap: '10px', marginBottom: '14px', background: 'rgba(16,185,129,0.08)', border: '1px solid rgba(16,185,129,0.25)', borderRadius: '12px', padding: '12px 16px', color: '#6ee7b7', fontSize: '12px' }}>
-            <CheckCircle2 size={14} style={{ flexShrink: 0, color: '#10b981' }} />{success}
-          </div>
-        )}
-
-        {/* Card */}
+      {/* Center login box wrapper */}
+      <div style={{
+        position: 'relative', zIndex: 5, width: '100%', maxWidth: '440px',
+        margin: isMobile ? '80px 16px 24px' : '90px 24px 24px',
+        animation: 'fadeIn 0.4s ease'
+      }}>
+        
+        {/* Main Card (Glassmorphic) */}
         <div style={{
-          background: 'rgba(10,17,34,0.88)', border: '1px solid rgba(30,41,59,0.8)',
-          borderRadius: '20px', backdropFilter: 'blur(30px)', overflow: 'hidden',
-          boxShadow: '0 30px 80px rgba(0,0,0,0.6), 0 0 0 1px rgba(255,255,255,0.03), inset 0 1px 0 rgba(255,255,255,0.04)'
+          background: 'rgba(9,15,30,0.85)',
+          border: '1px solid rgba(255,255,255,0.08)',
+          borderRadius: '16px', backdropFilter: 'blur(24px)', overflow: 'hidden',
+          boxShadow: '0 25px 60px rgba(0,0,0,0.5)'
         }}>
-          <div style={{ height: '3px', background: 'linear-gradient(90deg, transparent, #f59e0b 30%, #fbbf24 50%, #d97706 70%, transparent)' }} />
-          <div style={{ padding: '32px' }}>
+          {/* Subtle top gold highlight */}
+          <div style={{ height: '3px', background: 'linear-gradient(90deg, #d97706, #fbbf24, #d97706)' }} />
+          
+          <div style={{ padding: isMobile ? '28px 24px' : '36px 40px' }}>
+            
+            {/* Logo and Welcome header */}
+            <div style={{ textAlign: 'center', marginBottom: '32px' }}>
+              <div style={{
+                width: 64, height: 64, borderRadius: '50%', margin: '0 auto 16px',
+                background: 'rgba(251,191,36,0.08)', border: '1px solid rgba(251,191,36,0.2)',
+                display: 'flex', alignItems: 'center', justifyContent: 'center',
+                boxShadow: '0 8px 20px rgba(251,191,36,0.05)'
+              }}>
+                <Shield size={30} color="#fbbf24" strokeWidth={1.5} />
+              </div>
+              <h1 style={{ fontSize: '20px', fontWeight: 800, color: '#f1f5f9', margin: '0 0 6px', letterSpacing: '-0.01em' }}>
+                Officer Command Console
+              </h1>
+              <p style={{ fontSize: '11px', color: '#64748b', margin: 0 }}>
+                Intelligent Police Assistant & Records System
+              </p>
+            </div>
 
-            {/* LOGIN */}
+            {/* Error & Success alerts */}
+            {error && (
+              <div style={{ display: 'flex', alignItems: 'center', gap: '8px', marginBottom: '20px', background: 'rgba(239,68,68,0.08)', border: '1px solid rgba(239,68,68,0.2)', borderRadius: '8px', padding: '10px 14px', color: '#fca5a5', fontSize: '11.5px' }}>
+                <AlertTriangle size={14} style={{ flexShrink: 0, color: '#ef4444' }} />{error}
+              </div>
+            )}
+            {success && (
+              <div style={{ display: 'flex', alignItems: 'center', gap: '8px', marginBottom: '20px', background: 'rgba(16,185,129,0.08)', border: '1px solid rgba(16,185,129,0.2)', borderRadius: '8px', padding: '10px 14px', color: '#6ee7b7', fontSize: '11.5px' }}>
+                <CheckCircle2 size={14} style={{ flexShrink: 0, color: '#10b981' }} />{success}
+              </div>
+            )}
+
+            {/* LOGIN FORM */}
             {mode === 'login' && (
-              <form onSubmit={handleLogin} style={{ animation: 'fadeIn 0.3s ease' }}>
-                <h2 style={{ fontSize: '18px', fontWeight: 800, color: '#f1f5f9', margin: '0 0 4px' }}>Officer Sign In</h2>
-                <p style={{ fontSize: '11px', color: '#475569', margin: '0 0 24px' }}>Enter your credentials to access the command network</p>
-                <div style={{ display: 'flex', flexDirection: 'column', gap: '14px', marginBottom: '18px' }}>
-                  <Field label="Badge ID" icon={Fingerprint} value={badgeNumber} onChange={e => setBadgeNumber(e.target.value)} placeholder="e.g. TG-1001" required mono />
-                  <Field label="Password" icon={KeyRound} type="password" value={password} onChange={e => setPassword(e.target.value)} placeholder="••••••••••" required />
-                </div>
-                <div style={{ display: 'flex', justifyContent: 'space-between', marginBottom: '18px' }}>
+              <form onSubmit={handleLogin} style={{ display: 'flex', flexDirection: 'column', gap: '20px' }}>
+                <Field label="Badge ID" icon={Fingerprint} value={badgeNumber} onChange={e => setBadgeNumber(e.target.value)} placeholder="e.g. TG-1001" required />
+                <Field label="Password" icon={KeyRound} type="password" value={password} onChange={e => setPassword(e.target.value)} placeholder="••••••••••" required />
+                
+                <div style={{ display: 'flex', justifyContent: 'space-between', alignItems: 'center', marginTop: '4px' }}>
                   <GhostBtn onClick={() => { setMode('forgot'); reset() }}>Forgot Password?</GhostBtn>
-                  <GhostBtn onClick={() => { setMode('register'); reset(); setBadgeNumber('') }}>New Registration</GhostBtn>
+                  <GhostBtn onClick={() => { setMode('register'); reset(); setBadgeNumber('') }}>Register Account</GhostBtn>
                 </div>
-                <RippleBtn loading={loading}><Shield size={13} />Sign In to Console</RippleBtn>
-                <div style={{ marginTop: '16px', padding: '10px 14px', background: 'rgba(2,6,23,0.6)', borderRadius: '8px', border: '1px solid rgba(15,23,42,0.8)', display: 'flex', gap: '8px', alignItems: 'center' }}>
-                  <span style={{ fontSize: '10px' }}>🔒</span>
-                  <span style={{ fontSize: '9px', color: '#1e3a5f', letterSpacing: '0.04em' }}>
-                    Authorised personnel only. All access is monitored &amp; logged.
-                  </span>
-                </div>
+                
+                <button
+                  type="submit"
+                  disabled={loading}
+                  style={{
+                    background: 'linear-gradient(135deg, #f59e0b 0%, #d97706 100%)',
+                    border: 'none', borderRadius: '10px', color: '#090d16',
+                    padding: '13px 20px', fontSize: '12px', fontWeight: 800,
+                    cursor: loading ? 'not-allowed' : 'pointer', letterSpacing: '0.04em',
+                    display: 'flex', alignItems: 'center', justifyContent: 'center', gap: '8px',
+                    boxShadow: '0 4px 16px rgba(245,158,11,0.2)', transition: 'transform 0.15s'
+                  }}
+                  onMouseEnter={e => { if (!loading) e.currentTarget.style.transform = 'translateY(-1px)' }}
+                  onMouseLeave={e => { e.currentTarget.style.transform = 'none' }}
+                >
+                  <Shield size={14} /> Sign In to Console
+                </button>
               </form>
             )}
 
-            {/* REGISTER */}
+            {/* REGISTER FORM */}
             {mode === 'register' && (
-              <form onSubmit={handleRegister} style={{ animation: 'fadeIn 0.3s ease' }}>
-                <div style={{ display: 'flex', alignItems: 'center', gap: '12px', marginBottom: '22px', paddingBottom: '16px', borderBottom: '1px solid rgba(30,41,59,0.7)' }}>
-                  <button type="button" onClick={() => setMode('login')} style={{ background: 'rgba(2,6,23,0.8)', border: '1px solid rgba(30,41,59,0.8)', borderRadius: '8px', padding: '7px', color: '#475569', cursor: 'pointer', display: 'flex', alignItems: 'center', transition: 'color 0.15s' }} onMouseEnter={e => e.currentTarget.style.color = '#fbbf24'} onMouseLeave={e => e.currentTarget.style.color = '#475569'}>
-                    <ArrowLeft size={14} />
-                  </button>
-                  <div>
-                    <h2 style={{ fontSize: '16px', fontWeight: 800, color: '#f1f5f9', margin: 0 }}>Officer Registration</h2>
-                    <p style={{ fontSize: '9px', color: '#475569', margin: '2px 0 0', textTransform: 'uppercase', letterSpacing: '0.12em' }}>New account creation</p>
-                  </div>
-                </div>
-                <div style={{ display: 'grid', gridTemplateColumns: '1fr 1fr', gap: '11px', marginBottom: '11px' }}>
+              <form onSubmit={handleRegister} style={{ display: 'flex', flexDirection: 'column', gap: '14px' }}>
+                <div style={{ display: 'grid', gridTemplateColumns: isMobile ? '1fr' : '1fr 1fr', gap: '12px' }}>
                   <Field label="Full Name" icon={User} value={fullName} onChange={e => setFullName(e.target.value)} placeholder="Srinivas Reddy" required />
-                  <Field label="Badge ID" icon={Fingerprint} value={badgeNumber} onChange={e => setBadgeNumber(e.target.value)} placeholder="TG-1002" required mono />
+                  <Field label="Badge ID" icon={Fingerprint} value={badgeNumber} onChange={e => setBadgeNumber(e.target.value)} placeholder="TG-1002" required />
                 </div>
-                <div style={{ marginBottom: '11px' }}><Field label="Email" icon={Mail} type="email" value={email} onChange={e => setEmail(e.target.value)} placeholder="officer@tsp.gov.in" required /></div>
-                <div style={{ marginBottom: '11px' }}><Field label="Password" icon={KeyRound} type="password" value={password} onChange={e => setPassword(e.target.value)} placeholder="Strong password" required /></div>
-                <div style={{ display: 'grid', gridTemplateColumns: '1fr 1fr', gap: '11px', marginBottom: '11px' }}>
+                <Field label="Email Address" icon={Mail} type="email" value={email} onChange={e => setEmail(e.target.value)} placeholder="officer@tsp.gov.in" required />
+                <Field label="Security Password" icon={KeyRound} type="password" value={password} onChange={e => setPassword(e.target.value)} placeholder="Choose strong password" required />
+                
+                <div style={{ display: 'grid', gridTemplateColumns: isMobile ? '1fr' : '1fr 1fr', gap: '12px' }}>
                   <Field label="Police Station" icon={Building2} value={station} onChange={e => setStation(e.target.value)} placeholder="Banjara Hills PS" required />
-                  <div>
-                    <label style={{ display: 'block', fontSize: '9px', fontWeight: 700, textTransform: 'uppercase', letterSpacing: '0.14em', color: '#475569', marginBottom: '6px' }}>Rank</label>
-                    <select value={rank} onChange={e => setRank(e.target.value)} style={{ width: '100%', padding: '11px 10px', background: 'rgba(2,6,23,0.7)', border: '1px solid rgba(30,41,59,0.8)', borderRadius: '10px', color: '#f1f5f9', fontSize: '12px', outline: 'none', cursor: 'pointer' }}>
+                  <div style={{ display: 'flex', flexDirection: 'column', gap: '6px' }}>
+                    <label style={{ fontSize: '10px', fontWeight: 700, textTransform: 'uppercase', color: '#64748b' }}>Rank</label>
+                    <select value={rank} onChange={e => setRank(e.target.value)} style={{ width: '100%', padding: '12px 10px', background: 'rgba(2,6,18,0.7)', border: '1px solid rgba(51,65,85,0.7)', borderRadius: '10px', color: '#f1f5f9', fontSize: '13px', outline: 'none', cursor: 'pointer' }}>
                       {['DGP','ADGP','IGP','DIG','SP','Addl. SP','DSP','ASP','CI','SI','ASI','HC','PC'].map(r => <option key={r} value={r}>{r}</option>)}
                     </select>
                   </div>
                 </div>
-                <div style={{ display: 'grid', gridTemplateColumns: '1fr 1fr', gap: '11px', marginBottom: '20px' }}>
+                
+                <div style={{ display: 'grid', gridTemplateColumns: isMobile ? '1fr' : '1fr 1fr', gap: '12px' }}>
                   <Field label="District" icon={MapPin} value={district} onChange={e => setDistrict(e.target.value)} placeholder="Hyderabad" required />
                   <Field label="Jurisdiction" icon={MapPin} value={jurisdiction} onChange={e => setJurisdiction(e.target.value)} placeholder="India" disabled />
                 </div>
-                <RippleBtn loading={loading}>Submit Registration</RippleBtn>
+
+                <div style={{ display: 'flex', justifyContent: 'flex-start', marginTop: '4px' }}>
+                  <GhostBtn onClick={() => setMode('login')}>← Back to Sign In</GhostBtn>
+                </div>
+                
+                <button
+                  type="submit"
+                  style={{
+                    background: 'linear-gradient(135deg, #f59e0b 0%, #d97706 100%)',
+                    border: 'none', borderRadius: '10px', color: '#090d16',
+                    padding: '13px 20px', fontSize: '12px', fontWeight: 800,
+                    cursor: 'pointer', letterSpacing: '0.04em', marginTop: '10px'
+                  }}
+                >
+                  Create Account
+                </button>
               </form>
             )}
 
-            {/* VERIFY OTP */}
+            {/* VERIFY OTP FORM */}
             {mode === 'verify' && (
-              <form onSubmit={handleVerify} style={{ animation: 'fadeIn 0.3s ease' }}>
-                <div style={{ textAlign: 'center', marginBottom: '28px' }}>
-                  <div style={{ width: 64, height: 64, borderRadius: '50%', margin: '0 auto 16px', background: 'rgba(251,191,36,0.1)', border: '1px solid rgba(251,191,36,0.25)', display: 'flex', alignItems: 'center', justifyContent: 'center', boxShadow: '0 0 30px rgba(251,191,36,0.12)', animation: 'pulse 2s ease-in-out infinite' }}>
-                    <Mail size={28} color="#fbbf24" />
-                  </div>
-                  <h2 style={{ fontSize: '18px', fontWeight: 800, color: '#f1f5f9', margin: '0 0 6px' }}>OTP Verification</h2>
-                  <p style={{ fontSize: '11px', color: '#475569', margin: 0 }}>Code dispatched to <span style={{ color: '#fbbf24', fontFamily: 'monospace' }}>{email || 'your email'}</span></p>
+              <form onSubmit={handleVerify} style={{ display: 'flex', flexDirection: 'column', gap: '20px' }}>
+                <div style={{ textAlign: 'center', marginBottom: '8px' }}>
+                  <p style={{ fontSize: '12px', color: '#94a3b8', margin: 0 }}>
+                    Enter verification code dispatched to <span style={{ color: '#fbbf24', fontWeight: 600 }}>{email}</span>
+                  </p>
                 </div>
-                <div style={{ marginBottom: '22px' }}>
-                  <label style={{ display: 'block', fontSize: '9px', fontWeight: 700, textTransform: 'uppercase', letterSpacing: '0.14em', color: '#475569', marginBottom: '10px', textAlign: 'center' }}>Enter 6-Digit Code</label>
-                  <input value={otpCode} onChange={e => setOtpCode(e.target.value)} maxLength={6} required placeholder="_ _ _ _ _ _"
-                    style={{ width: '100%', boxSizing: 'border-box', padding: '16px', textAlign: 'center', background: 'rgba(2,6,23,0.8)', borderRadius: '14px', border: '1px solid rgba(251,191,36,0.35)', color: '#fbbf24', fontSize: '28px', fontFamily: 'monospace', fontWeight: 900, letterSpacing: '0.6em', outline: 'none', boxShadow: '0 0 0 3px rgba(251,191,36,0.06)', transition: 'all 0.2s' }}
-                  />
+                <Field label="6-Digit OTP Code" icon={Mail} value={otpCode} onChange={e => setOtpCode(e.target.value)} placeholder="------" required />
+                <button
+                  type="submit"
+                  style={{
+                    background: 'linear-gradient(135deg, #f59e0b 0%, #d97706 100%)',
+                    border: 'none', borderRadius: '10px', color: '#090d16',
+                    padding: '13px 20px', fontSize: '12px', fontWeight: 800,
+                    cursor: 'pointer'
+                  }}
+                >
+                  Verify & Activate
+                </button>
+                <div style={{ textAlign: 'center' }}>
+                  <GhostBtn onClick={() => setMode('login')}>Back to Sign In</GhostBtn>
                 </div>
-                <RippleBtn loading={loading}>Verify & Activate</RippleBtn>
-                <div style={{ textAlign: 'center', marginTop: '14px' }}><GhostBtn onClick={() => setMode('login')}>Back to Sign In</GhostBtn></div>
               </form>
             )}
 
-            {/* FORGOT */}
+            {/* FORGOT PASSWORD FORM */}
             {mode === 'forgot' && (
-              <form onSubmit={handleForgot} style={{ animation: 'fadeIn 0.3s ease' }}>
-                <div style={{ display: 'flex', alignItems: 'center', gap: '12px', marginBottom: '20px', paddingBottom: '16px', borderBottom: '1px solid rgba(30,41,59,0.7)' }}>
-                  <button type="button" onClick={() => setMode('login')} style={{ background: 'rgba(2,6,23,0.8)', border: '1px solid rgba(30,41,59,0.8)', borderRadius: '8px', padding: '7px', color: '#475569', cursor: 'pointer', display: 'flex', alignItems: 'center' }}>
-                    <ArrowLeft size={14} />
-                  </button>
-                  <div>
-                    <h2 style={{ fontSize: '16px', fontWeight: 800, color: '#f1f5f9', margin: 0 }}>Password Recovery</h2>
-                    <p style={{ fontSize: '9px', color: '#475569', margin: '2px 0 0', textTransform: 'uppercase', letterSpacing: '0.12em' }}>Secure reset request</p>
-                  </div>
+              <form onSubmit={handleForgot} style={{ display: 'flex', flexDirection: 'column', gap: '20px' }}>
+                <p style={{ fontSize: '12px', color: '#94a3b8', lineHeight: 1.5, margin: 0 }}>
+                  Enter your registered email address. We will dispatch a temporary recovery code to verify your identity.
+                </p>
+                <Field label="Email Address" icon={Mail} type="email" value={email} onChange={e => setEmail(e.target.value)} placeholder="officer@tsp.gov.in" required />
+                <button
+                  type="submit"
+                  style={{
+                    background: 'linear-gradient(135deg, #f59e0b 0%, #d97706 100%)',
+                    border: 'none', borderRadius: '10px', color: '#090d16',
+                    padding: '13px 20px', fontSize: '12px', fontWeight: 800,
+                    cursor: 'pointer'
+                  }}
+                >
+                  Send Recovery Code
+                </button>
+                <div style={{ textAlign: 'center' }}>
+                  <GhostBtn onClick={() => setMode('login')}>← Back to Sign In</GhostBtn>
                 </div>
-                <p style={{ fontSize: '12px', color: '#475569', marginBottom: '20px', lineHeight: 1.6 }}>Enter your registered email. A secure OTP will be dispatched for identity verification.</p>
-                <div style={{ marginBottom: '20px' }}><Field label="Registered Email" icon={Mail} type="email" value={email} onChange={e => setEmail(e.target.value)} placeholder="officer@tsp.gov.in" required /></div>
-                <RippleBtn loading={loading}>Dispatch Reset Code</RippleBtn>
               </form>
             )}
 
-            {/* RESET */}
+            {/* RESET PASSWORD FORM */}
             {mode === 'reset' && (
-              <form onSubmit={handleReset} style={{ animation: 'fadeIn 0.3s ease' }}>
-                <div style={{ textAlign: 'center', marginBottom: '24px' }}>
-                  <h2 style={{ fontSize: '18px', fontWeight: 800, color: '#f1f5f9', margin: '0 0 6px' }}>Set New Password</h2>
-                  <p style={{ fontSize: '11px', color: '#475569', margin: 0 }}>OTP sent to <span style={{ color: '#fbbf24', fontFamily: 'monospace' }}>{email}</span></p>
-                </div>
-                <div style={{ display: 'flex', flexDirection: 'column', gap: '14px', marginBottom: '20px' }}>
-                  <div>
-                    <label style={{ display: 'block', fontSize: '9px', fontWeight: 700, textTransform: 'uppercase', letterSpacing: '0.14em', color: '#475569', marginBottom: '6px' }}>OTP Code</label>
-                    <input value={otpCode} onChange={e => setOtpCode(e.target.value)} maxLength={6} required placeholder="000000"
-                      style={{ width: '100%', boxSizing: 'border-box', padding: '11px', textAlign: 'center', background: 'rgba(2,6,23,0.8)', border: '1px solid rgba(251,191,36,0.3)', borderRadius: '10px', color: '#fbbf24', fontSize: '20px', fontFamily: 'monospace', fontWeight: 900, letterSpacing: '0.4em', outline: 'none' }}
-                    />
-                  </div>
-                  <Field label="New Password" icon={KeyRound} type="password" value={newPassword} onChange={e => setNewPassword(e.target.value)} placeholder="Strong new password" required />
-                </div>
-                <RippleBtn loading={loading}>Save Password</RippleBtn>
-                <div style={{ textAlign: 'center', marginTop: '14px' }}><GhostBtn onClick={() => setMode('login')}>Back to Sign In</GhostBtn></div>
+              <form onSubmit={handleReset} style={{ display: 'flex', flexDirection: 'column', gap: '20px' }}>
+                <Field label="Recovery Code" icon={Mail} value={otpCode} onChange={e => setOtpCode(e.target.value)} placeholder="Enter code" required />
+                <Field label="New Password" icon={KeyRound} type="password" value={newPassword} onChange={e => setNewPassword(e.target.value)} placeholder="Enter new strong password" required />
+                
+                <button
+                  type="submit"
+                  style={{
+                    background: 'linear-gradient(135deg, #f59e0b 0%, #d97706 100%)',
+                    border: 'none', borderRadius: '10px', color: '#090d16',
+                    padding: '13px 20px', fontSize: '12px', fontWeight: 800,
+                    cursor: 'pointer'
+                  }}
+                >
+                  Save & Update Password
+                </button>
               </form>
             )}
+
           </div>
         </div>
 
-        <p style={{ textAlign: 'center', fontSize: '9px', color: '#334155', marginTop: '18px', letterSpacing: '0.1em', fontFamily: 'monospace' }}>
-          © Copy Rights to <span style={{ color: '#fbbf24', fontWeight: 700 }}>GVAK Team</span>
+        {/* Bottom Clean Citizen Portal quick redirect */}
+        <div style={{
+          marginTop: '20px', padding: '16px 20px',
+          background: 'rgba(9,15,30,0.8)', border: '1px solid rgba(255,255,255,0.06)',
+          borderRadius: '12px', backdropFilter: 'blur(20px)',
+          display: 'flex', justifyContent: 'space-between', alignItems: 'center', gap: '16px'
+        }}>
+          <div>
+            <p style={{ fontSize: '11px', fontWeight: 700, color: '#f1f5f9', margin: '0 0 2px' }}>Public Citizen Portal</p>
+            <p style={{ fontSize: '9.5px', color: '#64748b', margin: 0 }}>Report incident, check complaint status</p>
+          </div>
+          <button
+            onClick={() => navigate('/citizen')}
+            style={{
+              padding: '8px 14px', borderRadius: '8px',
+              background: 'rgba(255,255,255,0.05)', border: '1px solid rgba(255,255,255,0.1)',
+              color: '#f1f5f9', fontSize: '10.5px', fontWeight: 700,
+              cursor: 'pointer', transition: 'all 0.2s'
+            }}
+            onMouseEnter={e => { e.currentTarget.style.background = 'rgba(255,255,255,0.1)' }}
+            onMouseLeave={e => { e.currentTarget.style.background = 'rgba(255,255,255,0.05)' }}
+          >
+            Access Portal →
+          </button>
+        </div>
+
+        {/* Footer copyright */}
+        <p style={{ textAlign: 'center', fontSize: '9.5px', color: '#475569', marginTop: '24px', letterSpacing: '0.05em' }}>
+          🔒 SECURE AUTHORISED ACCESS ONLY. ALL CONNECTIONS ARE MONITORED.
         </p>
       </div>
 
-      {/* ── CITIZEN PORTAL SECTION ── */}
-      <div style={{ position: 'relative', zIndex: 10, width: '100%', maxWidth: '460px', margin: '0 20px 40px', animation: 'slideUp 0.6s cubic-bezier(0.34,1.56,0.64,1) 0.2s both' }}>
-        <div style={{
-          background: 'rgba(10,17,34,0.85)', border: '1px solid rgba(30,41,59,0.7)',
-          borderRadius: '16px', backdropFilter: 'blur(20px)', overflow: 'hidden',
-          boxShadow: '0 10px 40px rgba(0,0,0,0.4)'
-        }}>
-          {/* Teal accent top bar */}
-          <div style={{ height: '2px', background: 'linear-gradient(90deg, transparent, #06b6d4 30%, #22d3ee 50%, #0891b2 70%, transparent)' }} />
-          <div style={{ padding: '20px 24px', display: 'flex', alignItems: 'center', gap: '16px', flexWrap: 'wrap' }}>
-            <div style={{ flex: 1, minWidth: '180px' }}>
-              <p style={{ fontSize: '8px', color: '#06b6d4', fontWeight: 700, textTransform: 'uppercase', letterSpacing: '0.14em', margin: '0 0 4px', fontFamily: 'monospace' }}>👥 CITIZEN ACCESS — NO LOGIN REQUIRED</p>
-              <p style={{ fontSize: '14px', fontWeight: 800, color: '#f1f5f9', margin: '0 0 3px' }}>File a Police Complaint</p>
-              <p style={{ fontSize: '10.5px', color: '#64748b', margin: 0, lineHeight: 1.5 }}>Report incidents online. AI classifies your complaint & issues IPC sections instantly.</p>
-            </div>
-            <button
-              onClick={() => navigate('/citizen')}
-              style={{
-                padding: '11px 20px', borderRadius: '12px', flexShrink: 0,
-                background: 'linear-gradient(135deg, #0891b2, #06b6d4)',
-                border: 'none', color: '#fff', fontSize: '11px', fontWeight: 800,
-                textTransform: 'uppercase', letterSpacing: '0.07em', cursor: 'pointer',
-                transition: 'all 0.2s', boxShadow: '0 4px 16px rgba(6,182,212,0.3)',
-                whiteSpace: 'nowrap'
-              }}
-              onMouseEnter={e => { e.currentTarget.style.transform = 'translateY(-2px)'; e.currentTarget.style.boxShadow = '0 8px 24px rgba(6,182,212,0.4)' }}
-              onMouseLeave={e => { e.currentTarget.style.transform = 'translateY(0)'; e.currentTarget.style.boxShadow = '0 4px 16px rgba(6,182,212,0.3)' }}
-            >File Complaint →</button>
-          </div>
-        </div>
-      </div>
-
       <style>{`
-        @keyframes spin { from{transform:rotate(0)} to{transform:rotate(360deg)} }
-        @keyframes ping { 0%{opacity:1} 75%,100%{opacity:0} }
-        @keyframes pulse { 0%,100%{opacity:1;transform:scale(1)} 50%{opacity:0.7;transform:scale(0.97)} }
-        @keyframes radarSweep { from{transform:rotate(0deg)} to{transform:rotate(360deg)} }
-        @keyframes blink { 0%,100%{opacity:1} 50%{opacity:0} }
-        @keyframes fadeIn { from{opacity:0;transform:translateY(8px)} to{opacity:1;transform:translateY(0)} }
-        @keyframes slideUp { from{opacity:0;transform:translateY(30px)} to{opacity:1;transform:translateY(0)} }
-        @keyframes shakeX {
-          0%,100%{transform:translateX(0)}
-          20%{transform:translateX(-6px)}
-          40%{transform:translateX(6px)}
-          60%{transform:translateX(-4px)}
-          80%{transform:translateX(4px)}
+        @keyframes fadeIn {
+          from { opacity: 0; transform: translateY(4px); }
+          to { opacity: 1; transform: translateY(0); }
         }
-        @keyframes ripple {
-          to { width:200px; height:200px; opacity:0; }
+        @keyframes spin {
+          from { transform: rotate(0deg); }
+          to { transform: rotate(360deg); }
         }
-        input::placeholder { color:#1e293b !important; }
-        select option { background:#0f172a; }
-        * { scrollbar-width:thin; scrollbar-color:#1e293b transparent; }
-        *::-webkit-scrollbar { width:4px; }
-        *::-webkit-scrollbar-thumb { background:#1e293b; border-radius:4px; }
+        input::placeholder { color: #334155 !important; }
+        select option { background: #090d16; }
       `}</style>
     </div>
   )

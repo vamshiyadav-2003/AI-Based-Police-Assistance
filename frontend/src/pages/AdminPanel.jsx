@@ -4,7 +4,7 @@ import {
   CheckCircle2, ShieldAlert, Activity, Server,
   Cpu, Clock, Bell, ShieldCheck, AlertTriangle,
   ChevronDown, ChevronRight, Lock, Radio,
-  FileSearch2, XCircle, ClipboardCheck
+  FileSearch2, XCircle, ClipboardCheck, Search, X
 } from 'lucide-react'
 import api from '../api/client.js'
 
@@ -75,6 +75,7 @@ export default function AdminPanel() {
   
   const [complaints, setComplaints] = useState([])
   const [expandedComplaintId, setExpandedComplaintId] = useState(null)
+  const [complaintSearch, setComplaintSearch] = useState('')
   const [approvalInputs, setApprovalInputs] = useState({
     assigned_officer_id: '',
     fir_number: '',
@@ -449,168 +450,215 @@ export default function AdminPanel() {
             </span>
           </div>
 
-          {complaints.length === 0 ? (
-            <div style={{ padding: '60px 24px', textAlign: 'center', background: 'rgba(10,17,34,0.6)', border: '1px solid rgba(30,41,59,0.6)', borderRadius: '16px' }}>
-              <ClipboardCheck size={36} color="#1e293b" style={{ marginBottom: '14px' }} />
-              <p style={{ fontSize: '14px', fontWeight: 700, color: '#334155', margin: '0 0 6px' }}>All Clear — No Pending Complaints</p>
-              <p style={{ fontSize: '11px', color: '#1e293b', margin: 0 }}>New citizen complaints will appear here once they are submitted through the public portal.</p>
+          {/* Complaints Search Bar */}
+          {complaints.length > 0 && (
+            <div style={{ position: 'relative', marginBottom: '16px' }}>
+              <input
+                type="text"
+                value={complaintSearch}
+                onChange={e => setComplaintSearch(e.target.value)}
+                placeholder="Search complaints by Ref ID (e.g. GVAK-20260718-1268), Citizen Name, or Phone..."
+                style={{
+                  width: '100%',
+                  boxSizing: 'border-box',
+                  padding: '11px 40px 11px 36px',
+                  background: 'rgba(2, 6, 23, 0.7)',
+                  border: '1px solid rgba(30, 41, 59, 0.8)',
+                  borderRadius: '10px',
+                  color: '#f1f5f9',
+                  fontSize: '12px',
+                  outline: 'none',
+                  transition: 'all 0.2s',
+                  boxShadow: '0 2px 10px rgba(0,0,0,0.2)'
+                }}
+              />
+              <Search size={14} color="#64748b" style={{ position: 'absolute', left: '12px', top: '50%', transform: 'translateY(-50%)' }} />
+              {complaintSearch && (
+                <button
+                  onClick={() => setComplaintSearch('')}
+                  style={{
+                    position: 'absolute',
+                    right: '12px',
+                    top: '50%',
+                    transform: 'translateY(-50%)',
+                    background: 'none',
+                    border: 'none',
+                    color: '#64748b',
+                    cursor: 'pointer',
+                    display: 'flex',
+                    alignItems: 'center',
+                    padding: 0
+                  }}
+                >
+                  <X size={14} />
+                </button>
+              )}
             </div>
-          ) : (
-            <div style={{ display: 'flex', flexDirection: 'column', gap: '12px' }}>
-              {complaints.map((c, idx) => {
-                const isExpanded = expandedComplaintId === c.complaint_id
-                const priorityColors = {
-                  High: { c: '#f97316', bg: 'rgba(249,115,22,0.08)', b: 'rgba(249,115,22,0.25)' },
-                  Critical: { c: '#ef4444', bg: 'rgba(239,68,68,0.08)', b: 'rgba(239,68,68,0.25)' },
-                  Medium: { c: '#fbbf24', bg: 'rgba(251,191,36,0.08)', b: 'rgba(251,191,36,0.25)' },
-                  Low: { c: '#34d399', bg: 'rgba(52,211,153,0.08)', b: 'rgba(52,211,153,0.25)' },
-                }
-                const pc = priorityColors[c.priority] || priorityColors.Low
-                return (
-                  <div key={c.complaint_id} style={{ background: 'rgba(10,17,34,0.8)', border: `1px solid ${isExpanded ? 'rgba(56,189,248,0.3)' : 'rgba(30,41,59,0.8)'}`, borderRadius: '14px', overflow: 'hidden', transition: 'border-color 0.2s' }}>
+          )}
 
-                    {/* Complaint Header Row */}
-                    <div style={{ padding: '14px 20px', display: 'flex', alignItems: 'center', gap: '12px', cursor: 'pointer', background: isExpanded ? 'rgba(56,189,248,0.03)' : 'transparent', transition: 'background 0.2s' }}
-                      onClick={() => {
-                        setExpandedComplaintId(isExpanded ? null : c.complaint_id)
-                        if (!isExpanded) {
-                          setApprovalInputs(prev => ({
-                            assigned_officer_id: '',
-                            fir_number: c.complaint_id.replace('GVAK-', 'FIR-'),
-                            incident_location: c.complaint?.split('[Location:')[1]?.replace(']', '').trim() || ''
-                          }))
-                        }
-                      }}>
-                      {/* Priority badge */}
-                      <div style={{ width: 8, height: 8, borderRadius: '50%', background: pc.c, boxShadow: `0 0 6px ${pc.c}60`, flexShrink: 0 }} />
-                      <div style={{ flex: 1, minWidth: 0 }}>
-                        <div style={{ display: 'flex', alignItems: 'center', gap: '8px', marginBottom: '4px', flexWrap: 'wrap' }}>
-                          <p style={{ fontSize: '13px', fontWeight: 750, color: '#e2e8f0', margin: 0, overflow: 'hidden', textOverflow: 'ellipsis', whiteSpace: 'nowrap' }}>{c.citizen_name}</p>
-                          {c.priority && (
-                            <span style={{ fontSize: '8px', fontWeight: 800, textTransform: 'uppercase', letterSpacing: '0.06em', color: pc.c, background: pc.bg, border: `1px solid ${pc.b}`, padding: '2px 7px', borderRadius: '4px' }}>{c.priority}</span>
-                          )}
-                          {c.category && (
-                            <span style={{ fontSize: '8px', fontWeight: 700, color: '#64748b', background: 'rgba(30,41,59,0.6)', border: '1px solid rgba(30,41,59,0.8)', padding: '2px 7px', borderRadius: '4px', textTransform: 'uppercase' }}>{c.category}</span>
-                          )}
+          {(() => {
+            const filtered = complaints.filter(c => 
+              c.complaint_id.toLowerCase().includes(complaintSearch.toLowerCase()) ||
+              c.citizen_name.toLowerCase().includes(complaintSearch.toLowerCase()) ||
+              (c.phone && String(c.phone).includes(complaintSearch))
+            )
+
+            if (complaints.length === 0) {
+              return (
+                <div style={{ padding: '60px 24px', textAlign: 'center', background: 'rgba(10,17,34,0.6)', border: '1px solid rgba(30,41,59,0.6)', borderRadius: '16px' }}>
+                  <ClipboardCheck size={36} color="#1e293b" style={{ marginBottom: '14px' }} />
+                  <p style={{ fontSize: '14px', fontWeight: 700, color: '#334155', margin: '0 0 6px' }}>All Clear — No Pending Complaints</p>
+                  <p style={{ fontSize: '11px', color: '#1e293b', margin: 0 }}>New citizen complaints will appear here once they are submitted through the public portal.</p>
+                </div>
+              )
+            }
+
+            if (filtered.length === 0) {
+              return (
+                <div style={{ padding: '60px 24px', textAlign: 'center', background: 'rgba(10,17,34,0.6)', border: '1px solid rgba(30,41,59,0.6)', borderRadius: '16px' }}>
+                  <Search size={36} color="#475569" style={{ marginBottom: '14px' }} />
+                  <p style={{ fontSize: '14px', fontWeight: 700, color: '#94a3b8', margin: '0 0 6px' }}>No Matching Complaints</p>
+                  <p style={{ fontSize: '11px', color: '#475569', margin: 0 }}>We couldn't find any complaints matching "{complaintSearch}".</p>
+                </div>
+              )
+            }
+
+            return (
+              <div style={{ display: 'flex', flexDirection: 'column', gap: '12px' }}>
+                {filtered.map((c, idx) => {
+                  const isExpanded = expandedComplaintId === c.complaint_id
+                  const priorityColors = {
+                    High: { c: '#f97316', bg: 'rgba(249,115,22,0.08)', b: 'rgba(249,115,22,0.25)' },
+                    Critical: { c: '#ef4444', bg: 'rgba(239,68,68,0.08)', b: 'rgba(239,68,68,0.25)' },
+                    Medium: { c: '#fbbf24', bg: 'rgba(251,191,36,0.08)', b: 'rgba(251,191,36,0.25)' },
+                    Low: { c: '#34d399', bg: 'rgba(52,211,153,0.08)', b: 'rgba(52,211,153,0.25)' },
+                  }
+                  const pc = priorityColors[c.priority] || priorityColors.Low
+                  return (
+                    <div key={c.complaint_id} style={{ background: 'rgba(10,17,34,0.8)', border: `1px solid ${isExpanded ? 'rgba(56,189,248,0.3)' : 'rgba(30,41,59,0.8)'}`, borderRadius: '14px', overflow: 'hidden', transition: 'border-color 0.2s' }}>
+
+                      {/* Complaint Header Row */}
+                      <div style={{ padding: '14px 20px', display: 'flex', alignItems: 'center', gap: '12px', cursor: 'pointer', background: isExpanded ? 'rgba(56,189,248,0.03)' : 'transparent', transition: 'background 0.2s' }}
+                        onClick={() => {
+                          setExpandedComplaintId(isExpanded ? null : c.complaint_id)
+                          if (!isExpanded) {
+                            setApprovalInputs(prev => ({
+                              assigned_officer_id: '',
+                              fir_number: c.complaint_id.replace('GVAK-', 'FIR-'),
+                              incident_location: c.complaint?.split('[Location:')[1]?.replace(']', '').trim() || ''
+                            }))
+                          }
+                        }}
+                      >
+                        <div style={{ flex: 1, minWidth: 0 }}>
+                          <div style={{ display: 'flex', alignItems: 'center', gap: '8px', marginBottom: '4px' }}>
+                            <p style={{ fontSize: '13px', fontWeight: 750, color: '#e2e8f0', margin: 0, overflow: 'hidden', textOverflow: 'ellipsis', whiteSpace: 'nowrap' }}>{c.citizen_name}</p>
+                            <span style={{ fontSize: '9px', fontWeight: 800, color: pc.c, background: pc.bg, border: `1px solid ${pc.b}`, padding: '1px 6px', borderRadius: '4px', textTransform: 'uppercase', letterSpacing: '0.04em' }}>{c.priority}</span>
+                            <span style={{ fontSize: '9px', color: '#818cf8', background: 'rgba(99,102,241,0.08)', border: '1px solid rgba(99,102,241,0.2)', padding: '1px 6px', borderRadius: '4px' }}>{c.category}</span>
+                          </div>
+                          <p style={{ fontSize: '10px', color: '#475569', margin: 0, fontFamily: 'monospace' }}>
+                            {c.complaint_id} · {c.phone || 'N/A'} · {c.date || 'No date'}
+                          </p>
                         </div>
-                        <p style={{ fontSize: '10px', color: '#475569', margin: 0, fontFamily: 'monospace', overflow: 'hidden', textOverflow: 'ellipsis', whiteSpace: 'nowrap' }}>
-                          {c.complaint_id} · {c.phone || 'N/A'} · {c.date || 'No date'}
-                        </p>
+                        <ChevronDown size={16} color="#475569" style={{ transform: isExpanded ? 'rotate(180deg)' : 'none', transition: 'transform 0.2s' }} />
                       </div>
-                      <ChevronRight size={14} color="#475569" style={{ transform: isExpanded ? 'rotate(90deg)' : 'rotate(0deg)', transition: 'transform 0.2s', flexShrink: 0 }} />
-                    </div>
 
-                    {/* Expanded detail + Approval panel */}
-                    {isExpanded && (
-                      <div style={{ padding: '0 20px 20px', borderTop: '1px solid rgba(30,41,59,0.5)', paddingTop: '20px' }}>
-                        <div style={{ display: 'grid', gridTemplateColumns: '1fr 1fr', gap: '20px' }} className="complaint-detail-grid">
-
-                          {/* Left: Complaint Details */}
-                          <div style={{ display: 'flex', flexDirection: 'column', gap: '14px' }}>
+                      {/* Complaint Details Drawer */}
+                      {isExpanded && (
+                        <div style={{ padding: '20px', borderTop: '1px solid rgba(30,41,59,0.8)', background: 'rgba(2,6,23,0.3)' }}>
+                          <div style={{ display: 'grid', gridTemplateColumns: '1fr 1fr', gap: '20px' }} className="complaint-detail-grid">
+                            
+                            {/* Left: Complaint Details */}
                             <div>
-                              <p style={{ fontSize: '8.5px', fontWeight: 800, color: '#38bdf8', textTransform: 'uppercase', letterSpacing: '0.12em', margin: '0 0 8px' }}>Incident Description</p>
-                              <div style={{ padding: '14px', background: 'rgba(2,6,23,0.5)', borderRadius: '10px', border: '1px solid rgba(30,41,59,0.6)', maxHeight: '140px', overflowY: 'auto' }}>
-                                <p style={{ fontSize: '12px', color: '#94a3b8', lineHeight: 1.65, margin: 0 }}>
+                              <p style={{ fontSize: '9px', fontWeight: 750, color: '#fbbf24', textTransform: 'uppercase', letterSpacing: '0.08em', margin: '0 0 8px' }}>Citizen Description</p>
+                              <div style={{ padding: '14px', background: 'rgba(10,17,34,0.6)', border: '1px solid rgba(30,41,59,0.6)', borderRadius: '10px', maxHeight: '200px', overflowY: 'auto' }}>
+                                <p style={{ fontSize: '12px', color: '#cbd5e1', margin: 0, lineHeight: 1.6, whiteSpace: 'pre-wrap' }}>
                                   {c.complaint?.split('[Location:')[0]?.trim() || c.complaint || '—'}
                                 </p>
                               </div>
-                            </div>
-                            <div style={{ display: 'grid', gridTemplateColumns: '1fr 1fr', gap: '10px' }}>
-                              <div style={{ padding: '10px 14px', background: 'rgba(2,6,23,0.4)', borderRadius: '8px', border: '1px solid rgba(30,41,59,0.5)' }}>
-                                <p style={{ fontSize: '8px', color: '#334155', textTransform: 'uppercase', letterSpacing: '0.1em', margin: '0 0 4px' }}>Department</p>
-                                <p style={{ fontSize: '11px', color: '#94a3b8', margin: 0, fontWeight: 600 }}>{c.department || '—'}</p>
-                              </div>
-                              <div style={{ padding: '10px 14px', background: 'rgba(2,6,23,0.4)', borderRadius: '8px', border: '1px solid rgba(30,41,59,0.5)' }}>
-                                <p style={{ fontSize: '8px', color: '#334155', textTransform: 'uppercase', letterSpacing: '0.1em', margin: '0 0 4px' }}>Date of Incident</p>
-                                <p style={{ fontSize: '11px', color: '#94a3b8', margin: 0, fontWeight: 600 }}>{c.date || '—'}</p>
+
+                              <p style={{ fontSize: '9px', fontWeight: 750, color: '#fbbf24', textTransform: 'uppercase', letterSpacing: '0.08em', margin: '14px 0 8px' }}>AI Recommended Dispatch</p>
+                              <div style={{ padding: '10px 14px', background: 'rgba(99,102,241,0.04)', border: '1px solid rgba(99,102,241,0.15)', borderRadius: '8px' }}>
+                                <p style={{ fontSize: '11.5px', color: '#c4b5fd', margin: 0, lineHeight: 1.5 }}>{c.department || '—'}</p>
                               </div>
                             </div>
-                          </div>
 
-                          {/* Right: Approval Form */}
-                          <div style={{ display: 'flex', flexDirection: 'column', gap: '12px', background: 'rgba(56,189,248,0.03)', border: '1px solid rgba(56,189,248,0.1)', borderRadius: '12px', padding: '16px' }}>
-                            <div style={{ display: 'flex', alignItems: 'center', gap: '6px', marginBottom: '4px' }}>
-                              <ClipboardCheck size={13} color="#38bdf8" />
-                              <p style={{ fontSize: '10px', fontWeight: 800, color: '#38bdf8', textTransform: 'uppercase', letterSpacing: '0.1em', margin: 0 }}>Case Registration</p>
-                            </div>
-
+                            {/* Right: Approval Panel */}
                             <div>
-                              <label style={{ display: 'block', fontSize: '8px', fontWeight: 700, textTransform: 'uppercase', letterSpacing: '0.12em', color: '#475569', marginBottom: '5px' }}>Assign Officer *</label>
-                              <select
-                                value={approvalInputs.assigned_officer_id}
-                                onChange={e => setApprovalInputs(prev => ({ ...prev, assigned_officer_id: e.target.value }))}
-                                style={{ width: '100%', boxSizing: 'border-box', padding: '9px 12px', background: 'rgba(2,6,23,0.7)', border: '1px solid rgba(51,65,85,0.7)', borderRadius: '9px', color: approvalInputs.assigned_officer_id ? '#f1f5f9' : '#475569', fontSize: '12px', outline: 'none', cursor: 'pointer' }}
-                              >
-                                <option value="">— Select Officer —</option>
-                                {officers.map(o => (
-                                  <option key={o.id} value={o.id}>{o.full_name} ({o.badge_number}) — {o.rank || o.role}</option>
-                                ))}
-                              </select>
-                            </div>
+                              <p style={{ fontSize: '9px', fontWeight: 750, color: '#38bdf8', textTransform: 'uppercase', letterSpacing: '0.08em', margin: '0 0 8px' }}>Authorize & Promote to Official Case</p>
+                              <div style={{ display: 'flex', flexDirection: 'column', gap: '12px', background: 'rgba(10,17,34,0.6)', border: '1px solid rgba(30,41,59,0.6)', padding: '16px', borderRadius: '12px' }}>
+                                
+                                <div>
+                                  <label style={{ display: 'block', fontSize: '8.5px', fontWeight: 700, textTransform: 'uppercase', color: '#475569', marginBottom: '5px' }}>Designated Investigating Officer</label>
+                                  <select
+                                    value={approvalInputs.assigned_officer_id}
+                                    onChange={e => setApprovalInputs(p => ({ ...p, assigned_officer_id: e.target.value }))}
+                                    style={{ width: '100%', boxSizing: 'border-box', padding: '9px 10px', background: 'rgba(2,6,23,0.7)', border: '1px solid rgba(30,41,59,0.8)', borderRadius: '8px', color: approvalInputs.assigned_officer_id ? '#f1f5f9' : '#475569', fontSize: '12px', outline: 'none', cursor: 'pointer' }}
+                                  >
+                                    <option value="">— Choose Officer —</option>
+                                    {officers.map(o => (
+                                      <option key={o.id} value={o.id}>{o.full_name} ({o.rank} - {o.badge_number})</option>
+                                    ))}
+                                  </select>
+                                </div>
 
-                            <div>
-                              <label style={{ display: 'block', fontSize: '8px', fontWeight: 700, textTransform: 'uppercase', letterSpacing: '0.12em', color: '#475569', marginBottom: '5px' }}>FIR Number *</label>
-                              <input
-                                value={approvalInputs.fir_number}
-                                onChange={e => setApprovalInputs(prev => ({ ...prev, fir_number: e.target.value }))}
-                                placeholder="e.g. FIR-2026001"
-                                style={{ width: '100%', boxSizing: 'border-box', padding: '9px 12px', background: 'rgba(2,6,23,0.7)', border: '1px solid rgba(51,65,85,0.7)', borderRadius: '9px', color: '#f1f5f9', fontSize: '12px', outline: 'none', fontFamily: 'monospace' }}
-                              />
-                            </div>
+                                <div style={{ display: 'grid', gridTemplateColumns: '1fr 1fr', gap: '10px' }}>
+                                  <StyledInput
+                                    label="Generated FIR Number"
+                                    value={approvalInputs.fir_number}
+                                    onChange={e => setApprovalInputs(p => ({ ...p, fir_number: e.target.value }))}
+                                    placeholder="FIR-XXXX"
+                                    required
+                                  />
+                                  <StyledInput
+                                    label="Confirmed Location"
+                                    value={approvalInputs.incident_location}
+                                    onChange={e => setApprovalInputs(p => ({ ...p, incident_location: e.target.value }))}
+                                    placeholder="e.g. Madhapur"
+                                    required
+                                  />
+                                </div>
 
-                            <div>
-                              <label style={{ display: 'block', fontSize: '8px', fontWeight: 700, textTransform: 'uppercase', letterSpacing: '0.12em', color: '#475569', marginBottom: '5px' }}>Incident Location</label>
-                              <input
-                                value={approvalInputs.incident_location}
-                                onChange={e => setApprovalInputs(prev => ({ ...prev, incident_location: e.target.value }))}
-                                placeholder="e.g. Banjara Hills, Hyderabad"
-                                style={{ width: '100%', boxSizing: 'border-box', padding: '9px 12px', background: 'rgba(2,6,23,0.7)', border: '1px solid rgba(51,65,85,0.7)', borderRadius: '9px', color: '#f1f5f9', fontSize: '12px', outline: 'none' }}
-                              />
-                            </div>
-
-                            {/* Action Buttons */}
-                            <div style={{ display: 'grid', gridTemplateColumns: '1fr 1fr', gap: '8px', marginTop: '4px' }}>
-                              <button
-                                onClick={() => handleApproveComplaint(c.complaint_id)}
-                                style={{
-                                  padding: '10px', borderRadius: '9px',
-                                  background: 'linear-gradient(135deg, #10b981, #059669)',
-                                  border: 'none', color: '#fff', fontSize: '10px', fontWeight: 800,
-                                  textTransform: 'uppercase', letterSpacing: '0.06em', cursor: 'pointer',
-                                  display: 'flex', alignItems: 'center', justifyContent: 'center', gap: '5px',
-                                  boxShadow: '0 4px 12px rgba(16,185,129,0.2)', transition: 'all 0.2s'
-                                }}
-                                onMouseEnter={e => { e.currentTarget.style.boxShadow = '0 6px 20px rgba(16,185,129,0.35)'; e.currentTarget.style.transform = 'translateY(-1px)' }}
-                                onMouseLeave={e => { e.currentTarget.style.boxShadow = '0 4px 12px rgba(16,185,129,0.2)'; e.currentTarget.style.transform = 'translateY(0)' }}
-                              >
-                                <CheckCircle2 size={12} /> Approve & Register
-                              </button>
-                              <button
-                                onClick={() => handleRejectComplaint(c.complaint_id)}
-                                style={{
-                                  padding: '10px', borderRadius: '9px',
-                                  background: 'rgba(239,68,68,0.06)',
-                                  border: '1px solid rgba(239,68,68,0.25)', color: '#f87171',
-                                  fontSize: '10px', fontWeight: 800, textTransform: 'uppercase',
-                                  letterSpacing: '0.06em', cursor: 'pointer',
-                                  display: 'flex', alignItems: 'center', justifyContent: 'center', gap: '5px',
-                                  transition: 'all 0.2s'
-                                }}
-                                onMouseEnter={e => { e.currentTarget.style.background = 'rgba(239,68,68,0.12)'; e.currentTarget.style.borderColor = '#ef4444' }}
-                                onMouseLeave={e => { e.currentTarget.style.background = 'rgba(239,68,68,0.06)'; e.currentTarget.style.borderColor = 'rgba(239,68,68,0.25)' }}
-                              >
-                                <XCircle size={12} /> Reject
-                              </button>
+                                <div style={{ display: 'flex', gap: '10px', marginTop: '4px' }}>
+                                  <button
+                                    onClick={() => handleApproveComplaint(c.complaint_id)}
+                                    disabled={!approvalInputs.assigned_officer_id || !approvalInputs.fir_number}
+                                    style={{
+                                      flex: 1, display: 'flex', alignItems: 'center', justifyContent: 'center', gap: '6px',
+                                      padding: '9px', borderRadius: '8px', background: (!approvalInputs.assigned_officer_id || !approvalInputs.fir_number) ? 'rgba(56,189,248,0.1)' : 'linear-gradient(135deg, #0ea5e9, #0284c7)',
+                                      border: 'none', color: (!approvalInputs.assigned_officer_id || !approvalInputs.fir_number) ? '#475569' : '#fff',
+                                      fontSize: '11px', fontWeight: 800, textTransform: 'uppercase', cursor: (!approvalInputs.assigned_officer_id || !approvalInputs.fir_number) ? 'not-allowed' : 'pointer', transition: 'opacity 0.2s'
+                                    }}
+                                    onMouseEnter={e => { if (approvalInputs.assigned_officer_id && approvalInputs.fir_number) e.currentTarget.style.opacity = 0.9 }}
+                                    onMouseLeave={e => { e.currentTarget.style.opacity = 1 }}
+                                  >
+                                    <CheckCircle2 size={12} /> Approve & Dispatch
+                                  </button>
+                                  <button
+                                    onClick={() => handleRejectComplaint(c.complaint_id)}
+                                    style={{
+                                      display: 'flex', alignItems: 'center', justifyContent: 'center', gap: '6px',
+                                      padding: '9px 14px', borderRadius: '8px', background: 'rgba(239,68,68,0.06)',
+                                      border: '1px solid rgba(239,68,68,0.25)', color: '#f87171',
+                                      fontSize: '11px', fontWeight: 700, textTransform: 'uppercase', cursor: 'pointer', transition: 'all 0.2s'
+                                    }}
+                                    onMouseEnter={e => { e.currentTarget.style.background = 'rgba(239,68,68,0.12)'; e.currentTarget.style.borderColor = '#ef4444' }}
+                                    onMouseLeave={e => { e.currentTarget.style.background = 'rgba(239,68,68,0.06)'; e.currentTarget.style.borderColor = 'rgba(239,68,68,0.25)' }}
+                                  >
+                                    <XCircle size={12} /> Reject
+                                  </button>
+                                </div>
+                              </div>
                             </div>
                           </div>
                         </div>
-                      </div>
-                    )}
-                  </div>
-                )
-              })}
-            </div>
-          )}
+                      )}
+                    </div>
+                  )
+                })}
+              </div>
+            )
+          })()}
         </div>
       )}
 

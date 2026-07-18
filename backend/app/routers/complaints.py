@@ -70,7 +70,7 @@ def list_complaints(
         query = query.filter(Complaint.status.ilike(status))
 
     total = query.count()
-    items = query.order_by(Complaint.complaint_id.asc()).offset(offset).limit(limit).all()
+    items = query.order_by(Complaint.complaint_id.desc()).offset(offset).limit(limit).all()
 
     return {
         "total": total,

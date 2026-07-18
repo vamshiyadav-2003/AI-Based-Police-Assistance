@@ -3,7 +3,7 @@ import { Link } from 'react-router-dom'
 import {
   Shield, Users, BadgeAlert, Activity, FileSpreadsheet, PlusCircle,
   Search, UserMinus, Car, FolderOpen, ArrowRight, ShieldCheck,
-  HeartPulse, Sparkles, TrendingUp, Clock, Zap
+  HeartPulse, Sparkles, TrendingUp, Clock, Zap, Siren, ChevronRight, X, MapPin, Phone, AlertTriangle
 } from 'lucide-react'
 import api from '../api/client.js'
 
@@ -27,23 +27,25 @@ function CountUp({ target, duration = 1200 }) {
 }
 
 /* ── Stat card ────────────────────────────────────────────────── */
-function StatCard({ label, value, icon: Icon, color, glow, delay = 0 }) {
+function StatCard({ label, value, icon: Icon, color, glow, delay = 0, onClick }) {
   const [visible, setVisible] = useState(false)
   useEffect(() => { const t = setTimeout(() => setVisible(true), delay); return () => clearTimeout(t) }, [])
   return (
-    <div style={{
-      background: 'rgba(10,17,34,0.8)', border: '1px solid rgba(30,41,59,0.8)',
-      borderRadius: '16px', padding: '20px', position: 'relative', overflow: 'hidden',
-      transition: 'all 0.3s', cursor: 'default',
-      opacity: visible ? 1 : 0, transform: visible ? 'translateY(0)' : 'translateY(16px)',
-    }}
-    onMouseEnter={e => { e.currentTarget.style.borderColor = color; e.currentTarget.style.transform = 'translateY(-3px)'; e.currentTarget.style.boxShadow = `0 8px 30px ${glow}` }}
-    onMouseLeave={e => { e.currentTarget.style.borderColor = 'rgba(30,41,59,0.8)'; e.currentTarget.style.transform = 'translateY(0)'; e.currentTarget.style.boxShadow = 'none' }}>
+    <div 
+      onClick={onClick}
+      style={{
+        background: 'rgba(10,17,34,0.82)', border: '1px solid rgba(30,41,59,0.8)',
+        borderRadius: '16px', padding: '20px', position: 'relative', overflow: 'hidden',
+        transition: 'all 0.3s', cursor: onClick ? 'pointer' : 'default',
+        opacity: visible ? 1 : 0, transform: visible ? 'translateY(0)' : 'translateY(16px)',
+      }}
+      onMouseEnter={e => { e.currentTarget.style.borderColor = color; e.currentTarget.style.transform = 'translateY(-3px)'; e.currentTarget.style.boxShadow = `0 8px 30px ${glow}` }}
+      onMouseLeave={e => { e.currentTarget.style.borderColor = 'rgba(30,41,59,0.8)'; e.currentTarget.style.transform = 'translateY(0)'; e.currentTarget.style.boxShadow = 'none' }}>
       {/* Glow blob */}
-      <div style={{ position: 'absolute', top: '-20px', right: '-20px', width: '80px', height: '80px', borderRadius: '50%', background: glow, filter: 'blur(25px)', opacity: 0.4, pointerEvents: 'none' }} />
+      <div style={{ position: 'absolute', top: '-20px', right: '-20px', width: '80px', height: '80px', borderRadius: '50%', background: glow, filter: 'blur(25px)', opacity: 0.45, pointerEvents: 'none' }} />
       <div style={{ display: 'flex', justifyContent: 'space-between', alignItems: 'flex-start', marginBottom: '16px' }}>
-        <span style={{ fontSize: '9px', fontWeight: 700, textTransform: 'uppercase', letterSpacing: '0.12em', color: '#475569' }}>{label}</span>
-        <div style={{ width: '32px', height: '32px', borderRadius: '8px', background: glow, border: `1px solid ${color}22`, display: 'flex', alignItems: 'center', justifyContent: 'center' }}>
+        <span style={{ fontSize: '9px', fontWeight: 700, textTransform: 'uppercase', letterSpacing: '0.12em', color: '#64748b' }}>{label}</span>
+        <div style={{ width: '32px', height: '32px', borderRadius: '8px', background: glow, border: `1px solid ${color}33`, display: 'flex', alignItems: 'center', justifyContent: 'center' }}>
           <Icon size={14} color={color} />
         </div>
       </div>
@@ -121,10 +123,14 @@ function greeting() {
 export default function Overview() {
   const [user, setUser] = useState(null)
   const [cases, setCases] = useState([])
-  const [stats, setStats] = useState({ total_cases: 0, solved_cases: 0, pending_cases: 0, total_firs: 0, missing_persons: 0, criminal_records: 0 })
+  const [stats, setStats] = useState({ total_cases: 0, solved_cases: 0, pending_cases: 0, total_firs: 0, missing_persons: 0, criminal_records: 0, emergency_alerts: 0 })
   const [adminStats, setAdminStats] = useState(null)
   const [time, setTime] = useState(new Date())
   const [loaded, setLoaded] = useState(false)
+
+  // Clickable emergency modal states
+  const [showEmergenciesModal, setShowEmergenciesModal] = useState(false)
+  const [selectedEmergency, setSelectedEmergency] = useState(null)
 
   useEffect(() => {
     const t = setInterval(() => setTime(new Date()), 1000)
@@ -141,23 +147,55 @@ export default function Overview() {
   const accent = isAdmin ? '#a78bfa' : '#fbbf24'
   const accentGlow = isAdmin ? 'rgba(167,139,250,0.15)' : 'rgba(251,191,36,0.12)'
 
-  const statsConfig = [
-    { label: 'Total FIRs',       value: stats.total_firs,       icon: FileSpreadsheet, color: '#60a5fa', glow: 'rgba(96,165,250,0.12)',   delay: 0   },
-    { label: 'Total Cases',      value: stats.total_cases,      icon: FolderOpen,      color: '#818cf8', glow: 'rgba(129,140,248,0.12)',  delay: 80  },
-    { label: 'Solved Cases',     value: stats.solved_cases,     icon: ShieldCheck,     color: '#34d399', glow: 'rgba(52,211,153,0.12)',   delay: 160 },
-    { label: 'Pending Cases',    value: stats.pending_cases,    icon: BadgeAlert,      color: '#fbbf24', glow: 'rgba(251,191,36,0.12)',   delay: 240 },
-    { label: 'Missing Persons',  value: stats.missing_persons,  icon: UserMinus,       color: '#f87171', glow: 'rgba(248,113,113,0.12)',  delay: 320 },
-    { label: 'Criminal Records', value: stats.criminal_records, icon: Shield,          color: '#94a3b8', glow: 'rgba(148,163,184,0.12)',  delay: 400 },
+  // Mock list of detailed emergency alerts for interactive clicks
+  const MOCK_EMERGENCIES = [
+    {
+      id: 1, type:'CRITICAL', color:'#ef4444', bg:'rgba(239,68,68,0.08)', border:'rgba(239,68,68,0.25)', icon:'🚨',
+      msg:'Armed robbery reported at Banjara Hills PS jurisdiction. All units respond.',
+      location: 'Banjara Hills, Hyderabad', unit: 'TG-2211', time: '2m ago',
+      details: 'Multiple armed suspects entered a jewellery store. Shots fired. 2 civilians injured. Requesting immediate backup and ambulance.',
+      contact: 'PCR: 100 | Ambulance: 108', status: 'ACTIVE'
+    },
+    {
+      id: 2, type:'HIGH', color:'#f97316', bg:'rgba(249,115,22,0.08)', border:'rgba(249,115,22,0.25)', icon:'⚠️',
+      msg:'Missing person alert — Child (age 7) last seen near Jubilee Bus Stand.',
+      location: 'Jubilee Bus Stand, Secunderabad', unit: 'TG-3302', time: '5m ago',
+      details: 'Child named Ravi Kumar, age 7, wearing blue shirt and red shorts. Last seen 14:30 hrs. Family has been notified. CCTV review in progress.',
+      contact: 'Helpline: 1098 | Control Room: 100', status: 'ACTIVE'
+    },
+    {
+      id: 3, type:'CRITICAL', color:'#ef4444', bg:'rgba(239,68,68,0.08)', border:'rgba(239,68,68,0.25)', icon:'🚨',
+      msg:'Vehicle pursuit on NH-65. Suspect vehicle: TS09EA4521. Request backup.',
+      location: 'NH-65, Near Outer Ring Road', unit: 'TG-4417', time: '8m ago',
+      details: 'Suspect vehicle involved in armed carjacking. High-speed chase ongoing. Vehicle make: Swift Dzire, White colour. Approaching Patancheru toll.',
+      contact: 'Highway Patrol: 1033 | PCR: 100', status: 'ACTIVE'
+    },
+    {
+      id: 4, type:'HIGH', color:'#f97316', bg:'rgba(249,115,22,0.08)', border:'rgba(249,115,22,0.25)', icon:'⚠️',
+      msg:'Suspicious package reported at Secunderabad Railway Station. Bomb squad deployed.',
+      location: 'Secunderabad Railway Station, Platform 4', unit: 'TG-0099', time: '15m ago',
+      details: 'Unattended baggage detected near Platform 4. Bomb disposal unit on scene. Railway Police alerted. 200m perimeter maintained.',
+      contact: 'Railway Police: 9539996100 | Bomb Squad: 100', status: 'MONITORING'
+    }
   ]
 
-  const adminStatsConfig = adminStats ? [
-    { label: 'Registered Officers', value: adminStats.total_users,         icon: Users,       color: '#a78bfa', glow: 'rgba(167,139,250,0.12)', delay: 0   },
-    { label: 'Active Complaints',   value: adminStats.active_complaints,   icon: FolderOpen,  color: '#60a5fa', glow: 'rgba(96,165,250,0.12)',  delay: 80  },
-    { label: 'Emergency Alerts',    value: adminStats.emergency_alerts,    icon: BadgeAlert,  color: '#f87171', glow: 'rgba(248,113,113,0.12)', delay: 160 },
-    { label: 'AI Requests Today',   value: adminStats.ai_requests_today,   icon: Sparkles,    color: '#fbbf24', glow: 'rgba(251,191,36,0.12)',  delay: 240 },
-    { label: 'Audit Logs',          value: adminStats.langsmith_traces,    icon: Activity,    color: '#22d3ee', glow: 'rgba(34,211,238,0.12)',  delay: 320 },
-    { label: 'System Health',       value: adminStats.system_health,       icon: HeartPulse,  color: '#34d399', glow: 'rgba(52,211,153,0.12)',  delay: 400 },
-  ] : []
+  const displayStats = isAdmin
+    ? [
+        { label: 'Registered Officers', value: adminStats?.total_users || 0, icon: Users, color: '#a78bfa', glow: 'rgba(167,139,250,0.12)', delay: 0 },
+        { label: 'Active Complaints', value: adminStats?.active_complaints || 0, icon: FolderOpen, color: '#60a5fa', glow: 'rgba(96,165,250,0.12)', delay: 80 },
+        { label: 'Emergency Alerts', value: adminStats?.emergency_alerts || stats.emergency_alerts || 0, icon: BadgeAlert, color: '#f87171', glow: 'rgba(248,113,113,0.12)', delay: 160, onClick: () => setShowEmergenciesModal(true) },
+        { label: 'AI Requests Today', value: adminStats?.ai_requests_today || 0, icon: Sparkles, color: '#fbbf24', glow: 'rgba(251,191,36,0.12)', delay: 240 },
+        { label: 'Audit Logs', value: adminStats?.langsmith_traces || 0, icon: Activity, color: '#22d3ee', glow: 'rgba(34,211,238,0.12)', delay: 320 },
+        { label: 'System Health', value: adminStats?.system_health || 'Healthy', icon: HeartPulse, color: '#34d399', glow: 'rgba(52,211,153,0.12)', delay: 400 },
+      ]
+    : [
+        { label: 'Total FIRs', value: stats.total_firs, icon: FileSpreadsheet, color: '#60a5fa', glow: 'rgba(96,165,250,0.12)', delay: 0 },
+        { label: 'Total Cases', value: stats.total_cases, icon: FolderOpen, color: '#818cf8', glow: 'rgba(129,140,248,0.12)', delay: 80 },
+        { label: 'Solved Cases', value: stats.solved_cases, icon: ShieldCheck, color: '#34d399', glow: 'rgba(52,211,153,0.12)', delay: 160 },
+        { label: 'Pending Cases', value: stats.pending_cases, icon: BadgeAlert, color: '#fbbf24', glow: 'rgba(251,191,36,0.12)', delay: 240 },
+        { label: 'Missing Persons', value: stats.missing_persons, icon: UserMinus, color: '#f87171', glow: 'rgba(248,113,113,0.12)', delay: 320 },
+        { label: 'Emergency Alerts', value: stats.emergency_alerts || 0, icon: Siren, color: '#ef4444', glow: 'rgba(239,68,68,0.15)', delay: 400, onClick: () => setShowEmergenciesModal(true) },
+      ]
 
   const quickActions = isAdmin ? [
     { label: 'Configure AI Prompts', desc: 'Modify FIR generator AI instructions', to: '/admin', icon: Sparkles, color: '#a78bfa', glow: 'rgba(167,139,250,0.15)', delay: 0   },
@@ -168,6 +206,7 @@ export default function Overview() {
     { label: 'Smart Case Search',    desc: 'Natural language case intelligence',   to: '/search',   icon: Search,     color: '#60a5fa', glow: 'rgba(96,165,250,0.15)',  delay: 100 },
     { label: 'Vehicle Verification', desc: 'Verify theft & registration status',   to: '/vehicles', icon: Car,        color: '#34d399', glow: 'rgba(52,211,153,0.15)',  delay: 200 },
   ]
+
 
   return (
     <div style={{ padding: '32px', maxWidth: '1400px', margin: '0 auto', fontFamily: "'Inter', system-ui, sans-serif" }}>
@@ -238,7 +277,7 @@ export default function Overview() {
           <div style={{ flex: 1, height: '1px', background: 'rgba(30,41,59,0.6)' }} />
         </div>
         <div className="stats-grid">
-          {(isAdmin ? adminStatsConfig : statsConfig).map(s => (
+          {displayStats.map(s => (
             <StatCard key={s.label} {...s} />
           ))}
         </div>
@@ -425,6 +464,123 @@ export default function Overview() {
           </div>
         </div>
       </div>
+
+      {/* ── Emergency Alerts List Modal ── */}
+      {showEmergenciesModal && (
+        <div style={{
+          position: 'fixed', inset: 0, zIndex: 8500,
+          background: 'rgba(0,0,0,0.7)', backdropFilter: 'blur(10px)',
+          display: 'flex', alignItems: 'center', justifyContent: 'center',
+          padding: '16px', animation: 'fadeIn 0.2s ease'
+        }} onClick={e => { if (e.target === e.currentTarget) setShowEmergenciesModal(false) }}>
+          <div style={{
+            width: '100%', maxWidth: '500px',
+            background: 'linear-gradient(135deg, rgba(10,15,30,0.99) 0%, rgba(20,10,40,0.99) 100%)',
+            border: '1px solid rgba(239,68,68,0.3)',
+            borderRadius: '20px', overflow: 'hidden',
+            boxShadow: '0 30px 80px rgba(0,0,0,0.7), 0 0 50px rgba(239,68,68,0.1)'
+          }}>
+            <div style={{ height: '3px', background: 'linear-gradient(90deg, transparent, #ef4444, transparent)' }} />
+            <div style={{ padding: '20px 24px', borderBottom: '1px solid rgba(51,65,85,0.4)', display: 'flex', justifyContent: 'space-between', alignItems: 'center', background: 'rgba(239,68,68,0.03)' }}>
+              <div style={{ display: 'flex', alignItems: 'center', gap: '10px' }}>
+                <Siren size={18} color="#ef4444" />
+                <h3 style={{ fontSize: '15px', fontWeight: 800, color: '#f1f5f9', margin: 0 }}>Active Emergency Alerts</h3>
+              </div>
+              <button onClick={() => setShowEmergenciesModal(false)} style={{ background: 'none', border: 'none', color: '#64748b', cursor: 'pointer' }}>
+                <X size={18} />
+              </button>
+            </div>
+            <div style={{ padding: '16px', maxHeight: '400px', overflowY: 'auto', display: 'flex', flexDirection: 'column', gap: '10px' }}>
+              {MOCK_EMERGENCIES.map(alert => (
+                <div 
+                  key={alert.id}
+                  onClick={() => { setSelectedEmergency(alert); setShowEmergenciesModal(false) }}
+                  style={{
+                    background: alert.bg, border: `1px solid ${alert.border}`,
+                    borderRadius: '12px', padding: '12px 16px', cursor: 'pointer',
+                    transition: 'all 0.2s', display: 'flex', gap: '12px', alignItems: 'center'
+                  }}
+                  onMouseEnter={e => { e.currentTarget.style.transform = 'translateY(-2px)'; e.currentTarget.style.boxShadow = `0 4px 15px ${alert.color}15` }}
+                  onMouseLeave={e => { e.currentTarget.style.transform = 'none'; e.currentTarget.style.boxShadow = 'none' }}
+                >
+                  <div style={{ fontSize: '20px' }}>{alert.icon}</div>
+                  <div style={{ flex: 1, minWidth: 0 }}>
+                    <div style={{ display: 'flex', justifyContent: 'space-between', alignItems: 'center', marginBottom: '4px' }}>
+                      <span style={{ fontSize: '9px', fontWeight: 900, color: alert.color, letterSpacing: '0.05em' }}>{alert.type}</span>
+                      <span style={{ fontSize: '8px', color: '#475569' }}>{alert.time}</span>
+                    </div>
+                    <p style={{ fontSize: '11px', fontWeight: 600, color: '#cbd5e1', margin: 0, whiteSpace: 'nowrap', overflow: 'hidden', textOverflow: 'ellipsis' }}>{alert.msg}</p>
+                    <p style={{ fontSize: '9px', color: '#475569', margin: '2px 0 0' }}>📍 {alert.location}</p>
+                  </div>
+                  <ChevronRight size={14} color="#475569" />
+                </div>
+              ))}
+            </div>
+          </div>
+        </div>
+      )}
+
+      {/* ── Emergency Detail Modal ── */}
+      {selectedEmergency && (
+        <div style={{
+          position: 'fixed', inset: 0, zIndex: 9000,
+          background: 'rgba(0,0,0,0.75)', backdropFilter: 'blur(12px)',
+          display: 'flex', alignItems: 'center', justifyContent: 'center',
+          padding: '16px', animation: 'fadeIn 0.2s ease'
+        }} onClick={e => { if (e.target === e.currentTarget) setSelectedEmergency(null) }}>
+          <div style={{
+            width: '100%', maxWidth: '520px',
+            background: 'linear-gradient(135deg, rgba(10,15,30,0.99) 0%, rgba(20,10,40,0.99) 100%)',
+            border: `1px solid ${selectedEmergency.color}40`,
+            borderRadius: '20px', overflow: 'hidden',
+            boxShadow: `0 40px 100px rgba(0,0,0,0.8), 0 0 80px ${selectedEmergency.color}15`,
+            animation: 'slideUp 0.3s cubic-bezier(0.34,1.56,0.64,1)'
+          }}>
+            <div style={{ height: '3px', background: `linear-gradient(90deg, transparent, ${selectedEmergency.color} 30%, ${selectedEmergency.color} 70%, transparent)` }} />
+            <div style={{ padding: '20px 24px 16px', borderBottom: `1px solid ${selectedEmergency.color}20`, background: selectedEmergency.bg, display: 'flex', alignItems: 'flex-start', justifyContent: 'space-between', gap: '12px' }}>
+              <div style={{ display: 'flex', alignItems: 'center', gap: '14px' }}>
+                <div style={{ width: '44px', height: '44px', borderRadius: '10px', background: selectedEmergency.bg, border: `1px solid ${selectedEmergency.border}`, display: 'flex', alignItems: 'center', justifyContent: 'center', fontSize: '20px' }}>{selectedEmergency.icon}</div>
+                <div>
+                  <div style={{ display: 'flex', gap: '6px', marginBottom: '4px' }}>
+                    <span style={{ fontSize: '9px', fontWeight: 900, color: selectedEmergency.color, background: selectedEmergency.bg, border: `1px solid ${selectedEmergency.border}`, padding: '2px 8px', borderRadius: '4px' }}>{selectedEmergency.type}</span>
+                    <span style={{ fontSize: '9px', fontWeight: 700, color: '#34d399', background: 'rgba(52,211,153,0.1)', border: '1px solid rgba(52,211,153,0.2)', padding: '2px 8px', borderRadius: '4px' }}>{selectedEmergency.status}</span>
+                  </div>
+                  <h4 style={{ fontSize: '13px', fontWeight: 800, color: '#f1f5f9', margin: 0 }}>{selectedEmergency.msg}</h4>
+                </div>
+              </div>
+              <button onClick={() => setSelectedEmergency(null)} style={{ background: 'none', border: 'none', color: '#64748b', cursor: 'pointer' }}><X size={16} /></button>
+            </div>
+            <div style={{ padding: '20px 24px' }}>
+              <div style={{ display: 'grid', gridTemplateColumns: '1fr 1fr', gap: '10px', marginBottom: '16px' }}>
+                <div style={{ background: 'rgba(2,6,23,0.6)', border: '1px solid rgba(51,65,85,0.4)', borderRadius: '10px', padding: '10px 12px' }}>
+                  <span style={{ fontSize: '8px', color: '#475569', textTransform: 'uppercase', display: 'block', marginBottom: '4px' }}>📍 Incident Location</span>
+                  <span style={{ fontSize: '11px', fontWeight: 700, color: '#e2e8f0' }}>{selectedEmergency.location}</span>
+                </div>
+                <div style={{ background: 'rgba(2,6,23,0.6)', border: '1px solid rgba(51,65,85,0.4)', borderRadius: '10px', padding: '10px 12px' }}>
+                  <span style={{ fontSize: '8px', color: '#475569', textTransform: 'uppercase', display: 'block', marginBottom: '4px' }}>🛡️ Responding Unit</span>
+                  <span style={{ fontSize: '11px', fontWeight: 700, color: '#e2e8f0', fontFamily: 'monospace' }}>{selectedEmergency.unit}</span>
+                </div>
+                <div style={{ background: 'rgba(2,6,23,0.6)', border: '1px solid rgba(51,65,85,0.4)', borderRadius: '10px', padding: '10px 12px' }}>
+                  <span style={{ fontSize: '8px', color: '#475569', textTransform: 'uppercase', display: 'block', marginBottom: '4px' }}>🕒 Logged Time</span>
+                  <span style={{ fontSize: '11px', fontWeight: 700, color: '#e2e8f0' }}>{selectedEmergency.time}</span>
+                </div>
+                <div style={{ background: 'rgba(2,6,23,0.6)', border: '1px solid rgba(51,65,85,0.4)', borderRadius: '10px', padding: '10px 12px' }}>
+                  <span style={{ fontSize: '8px', color: '#475569', textTransform: 'uppercase', display: 'block', marginBottom: '4px' }}>📞 Emergency Contacts</span>
+                  <span style={{ fontSize: '10px', fontWeight: 700, color: '#34d399', fontFamily: 'monospace' }}>{selectedEmergency.contact}</span>
+                </div>
+              </div>
+              <div style={{ background: 'rgba(2,6,23,0.8)', border: `1px solid ${selectedEmergency.border}`, borderRadius: '12px', padding: '14px', marginBottom: '16px' }}>
+                <span style={{ fontSize: '9px', fontWeight: 700, color: selectedEmergency.color, textTransform: 'uppercase', display: 'block', marginBottom: '6px' }}>Detailed report</span>
+                <p style={{ fontSize: '12px', color: '#94a3b8', margin: 0, lineHeight: 1.6 }}>{selectedEmergency.details}</p>
+              </div>
+              <div style={{ display: 'flex', gap: '10px' }}>
+                <button onClick={() => setSelectedEmergency(null)} style={{ flex: 1, padding: '10px 16px', borderRadius: '10px', background: `linear-gradient(135deg, ${selectedEmergency.color}, ${selectedEmergency.color}bb)`, border: 'none', color: '#fff', fontSize: '11px', fontWeight: 800, textTransform: 'uppercase', letterSpacing: '0.05em', cursor: 'pointer' }}>✓ Acknowledge</button>
+                <button onClick={() => setSelectedEmergency(null)} style={{ flex: 1, padding: '10px 16px', borderRadius: '10px', background: 'rgba(51,65,85,0.4)', border: '1px solid rgba(51,65,85,0.6)', color: '#94a3b8', fontSize: '11px', fontWeight: 700, textTransform: 'uppercase', cursor: 'pointer' }}>Dismiss</button>
+              </div>
+            </div>
+          </div>
+        </div>
+      )}
 
       <style>{`
         @keyframes slideDown { from{opacity:0;transform:translateY(-16px)} to{opacity:1;transform:translateY(0)} }
