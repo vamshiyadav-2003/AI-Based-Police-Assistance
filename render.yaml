@@ -21,24 +21,21 @@ services:
   # React Vite Frontend (Static Site)
   - type: web
     name: gvak-police-frontend
-    env: static
+    runtime: static
     rootDir: frontend
     buildCommand: npm install && npm run build
-    publishPath: dist
+    staticPublishPath: dist
     headers:
       - path: /*
         name: Cache-Control
         value: no-cache
     routes:
       - type: rewrite
-        fromPath: /*
-        toPath: /index.html
+        source: /*
+        destination: /index.html
     envVars:
       - key: VITE_API_URL
-        fromService:
-          name: gvak-police-backend
-          type: web
-          property: url
+        value: https://gvak-police-backend.onrender.com
 
 databases:
   - name: gvak-police-db
