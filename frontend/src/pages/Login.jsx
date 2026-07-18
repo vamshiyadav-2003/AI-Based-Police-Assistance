@@ -490,14 +490,7 @@ export default function Login() {
   const [success, setSuccess] = useState('')
   const [loading, setLoading] = useState(false)
   const [time, setTime] = useState(new Date())
-  const [isMobile, setIsMobile] = useState(window.innerWidth < 600)
   const navigate = useNavigate()
-
-  useEffect(() => {
-    function handleResize() { setIsMobile(window.innerWidth < 600) }
-    window.addEventListener('resize', handleResize)
-    return () => window.removeEventListener('resize', handleResize)
-  }, [])
 
   useEffect(() => { const t = setInterval(() => setTime(new Date()), 1000); return () => clearInterval(t) }, [])
 
@@ -585,23 +578,20 @@ export default function Login() {
       <div style={{
         position: 'fixed', top: 0, left: 0, right: 0, zIndex: 50,
         display: 'flex', alignItems: 'center', justifyContent: 'space-between',
-        padding: isMobile ? '8px 14px' : '10px 32px',
-        borderBottom: '1px solid rgba(30,41,59,0.5)',
+        padding: '10px 32px', borderBottom: '1px solid rgba(30,41,59,0.5)',
         background: 'rgba(2,8,23,0.85)', backdropFilter: 'blur(20px)'
       }}>
-        <div style={{ display: 'flex', alignItems: 'center', gap: '8px' }}>
+        <div style={{ display: 'flex', alignItems: 'center', gap: '18px' }}>
           <div style={{ display: 'flex', alignItems: 'center', gap: '6px' }}>
             <span style={{ width: 6, height: 6, borderRadius: '50%', background: '#10b981', display: 'inline-block', animation: 'ping 1.5s ease-in-out infinite' }} />
-            <span style={{ fontSize: '9px', color: '#10b981', fontFamily: 'monospace', fontWeight: 700, letterSpacing: '0.06em' }}>{isMobile ? 'ONLINE' : 'ALL SYSTEMS OPERATIONAL'}</span>
+            <span style={{ fontSize: '9px', color: '#10b981', fontFamily: 'monospace', fontWeight: 700, letterSpacing: '0.12em' }}>ALL SYSTEMS OPERATIONAL</span>
           </div>
-          {!isMobile && <span style={{ fontSize: '9px', color: '#1e293b', fontFamily: 'monospace' }}>IPARTS v2.0 · CLASSIFIED</span>}
+          <span style={{ fontSize: '9px', color: '#1e293b', fontFamily: 'monospace' }}>IPARTS v2.0 · CLASSIFIED</span>
         </div>
-        <div style={{ display: 'flex', alignItems: 'center', gap: '10px' }}>
-          {!isMobile && (
-            <span style={{ fontSize: '9px', color: '#334155', fontFamily: 'monospace' }}>
-              {time.toLocaleDateString('en-IN', { weekday: 'short', day: '2-digit', month: 'short' })}
-            </span>
-          )}
+        <div style={{ display: 'flex', alignItems: 'center', gap: '14px' }}>
+          <span style={{ fontSize: '9px', color: '#334155', fontFamily: 'monospace' }}>
+            {time.toLocaleDateString('en-IN', { weekday: 'short', day: '2-digit', month: 'short' })}
+          </span>
           <span style={{ fontSize: '11px', color: '#fbbf24', fontFamily: 'monospace', fontWeight: 700 }}>
             {time.toLocaleTimeString('en-IN', { hour12: false })} IST
           </span>
@@ -609,7 +599,7 @@ export default function Login() {
       </div>
 
       {/* Main content */}
-      <div style={{ position: 'relative', zIndex: 10, width: '100%', maxWidth: '460px', margin: isMobile ? '70px 12px 16px' : '80px 20px 20px', animation: 'slideUp 0.5s cubic-bezier(0.34,1.56,0.64,1)' }}>
+      <div style={{ position: 'relative', zIndex: 10, width: '100%', maxWidth: '460px', margin: '80px 20px 20px', animation: 'slideUp 0.5s cubic-bezier(0.34,1.56,0.64,1)' }}>
 
         {/* Header */}
         <div style={{ textAlign: 'center', marginBottom: '28px' }}>
@@ -682,13 +672,13 @@ export default function Login() {
                     <p style={{ fontSize: '9px', color: '#475569', margin: '2px 0 0', textTransform: 'uppercase', letterSpacing: '0.12em' }}>New account creation</p>
                   </div>
                 </div>
-                <div style={{ display: 'grid', gridTemplateColumns: isMobile ? '1fr' : '1fr 1fr', gap: '11px', marginBottom: '11px' }}>
+                <div style={{ display: 'grid', gridTemplateColumns: '1fr 1fr', gap: '11px', marginBottom: '11px' }}>
                   <Field label="Full Name" icon={User} value={fullName} onChange={e => setFullName(e.target.value)} placeholder="Srinivas Reddy" required />
                   <Field label="Badge ID" icon={Fingerprint} value={badgeNumber} onChange={e => setBadgeNumber(e.target.value)} placeholder="TG-1002" required mono />
                 </div>
                 <div style={{ marginBottom: '11px' }}><Field label="Email" icon={Mail} type="email" value={email} onChange={e => setEmail(e.target.value)} placeholder="officer@tsp.gov.in" required /></div>
                 <div style={{ marginBottom: '11px' }}><Field label="Password" icon={KeyRound} type="password" value={password} onChange={e => setPassword(e.target.value)} placeholder="Strong password" required /></div>
-                <div style={{ display: 'grid', gridTemplateColumns: isMobile ? '1fr' : '1fr 1fr', gap: '11px', marginBottom: '11px' }}>
+                <div style={{ display: 'grid', gridTemplateColumns: '1fr 1fr', gap: '11px', marginBottom: '11px' }}>
                   <Field label="Police Station" icon={Building2} value={station} onChange={e => setStation(e.target.value)} placeholder="Banjara Hills PS" required />
                   <div>
                     <label style={{ display: 'block', fontSize: '9px', fontWeight: 700, textTransform: 'uppercase', letterSpacing: '0.14em', color: '#475569', marginBottom: '6px' }}>Rank</label>
@@ -697,7 +687,7 @@ export default function Login() {
                     </select>
                   </div>
                 </div>
-                <div style={{ display: 'grid', gridTemplateColumns: isMobile ? '1fr' : '1fr 1fr', gap: '11px', marginBottom: '20px' }}>
+                <div style={{ display: 'grid', gridTemplateColumns: '1fr 1fr', gap: '11px', marginBottom: '20px' }}>
                   <Field label="District" icon={MapPin} value={district} onChange={e => setDistrict(e.target.value)} placeholder="Hyderabad" required />
                   <Field label="Jurisdiction" icon={MapPin} value={jurisdiction} onChange={e => setJurisdiction(e.target.value)} placeholder="India" disabled />
                 </div>
@@ -773,7 +763,7 @@ export default function Login() {
       </div>
 
       {/* ── CITIZEN PORTAL SECTION ── */}
-      <div style={{ position: 'relative', zIndex: 10, width: '100%', maxWidth: '460px', margin: isMobile ? '0 12px 40px' : '0 20px 40px', animation: 'slideUp 0.6s cubic-bezier(0.34,1.56,0.64,1) 0.2s both' }}>
+      <div style={{ position: 'relative', zIndex: 10, width: '100%', maxWidth: '460px', margin: '0 20px 40px', animation: 'slideUp 0.6s cubic-bezier(0.34,1.56,0.64,1) 0.2s both' }}>
         <div style={{
           background: 'rgba(10,17,34,0.85)', border: '1px solid rgba(30,41,59,0.7)',
           borderRadius: '16px', backdropFilter: 'blur(20px)', overflow: 'hidden',
