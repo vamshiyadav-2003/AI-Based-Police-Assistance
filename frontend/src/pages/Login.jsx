@@ -14,17 +14,18 @@ function BootScreen({ onDone }) {
   const [progress, setProgress] = useState(0)
 
   useEffect(() => {
-    const start = performance.now()
-    const duration = 1600 // 1.6 seconds smooth load
-    let raf
-    const tick = (now) => {
-      const p = Math.min((now - start) / duration, 1)
-      setProgress(p)
-      if (p < 1) raf = requestAnimationFrame(tick)
-      else setTimeout(onDone, 300)
-    }
-    raf = requestAnimationFrame(tick)
-    return () => cancelAnimationFrame(raf)
+    let current = 0
+    const interval = setInterval(() => {
+      current += 4
+      if (current >= 100) {
+        setProgress(1)
+        clearInterval(interval)
+        setTimeout(onDone, 300)
+      } else {
+        setProgress(current / 100)
+      }
+    }, 45) // smooth ~1 second load
+    return () => clearInterval(interval)
   }, [onDone])
 
   return (
