@@ -14,17 +14,31 @@ is_dev = not os.getenv("ALLOWED_ORIGINS")
 allowed_origins = ["*"] if is_dev else []
 env_origins = os.getenv("ALLOWED_ORIGINS")
 if env_origins:
-    allowed_origins = [o.strip() for o in env_origins.split(",")]
+    if env_origins.strip() == "*":
+        allowed_origins = ["*"]
+    else:
+        allowed_origins.extend([o.strip() for o in env_origins.split(",") if o.strip()])
 
 app = FastAPI(title="AI Police Assistant API", version="1.0.0")
 
-app.add_middleware(
-    CORSMiddleware,
-    allow_origins=allowed_origins,
-    allow_credentials=False if is_dev else True,
-    allow_methods=["*"],
-    allow_headers=["*"],
-)
+if "*" in allowed_origins:
+    app.add_middleware(
+        CORSMiddleware,
+        allow_origins=["*"],
+        allow_credentials=False,
+        allow_methods=["*"],
+        allow_headers=["*"],
+    )
+else:
+    app.add_middleware(
+        CORSMiddleware,
+        allow_origins=allowed_origins,
+        allow_origin_regex=r"https://.*\.onrender\.com",
+        allow_credentials=True,
+        allow_methods=["*"],
+        allow_headers=["*"],
+    )
+
 
 
 @app.on_event("startup")

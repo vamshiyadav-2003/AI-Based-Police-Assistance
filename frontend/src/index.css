@@ -30,3 +30,24 @@ body {
   border-radius: 2px;
   background: #E8A33D;
 }
+
+/* ─── Mobile View Responsiveness Utilities ─── */
+@media (max-width: 768px) {
+  /* Provide padding bottom for sticky mobile bottom navigation bar */
+  .mobile-nav-padded {
+    padding-bottom: 70px !important;
+  }
+
+  /* Table horizontal scroll wrapper for phone screens */
+  .table-responsive-wrapper {
+    width: 100%;
+    overflow-x: auto;
+    -webkit-overflow-scrolling: touch;
+  }
+
+  /* Prevent overflow on mobile cards & modal windows */
+  .mobile-card-compact {
+    padding: 12px !important;
+  }
+}
+

@@ -513,8 +513,8 @@ export default function DashboardLayout() {
   const [user, setUser] = useState(null)
   const [time, setTime] = useState(new Date())
   const [sidebarCollapsed, setSidebarCollapsed] = useState(false)
-  const [mobileSidebarOpen, setMobileSidebarOpen] = useState(false)
-  const [isMobile, setIsMobile] = useState(window.innerWidth < 768)
+  const [mobileDrawerOpen, setMobileDrawerOpen] = useState(false)
+  const [isMobile, setIsMobile] = useState(window.innerWidth <= 768)
   const [emergencyModalAlert, setEmergencyModalAlert] = useState(null)
 
   useEffect(() => {
@@ -525,10 +525,13 @@ export default function DashboardLayout() {
 
   useEffect(() => {
     function handleResize() {
-      const mobile = window.innerWidth < 768
+      const mobile = window.innerWidth <= 768
       setIsMobile(mobile)
-      if (!mobile) setMobileSidebarOpen(false)
+      if (!mobile) setMobileDrawerOpen(false)
     }
+    window.addEventListener('resize', handleResize)
+    return () => window.removeEventListener('resize', handleResize)
+  }, [])
     window.addEventListener('resize', handleResize)
     return () => window.removeEventListener('resize', handleResize)
   }, [])
@@ -590,6 +593,7 @@ export default function DashboardLayout() {
     setEmergencyModalAlert({ ...tpl, id: Date.now(), time: new Date(), read: false })
   }
 
+<<<<<<< Updated upstream
   const sidebarW = sidebarCollapsed ? '72px' : '272px'
 
   const accentColor = isAdmin ? '#a78bfa' : '#f59e0b'
@@ -832,10 +836,336 @@ export default function DashboardLayout() {
           <LogOut size={15} style={{ flexShrink:0 }} />
           {(!sidebarCollapsed || isMobile) && <span>Sign Out</span>}
         </button>
+=======
+  const bottomNavQuickItems = [
+    { to:'/', label:'Overview', icon:LayoutGrid, end:true },
+    { to:'/cases', label:'Cases', icon:FolderOpen },
+    { to:'/fir', label:'FIR', icon:FileText },
+    { to:'/search', label:'Search', icon:Search },
+    { to:'/assistant', label:'AI Chat', icon:MessageSquare },
+  ]
+
+  return (
+    <div style={{ minHeight:'100vh', display:'flex', background:'#020617', color:'#f1f5f9', fontFamily:"'Inter', system-ui, sans-serif" }}>
+
+      {/* ── MOBILE OVERLAY DRAWER ── */}
+      {isMobile && mobileDrawerOpen && (
+        <div style={{ position:'fixed', inset:0, zIndex:100, display:'flex' }}>
+          {/* Backdrop */}
+          <div
+            onClick={() => setMobileDrawerOpen(false)}
+            style={{ position:'absolute', inset:0, background:'rgba(2,6,23,0.8)', backdropFilter:'blur(4px)' }}
+          />
+          {/* Drawer container */}
+          <div style={{
+            position:'relative', width:'280px', maxWidth:'80vw', height:'100%',
+            background:'rgba(10,15,30,0.98)', borderRight:'1px solid rgba(51,65,85,0.4)',
+            display:'flex', flexDirection:'column', zIndex:101, boxShadow:'0 0 30px rgba(0,0,0,0.8)'
+          }}>
+            <div style={{
+              display:'flex', alignItems:'center', justifyContent:'space-between',
+              padding:'16px', borderBottom:'1px solid rgba(51,65,85,0.35)'
+            }}>
+              <div style={{ display:'flex', alignItems:'center', gap:'10px' }}>
+                <Shield size={20} color={isAdmin ? '#a78bfa' : '#f59e0b'} />
+                <span style={{ fontSize:'13px', fontWeight:800, letterSpacing:'0.05em', color:'#f1f5f9' }}>POLICE AI</span>
+              </div>
+              <button
+                onClick={() => setMobileDrawerOpen(false)}
+                style={{ background:'none', border:'none', color:'#94a3b8', cursor:'pointer', padding:'4px' }}
+              >
+                <X size={20} />
+              </button>
+            </div>
+
+            {/* Nav list */}
+            <nav style={{ flex:1, padding:'12px', overflowY:'auto' }}>
+              <div style={{ display:'flex', flexDirection:'column', gap:'4px' }}>
+                {navItems.map(({ to, label, icon: Icon, end }) => (
+                  <div key={to} onClick={() => setMobileDrawerOpen(false)}>
+                    <NavItem to={to} label={label} icon={Icon} end={end} adminAccent={isAdmin} />
+                  </div>
+                ))}
+              </div>
+            </nav>
+
+            <div style={{ padding:'12px', borderTop:'1px solid rgba(51,65,85,0.35)' }}>
+              <button
+                onClick={() => { setMobileDrawerOpen(false); handleLogout() }}
+                style={{
+                  width:'100%', display:'flex', alignItems:'center', gap:'10px',
+                  padding:'10px 12px', borderRadius:'10px', border:'1px solid rgba(239,68,68,0.2)',
+                  background:'rgba(239,68,68,0.06)', color:'#f87171', fontSize:'12px', fontWeight:600,
+                  cursor:'pointer'
+                }}
+              >
+                <LogOut size={16} />
+                <span>Sign Out</span>
+              </button>
+            </div>
+          </div>
+        </div>
+      )}
+
+      {/* ── DESKTOP SIDEBAR ── */}
+      {!isMobile && (
+        <aside style={{
+          width: sidebarW, flexShrink:0,
+          background:'rgba(10,15,30,0.95)',
+          borderRight:'1px solid rgba(51,65,85,0.4)',
+          display:'flex', flexDirection:'column',
+          transition:'width 0.25s cubic-bezier(0.4,0,0.2,1)',
+          position:'relative', zIndex:20, overflow:'hidden',
+          backdropFilter:'blur(20px)'
+        }}>
+          {/* Accent glow */}
+          <div style={{
+            position:'absolute', top:0, bottom:0, left:0, width:'1px',
+            background:`linear-gradient(to bottom, transparent, ${isAdmin ? 'rgba(167,139,250,0.4)' : 'rgba(245,158,11,0.3)'}, transparent)`
+          }} />
+
+          {/* Logo row */}
+          <div style={{
+            display:'flex', alignItems:'center', gap:'12px',
+            padding:'18px 16px', borderBottom:'1px solid rgba(51,65,85,0.35)',
+            overflow:'hidden', flexShrink:0
+          }}>
+            <div style={{
+              width:'36px', height:'36px', borderRadius:'10px', flexShrink:0,
+              background: isAdmin ? 'rgba(167,139,250,0.1)' : 'rgba(245,158,11,0.1)',
+              border:`1px solid ${isAdmin ? 'rgba(167,139,250,0.2)' : 'rgba(245,158,11,0.2)'}`,
+              display:'flex', alignItems:'center', justifyContent:'center',
+              boxShadow:`0 0 20px ${isAdmin ? 'rgba(167,139,250,0.1)' : 'rgba(245,158,11,0.1)'}`
+            }}>
+              <Shield size={18} color={isAdmin ? '#a78bfa' : '#f59e0b'} />
+            </div>
+            {!sidebarCollapsed && (
+              <div style={{ minWidth:0 }}>
+                <p style={{ fontSize:'13px', fontWeight:800, color:'#f1f5f9', margin:0, letterSpacing:'0.05em', textTransform:'uppercase' }}>Police AI</p>
+                <p style={{ fontSize:'9px', color:'#334155', margin:0, letterSpacing:'0.12em', textTransform:'uppercase', fontWeight:600 }}>TS Command Console</p>
+              </div>
+            )}
+            <button onClick={() => setSidebarCollapsed(c => !c)} style={{
+              marginLeft:'auto', background:'none', border:'none', color:'#334155',
+              cursor:'pointer', display:'flex', alignItems:'center', flexShrink:0, padding:'4px'
+            }}>
+              <Menu size={14} />
+            </button>
+          </div>
+
+          {/* Officer ID card */}
+          {user && !sidebarCollapsed && (
+            <div style={{
+              margin:'12px', padding:'14px',
+              background:'rgba(2,6,23,0.6)', borderRadius:'12px',
+              border:`1px solid ${isAdmin ? 'rgba(167,139,250,0.15)' : 'rgba(51,65,85,0.5)'}`,
+              position:'relative', overflow:'hidden', flexShrink:0
+            }}>
+              {/* Glow */}
+              <div style={{
+                position:'absolute', top:'-20px', right:'-20px',
+                width:'80px', height:'80px', borderRadius:'50%',
+                background: isAdmin ? 'rgba(167,139,250,0.12)' : 'rgba(245,158,11,0.1)',
+                filter:'blur(20px)', pointerEvents:'none'
+              }} />
+              <div style={{ display:'flex', justifyContent:'space-between', alignItems:'flex-start', marginBottom:'10px' }}>
+                <span style={{ fontSize:'8px', color:'#334155', textTransform:'uppercase', letterSpacing:'0.12em', fontWeight:700 }}>TS Police · Officer ID</span>
+                <span style={{ display:'flex', alignItems:'center', gap:'4px', fontSize:'8px', color:'#10b981', fontFamily:'monospace', fontWeight:700, background:'rgba(16,185,129,0.08)', border:'1px solid rgba(16,185,129,0.15)', padding:'2px 6px', borderRadius:'4px' }}>
+                  <span style={{ width:'5px', height:'5px', borderRadius:'50%', background:'#10b981', animation:'ping 1.5s ease-in-out infinite', display:'inline-block' }} />
+                  ONLINE
+                </span>
+              </div>
+              <div style={{ display:'flex', gap:'10px', alignItems:'center' }}>
+                <div style={{
+                  width:'40px', height:'40px', borderRadius:'50%', flexShrink:0,
+                  background:'rgba(30,41,59,0.8)',
+                  border:`2px solid ${isAdmin ? 'rgba(167,139,250,0.3)' : 'rgba(245,158,11,0.25)'}`,
+                  display:'flex', alignItems:'center', justifyContent:'center'
+                }}>
+                  <Shield size={18} color={isAdmin ? '#a78bfa' : '#f59e0b'} />
+                </div>
+                <div style={{ minWidth:0 }}>
+                  <p style={{ fontSize:'12px', fontWeight:700, color:'#f1f5f9', margin:0, overflow:'hidden', textOverflow:'ellipsis', whiteSpace:'nowrap' }} title={user.full_name}>{user.full_name}</p>
+                  <p style={{ fontSize:'9px', color:'#475569', fontFamily:'monospace', margin:0, marginTop:'2px' }}>ID: {user.badge_number}</p>
+                  <span style={{
+                    display:'inline-block', marginTop:'4px', fontSize:'9px', fontWeight:700,
+                    color: isAdmin ? '#c4b5fd' : '#fbbf24',
+                    background: isAdmin ? 'rgba(167,139,250,0.1)' : 'rgba(245,158,11,0.08)',
+                    border:`1px solid ${isAdmin ? 'rgba(167,139,250,0.2)' : 'rgba(245,158,11,0.15)'}`,
+                    padding:'2px 8px', borderRadius:'4px', letterSpacing:'0.06em'
+                  }}>
+                    {user.rank || (isAdmin ? 'DGP' : 'Officer')}
+                  </span>
+                </div>
+              </div>
+              {(user.station || user.district) && (
+                <div style={{
+                  marginTop:'10px', paddingTop:'10px',
+                  borderTop:'1px solid rgba(51,65,85,0.4)',
+                  display:'grid', gridTemplateColumns:'1fr 1fr', gap:'8px'
+                }}>
+                  {user.station && (
+                    <div>
+                      <p style={{ fontSize:'8px', color:'#334155', margin:0, textTransform:'uppercase', letterSpacing:'0.08em' }}>Station</p>
+                      <p style={{ fontSize:'10px', color:'#94a3b8', margin:0, fontWeight:600, overflow:'hidden', textOverflow:'ellipsis', whiteSpace:'nowrap' }}>{user.station.replace(' PS','')}</p>
+                    </div>
+                  )}
+                  {user.district && (
+                    <div>
+                      <p style={{ fontSize:'8px', color:'#334155', margin:0, textTransform:'uppercase', letterSpacing:'0.08em' }}>District</p>
+                      <p style={{ fontSize:'10px', color:'#94a3b8', margin:0, fontWeight:600 }}>{user.district}</p>
+                    </div>
+                  )}
+                </div>
+              )}
+              {isAdmin && (
+                <div style={{ marginTop:'8px', paddingTop:'8px', borderTop:'1px solid rgba(51,65,85,0.4)' }}>
+                  <p style={{ fontSize:'9px', color:'#334155', margin:0, textTransform:'uppercase', letterSpacing:'0.08em' }}>Privilege</p>
+                  <p style={{ fontSize:'10px', color:'#a78bfa', fontWeight:800, margin:0, marginTop:'2px', textTransform:'uppercase', letterSpacing:'0.08em' }}>⚡ System Administrator</p>
+                </div>
+              )}
+            </div>
+          )}
+
+          {/* Collapsed user avatar */}
+          {user && sidebarCollapsed && (
+            <div style={{ display:'flex', justifyContent:'center', padding:'12px 0', flexShrink:0 }}>
+              <div style={{
+                width:'36px', height:'36px', borderRadius:'50%',
+                background:'rgba(30,41,59,0.8)',
+                border:`2px solid ${isAdmin ? 'rgba(167,139,250,0.3)' : 'rgba(245,158,11,0.25)'}`,
+                display:'flex', alignItems:'center', justifyContent:'center'
+              }}>
+                <Shield size={16} color={isAdmin ? '#a78bfa' : '#f59e0b'} />
+              </div>
+            </div>
+          )}
+
+          {/* Nav */}
+          <nav style={{ flex:1, padding:'8px', overflowY:'auto', overflowX:'hidden' }}>
+            {!sidebarCollapsed && (
+              <p style={{ fontSize:'8px', color:'#1e293b', textTransform:'uppercase', letterSpacing:'0.14em', fontWeight:700, padding:'4px 12px 6px', margin:0 }}>Navigation</p>
+            )}
+            <div style={{ display:'flex', flexDirection:'column', gap:'2px' }}>
+              {navItems.map(({ to, label, icon: Icon, end }) =>
+                sidebarCollapsed ? (
+                  <div key={to} title={label} style={{ display:'flex', justifyContent:'center', padding:'8px 0' }}>
+                    <NavLink to={to} end={end} style={{ textDecoration:'none' }}>
+                      {({ isActive }) => (
+                        <div style={{
+                          width:'36px', height:'36px', borderRadius:'8px',
+                          display:'flex', alignItems:'center', justifyContent:'center',
+                          color: isActive ? (isAdmin ? '#c4b5fd' : '#fbbf24') : '#475569',
+                          background: isActive ? (isAdmin ? 'rgba(167,139,250,0.1)' : 'rgba(245,158,11,0.08)') : 'transparent',
+                          border: isActive ? `1px solid ${isAdmin ? 'rgba(167,139,250,0.2)' : 'rgba(245,158,11,0.15)'}` : '1px solid transparent',
+                          transition:'all 0.15s'
+                        }}>
+                          <Icon size={15} />
+                        </div>
+                      )}
+                    </NavLink>
+                  </div>
+                ) : (
+                  <NavItem key={to} to={to} label={label} icon={Icon} end={end} adminAccent={isAdmin} />
+                )
+              )}
+            </div>
+          </nav>
+
+          {/* Logout */}
+          <div style={{ padding:'8px', borderTop:'1px solid rgba(51,65,85,0.35)', flexShrink:0 }}>
+            <button
+              onClick={handleLogout}
+              style={{
+                width:'100%', display:'flex', alignItems:'center', justifyContent: sidebarCollapsed ? 'center' : 'flex-start',
+                gap:'10px', padding:'9px 12px', borderRadius:'10px', border:'1px solid transparent',
+                background:'none', color:'#475569', fontSize:'12px', fontWeight:600,
+                cursor:'pointer', transition:'all 0.15s'
+              }}
+              onMouseEnter={e => { e.currentTarget.style.background='rgba(239,68,68,0.06)'; e.currentTarget.style.color='#f87171'; e.currentTarget.style.borderColor='rgba(239,68,68,0.15)' }}
+              onMouseLeave={e => { e.currentTarget.style.background='none'; e.currentTarget.style.color='#475569'; e.currentTarget.style.borderColor='transparent' }}
+            >
+              <LogOut size={15} style={{ flexShrink:0 }} />
+              {!sidebarCollapsed && <span>Sign Out</span>}
+            </button>
+          </div>
+        </aside>
+      )}
+
+      {/* ── MAIN PANEL ── */}
+      <div style={{ flex:1, display:'flex', flexDirection:'column', minWidth:0 }}>
+
+        {/* Topbar */}
+        <header style={{
+          height: isMobile ? '54px' : '60px', flexShrink:0,
+          background:'rgba(10,15,30,0.9)',
+          borderBottom:'1px solid rgba(51,65,85,0.4)',
+          display:'flex', alignItems:'center', justifyContent:'space-between',
+          padding: isMobile ? '0 14px' : '0 28px', backdropFilter:'blur(20px)',
+          position:'sticky', top:0, zIndex:10
+        }}>
+          <div style={{ display:'flex', alignItems:'center', gap:'10px' }}>
+            {isMobile && (
+              <button
+                onClick={() => setMobileDrawerOpen(true)}
+                style={{ background:'none', border:'none', color:'#cbd5e1', cursor:'pointer', display:'flex', alignItems:'center', padding:'4px' }}
+                title="Open menu"
+              >
+                <Menu size={20} />
+              </button>
+            )}
+            <div>
+              <h1 style={{ fontSize: isMobile ? '11px' : '13px', fontWeight:800, color:'#f1f5f9', margin:0, letterSpacing:'0.05em', textTransform:'uppercase' }}>
+                {isAdmin ? '⚡ Control HQ' : '🛡️ Intelligence Desk'}
+              </h1>
+              {!isMobile && (
+                <p style={{ fontSize:'9px', color:'#334155', margin:0, marginTop:'2px', letterSpacing:'0.12em', textTransform:'uppercase', fontFamily:'monospace' }}>
+                  IPARTS v2.0 · Secure Session · {time.toLocaleTimeString('en-IN', { hour12:false })} IST
+                </p>
+              )}
+            </div>
+          </div>
+
+          <div style={{ display:'flex', alignItems:'center', gap: isMobile ? '6px' : '10px' }}>
+            {!isMobile && (
+              <>
+                {/* Secure badge */}
+                <div style={{
+                  display:'flex', alignItems:'center', gap:'6px',
+                  background:'rgba(16,185,129,0.06)', border:'1px solid rgba(16,185,129,0.15)',
+                  borderRadius:'8px', padding:'5px 10px'
+                }}>
+                  <Lock size={10} color="#10b981" />
+                  <span style={{ fontSize:'9px', color:'#10b981', fontFamily:'monospace', fontWeight:700, letterSpacing:'0.08em' }}>ENCRYPTED</span>
+                </div>
+
+                {/* Radio status */}
+                <div style={{
+                  display:'flex', alignItems:'center', gap:'6px',
+                  background:'rgba(2,6,23,0.8)', border:'1px solid rgba(51,65,85,0.5)',
+                  borderRadius:'8px', padding:'5px 10px'
+                }}>
+                  <Radio size={10} color="#3b82f6" />
+                  <span style={{ fontSize:'9px', color:'#3b82f6', fontFamily:'monospace', fontWeight:700, letterSpacing:'0.08em' }}>LIVE</span>
+                </div>
+              </>
+            )}
+
+            {/* Notification center */}
+            <NotificationCenter isAdmin={isAdmin} />
+          </div>
+        </header>
+
+        {/* Page content */}
+        <main className={isMobile ? 'mobile-nav-padded' : ''} style={{ flex:1, overflowY:'auto', background:'#020617' }}>
+          <Outlet />
+        </main>
+>>>>>>> Stashed changes
       </div>
     </>
   )
 
+<<<<<<< Updated upstream
   return (
     <>
       {emergencyModalAlert && (
@@ -1141,5 +1471,82 @@ export default function DashboardLayout() {
         `}</style>
       </div>
     </>
+=======
+      {/* ── STICKY MOBILE BOTTOM NAVIGATION BAR ── */}
+      {isMobile && (
+        <nav style={{
+          position:'fixed', bottom:0, left:0, right:0, height:'60px',
+          background:'rgba(10,15,30,0.96)', backdropFilter:'blur(20px)',
+          borderTop:'1px solid rgba(51,65,85,0.4)',
+          display:'flex', alignItems:'center', justifyContent:'space-around',
+          zIndex:90, padding:'0 4px'
+        }}>
+          {bottomNavQuickItems.map(({ to, label, icon: Icon, end }) => (
+            <NavLink
+              key={to}
+              to={to}
+              end={end}
+              style={({ isActive }) => ({
+                textDecoration:'none',
+                display:'flex', flexDirection:'column', alignItems:'center', gap:'3px',
+                color: isActive ? (isAdmin ? '#c4b5fd' : '#fbbf24') : '#64748b',
+                fontSize:'10px', fontWeight: isActive ? 700 : 500,
+                padding:'4px 8px', borderRadius:'8px', transition:'all 0.15s'
+              })}
+            >
+              {({ isActive }) => (
+                <>
+                  <Icon size={18} color={isActive ? (isAdmin ? '#c4b5fd' : '#fbbf24') : '#64748b'} />
+                  <span>{label}</span>
+                </>
+              )}
+            </NavLink>
+          ))}
+          <button
+            onClick={() => setMobileDrawerOpen(true)}
+            style={{
+              background:'none', border:'none',
+              display:'flex', flexDirection:'column', alignItems:'center', gap:'3px',
+              color:'#64748b', fontSize:'10px', fontWeight:500,
+              padding:'4px 8px', cursor:'pointer'
+            }}
+          >
+            <Menu size={18} color="#64748b" />
+            <span>More</span>
+          </button>
+        </nav>
+      )}
+
+
+      <style>{`
+        @keyframes slideDown {
+          from { opacity:0; transform:translateY(-8px) scale(0.97); }
+          to   { opacity:1; transform:translateY(0) scale(1); }
+        }
+        @keyframes popIn {
+          from { opacity:0; transform:scale(0.5); }
+          to   { opacity:1; transform:scale(1); }
+        }
+        @keyframes slideIn {
+          from { opacity:0; transform:translateX(8px); }
+          to   { opacity:1; transform:translateX(0); }
+        }
+        @keyframes ping {
+          0%   { opacity:1; }
+          75%, 100% { opacity:0; }
+        }
+        @keyframes bellShake {
+          0%, 100% { transform:rotate(0); }
+          10%, 30%, 50% { transform:rotate(-8deg); }
+          20%, 40% { transform:rotate(8deg); }
+          60% { transform:rotate(0); }
+        }
+        * { scrollbar-width:thin; scrollbar-color:#1e293b transparent; }
+        *::-webkit-scrollbar { width:4px; }
+        *::-webkit-scrollbar-track { background:transparent; }
+        *::-webkit-scrollbar-thumb { background:#1e293b; border-radius:4px; }
+      `}</style>
+    </div>
+>>>>>>> Stashed changes
   )
 }
